@@ -7,7 +7,7 @@ class Student(models.Model):
     semester = models.IntegerField()
     credits_completed = models.IntegerField(default=0)
 
-    def str(self):
+    def __str__(self):
         return f"{self.name} ({self.program}, Sem {self.semester})"
 
 
@@ -49,5 +49,5 @@ class ModuleProgress(models.Model):
     class Meta:
         unique_together = ("student", "module")
 
-    def str(self):
+    def __str__(self):
         return f"{self.student.name} – {self.module.name} ({self.status})"
