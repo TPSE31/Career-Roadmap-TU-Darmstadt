@@ -1,10 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
+
 from . import views
-
-# Create a router for future viewsets
-router = DefaultRouter()
-
 # NOTE: ViewSets temporarily removed during data model migration.
 # Will be reimplemented by backend team (Amine/Emir) for new models.
 # router.register(r'users', views.UserViewSet, basename='user')
@@ -13,10 +10,15 @@ router = DefaultRouter()
 # etc.
 
 # The API URLs
+# unsere API-Routen
+router.register(r"students", views.StudentViewSet, basename="student")
+router.register(r"modules", views.ModuleViewSet, basename="module")
+router.register(r"progress", views.ModuleProgressViewSet, basename="progress")
+
 urlpatterns = [
     # Test endpoint
     path("hello/", views.hello_world, name="hello"),
 
-    # Include all router-generated URLs (empty for now)
+    # Alle ViewSet-Routen
     path("", include(router.urls)),
 ]
