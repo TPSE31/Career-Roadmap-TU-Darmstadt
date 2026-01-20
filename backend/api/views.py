@@ -1,7 +1,7 @@
 from django.http import HttpResponse
-from rest_framework import viewsets, status
-from rest_framework.decorators import action
-from rest_framework.response import Response
+from rest_framework import viewsets
+from .models import Student, Module, ModuleProgress
+from .serializers import StudentSerializer, ModuleSerializer, ModuleProgressSerializer
 
 # NOTE: ViewSets and Serializers temporarily removed during data model migration.
 # These will be reimplemented by backend team (Amine/Emir) to work with new models:
@@ -19,7 +19,19 @@ from rest_framework.response import Response
 
 
 def hello_world(request):
-    """
-    Simple test endpoint to verify the API is running.
-    """
     return HttpResponse("Hello World from Gruppe 31!")
+
+
+class StudentViewSet(viewsets.ModelViewSet):
+    queryset = Student.objects.all()
+    serializer_class = StudentSerializer
+
+
+class ModuleViewSet(viewsets.ModelViewSet):
+    queryset = Module.objects.all()
+    serializer_class = ModuleSerializer
+
+
+class ModuleProgressViewSet(viewsets.ModelViewSet):
+    queryset = ModuleProgress.objects.all()
+    serializer_class = ModuleProgressSerializer
