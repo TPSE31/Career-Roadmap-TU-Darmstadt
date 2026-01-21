@@ -1,6 +1,14 @@
 // ============================================
 // MOCK DATA - Complete fake database
+// Credits and progress are calculated dynamically
 // ============================================
+
+// Helper to calculate credits from modules
+export const calculateCreditsFromModules = (modules) => {
+  return modules
+    .filter(m => m.completed)
+    .reduce((sum, m) => sum + (m.credits || 0), 0);
+};
 
 export const mockModules = [
   {
@@ -112,6 +120,7 @@ export const mockMilestones = [
   }
 ];
 
+// Initial user profile - credits calculated dynamically from completed modules
 export const mockUserProgress = {
   user_id: 1,
   student_name: "Max Mustermann",
@@ -119,12 +128,21 @@ export const mockUserProgress = {
   program: "B.Sc. Computer Science",
   current_semester: 3,
   start_date: "2023-10-01",
-  total_credits: 63,
+  // total_credits is now calculated from completed modules
+  get total_credits() {
+    return calculateCreditsFromModules(mockModules);
+  },
   required_credits: 180,
-  completed_modules: 8,
-  in_progress_modules: 4,
+  get completed_modules() {
+    return mockModules.filter(m => m.completed).length;
+  },
+  get in_progress_modules() {
+    return mockModules.filter(m => !m.completed).length;
+  },
   on_track: true,
-  completion_percentage: 35,
+  get completion_percentage() {
+    return Math.round((calculateCreditsFromModules(mockModules) / 180) * 100);
+  },
   expected_graduation: "2026-09-30",
   career_goal: "Software Engineer",
   specialization: "Web Development"
@@ -249,5 +267,6 @@ export default {
   recommendations: mockRecommendations,
   supportServices: mockSupportServices,
   events: mockEvents,
-  roadmap: mockRoadmap
+  roadmap: mockRoadmap,
+  calculateCreditsFromModules
 };
