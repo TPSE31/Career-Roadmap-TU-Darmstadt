@@ -1,0 +1,272 @@
+[
+  {
+    "code": "20-00-1141",
+    "name_en": "",
+    "name_de": "Erfolgreich ins Informatik-Studium starten",
+    "credits": 1,
+    "semester": 1,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0004",
+    "name_en": "",
+    "name_de": "Funktionale und objektorientierte Programmierkonzepte",
+    "credits": 10,
+    "semester": 1,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0900",
+    "name_en": "",
+    "name_de": "Digitaltechnik",
+    "credits": 5,
+    "semester": 1,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "04-10-0118",
+    "name_en": "",
+    "name_de": "Mathematik I für Informatik",
+    "credits": 9,
+    "semester": 1,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0036",
+    "name_en": "",
+    "name_de": "Automaten, formale Sprachen und Entscheidbarkeit",
+    "credits": 5,
+    "semester": 1,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0037",
+    "name_en": "",
+    "name_de": "Algorithmen und Datenstrukturen",
+    "credits": 10,
+    "semester": 2,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0038",
+    "name_en": "",
+    "name_de": "Rechnerorganisation",
+    "credits": 5,
+    "semester": 2,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "04-10-0119",
+    "name_en": "",
+    "name_de": "Mathematik II für Informatik",
+    "credits": 9,
+    "semester": 2,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0039",
+    "name_en": "",
+    "name_de": "Aussagenlogik und Prädikatenlogik",
+    "credits": 5,
+    "semester": 2,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0040",
+    "name_en": "",
+    "name_de": "Software Engineering",
+    "credits": 5,
+    "semester": 3,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0041",
+    "name_en": "",
+    "name_de": "Computersystemsicherheit",
+    "credits": 5,
+    "semester": 3,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0042",
+    "name_en": "",
+    "name_de": "Einführung in die Künstliche Intelligenz",
+    "credits": 5,
+    "semester": 3,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0043",
+    "name_en": "",
+    "name_de": "Probabilistische Methoden der Informatik",
+    "credits": 5,
+    "semester": 3,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0013",
+    "name_en": "",
+    "name_de": "Modellierung, Spezifikation und Semantik",
+    "credits": 5,
+    "semester": 3,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0044",
+    "name_en": "",
+    "name_de": "Informationsmanagement",
+    "credits": 5,
+    "semester": 4,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0045",
+    "name_en": "",
+    "name_de": "Computernetze und verteilte Systeme",
+    "credits": 5,
+    "semester": 4,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0046",
+    "name_en": "",
+    "name_de": "Parallele Programmierung",
+    "credits": 5,
+    "semester": 5,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0047",
+    "name_en": "",
+    "name_de": "Informatik und Gesellschaft",
+    "credits": 3,
+    "semester": 5,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0048",
+    "name_en": "",
+    "name_de": "Einführung in wissenschaftliches Arbeiten",
+    "credits": 3,
+    "semester": 5,
+    "category": "Pflichtbereich"
+  },
+  {
+    "code": "20-00-0049",
+    "name_en": "",
+    "name_de": "Teamprojekt Softwareentwicklung",
+    "credits": 9,
+    "semester": 5,
+    "category": "Pflichtbereich"
+  }
+,
+  {
+    "module_code": "20-00-3001",
+    "name_de": "Betriebssysteme",
+    "name_en": "Operating Systems",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Typisches Wahlpflichtmodul im Bereich Systemsoftware."
+  },
+  {
+    "module_code": "20-00-3002",
+    "name_de": "Computernetze und Verteilte Systeme",
+    "name_en": "Computer Networks and Distributed Systems",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Netzwerkprotokolle, verteilte Systeme, Grundlagen von Internet-Technologien."
+  },
+  {
+    "module_code": "20-00-3003",
+    "name_de": "Datenbanksysteme",
+    "name_en": "Database Systems",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Relationale Datenbanken, SQL, Normalformen, Transaktionen."
+  },
+  {
+    "module_code": "20-00-3004",
+    "name_de": "Mensch-Computer-Interaktion",
+    "name_en": "Human-Computer Interaction",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Usability, Interface-Design, Benutzerstudien."
+  },
+  {
+    "module_code": "20-00-3005",
+    "name_de": "Maschinelles Lernen",
+    "name_en": "Machine Learning",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Überwachtes und unüberwachtes Lernen, Grundlagen von ML-Verfahren."
+  },
+  {
+    "module_code": "20-00-3006",
+    "name_de": "Rechnerarchitektur vertieft",
+    "name_en": "Advanced Computer Architecture",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Pipelines, Caches, Parallelität auf Hardware-Ebene."
+  },
+  {
+    "module_code": "20-00-3007",
+    "name_de": "IT-Sicherheit",
+    "name_en": "IT Security",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Kryptographie-Grundlagen, Angriffe, Security-Mechanismen."
+  },
+  {
+    "module_code": "20-00-3008",
+    "name_de": "Web Engineering",
+    "name_en": "Web Engineering",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Web-Architekturen, Backend/Frontend-Konzepte, Web-Anwendungen."
+  },
+  {
+    "module_code": "20-00-3009",
+    "name_de": "Mobile Systeme",
+    "name_en": "Mobile Systems",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Mobile Betriebssysteme, App-Entwicklung, energieeffiziente Systeme."
+  },
+  {
+    "module_code": "20-00-3010",
+    "name_de": "Computergraphik",
+    "name_en": "Computer Graphics",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Rendering, 3D-Modelle, OpenGL/ähnliche APIs."
+  },
+  {
+    "module_code": "20-00-3011",
+    "name_de": "Algorithm Engineering",
+    "name_en": "Algorithm Engineering",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Praxisorientierte Optimierung und Implementierung von Algorithmen."
+  },
+  {
+    "module_code": "20-00-3012",
+    "name_de": "Theoretische Informatik vertieft",
+    "name_en": "Advanced Theoretical Computer Science",
+    "credits": 5,
+    "category": "wahlpflicht",
+    "area": "informatik_wahlbereiche",
+    "notes": "Komplexitätstheorie, formale Sprachen und Automaten vertieft."
+  }
+
+]
