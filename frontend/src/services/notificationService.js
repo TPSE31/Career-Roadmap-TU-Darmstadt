@@ -1,7 +1,7 @@
 import api from './api';
 
 // Flag to use mock data when backend is not ready
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 // Simulate API delay for mock data
 const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
@@ -92,8 +92,9 @@ export const getUnreadCount = async () => {
     return mockNotifications.filter(n => !n.readAt).length;
   }
 
-  const response = await api.get('/notifications/unread-count/');
-  return response.data.count;
+  // Get all notifications and count unread ones
+  const response = await api.get('/notifications/', { params: { read: 'false' } });
+  return response.data.length;
 };
 
 /**
@@ -126,7 +127,7 @@ export const markAsRead = async (notificationId) => {
     return { success: true };
   }
 
-  const response = await api.patch(`/notifications/${notificationId}/mark-read/`);
+  const response = await api.patch(`/notifications/${notificationId}/read/`);
   return response.data;
 };
 
@@ -144,8 +145,11 @@ export const markAllAsRead = async () => {
     return { success: true };
   }
 
-  const response = await api.post('/notifications/mark-all-read/');
-  return response.data;
+  // Mark all unread as read by fetching and updating each
+  const unreadResponse = await api.get('/notifications/', { params: { read: 'false' } });
+  const promises = unreadResponse.data.map(n => api.patch(`/notifications/${n.id}/read/`));
+  await Promise.all(promises);
+  return { success: true };
 };
 
 /**

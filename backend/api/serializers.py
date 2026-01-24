@@ -49,19 +49,30 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 class UserLoginSerializer(serializers.Serializer):
     """
     Serializer for user login.
-    Accepts: username/email + password
+    Accepts: email + password (or username + password)
     Returns: token + user object
     """
-    username = serializers.CharField(required=True)
+    email = serializers.CharField(required=True)  # Accept email for login
     password = serializers.CharField(required=True, write_only=True)
 
     def validate(self, attrs):
-        """Authenticate user credentials"""
-        username = attrs.get('username')
+        """Authenticate user credentials - supports email or username"""
+        email_or_username = attrs.get('email')
         password = attrs.get('password')
 
-        # Try to authenticate
-        user = authenticate(username=username, password=password)
+        user = None
+
+        # First try to find user by email
+        if '@' in email_or_username:
+            try:
+                user_obj = User.objects.get(email=email_or_username)
+                user = authenticate(username=user_obj.username, password=password)
+            except User.DoesNotExist:
+                pass
+
+        # If not found by email, try username directly
+        if not user:
+            user = authenticate(username=email_or_username, password=password)
 
         if not user:
             raise serializers.ValidationError("Invalid credentials")

@@ -4,7 +4,7 @@ import mockData from '../mocks/mockData';
 import emailjs from '@emailjs/browser';
 
 // Flag to use mock data when backend is not ready
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 // Session duration in milliseconds (24 hours)
 const SESSION_DURATION = 24 * 60 * 60 * 1000;
@@ -146,16 +146,18 @@ export const register = async (userData) => {
     };
   }
 
-  // Real API call
+  // Real API call - match Django API format
   const response = await api.post('/auth/register/', {
+    username: userData.email.split('@')[0],
     email: userData.email,
     password: userData.password,
+    password2: userData.password,
     first_name: userData.firstName,
     last_name: userData.lastName,
     matriculation_number: userData.matriculationNumber,
     program: userData.program,
-    career_goal: userData.careerGoal,
-    completed_modules: userData.completedModules,
+    semester: userData.semester || 1,
+    examination_regulation: 1,
   });
 
   return {
@@ -219,7 +221,7 @@ export const login = async (email, password) => {
     };
   }
 
-  // Real API call
+  // Real API call - Django now accepts email directly
   const response = await api.post('/auth/login/', {
     email,
     password,
@@ -248,7 +250,7 @@ export const logout = async (token) => {
 
   // Real API call
   await api.post('/auth/logout/', {}, {
-    headers: { Authorization: `Bearer ${token}` }
+    headers: { Authorization: `Token ${token}` }
   });
 
   // Clear local auth state
@@ -270,7 +272,7 @@ export const getCurrentUser = async (token) => {
 
   // Real API call
   const response = await api.get('/auth/me/', {
-    headers: { Authorization: `Bearer ${token}` }
+    headers: { Authorization: `Token ${token}` }
   });
 
   return transformUserFromAPI(response.data);
@@ -299,10 +301,10 @@ export const updateProfile = async (token, updates) => {
     program: updates.program,
     semester: updates.semester,
   }, {
-    headers: { Authorization: `Bearer ${token}` }
+    headers: { Authorization: `Token ${token}` }
   });
 
-  return transformUserFromAPI(response.data);
+  return transformUserFromAPI(response.data.user);
 };
 
 /**
@@ -316,10 +318,11 @@ export const changePassword = async (token, currentPassword, newPassword) => {
 
   // Real API call
   await api.post('/auth/change-password/', {
-    current_password: currentPassword,
+    old_password: currentPassword,
     new_password: newPassword,
+    new_password2: newPassword,
   }, {
-    headers: { Authorization: `Bearer ${token}` }
+    headers: { Authorization: `Token ${token}` }
   });
 
   return { success: true };

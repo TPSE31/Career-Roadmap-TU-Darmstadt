@@ -1,5 +1,9 @@
+import api from './api';
 import store from './store';
 import mockData from '../mocks/mockData';
+
+// Flag to use mock data when backend is not ready
+const USE_MOCK = false;
 
 const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -147,6 +151,26 @@ export const recommendationService = {
    * Get personalized recommendations based on career goal
    */
   getRecommendations: async (userId = 1) => {
+    if (!USE_MOCK) {
+      try {
+        const response = await api.get('/recommendations/');
+        // Transform API recommendations to frontend format
+        return response.data.recommendations.map((rec, index) => ({
+          id: rec.id || index + 1,
+          type: 'module',
+          title: `Complete "${rec.name}"`,
+          description: rec.description || `Recommended module: ${rec.credits} CP`,
+          priority: index < 2 ? 'high' : 'medium',
+          reason: `Recommended for your career path`,
+          action_url: `/modules/${rec.id}`,
+          created_at: new Date().toISOString(),
+        }));
+      } catch (error) {
+        console.error('Error fetching recommendations:', error);
+        // Fallback to local generation
+      }
+    }
+
     await delay(900);
 
     // Get user's career goal and completed modules from store

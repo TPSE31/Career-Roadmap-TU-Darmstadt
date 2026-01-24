@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { setAuthToken } from '../services/api';
 
 const AuthContext = createContext(null);
 
@@ -19,6 +20,7 @@ export function AuthProvider({ children }) {
     if (storedToken && storedUser) {
       setToken(storedToken);
       setUser(JSON.parse(storedUser));
+      setAuthToken(storedToken);  // Set token on axios
     }
     setIsLoading(false);
   }, []);
@@ -27,6 +29,7 @@ export function AuthProvider({ children }) {
   const login = (userData, authToken) => {
     setUser(userData);
     setToken(authToken);
+    setAuthToken(authToken);  // Set token on axios
     localStorage.setItem(TOKEN_KEY, authToken);
     localStorage.setItem(USER_KEY, JSON.stringify(userData));
   };
@@ -35,6 +38,7 @@ export function AuthProvider({ children }) {
   const logout = () => {
     setUser(null);
     setToken(null);
+    setAuthToken(null);  // Clear token from axios
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(USER_KEY);
   };

@@ -3,7 +3,7 @@ import store from './store';
 import mockData from '../mocks/mockData';
 
 // Flag to use mock data when backend is not ready
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 // Simulate API delay for mock data
 const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
@@ -42,8 +42,19 @@ export const getUserProgress = async () => {
     };
   }
 
-  const response = await api.get('/user/progress/');
-  return transformUserProgressFromAPI(response.data);
+  // Use /auth/me/ to get user data including credits
+  const response = await api.get('/auth/me/');
+  const user = response.data;
+  return {
+    studentName: `${user.first_name} ${user.last_name}`,
+    studentId: user.matriculation_number,
+    program: user.program,
+    currentSemester: user.semester,
+    totalCredits: user.total_credits,
+    completionPercentage: Math.round((user.total_credits / 180) * 100),
+    expectedGraduation: 'TBD',
+    onTrackStatus: user.total_credits >= (user.semester * 30) ? 'on_track' : 'at_risk',
+  };
 };
 
 /**
@@ -79,17 +90,19 @@ export const getUserStats = async () => {
     };
   }
 
-  const response = await api.get('/user/stats/');
+  // Use /auth/me/ to get user stats
+  const response = await api.get('/auth/me/');
+  const user = response.data;
   return {
-    totalCredits: response.data.total_credits,
-    requiredCredits: response.data.required_credits,
-    completedModulesCount: response.data.completed_modules_count,
-    totalModulesCount: response.data.total_modules_count,
-    upcomingMilestonesCount: response.data.upcoming_milestones_count,
-    onTrack: response.data.on_track,
-    completionPercentage: response.data.completion_percentage,
-    currentSemester: response.data.current_semester,
-    expectedGraduation: response.data.expected_graduation,
+    totalCredits: user.total_credits,
+    requiredCredits: 180,
+    completedModulesCount: 0, // Would need separate call to get this
+    totalModulesCount: 0,
+    upcomingMilestonesCount: 0,
+    onTrack: user.total_credits >= (user.semester * 30),
+    completionPercentage: Math.round((user.total_credits / 180) * 100),
+    currentSemester: user.semester,
+    expectedGraduation: 'TBD',
   };
 };
 

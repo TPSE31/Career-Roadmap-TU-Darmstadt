@@ -178,9 +178,9 @@ const LoginPage = ({ language, onToggleLanguage }) => {
     e.preventDefault();
     setError('');
 
-    const passwordError = validatePassword(password);
-    if (passwordError) {
-      setError(passwordError);
+    // Only validate that fields are not empty for login
+    if (!email.trim() || !password.trim()) {
+      setError(language === 'en' ? 'Please enter email and password' : 'Bitte E-Mail und Passwort eingeben');
       return;
     }
 

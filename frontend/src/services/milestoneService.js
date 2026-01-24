@@ -2,7 +2,7 @@ import api from './api';
 import mockData from '../mocks/mockData';
 
 // Flag to use mock data when backend is not ready
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 // Simulate API delay for mock data
 const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
@@ -101,7 +101,7 @@ export const getMilestoneDefinitions = async () => {
     return mockMilestoneDefinitions;
   }
 
-  const response = await api.get('/milestones/definitions/');
+  const response = await api.get('/milestones/');
   return response.data.map(transformMilestoneFromAPI);
 };
 
@@ -120,7 +120,7 @@ export const getUserMilestoneProgress = async () => {
     }));
   }
 
-  const response = await api.get('/user/milestone-progress/');
+  const response = await api.get('/user/milestones/');
   return response.data.map(transformProgressFromAPI);
 };
 
@@ -235,13 +235,13 @@ const transformMilestoneFromAPI = (apiMilestone) => ({
  * Transform milestone progress from API
  */
 const transformProgressFromAPI = (apiProgress) => ({
-  id: apiProgress.milestone.id,
-  orderIndex: apiProgress.milestone.order_index,
-  type: apiProgress.milestone.type,
-  label: apiProgress.milestone.label,
-  description: apiProgress.milestone.description,
-  rulePayload: apiProgress.milestone.rule_payload,
-  expectedBySemester: apiProgress.milestone.expected_by_semester,
+  id: apiProgress.milestone || apiProgress.id,
+  orderIndex: apiProgress.milestone_order || apiProgress.order_index,
+  type: apiProgress.milestone_type || apiProgress.type,
+  label: apiProgress.milestone_label || apiProgress.label,
+  description: apiProgress.milestone_description || apiProgress.description,
+  rulePayload: apiProgress.rule_payload || {},
+  expectedBySemester: apiProgress.expected_by_semester,
   status: apiProgress.status,
   achievedAt: apiProgress.achieved_at,
   computedExplanation: apiProgress.computed_explanation,

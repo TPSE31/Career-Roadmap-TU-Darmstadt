@@ -1,7 +1,7 @@
 import api from './api';
 
 // Flag to use mock data when backend is not ready
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 // Simulate API delay for mock data
 const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
@@ -103,7 +103,7 @@ export const getSupportServices = async () => {
     return mockSupportServices.filter(s => s.isActive);
   }
 
-  const response = await api.get('/support-services/');
+  const response = await api.get('/support/services/');
   return response.data.map(transformSupportServiceFromAPI);
 };
 
@@ -120,7 +120,7 @@ export const getSupportServiceById = async (id) => {
     return service;
   }
 
-  const response = await api.get(`/support-services/${id}/`);
+  const response = await api.get(`/support/services/${id}/`);
   return transformSupportServiceFromAPI(response.data);
 };
 
@@ -135,7 +135,7 @@ export const getSupportServicesByCategory = async (category) => {
     );
   }
 
-  const response = await api.get('/support-services/', {
+  const response = await api.get('/support/services/', {
     params: { category }
   });
   return response.data.map(transformSupportServiceFromAPI);

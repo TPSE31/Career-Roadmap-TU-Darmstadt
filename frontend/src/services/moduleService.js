@@ -2,7 +2,7 @@ import api from './api';
 import mockData from '../mocks/mockData';
 
 // Flag to use mock data when backend is not ready
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 // Simulate API delay for mock data
 const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
@@ -51,7 +51,7 @@ export const getUserModuleCompletions = async () => {
     }));
   }
 
-  const response = await api.get('/user/module-completions/');
+  const response = await api.get('/user/modules/');
   return response.data.map(transformCompletionFromAPI);
 };
 
@@ -65,11 +65,14 @@ export const updateModuleCompletion = async (moduleId, status) => {
     return { success: true, moduleId, status };
   }
 
-  const response = await api.post('/user/module-completions/', {
-    module_id: moduleId,
-    status: status, // 'not_started', 'in_progress', 'completed', 'failed'
-  });
-  return response.data;
+  // Mark module as completed or uncompleted
+  if (status === 'completed') {
+    const response = await api.post(`/user/modules/${moduleId}/complete/`);
+    return response.data;
+  } else {
+    const response = await api.delete(`/user/modules/${moduleId}/complete/`);
+    return response.data;
+  }
 };
 
 /**
