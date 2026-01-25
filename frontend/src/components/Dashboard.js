@@ -1,14 +1,54 @@
-import React, { useState } from 'react';
-import { useUserProgress } from '../hooks/useUserProgress';
-import { useUpcomingMilestones } from '../hooks/useMilestones';
-import { useModules } from '../hooks/useModules';
+import React, { useState, useEffect } from 'react';
+import { allModules, getMandatoryModulesForSemester, TOTAL_REQUIRED_CREDITS } from '../data/modules';
 import LoadingSpinner from './LoadingSpinner';
 import ErrorMessage from './ErrorMessage';
 
 const Dashboard = ({ onNavigate, user, onGoalChange, language }) => {
-  const { progress, loading: progressLoading, error: progressError } = useUserProgress();
-  const { milestones, loading: milestonesLoading, error: milestonesError } = useUpcomingMilestones();
-  const { modules, loading: modulesLoading, error: modulesError } = useModules();
+  const [completedModules, setCompletedModules] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // Load completed modules from localStorage
+  useEffect(() => {
+    const saved = localStorage.getItem('completedModules');
+    if (saved) {
+      setCompletedModules(JSON.parse(saved));
+    }
+    setLoading(false);
+  }, []);
+
+  // Calculate progress from completed modules
+  const earnedCredits = allModules
+    .filter(m => completedModules.includes(m.id))
+    .reduce((sum, m) => sum + m.credits, 0);
+
+  const completionPercentage = Math.round((earnedCredits / TOTAL_REQUIRED_CREDITS) * 100) || 0;
+  const userSemester = user?.semester || 1;
+  const expectedCredits = userSemester * 30;
+  const isOnTrack = earnedCredits >= expectedCredits - 15;
+
+  // Get modules for current semester as milestones
+  const currentSemesterModules = getMandatoryModulesForSemester(userSemester);
+  const upcomingMilestones = currentSemesterModules
+    .filter(m => !completedModules.includes(m.id))
+    .map(m => ({
+      id: m.id,
+      title: m.name,
+      deadline: `End of Semester ${userSemester}`,
+      semester: userSemester,
+      credits: m.credits
+    }));
+
+  // Create progress object with safe defaults
+  const progress = {
+    total_credits: earnedCredits,
+    required_credits: TOTAL_REQUIRED_CREDITS,
+    completion_percentage: completionPercentage,
+    on_track: isOnTrack,
+    current_semester: userSemester
+  };
+
+  const milestones = upcomingMilestones;
+  const modules = currentSemesterModules;
   
   const [showCreditsModal, setShowCreditsModal] = useState(false);
   const [showGoalEditor, setShowGoalEditor] = useState(false);
@@ -38,12 +78,8 @@ const Dashboard = ({ onNavigate, user, onGoalChange, language }) => {
     setShowGoalEditor(false);
   };
 
-  if (progressLoading || milestonesLoading || modulesLoading) {
+  if (loading) {
     return <LoadingSpinner message="Loading dashboard..." />;
-  }
-
-  if (progressError || milestonesError || modulesError) {
-    return <ErrorMessage error={progressError || milestonesError || modulesError} />;
   }
 
   const brandColor = '#0F6CBF';
@@ -66,9 +102,6 @@ const Dashboard = ({ onNavigate, user, onGoalChange, language }) => {
       e.currentTarget.style.transform = 'translateY(0)';
     }
   };
-
-  // Current semester modules (for My Modules section)
-  const currentSemesterModules = modules.filter(m => m.semester === progress?.current_semester);
 
   return (
     <div style={{ padding: '20px', maxWidth: '1400px', margin: '0 auto', backgroundColor }}>
@@ -304,7 +337,7 @@ const Dashboard = ({ onNavigate, user, onGoalChange, language }) => {
           <div style={{ marginBottom: '30px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
               <strong>Overall Progress</strong>
-              <span>{Math.round((progress.total_credits / progress.required_credits) * 100)}%</span>
+              <span>{progress.completion_percentage}%</span>
             </div>
             <div style={{
               width: '100%',
@@ -314,7 +347,7 @@ const Dashboard = ({ onNavigate, user, onGoalChange, language }) => {
               overflow: 'hidden'
             }}>
               <div style={{
-                width: `${(progress.total_credits / progress.required_credits) * 100}%`,
+                width: `${progress.completion_percentage}%`,
                 height: '100%',
                 backgroundColor: brandColor,
                 transition: 'width 0.5s ease'

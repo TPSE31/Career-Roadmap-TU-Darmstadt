@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { login as loginService, register as registerService } from '../services/authService';
-import mockData from '../mocks/mockData';
+import { allModules } from '../data/modules';
 import { getCareerGoalOptions } from '../services/userService';
 
 const LoginPage = ({ language, onToggleLanguage }) => {
@@ -135,10 +135,17 @@ const LoginPage = ({ language, onToggleLanguage }) => {
     );
   };
 
+  const [categoryFilter, setCategoryFilter] = useState('all');
+
   const calculateSelectedCredits = () => {
-    return mockData.modules
+    return allModules
       .filter(m => completedModules.includes(m.id))
       .reduce((sum, m) => sum + (m.credits || 0), 0);
+  };
+
+  const getFilteredModules = () => {
+    if (categoryFilter === 'all') return allModules;
+    return allModules.filter(m => m.category === categoryFilter);
   };
 
   const handleNextStep = () => {
@@ -416,98 +423,148 @@ const LoginPage = ({ language, onToggleLanguage }) => {
     </div>
   );
 
-  const renderSignupStep2 = () => (
-    <div>
-      <h3 style={{ margin: '0 0 5px 0', color: '#333' }}>{t.step2Title}</h3>
-      <p style={{ color: '#666', margin: '0 0 15px 0', fontSize: '14px' }}>{t.step2Subtitle}</p>
+  const renderSignupStep2 = () => {
+    const filteredModules = getFilteredModules();
+    const getCategoryColor = (category) => {
+      switch (category) {
+        case 'Pflichtbereich': return '#e74c3c';
+        case 'Informatik Wahlpflichtbereich': return '#9b59b6';
+        case 'Informatik Wahlbereich': return '#3498db';
+        case 'Studium Generale': return '#27ae60';
+        default: return '#95a5a6';
+      }
+    };
 
-      <div style={{
-        backgroundColor: brandColor,
-        color: 'white',
-        padding: '10px 15px',
-        borderRadius: '8px',
-        marginBottom: '15px',
-        fontWeight: 'bold'
-      }}>
-        {t.selectedCredits}: {calculateSelectedCredits()} / 180
-      </div>
+    return (
+      <div>
+        <h3 style={{ margin: '0 0 5px 0', color: '#333' }}>{t.step2Title}</h3>
+        <p style={{ color: '#666', margin: '0 0 15px 0', fontSize: '14px' }}>{t.step2Subtitle}</p>
 
-      <div style={{
-        maxHeight: '300px',
-        overflowY: 'auto',
-        border: '1px solid #ddd',
-        borderRadius: '8px',
-        marginBottom: '20px'
-      }}>
-        {mockData.modules.map(module => (
-          <label
-            key={module.id}
+        <div style={{
+          backgroundColor: brandColor,
+          color: 'white',
+          padding: '10px 15px',
+          borderRadius: '8px',
+          marginBottom: '15px',
+          fontWeight: 'bold',
+          display: 'flex',
+          justifyContent: 'space-between'
+        }}>
+          <span>{t.selectedCredits}: {calculateSelectedCredits()} / 180</span>
+          <span>{completedModules.length} modules selected</span>
+        </div>
+
+        {/* Category Filter */}
+        <div style={{ marginBottom: '15px' }}>
+          <select
+            value={categoryFilter}
+            onChange={(e) => setCategoryFilter(e.target.value)}
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              padding: '12px 15px',
-              borderBottom: '1px solid #eee',
+              width: '100%',
+              padding: '10px 15px',
+              border: '2px solid #ddd',
+              borderRadius: '8px',
+              fontSize: '14px',
               cursor: 'pointer',
-              backgroundColor: completedModules.includes(module.id) ? '#e8f4fd' : 'white',
-              transition: 'background-color 0.2s'
+              backgroundColor: 'white'
             }}
           >
-            <input
-              type="checkbox"
-              checked={completedModules.includes(module.id)}
-              onChange={() => handleModuleToggle(module.id)}
-              style={{
-                width: '20px',
-                height: '20px',
-                marginRight: '12px',
-                accentColor: brandColor
-              }}
-            />
-            <div style={{ flex: 1 }}>
-              <div style={{ fontWeight: '500', color: '#333' }}>{module.name}</div>
-              <div style={{ fontSize: '12px', color: '#666' }}>
-                {module.code} • {module.credits} {t.credits} • {module.category}
-              </div>
-            </div>
-          </label>
-        ))}
-      </div>
+            <option value="all">{language === 'en' ? 'All Categories' : 'Alle Kategorien'} ({allModules.length})</option>
+            <option value="Pflichtbereich">Pflichtbereich - Mandatory ({allModules.filter(m => m.category === 'Pflichtbereich').length})</option>
+            <option value="Informatik Wahlpflichtbereich">Informatik Wahlpflichtbereich ({allModules.filter(m => m.category === 'Informatik Wahlpflichtbereich').length})</option>
+            <option value="Informatik Wahlbereich">Informatik Wahlbereich ({allModules.filter(m => m.category === 'Informatik Wahlbereich').length})</option>
+            <option value="Studium Generale">Studium Generale ({allModules.filter(m => m.category === 'Studium Generale').length})</option>
+          </select>
+        </div>
 
-      <div style={{ display: 'flex', gap: '10px' }}>
-        <button
-          onClick={handleBackStep}
-          style={{
-            flex: 1,
-            padding: '14px',
-            backgroundColor: '#eee',
-            color: '#333',
-            border: 'none',
-            borderRadius: '8px',
-            fontSize: '16px',
-            cursor: 'pointer',
-          }}
-        >
-          {t.back}
-        </button>
-        <button
-          onClick={handleNextStep}
-          style={{
-            flex: 2,
-            padding: '14px',
-            backgroundColor: brandColor,
-            color: 'white',
-            border: 'none',
-            borderRadius: '8px',
-            fontSize: '16px',
-            fontWeight: 'bold',
-            cursor: 'pointer',
-          }}
-        >
-          {t.next}
-        </button>
+        <div style={{
+          maxHeight: '280px',
+          overflowY: 'auto',
+          border: '1px solid #ddd',
+          borderRadius: '8px',
+          marginBottom: '20px'
+        }}>
+          {filteredModules.map(module => (
+            <label
+              key={module.id}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                padding: '12px 15px',
+                borderBottom: '1px solid #eee',
+                cursor: 'pointer',
+                backgroundColor: completedModules.includes(module.id) ? '#e8f4fd' : 'white',
+                transition: 'background-color 0.2s'
+              }}
+            >
+              <input
+                type="checkbox"
+                checked={completedModules.includes(module.id)}
+                onChange={() => handleModuleToggle(module.id)}
+                style={{
+                  width: '20px',
+                  height: '20px',
+                  marginRight: '12px',
+                  accentColor: brandColor
+                }}
+              />
+              <div style={{ flex: 1 }}>
+                <div style={{ fontWeight: '500', color: '#333', fontSize: '14px' }}>{module.name}</div>
+                <div style={{ fontSize: '12px', color: '#666', display: 'flex', alignItems: 'center', gap: '8px', marginTop: '3px' }}>
+                  <span>{module.code}</span>
+                  <span style={{ fontWeight: 'bold', color: brandColor }}>{module.credits} CP</span>
+                  {module.semester && <span>Sem. {module.semester}</span>}
+                  <span style={{
+                    padding: '2px 6px',
+                    backgroundColor: getCategoryColor(module.category),
+                    color: 'white',
+                    borderRadius: '4px',
+                    fontSize: '10px'
+                  }}>
+                    {module.category.split(' ')[0]}
+                  </span>
+                </div>
+              </div>
+            </label>
+          ))}
+        </div>
+
+        <div style={{ display: 'flex', gap: '10px' }}>
+          <button
+            onClick={handleBackStep}
+            style={{
+              flex: 1,
+              padding: '14px',
+              backgroundColor: '#eee',
+              color: '#333',
+              border: 'none',
+              borderRadius: '8px',
+              fontSize: '16px',
+              cursor: 'pointer',
+            }}
+          >
+            {t.back}
+          </button>
+          <button
+            onClick={handleNextStep}
+            style={{
+              flex: 2,
+              padding: '14px',
+              backgroundColor: brandColor,
+              color: 'white',
+              border: 'none',
+              borderRadius: '8px',
+              fontSize: '16px',
+              fontWeight: 'bold',
+              cursor: 'pointer',
+            }}
+          >
+            {t.next}
+          </button>
+        </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   const renderSignupStep3 = () => (
     <div>
