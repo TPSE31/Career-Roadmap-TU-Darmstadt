@@ -1,0 +1,192 @@
+[
+  {
+    "id": "software_engineer",
+    "title_en": "Software Engineer",
+    "title_de": "Softwareentwickler/in",
+    "description_en": "Builds and maintains software applications and services across the full development lifecycle.",
+    "description_de": "Entwickelt und wartet Softwareanwendungen und -dienste über den gesamten Entwicklungszyklus.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 65000,
+      "senior": 80000
+    },
+    "required_skills": [
+      "Programming (Java, C#, C++, Python)",
+      "Version control (Git)",
+      "Software engineering fundamentals",
+      "Relational and NoSQL databases",
+      "Clean code, unit testing, debugging"
+    ]
+  },
+  {
+    "id": "backend_developer",
+    "title_en": "Backend Developer",
+    "title_de": "Backend-Entwickler/in",
+    "description_en": "Implements server-side logic, APIs and database access for web and mobile applications.",
+    "description_de": "Implementiert serverseitige Logik, APIs und Datenbankzugriffe für Web- und Mobile-Anwendungen.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 82000
+    },
+    "required_skills": [
+      "Java/Spring, Node.js or Python (Django/Flask)",
+      "REST and GraphQL APIs",
+      "SQL and NoSQL databases",
+      "Linux and basic networking",
+      "Testing and performance optimization"
+    ]
+  },
+  {
+    "id": "frontend_developer",
+    "title_en": "Frontend Developer",
+    "title_de": "Frontend-Entwickler/in",
+    "description_en": "Builds user interfaces for web applications with a focus on usability and responsive design.",
+    "description_de": "Entwickelt Benutzeroberflächen für Webanwendungen mit Fokus auf Usability und Responsive Design.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 60000,
+      "senior": 75000
+    },
+    "required_skills": [
+      "HTML, CSS, JavaScript, TypeScript",
+      "Modern frameworks (React, Vue, Angular)",
+      "Responsive design and basic UX",
+      "State management (Redux, Vuex, etc.)",
+      "Testing (Jest, Cypress) and browser debugging"
+    ]
+  },
+  {
+    "id": "data_scientist",
+    "title_en": "Data Scientist",
+    "title_de": "Data Scientist",
+    "description_en": "Analyses data and builds statistical and machine learning models to answer business questions.",
+    "description_de": "Analysiert Daten und erstellt statistische Modelle und Machine-Learning-Modelle zur Beantwortung von Geschäftsfragen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 70000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Python (pandas, scikit-learn) or R",
+      "Statistics and probability",
+      "SQL and data querying",
+      "Data visualization (Matplotlib, Seaborn, BI tools)",
+      "Machine learning fundamentals"
+    ]
+  },
+  {
+    "id": "data_engineer",
+    "title_en": "Data Engineer",
+    "title_de": "Data Engineer",
+    "description_en": "Builds data pipelines and platforms so teams can reliably store and process large amounts of data.",
+    "description_de": "Erstellt Datenpipelines und -plattformen, damit Teams große Datenmengen zuverlässig speichern und verarbeiten können.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 72000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "Python, Java or Scala",
+      "SQL and ETL concepts",
+      "Big data tools (Spark, Kafka)",
+      "Workflow orchestration (Airflow, similar)",
+      "Cloud data services (AWS, GCP or Azure)"
+    ]
+  },
+  {
+    "id": "ml_engineer",
+    "title_en": "Machine Learning Engineer",
+    "title_de": "Machine-Learning-Engineer",
+    "description_en": "Productionizes machine learning models and operates them as reliable services.",
+    "description_de": "Bringt Machine-Learning-Modelle in Produktion und betreibt sie als zuverlässige Services.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 80000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Python, TensorFlow or PyTorch",
+      "ML model training and evaluation",
+      "APIs and microservices",
+      "Docker, Kubernetes and Linux",
+      "ML pipelines and experiment tracking"
+    ]
+  },
+  {
+    "id": "devops_engineer",
+    "title_en": "DevOps Engineer",
+    "title_de": "DevOps-Engineer",
+    "description_en": "Automates build, deployment and monitoring processes and bridges development and operations.",
+    "description_de": "Automatisiert Build-, Deployment- und Monitoring-Prozesse und schlägt die Brücke zwischen Entwicklung und Betrieb.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Linux and scripting (Bash, Python)",
+      "CI/CD tools (GitHub Actions, GitLab CI, Jenkins)",
+      "Docker and Kubernetes",
+      "Infrastructure as Code (Terraform, Ansible)",
+      "Monitoring and logging (Prometheus, Grafana, ELK)"
+    ]
+  },
+  {
+    "id": "it_security_engineer",
+    "title_en": "IT Security Engineer",
+    "title_de": "IT-Security-Engineer",
+    "description_en": "Secures systems and applications, performs security tests and monitors for threats.",
+    "description_de": "Sichert Systeme und Anwendungen, führt Sicherheitstests durch und überwacht Bedrohungen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Network and application security basics",
+      "Firewalls, VPNs, IDS/IPS",
+      "Secure coding practices",
+      "Vulnerability scanning and penetration testing tools",
+      "Security monitoring and incident response"
+    ]
+  },
+  {
+    "id": "cloud_architect",
+    "title_en": "Cloud Architect",
+    "title_de": "Cloud-Architekt/in",
+    "description_en": "Designs secure and scalable cloud architectures and selects appropriate cloud services.",
+    "description_de": "Entwirft sichere und skalierbare Cloud-Architekturen und wählt passende Cloud-Services aus.",
+    "average_salary": {
+      "junior": 70000,
+      "mid": 90000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "AWS, Azure or GCP architecture",
+      "Containerization (Docker, Kubernetes)",
+      "Networking, identity and access management",
+      "Infrastructure as Code (Terraform, CloudFormation, etc.)",
+      "Cost optimization and reliability patterns"
+    ]
+  },
+  {
+    "id": "product_manager_tech",
+    "title_en": "Product Manager (Tech)",
+    "title_de": "Produktmanager/in (Tech)",
+    "description_en": "Owns the product vision and roadmap, prioritises features and aligns stakeholders.",
+    "description_de": "Verantwortet Produktvision und Roadmap, priorisiert Features und stimmt Stakeholder ab.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 80000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Agile methods (Scrum, Kanban)",
+      "Requirements engineering and user stories",
+      "Stakeholder and communication skills",
+      "Basic technical understanding (APIs, web, databases)",
+      "Product discovery, UX and data-driven decisions"
+    ]
+  }
+]
