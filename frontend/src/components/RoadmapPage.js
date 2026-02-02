@@ -1,422 +1,285 @@
-import React, { useState, useEffect } from 'react';
-import { allModules, getMandatoryModulesForSemester, TOTAL_REQUIRED_CREDITS } from '../data/modules';
-import { careerPaths, getCareerPath, careerGoalToPathId } from '../data/careerPaths';
+import React, { useState } from 'react';
+import { mockRoadmap, mockMilestones, mockCareerPaths, mockModules } from '../mocks/mockData';
 
-const RoadmapPage = ({ user, language }) => {
-  const brandColor = '#0F6CBF';
-  const [completedModules, setCompletedModules] = useState([]);
-
-  // Load completed modules from localStorage
-  useEffect(() => {
-    const saved = localStorage.getItem('completedModules');
-    if (saved) {
-      setCompletedModules(JSON.parse(saved));
-    }
-  }, []);
-
-  // Calculate credits
-  const earnedCredits = allModules
-    .filter(m => completedModules.includes(m.id))
-    .reduce((sum, m) => sum + m.credits, 0);
-
-  const translations = {
-    en: {
-      title: 'Your Career Roadmap',
-      subtitle: 'Journey to',
-      currentStage: 'Current Stage',
-      completed: 'Completed',
-      inProgress: 'In Progress',
-      upcoming: 'Upcoming',
-      credits: 'Credits',
-      recommendedModules: 'Recommended Modules for Your Career Goal',
-      salary: 'Expected Salary Range',
-      skills: 'Key Skills to Develop'
-    },
-    de: {
-      title: 'Ihre Karriere-Roadmap',
-      subtitle: 'Reise zu',
-      currentStage: 'Aktuelle Phase',
-      completed: 'Abgeschlossen',
-      inProgress: 'In Bearbeitung',
-      upcoming: 'Bevorstehend',
-      credits: 'Credits',
-      recommendedModules: 'Empfohlene Module für Ihr Karriereziel',
-      salary: 'Erwartete Gehaltsspanne',
-      skills: 'Wichtige Fähigkeiten'
-    }
-  };
-
-  const t = translations[language] || translations.en;
-
-  const userGoal = user?.careerGoal || 'Software Engineer';
-  const userSemester = user?.semester || 1;
-
-  // Get career path info
-  const careerPathId = careerGoalToPathId[userGoal] || 'software_engineer';
-  const careerInfo = getCareerPath(careerPathId);
-
-  // Get recommended modules for career
-  const recommendedModuleCodes = careerInfo?.recommended_modules || [];
-  const recommendedModules = allModules.filter(m =>
-    recommendedModuleCodes.includes(m.code)
-  );
-
-  // Dynamic stages based on user's actual semester
-  const stages = [
-    {
-      id: 1,
-      name: 'Foundation',
-      completed: userSemester > 2,
-      current: userSemester <= 2,
-      icon: '📚',
-      description: 'Basic programming, mathematics, and computer science fundamentals',
-      modules: getMandatoryModulesForSemester(1).concat(getMandatoryModulesForSemester(2)).map(m => m.name),
-      duration: 'Semester 1-2',
-      creditsNeeded: 59
-    },
-    {
-      id: 2,
-      name: 'Core Studies',
-      completed: userSemester > 4,
-      current: userSemester > 2 && userSemester <= 4,
-      icon: '🎯',
-      description: 'Core computer science modules and specialization basics',
-      modules: getMandatoryModulesForSemester(3).concat(getMandatoryModulesForSemester(4)).map(m => m.name),
-      duration: 'Semester 3-4',
-      creditsNeeded: 35
-    },
-    {
-      id: 3,
-      name: 'Specialization',
-      completed: userSemester > 5,
-      current: userSemester === 5,
-      icon: '💡',
-      description: 'Electives, team project, and career-focused modules',
-      modules: getMandatoryModulesForSemester(5).map(m => m.name),
-      duration: 'Semester 5',
-      creditsNeeded: 20
-    },
-    {
-      id: 4,
-      name: 'Thesis & Graduation',
-      completed: false,
-      current: userSemester >= 6,
-      icon: '🎓',
-      description: 'Bachelor thesis and final preparations',
-      modules: ['Bachelor Thesis (12 CP)', 'Final Electives'],
-      duration: 'Semester 6',
-      creditsNeeded: 12
-    },
-    {
-      id: 5,
-      name: userGoal,
-      completed: false,
-      current: false,
-      icon: '🚀',
-      description: `Start your career as a ${userGoal}`,
-      modules: careerInfo?.required_skills?.slice(0, 4) || ['Job applications', 'Interviews', 'Start your career!'],
-      duration: 'After graduation'
-    }
-  ];
-
-  const completedCount = stages.filter(s => s.completed).length;
+const RoadmapPage = () => {
+  const [selectedCareer, setSelectedCareer] = useState(null);
 
   return (
-    <div style={{ backgroundColor: '#f5f7fa', minHeight: 'calc(100vh - 200px)', padding: '40px 20px' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        {/* Header */}
-        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <h1 style={{
-            fontSize: '42px',
-            color: brandColor,
-            margin: '0 0 15px 0',
-            fontWeight: 'bold'
+    <div style={{ padding: '20px', maxWidth: '1100px', margin: '0 auto' }}>
+      <h2 style={{ margin: '0 0 5px 0', color: '#004E8A' }}>Studien-Roadmap & Karrierewege</h2>
+      <p style={{ color: '#666', marginBottom: '10px', fontSize: '14px' }}>
+        Offizieller Studienplan B.Sc. Informatik (Satzungsbeilage 2023_II) mit Karriereweg-Empfehlungen
+      </p>
+
+      {/* Credit overview */}
+      <div style={{
+        display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
+        gap: '10px', marginBottom: '30px'
+      }}>
+        {[
+          { label: 'Pflichtbereich', cp: '114 CP', color: '#004E8A' },
+          { label: 'Wahlpflichtbereich', cp: '10\u201335 CP', color: '#e67e22' },
+          { label: 'Informatik-Wahlbereiche', cp: '5\u201330 CP', color: '#009CDE' },
+          { label: 'Studienbegleitend', cp: '9\u201318 CP', color: '#8e44ad' },
+          { label: 'Studium Generale', cp: '5\u20136 CP', color: '#27ae60' },
+          { label: 'Bachelorarbeit', cp: '12 CP', color: '#c0392b' },
+        ].map(item => (
+          <div key={item.label} style={{
+            padding: '12px', backgroundColor: 'white', borderLeft: `4px solid ${item.color}`,
+            borderRadius: '6px', border: '1px solid #eee', borderLeftWidth: '4px', borderLeftColor: item.color
           }}>
-            {t.title}
-          </h1>
-          <p style={{ fontSize: '20px', color: '#666', margin: 0 }}>
-            {t.subtitle} <strong style={{ color: brandColor }}>{userGoal}</strong>
-          </p>
-        </div>
+            <div style={{ fontSize: '12px', color: '#666' }}>{item.label}</div>
+            <div style={{ fontSize: '18px', fontWeight: 'bold', color: item.color }}>{item.cp}</div>
+          </div>
+        ))}
+      </div>
 
-        {/* Progress Stats */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-          gap: '20px',
-          marginBottom: '40px'
-        }}>
-          <ProgressCard
-            icon="✓"
-            number={completedCount}
-            label={t.completed}
-            color="#27ae60"
-          />
-          <ProgressCard
-            icon="⚡"
-            number="1"
-            label={t.currentStage}
-            color={brandColor}
-          />
-          <ProgressCard
-            icon="📋"
-            number={stages.length - completedCount - 1}
-            label={t.upcoming}
-            color="#f39c12"
-          />
-          <ProgressCard
-            icon="🎯"
-            number={`${earnedCredits}/${TOTAL_REQUIRED_CREDITS}`}
-            label={t.credits}
-            color="#9b59b6"
-          />
-        </div>
+      {/* Semester-by-semester timeline */}
+      <h3 style={{ color: '#004E8A', marginBottom: '16px' }}>Studienplan nach Semester</h3>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '40px' }}>
+        {mockRoadmap.semesters.map((sem) => {
+          const semModules = sem.moduleIds.map(id => mockModules.find(m => m.id === id)).filter(Boolean);
+          const phase = mockRoadmap.phases.find(p => {
+            const [start, end] = p.semester_range.split('\u2013').map(Number);
+            return sem.semester >= start && sem.semester <= end;
+          });
+          const semMilestones = mockMilestones.filter(ms => ms.semester === sem.semester);
+          const careerSemModules = selectedCareer?.semesters?.[sem.semester];
 
-        {/* Career Goal Info Card */}
-        {careerInfo && (
-          <div style={{
-            backgroundColor: 'white',
-            borderRadius: '16px',
-            padding: '30px',
-            marginBottom: '40px',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-            border: `3px solid ${brandColor}`
-          }}>
-            <h2 style={{ margin: '0 0 15px 0', color: brandColor }}>
-              {language === 'de' ? careerInfo.title_de : careerInfo.title_en}
-            </h2>
-            <p style={{ color: '#666', margin: '0 0 20px 0', lineHeight: '1.6' }}>
-              {language === 'de' ? careerInfo.description_de : careerInfo.description_en}
-            </p>
-
-            {/* Salary Range */}
-            <div style={{ marginBottom: '20px' }}>
-              <h4 style={{ margin: '0 0 10px 0', color: '#2c3e50' }}>{t.salary}</h4>
-              <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
-                <SalaryBadge label="Junior" amount={careerInfo.average_salary.junior} />
-                <SalaryBadge label="Mid" amount={careerInfo.average_salary.mid} />
-                <SalaryBadge label="Senior" amount={careerInfo.average_salary.senior} />
+          return (
+            <div
+              key={sem.semester}
+              style={{
+                backgroundColor: 'white',
+                border: '1px solid #ddd',
+                borderLeft: `6px solid ${getSemesterColor(sem.semester)}`,
+                borderRadius: '10px',
+                padding: '20px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+              }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                <h4 style={{ margin: 0, fontSize: '17px', color: '#004E8A' }}>
+                  Semester {sem.semester}
+                  {phase && <span style={{ fontWeight: 'normal', color: '#666', fontSize: '14px' }}> \u2014 {phase.name}</span>}
+                </h4>
+                <span style={{
+                  padding: '3px 10px', backgroundColor: getSemesterColor(sem.semester), color: 'white',
+                  borderRadius: '10px', fontSize: '12px', fontWeight: 'bold'
+                }}>
+                  {sem.cp} CP Pflicht
+                </span>
               </div>
-            </div>
+              <p style={{ margin: '0 0 10px 0', color: '#777', fontSize: '13px' }}>{sem.description}</p>
 
-            {/* Skills */}
-            <div style={{ marginBottom: '20px' }}>
-              <h4 style={{ margin: '0 0 10px 0', color: '#2c3e50' }}>{t.skills}</h4>
-              <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-                {careerInfo.required_skills.map((skill, i) => (
-                  <span key={i} style={{
-                    padding: '6px 12px',
-                    backgroundColor: '#e3f2fd',
-                    color: brandColor,
-                    borderRadius: '20px',
-                    fontSize: '13px'
+              {/* Pflicht modules */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                {semModules.map(mod => (
+                  <div key={mod.id} style={{
+                    display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                    padding: '8px 12px', backgroundColor: '#f8f9fa', borderRadius: '6px',
+                    borderLeft: `3px solid ${getCategoryColor(mod.category)}`
                   }}>
-                    {skill}
-                  </span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                      <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>{mod.name}</span>
+                      {mod.needsStudienleistung && (
+                        <span style={{ fontSize: '10px', color: '#e67e22', fontWeight: 'bold' }}>* Studienleistung</span>
+                      )}
+                    </div>
+                    <span style={{ fontSize: '12px', color: '#666', whiteSpace: 'nowrap' }}>{mod.credits} CP</span>
+                  </div>
                 ))}
               </div>
-            </div>
 
-            {/* Recommended Modules */}
-            <div>
-              <h4 style={{ margin: '0 0 10px 0', color: '#2c3e50' }}>{t.recommendedModules}</h4>
-              <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-                {recommendedModules.map((module, i) => {
-                  const isCompleted = completedModules.includes(module.id);
-                  return (
-                    <span key={i} style={{
-                      padding: '8px 14px',
-                      backgroundColor: isCompleted ? '#d4edda' : '#f8f9fa',
-                      border: isCompleted ? '2px solid #27ae60' : '1px solid #ddd',
-                      borderRadius: '8px',
-                      fontSize: '13px',
-                      color: isCompleted ? '#27ae60' : '#2c3e50',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '6px'
-                    }}>
-                      {isCompleted && <span>✓</span>}
-                      {module.name}
-                      <span style={{ color: '#999', fontSize: '11px' }}>({module.credits} CP)</span>
-                    </span>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Roadmap Timeline */}
-        <div style={{ position: 'relative' }}>
-          {stages.map((stage, index) => (
-            <div key={stage.id} style={{ position: 'relative', marginBottom: '30px' }}>
-              {/* Connection Line */}
-              {index < stages.length - 1 && (
-                <div style={{
-                  position: 'absolute',
-                  left: '45px',
-                  top: '90px',
-                  width: '4px',
-                  height: '80px',
-                  background: stage.completed
-                    ? '#27ae60'
-                    : stage.current
-                      ? `linear-gradient(180deg, ${brandColor} 0%, #ddd 100%)`
-                      : '#ddd',
-                  zIndex: 0
-                }}></div>
+              {/* Career-specific elective recommendations for this semester */}
+              {careerSemModules && (
+                <div style={{ marginTop: '12px', padding: '12px', backgroundColor: '#f0f6fc', borderRadius: '8px', border: '1px solid #d0e3f0' }}>
+                  <div style={{ fontSize: '13px', fontWeight: '700', color: '#004E8A', marginBottom: '4px' }}>
+                    Empfohlen fuer {selectedCareer.name}:
+                  </div>
+                  <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: '#555', fontStyle: 'italic' }}>
+                    {careerSemModules.note}
+                  </p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                    {careerSemModules.modules.map(id => {
+                      const mod = mockModules.find(m => m.id === id);
+                      if (!mod) return null;
+                      return (
+                        <div key={id} style={{
+                          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                          padding: '7px 10px', backgroundColor: 'white', borderRadius: '5px',
+                          borderLeft: `3px solid ${getCategoryColor(mod.category)}`
+                        }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                            <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>{mod.name}</span>
+                            <span style={{
+                              fontSize: '9px', padding: '1px 6px',
+                              backgroundColor: getCategoryColor(mod.category), color: 'white', borderRadius: '6px'
+                            }}>
+                              {mod.category}
+                            </span>
+                          </div>
+                          <span style={{ fontSize: '12px', color: '#666', whiteSpace: 'nowrap' }}>{mod.credits} CP</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
               )}
 
-              {/* Stage Card */}
-              <div style={{
-                display: 'flex',
-                gap: '25px',
-                alignItems: 'start',
-                position: 'relative',
-                zIndex: 1
-              }}>
-                {/* Icon */}
-                <div style={{
-                  minWidth: '90px',
-                  width: '90px',
-                  height: '90px',
-                  borderRadius: '50%',
-                  backgroundColor: stage.completed ? '#27ae60' : stage.current ? brandColor : '#ecf0f1',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '36px',
-                  border: stage.current ? `4px solid ${brandColor}` : stage.completed ? '4px solid #27ae60' : '4px solid #ddd',
-                  boxShadow: stage.current ? `0 0 0 6px rgba(15, 108, 191, 0.2)` : 'none',
-                  transition: 'all 0.3s ease'
-                }}>
-                  {stage.completed ? '✓' : stage.icon}
-                </div>
+              {/* Hint for semesters 4+ when no career selected */}
+              {sem.semester >= 4 && !selectedCareer && (
+                <p style={{ margin: '8px 0 0 0', fontSize: '12px', color: '#009CDE', fontStyle: 'italic' }}>
+                  Ab jetzt: Wahlpflicht, Informatik-Wahlbereiche, Studienbegleitende Leistungen und Studium Generale \u2014 waehle unten einen Karriereweg fuer konkrete Empfehlungen.
+                </p>
+              )}
 
-                {/* Content Card */}
-                <div style={{
-                  flex: 1,
-                  backgroundColor: 'white',
-                  borderRadius: '12px',
-                  padding: '25px',
-                  boxShadow: stage.current
-                    ? `0 6px 20px rgba(15, 108, 191, 0.2)`
-                    : '0 2px 8px rgba(0,0,0,0.08)',
-                  border: stage.current ? `2px solid ${brandColor}` : '1px solid #e0e0e0',
-                  transform: stage.current ? 'scale(1.01)' : 'scale(1)',
-                  transition: 'all 0.3s ease'
-                }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '12px' }}>
-                    <div>
-                      <h2 style={{
-                        margin: '0 0 5px 0',
-                        fontSize: '22px',
-                        color: stage.completed ? '#27ae60' : stage.current ? brandColor : '#2c3e50'
-                      }}>
-                        {stage.name}
-                      </h2>
-                      <span style={{
-                        padding: '3px 10px',
-                        backgroundColor: stage.completed ? '#e8f5e9' : stage.current ? '#e3f2fd' : '#f5f5f5',
-                        color: stage.completed ? '#27ae60' : stage.current ? brandColor : '#666',
-                        borderRadius: '10px',
-                        fontSize: '12px',
-                        fontWeight: '500'
-                      }}>
-                        {stage.duration}
-                      </span>
+              {/* Milestones */}
+              {semMilestones.length > 0 && (
+                <div style={{ marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>
+                  {semMilestones.map(ms => (
+                    <div key={ms.id} style={{
+                      padding: '6px 10px', backgroundColor: '#fff8e1', borderRadius: '6px',
+                      fontSize: '12px', color: '#6d4c00', marginTop: '4px'
+                    }}>
+                      <strong>Meilenstein:</strong> {ms.title} \u2014 {ms.description}
+                      {ms.credits_required && <span> ({ms.credits_required} CP)</span>}
                     </div>
-                    {stage.current && (
-                      <span style={{
-                        padding: '5px 12px',
-                        backgroundColor: brandColor,
-                        color: 'white',
-                        borderRadius: '15px',
-                        fontSize: '12px',
-                        fontWeight: 'bold'
-                      }}>
-                        {t.currentStage}
-                      </span>
-                    )}
-                    {stage.completed && (
-                      <span style={{ fontSize: '28px', color: '#27ae60' }}>✓</span>
-                    )}
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Career Paths selector */}
+      <h3 style={{ color: '#004E8A', marginBottom: '8px' }}>Karriereweg auswaehlen</h3>
+      <p style={{ color: '#666', fontSize: '13px', marginBottom: '16px' }}>
+        Waehle einen Karriereweg, um im Studienplan oben zu sehen, welche Wahlmodule du ab dem 4. Semester belegen solltest.
+      </p>
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+        gap: '12px',
+        marginBottom: '30px'
+      }}>
+        {mockCareerPaths.map(career => (
+          <button
+            key={career.id}
+            onClick={() => setSelectedCareer(selectedCareer?.id === career.id ? null : career)}
+            style={{
+              padding: '14px',
+              backgroundColor: selectedCareer?.id === career.id ? '#004E8A' : 'white',
+              color: selectedCareer?.id === career.id ? 'white' : '#004E8A',
+              border: '2px solid #004E8A',
+              borderRadius: '8px',
+              cursor: 'pointer',
+              fontSize: '14px',
+              fontWeight: '600',
+              transition: 'all 0.2s ease',
+              textAlign: 'center'
+            }}
+          >
+            <div style={{ fontSize: '24px', marginBottom: '4px' }}>{career.icon}</div>
+            {career.name}
+          </button>
+        ))}
+      </div>
+
+      {/* Selected Career Detail */}
+      {selectedCareer && (
+        <div style={{
+          backgroundColor: 'white',
+          border: '2px solid #004E8A',
+          borderRadius: '12px',
+          padding: '24px',
+          boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
+            <span style={{ fontSize: '36px' }}>{selectedCareer.icon}</span>
+            <div>
+              <h3 style={{ margin: 0, color: '#004E8A' }}>{selectedCareer.name}</h3>
+              <p style={{ margin: '2px 0 0 0', color: '#009CDE', fontSize: '14px', fontWeight: '600' }}>
+                {selectedCareer.salary}
+              </p>
+            </div>
+          </div>
+
+          <p style={{ color: '#444', lineHeight: '1.6', marginBottom: '16px' }}>
+            {selectedCareer.description}
+          </p>
+
+          <div style={{ marginBottom: '20px' }}>
+            <strong style={{ color: '#004E8A' }}>Gefragte Skills:</strong>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '6px' }}>
+              {selectedCareer.skills.map((skill, i) => (
+                <span key={i} style={{
+                  padding: '4px 10px', backgroundColor: '#e8f4fd',
+                  color: '#004E8A', borderRadius: '10px', fontSize: '12px'
+                }}>
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Semester-by-semester recommendations */}
+          <strong style={{ color: '#004E8A' }}>Empfohlener Wahlmodul-Plan:</strong>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '10px' }}>
+            {Object.entries(selectedCareer.semesters).map(([sem, data]) => {
+              const modules = data.modules.map(id => mockModules.find(m => m.id === id)).filter(Boolean);
+              return (
+                <div key={sem} style={{ padding: '14px', backgroundColor: '#f8f9fa', borderRadius: '8px', borderLeft: `4px solid ${getSemesterColor(Number(sem))}` }}>
+                  <div style={{ fontSize: '14px', fontWeight: '700', color: '#004E8A', marginBottom: '4px' }}>
+                    Semester {sem}
                   </div>
-
-                  <p style={{
-                    margin: '12px 0',
-                    fontSize: '14px',
-                    color: '#666',
-                    lineHeight: '1.5'
-                  }}>
-                    {stage.description}
-                  </p>
-
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                    {stage.modules.slice(0, 5).map((module, i) => (
-                      <span
-                        key={i}
-                        style={{
-                          padding: '5px 10px',
-                          backgroundColor: '#f8f9fa',
-                          color: '#2c3e50',
-                          borderRadius: '5px',
-                          fontSize: '12px',
-                          border: '1px solid #e0e0e0'
-                        }}
-                      >
-                        {module}
-                      </span>
-                    ))}
-                    {stage.modules.length > 5 && (
-                      <span style={{
-                        padding: '5px 10px',
-                        backgroundColor: '#f8f9fa',
-                        color: '#999',
-                        borderRadius: '5px',
-                        fontSize: '12px'
+                  <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: '#666', fontStyle: 'italic' }}>{data.note}</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                    {modules.map(mod => (
+                      <div key={mod.id} style={{
+                        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                        padding: '6px 10px', backgroundColor: 'white', borderRadius: '5px',
+                        borderLeft: `3px solid ${getCategoryColor(mod.category)}`
                       }}>
-                        +{stage.modules.length - 5} more
-                      </span>
-                    )}
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                          <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>{mod.name}</span>
+                          <span style={{
+                            fontSize: '9px', padding: '1px 6px',
+                            backgroundColor: getCategoryColor(mod.category), color: 'white', borderRadius: '6px'
+                          }}>
+                            {mod.category}
+                          </span>
+                        </div>
+                        <span style={{ fontSize: '12px', color: '#666', whiteSpace: 'nowrap' }}>{mod.credits} CP</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
-              </div>
-            </div>
-          ))}
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
 
-const ProgressCard = ({ icon, number, label, color }) => (
-  <div style={{
-    backgroundColor: 'white',
-    borderRadius: '12px',
-    padding: '25px',
-    textAlign: 'center',
-    boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-    border: `2px solid ${color}`
-  }}>
-    <div style={{ fontSize: '36px', marginBottom: '8px' }}>{icon}</div>
-    <div style={{ fontSize: '28px', fontWeight: 'bold', color, marginBottom: '5px' }}>{number}</div>
-    <div style={{ fontSize: '13px', color: '#666' }}>{label}</div>
-  </div>
-);
+const getSemesterColor = (semester) => {
+  const colors = { 1: '#004E8A', 2: '#005fa3', 3: '#0070bb', 4: '#009CDE', 5: '#00599A', 6: '#003366' };
+  return colors[semester] || '#004E8A';
+};
 
-const SalaryBadge = ({ label, amount }) => (
-  <div style={{
-    padding: '10px 15px',
-    backgroundColor: '#f8f9fa',
-    borderRadius: '8px',
-    textAlign: 'center'
-  }}>
-    <div style={{ fontSize: '11px', color: '#999', marginBottom: '3px' }}>{label}</div>
-    <div style={{ fontSize: '16px', fontWeight: 'bold', color: '#27ae60' }}>
-      €{amount.toLocaleString()}
-    </div>
-  </div>
-);
+const getCategoryColor = (category) => {
+  const colors = {
+    'Pflichtbereich': '#004E8A',
+    'Wahlpflichtbereich': '#e67e22',
+    'Informatik-Wahlbereich': '#009CDE',
+    'Studienbegleitende Leistungen': '#8e44ad',
+    'Studium Generale': '#27ae60',
+    'Abschlussbereich': '#c0392b',
+  };
+  return colors[category] || '#95a5a6';
+};
 
 export default RoadmapPage;
