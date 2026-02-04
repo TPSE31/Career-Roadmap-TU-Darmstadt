@@ -1,21 +1,17 @@
 from django.http import HttpResponse
 from django.utils import timezone
 from rest_framework import viewsets, status
-from rest_framework.decorators import action, api_view, permission_classes
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.permissions import AllowAny, IsAuthenticated
-from rest_framework.authtoken.models import Token
 from rest_framework.views import APIView
 
 from .models import (
-    User, Module, ExaminationRegulation, MilestoneDefinition,
+    Module, ExaminationRegulation, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
     SupportService, Notification
 )
 from .serializers import (
-    UserRegistrationSerializer, UserLoginSerializer, UserSerializer,
-    UserProfileUpdateSerializer, ChangePasswordSerializer,
-    PasswordResetRequestSerializer, PasswordResetConfirmSerializer,
     ModuleSerializer, ModuleDetailSerializer, UserModuleCompletionSerializer,
     ExaminationRegulationSerializer, MilestoneDefinitionSerializer,
     MilestoneProgressSerializer, CareerGoalSerializer,
@@ -30,182 +26,6 @@ from .serializers import (
 def hello_world(request):
     """Simple test endpoint to verify the API is running"""
     return HttpResponse("Hello World from Gruppe 31!")
-
-
-# ============================================
-# AUTHENTICATION VIEWS
-# ============================================
-
-class RegisterView(APIView):
-    """
-    POST /auth/register/
-    Register a new user account.
-    """
-    permission_classes = [AllowAny]
-
-    def post(self, request):
-        serializer = UserRegistrationSerializer(data=request.data)
-        if serializer.is_valid():
-            user = serializer.save()
-            # Create token for the new user
-            token, created = Token.objects.get_or_create(user=user)
-
-            # Return user data and token
-            user_serializer = UserSerializer(user)
-            return Response({
-                'token': token.key,
-                'user': user_serializer.data,
-                'message': 'User registered successfully'
-            }, status=status.HTTP_201_CREATED)
-
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-class LoginView(APIView):
-    """
-    POST /auth/login/
-    Login and receive authentication token.
-    """
-    permission_classes = [AllowAny]
-
-    def post(self, request):
-        serializer = UserLoginSerializer(data=request.data)
-        if serializer.is_valid():
-            user = serializer.validated_data['user']
-            # Get or create token
-            token, created = Token.objects.get_or_create(user=user)
-
-            # Return user data and token
-            user_serializer = UserSerializer(user)
-            return Response({
-                'token': token.key,
-                'user': user_serializer.data,
-                'message': 'Login successful'
-            }, status=status.HTTP_200_OK)
-
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-class LogoutView(APIView):
-    """
-    POST /auth/logout/
-    Logout and invalidate token.
-    """
-    permission_classes = [IsAuthenticated]
-
-    def post(self, request):
-        try:
-            # Delete the user's token
-            request.user.auth_token.delete()
-            return Response({
-                'message': 'Logout successful'
-            }, status=status.HTTP_200_OK)
-        except Exception as e:
-            return Response({
-                'error': str(e)
-            }, status=status.HTTP_400_BAD_REQUEST)
-
-
-class CurrentUserView(APIView):
-    """
-    GET /auth/me/
-    Get current authenticated user profile.
-    """
-    permission_classes = [IsAuthenticated]
-
-    def get(self, request):
-        serializer = UserSerializer(request.user)
-        return Response(serializer.data, status=status.HTTP_200_OK)
-
-
-class UpdateProfileView(APIView):
-    """
-    PATCH /auth/profile/
-    Update user profile information.
-    """
-    permission_classes = [IsAuthenticated]
-
-    def patch(self, request):
-        serializer = UserProfileUpdateSerializer(
-            request.user,
-            data=request.data,
-            partial=True
-        )
-        if serializer.is_valid():
-            serializer.save()
-            # Return updated user data
-            user_serializer = UserSerializer(request.user)
-            return Response({
-                'user': user_serializer.data,
-                'message': 'Profile updated successfully'
-            }, status=status.HTTP_200_OK)
-
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-class ChangePasswordView(APIView):
-    """
-    POST /auth/change-password/
-    Change user password (requires old password).
-    """
-    permission_classes = [IsAuthenticated]
-
-    def post(self, request):
-        serializer = ChangePasswordSerializer(
-            data=request.data,
-            context={'request': request}
-        )
-        if serializer.is_valid():
-            # Set new password
-            request.user.set_password(serializer.validated_data['new_password'])
-            request.user.save()
-
-            return Response({
-                'message': 'Password changed successfully'
-            }, status=status.HTTP_200_OK)
-
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-class ForgotPasswordView(APIView):
-    """
-    POST /auth/forgot-password/
-    Send password reset email (placeholder implementation).
-    """
-    permission_classes = [AllowAny]
-
-    def post(self, request):
-        serializer = PasswordResetRequestSerializer(data=request.data)
-        if serializer.is_valid():
-            email = serializer.validated_data['email']
-            # TODO: Implement email sending logic here
-            # For now, just return success message
-
-            return Response({
-                'message': 'Password reset email sent successfully'
-            }, status=status.HTTP_200_OK)
-
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-class ResetPasswordView(APIView):
-    """
-    POST /auth/reset-password/
-    Reset password with token (placeholder implementation).
-    """
-    permission_classes = [AllowAny]
-
-    def post(self, request):
-        serializer = PasswordResetConfirmSerializer(data=request.data)
-        if serializer.is_valid():
-            # TODO: Implement token validation and password reset logic
-            # For now, just return success message
-
-            return Response({
-                'message': 'Password reset successful'
-            }, status=status.HTTP_200_OK)
-
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 # ============================================
