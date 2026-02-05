@@ -2,9 +2,20 @@ import React, { useState } from 'react';
 import Dashboard from './components/Dashboard';
 import ModuleList from './components/ModuleList';
 import RoadmapPage from './components/RoadmapPage';
+import CareerPathsPage from './components/CareerPathsPage';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
+  const [language, setLanguage] = useState('de');
+
+  const toggleLanguage = () => {
+    setLanguage(prev => prev === 'de' ? 'en' : 'de');
+  };
+
+  const t = {
+    de: { home: 'Home', modules: 'Module', careers: 'Karrierewege', roadmap: 'Roadmap' },
+    en: { home: 'Home', modules: 'Modules', careers: 'Careers', roadmap: 'Roadmap' }
+  }[language];
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#f5f7fa' }}>
@@ -39,29 +50,61 @@ function App() {
               active={currentView === 'dashboard'}
               onClick={() => setCurrentView('dashboard')}
             >
-              Home
+              {t.home}
             </NavButton>
             <NavButton
               active={currentView === 'modules'}
               onClick={() => setCurrentView('modules')}
             >
-              Module
+              {t.modules}
+            </NavButton>
+            <NavButton
+              active={currentView === 'careers'}
+              onClick={() => setCurrentView('careers')}
+            >
+              {t.careers}
             </NavButton>
             <NavButton
               active={currentView === 'roadmap'}
               onClick={() => setCurrentView('roadmap')}
             >
-              Roadmap
+              {t.roadmap}
             </NavButton>
           </div>
+
+          {/* Language Toggle */}
+          <button
+            onClick={toggleLanguage}
+            style={{
+              marginRight: '20px',
+              padding: '8px 16px',
+              backgroundColor: 'rgba(255,255,255,0.1)',
+              color: 'white',
+              border: '1px solid rgba(255,255,255,0.3)',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontSize: '14px',
+              fontWeight: '600',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.2)'}
+            onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.1)'}
+          >
+            <span style={{ fontSize: '16px' }}>{language === 'de' ? '🇩🇪' : '🇬🇧'}</span>
+            {language === 'de' ? 'DE' : 'EN'}
+          </button>
         </div>
       </nav>
 
       {/* Main Content */}
       <main style={{ paddingBottom: '40px' }}>
-        {currentView === 'dashboard' && <Dashboard onNavigate={setCurrentView} />}
-        {currentView === 'modules' && <ModuleList />}
-        {currentView === 'roadmap' && <RoadmapPage />}
+        {currentView === 'dashboard' && <Dashboard onNavigate={setCurrentView} language={language} />}
+        {currentView === 'modules' && <ModuleList language={language} />}
+        {currentView === 'careers' && <CareerPathsPage language={language} />}
+        {currentView === 'roadmap' && <RoadmapPage language={language} />}
       </main>
 
       {/* Footer */}

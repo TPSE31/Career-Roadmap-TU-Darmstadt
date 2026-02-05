@@ -1,5 +1,6 @@
 import api from './api';
 import mockData from '../mocks/mockData';
+import { allModules as localModules } from '../data/modules';
 
 // Flag to use mock data when backend is not ready
 const USE_MOCK = false;
@@ -9,6 +10,7 @@ const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
 
 /**
  * Get all modules for the current user's examination regulation
+ * Falls back to local data if backend is unavailable
  */
 export const getAllModules = async () => {
   if (USE_MOCK) {
@@ -16,8 +18,17 @@ export const getAllModules = async () => {
     return mockData.modules.map(transformModuleToFrontend);
   }
 
-  const response = await api.get('/modules/');
-  return response.data.map(transformModuleFromAPI);
+  try {
+    const response = await api.get('/modules/');
+    return response.data.map(transformModuleFromAPI);
+  } catch (error) {
+    console.warn('API unavailable, using local module data');
+    // Return local modules directly - they already have the right format
+    return localModules.map(m => ({
+      ...m,
+      prerequisites: m.prerequisites || [],
+    }));
+  }
 };
 
 /**
@@ -133,16 +144,20 @@ const transformModuleToFrontend = (module) => ({
 });
 
 /**
- * Transform module from API (snake_case to camelCase)
+ * Transform module from API to the format components expect
  */
 const transformModuleFromAPI = (apiModule) => ({
   id: apiModule.id,
+  code: apiModule.module_code,
   moduleCode: apiModule.module_code,
   name: apiModule.name,
+  name_en: apiModule.name_en || '',
   credits: apiModule.credits,
   category: apiModule.category,
   groupName: apiModule.group_name,
-  description: apiModule.description,
+  description: apiModule.description || '',
+  semester: apiModule.semester || null,
+  required: apiModule.category === 'Pflichtbereich',
   prerequisites: apiModule.prerequisites || [],
 });
 

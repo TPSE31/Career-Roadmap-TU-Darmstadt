@@ -2,7 +2,8 @@ from rest_framework import serializers
 from .models import (
     User, Module, ExaminationRegulation, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
-    SupportService, Notification
+    SupportService, Notification, CareerPath, ModuleCareerRelevance,
+    UserCareerInterest
 )
 
 
@@ -184,5 +185,136 @@ class SupportServiceSerializer(serializers.ModelSerializer):
             'id', 'name', 'category', 'description',
             'contact_info', 'url', 'location', 'is_active',
             'related_milestones'
+        ]
+        read_only_fields = ['id']
+
+
+# ============================================
+# CAREER PATH SERIALIZERS
+# ============================================
+
+class CareerPathSerializer(serializers.ModelSerializer):
+    """Serializer for CareerPath model"""
+    salary_range = serializers.SerializerMethodField()
+    module_count = serializers.SerializerMethodField()
+    average_salary = serializers.SerializerMethodField()
+
+    class Meta:
+        model = CareerPath
+        fields = [
+            'id', 'career_id', 'title_en', 'title_de',
+            'description_en', 'description_de',
+            'salary_junior', 'salary_mid', 'salary_senior',
+            'salary_range', 'average_salary', 'required_skills', 'icon',
+            'is_active', 'module_count'
+        ]
+        read_only_fields = ['id']
+
+    def get_salary_range(self, obj):
+        """Format salary range as string."""
+        if obj.salary_junior and obj.salary_senior:
+            return f"€{obj.salary_junior:,} - €{obj.salary_senior:,}"
+        return None
+
+    def get_average_salary(self, obj):
+        """Return salary as nested object for frontend."""
+        return {
+            'junior': obj.salary_junior,
+            'mid': obj.salary_mid,
+            'senior': obj.salary_senior
+        }
+
+    def get_module_count(self, obj):
+        """Count related modules."""
+        return obj.module_relevances.count()
+
+
+class CareerPathDetailSerializer(CareerPathSerializer):
+    """Detailed serializer with related modules."""
+    top_modules = serializers.SerializerMethodField()
+
+    class Meta(CareerPathSerializer.Meta):
+        fields = CareerPathSerializer.Meta.fields + ['top_modules']
+
+    def get_top_modules(self, obj):
+        """Get top 10 most relevant modules for this career."""
+        relevances = obj.module_relevances.select_related('module').order_by('-relevance_score')[:10]
+        return [
+            {
+                'module_code': rel.module.module_code,
+                'name': rel.module.name,
+                'credits': rel.module.credits,
+                'relevance_score': rel.relevance_score,
+                'is_core': rel.is_core
+            }
+            for rel in relevances
+        ]
+
+
+class ModuleCareerRelevanceSerializer(serializers.ModelSerializer):
+    """Serializer for ModuleCareerRelevance model"""
+    career_title = serializers.CharField(source='career_path.title_en', read_only=True)
+    career_id = serializers.CharField(source='career_path.career_id', read_only=True)
+
+    class Meta:
+        model = ModuleCareerRelevance
+        fields = [
+            'id', 'module', 'career_path', 'career_id', 'career_title',
+            'relevance_score', 'is_core'
+        ]
+        read_only_fields = ['id']
+
+
+class UserCareerInterestSerializer(serializers.ModelSerializer):
+    """Serializer for UserCareerInterest model"""
+    career_title = serializers.CharField(source='career_path.title_en', read_only=True)
+    career_id = serializers.CharField(source='career_path.career_id', read_only=True)
+
+    class Meta:
+        model = UserCareerInterest
+        fields = [
+            'id', 'user', 'career_path', 'career_id', 'career_title',
+            'interest_level', 'is_primary', 'created_at', 'updated_at'
+        ]
+        read_only_fields = ['id', 'user', 'created_at', 'updated_at']
+
+
+class ModuleWithRelevanceSerializer(serializers.ModelSerializer):
+    """Module serializer with career relevance scores."""
+    career_relevance = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Module
+        fields = [
+            'id', 'module_code', 'name', 'name_en', 'credits',
+            'category', 'learning_content', 'learning_objectives',
+            'language', 'career_relevance'
+        ]
+        read_only_fields = ['id']
+
+    def get_career_relevance(self, obj):
+        """Get career relevance scores for this module."""
+        return {
+            rel.career_path.career_id: {
+                'score': rel.relevance_score,
+                'is_core': rel.is_core
+            }
+            for rel in obj.career_relevances.select_related('career_path').all()
+        }
+
+
+class RecommendedModuleSerializer(serializers.ModelSerializer):
+    """Serializer for recommended modules with relevance info."""
+    relevance_score = serializers.IntegerField(read_only=True)
+    matching_careers = serializers.ListField(read_only=True)
+    recommendation_reason = serializers.CharField(read_only=True)
+
+    class Meta:
+        model = Module
+        fields = [
+            'id', 'module_code', 'name', 'name_en', 'credits',
+            'category', 'learning_content', 'learning_objectives',
+            'language', 'relevance_score', 'matching_careers',
+            'recommendation_reason'
         ]
         read_only_fields = ['id']

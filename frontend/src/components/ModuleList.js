@@ -3,27 +3,84 @@ import { useModules } from '../hooks/useModules';
 import LoadingSpinner from './LoadingSpinner';
 import ErrorMessage from './ErrorMessage';
 
-const CATEGORIES = ['Alle', 'Pflichtbereich', 'Wahlpflichtbereich', 'Informatik-Wahlbereich', 'Studienbegleitende Leistungen', 'Studium Generale', 'Abschlussbereich'];
+const CATEGORIES = ['Alle', 'Pflichtbereich', 'Wahlpflichtbereich', 'Informatik-Wahlbereich', 'Studienbegleitende Leistungen', 'Abschlussbereich'];
 
-const ModuleList = () => {
+const ModuleList = ({ language = 'de' }) => {
   const { modules, loading, error, refetch } = useModules();
   const [search, setSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('Alle');
   const [semesterFilter, setSemesterFilter] = useState('Alle');
   const [selectedModule, setSelectedModule] = useState(null);
 
+  const t = {
+    de: {
+      title: 'Modulkatalog B.Sc. Informatik',
+      modulesLabel: 'Module',
+      cpTotal: 'CP gesamt',
+      searchPlaceholder: 'Modul suchen...',
+      allCategories: 'Alle',
+      allSemesters: 'Alle Semester',
+      semester: 'Semester',
+      credits: 'Credits',
+      category: 'Kategorie',
+      mandatory: 'Pflicht',
+      required: 'Pflicht',
+      requiredLabel: 'Pflichtmodul',
+      yes: 'Ja',
+      no: 'Nein',
+      prerequisites: 'Voraussetzungen',
+      close: 'Schlie\u00dfen',
+    },
+    en: {
+      title: 'Module Catalog B.Sc. Computer Science',
+      modulesLabel: 'Modules',
+      cpTotal: 'CP total',
+      searchPlaceholder: 'Search modules...',
+      allCategories: 'All',
+      allSemesters: 'All Semesters',
+      semester: 'Semester',
+      credits: 'Credits',
+      category: 'Category',
+      mandatory: 'Mandatory',
+      required: 'Mandatory',
+      requiredLabel: 'Required',
+      yes: 'Yes',
+      no: 'No',
+      prerequisites: 'Prerequisites',
+      close: 'Close',
+    }
+  }[language];
+
+  const getCategoryLabel = (category) => {
+    if (language === 'en') {
+      const labels = {
+        'Alle': 'All',
+        'Pflichtbereich': 'Mandatory',
+        'Wahlpflichtbereich': 'Elective Mandatory',
+        'Informatik-Wahlbereich': 'CS Elective',
+        'Studienbegleitende Leistungen': 'Accompanying Courses',
+        'Abschlussbereich': 'Thesis',
+      };
+      return labels[category] || category;
+    }
+    return category;
+  };
+
   if (loading) {
-    return <LoadingSpinner message="Lade Module..." />;
+    return <LoadingSpinner message={language === 'de' ? 'Lade Module...' : 'Loading modules...'} />;
   }
 
   if (error) {
     return <ErrorMessage error={error} onRetry={refetch} />;
   }
 
-  const semesters = [...new Set(modules.map(m => m.semester))].sort((a, b) => a - b);
+  const semesters = [...new Set(modules.map(m => m.semester).filter(Boolean))].sort((a, b) => a - b);
 
   const filtered = modules.filter(m => {
-    const matchSearch = !search || m.name.toLowerCase().includes(search.toLowerCase()) || m.code.toLowerCase().includes(search.toLowerCase());
+    const matchSearch = !search ||
+      m.name.toLowerCase().includes(search.toLowerCase()) ||
+      (m.name_en && m.name_en.toLowerCase().includes(search.toLowerCase())) ||
+      m.code.toLowerCase().includes(search.toLowerCase());
     const matchCategory = categoryFilter === 'Alle' || m.category === categoryFilter;
     const matchSemester = semesterFilter === 'Alle' || m.semester === Number(semesterFilter);
     return matchSearch && matchCategory && matchSemester;
@@ -34,10 +91,10 @@ const ModuleList = () => {
   return (
     <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto' }}>
       <h2 style={{ margin: '0 0 5px 0', color: '#004E8A' }}>
-        Modulkatalog B.Sc. Informatik
+        {t.title}
       </h2>
       <p style={{ color: '#666', marginBottom: '20px', fontSize: '14px' }}>
-        {filtered.length} Module · {totalCP} CP gesamt
+        {filtered.length} {t.modulesLabel} · {totalCP} {t.cpTotal}
       </p>
 
       {/* Filters */}
@@ -50,7 +107,7 @@ const ModuleList = () => {
       }}>
         <input
           type="text"
-          placeholder="Modul suchen..."
+          placeholder={t.searchPlaceholder}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           style={{
@@ -67,15 +124,15 @@ const ModuleList = () => {
           onChange={(e) => setCategoryFilter(e.target.value)}
           style={{ padding: '10px', border: '1px solid #ccc', borderRadius: '6px', fontSize: '14px' }}
         >
-          {CATEGORIES.map(c => <option key={c} value={c}>{c}</option>)}
+          {CATEGORIES.map(c => <option key={c} value={c}>{getCategoryLabel(c)}</option>)}
         </select>
         <select
           value={semesterFilter}
           onChange={(e) => setSemesterFilter(e.target.value)}
           style={{ padding: '10px', border: '1px solid #ccc', borderRadius: '6px', fontSize: '14px' }}
         >
-          <option value="Alle">Alle Semester</option>
-          {semesters.map(s => <option key={s} value={s}>Semester {s}</option>)}
+          <option value="Alle">{t.allSemesters}</option>
+          {semesters.map(s => <option key={s} value={s}>{t.semester} {s}</option>)}
         </select>
       </div>
 
@@ -102,14 +159,16 @@ const ModuleList = () => {
             onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
             onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
           >
-            <h3 style={{ margin: '0 0 6px 0', fontSize: '16px', color: '#004E8A' }}>{module.name}</h3>
+            <h3 style={{ margin: '0 0 6px 0', fontSize: '16px', color: '#004E8A' }}>
+              {language === 'en' && module.name_en ? module.name_en : module.name}
+            </h3>
             <p style={{ color: '#999', fontSize: '12px', margin: '0 0 8px 0' }}>{module.code}</p>
             <p style={{ color: '#555', fontSize: '13px', margin: '0 0 12px 0', lineHeight: '1.4' }}>
               {module.description}
             </p>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', color: '#666' }}>
               <span><strong>{module.credits} CP</strong></span>
-              <span>Semester {module.semester}</span>
+              <span>{module.semester ? `${t.semester} ${module.semester}` : ''}</span>
             </div>
             <div style={{ marginTop: '8px' }}>
               <span style={{
@@ -120,7 +179,7 @@ const ModuleList = () => {
                 borderRadius: '10px',
                 fontSize: '11px'
               }}>
-                {module.category}
+                {getCategoryLabel(module.category)}
               </span>
               {module.required && (
                 <span style={{
@@ -132,7 +191,7 @@ const ModuleList = () => {
                   borderRadius: '10px',
                   fontSize: '11px'
                 }}>
-                  Pflicht
+                  {t.mandatory}
                 </span>
               )}
             </div>
@@ -157,18 +216,20 @@ const ModuleList = () => {
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 style={{ margin: '0 0 5px 0', color: '#004E8A' }}>{selectedModule.name}</h2>
+            <h2 style={{ margin: '0 0 5px 0', color: '#004E8A' }}>
+              {language === 'en' && selectedModule.name_en ? selectedModule.name_en : selectedModule.name}
+            </h2>
             <p style={{ color: '#999', fontSize: '13px', margin: '0 0 15px 0' }}>{selectedModule.code}</p>
             <p style={{ color: '#444', lineHeight: '1.6', marginBottom: '15px' }}>{selectedModule.description}</p>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', fontSize: '14px', marginBottom: '15px' }}>
-              <div><strong>Credits:</strong> {selectedModule.credits} CP</div>
-              <div><strong>Semester:</strong> {selectedModule.semester}</div>
-              <div><strong>Kategorie:</strong> {selectedModule.category}</div>
-              <div><strong>Pflicht:</strong> {selectedModule.required ? 'Ja' : 'Nein'}</div>
+              <div><strong>{t.credits}:</strong> {selectedModule.credits} CP</div>
+              <div><strong>{t.semester}:</strong> {selectedModule.semester || '-'}</div>
+              <div><strong>{t.category}:</strong> {getCategoryLabel(selectedModule.category)}</div>
+              <div><strong>{t.requiredLabel}:</strong> {selectedModule.required ? t.yes : t.no}</div>
             </div>
-            {selectedModule.prerequisites.length > 0 && (
+            {selectedModule.prerequisites && selectedModule.prerequisites.length > 0 && (
               <div style={{ marginBottom: '15px' }}>
-                <strong>Voraussetzungen:</strong>
+                <strong>{t.prerequisites}:</strong>
                 <ul style={{ margin: '5px 0', paddingLeft: '20px' }}>
                   {selectedModule.prerequisites.map((p, i) => <li key={i} style={{ fontSize: '14px', color: '#555' }}>{p}</li>)}
                 </ul>
@@ -181,7 +242,7 @@ const ModuleList = () => {
                 border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '14px'
               }}
             >
-              Schließen
+              {t.close}
             </button>
           </div>
         </div>
@@ -196,7 +257,6 @@ const getCategoryColor = (category) => {
     'Wahlpflichtbereich': '#e67e22',
     'Informatik-Wahlbereich': '#009CDE',
     'Studienbegleitende Leistungen': '#8e44ad',
-    'Studium Generale': '#27ae60',
     'Abschlussbereich': '#c0392b',
   };
   return colors[category] || '#95a5a6';

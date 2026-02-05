@@ -20,6 +20,10 @@ router.register(r'notifications', views.NotificationViewSet, basename='notificat
 # Support service endpoints
 router.register(r'support/services', views.SupportServiceViewSet, basename='support-service')
 
+# Career path endpoints
+router.register(r'careers', views.CareerPathViewSet, basename='career')
+router.register(r'user/career-interests', views.UserCareerInterestViewSet, basename='user-career-interest')
+
 # URL patterns
 urlpatterns = [
     # Test endpoint

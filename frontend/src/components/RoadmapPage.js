@@ -1,285 +1,512 @@
 import React, { useState } from 'react';
-import { mockRoadmap, mockMilestones, mockCareerPaths, mockModules } from '../mocks/mockData';
 
-const RoadmapPage = () => {
-  const [selectedCareer, setSelectedCareer] = useState(null);
+const RoadmapPage = ({ language = 'de' }) => {
+  const [selectedSemester, setSelectedSemester] = useState(null);
+
+  const t = {
+    de: {
+      title: 'Dein Studien-Roadmap',
+      subtitle: 'Dein Weg zum B.Sc. Informatik - Semester für Semester',
+      semester: 'Semester',
+      credits: 'Credits',
+      modules: 'Module',
+      phase: 'Phase',
+      mandatory: 'Pflicht',
+      elective: 'Wahlpflicht',
+      specialization: 'Wahlbereich',
+      thesis: 'Abschluss',
+      close: 'Schließen',
+      clickDetails: 'Klick für Details',
+      totalCredits: 'Gesamt ECTS',
+      phases: {
+        foundation: 'Grundlagen',
+        core: 'Kernstudium',
+        specialization: 'Vertiefung'
+      }
+    },
+    en: {
+      title: 'Your Study Roadmap',
+      subtitle: 'Your path to B.Sc. Computer Science - Semester by semester',
+      semester: 'Semester',
+      credits: 'Credits',
+      modules: 'Modules',
+      phase: 'Phase',
+      mandatory: 'Mandatory',
+      elective: 'Elective',
+      specialization: 'Specialization',
+      thesis: 'Thesis',
+      close: 'Close',
+      clickDetails: 'Click for details',
+      totalCredits: 'Total ECTS',
+      phases: {
+        foundation: 'Foundations',
+        core: 'Core Studies',
+        specialization: 'Specialization'
+      }
+    }
+  }[language];
+
+  const semesters = [
+    {
+      id: 1,
+      credits: 30,
+      phase: 'foundation',
+      icon: '🚀',
+      modules: [
+        { name: language === 'de' ? 'Funktionale und objektorientierte Programmierkonzepte' : 'Functional and OOP Concepts', credits: 10, type: 'mandatory' },
+        { name: language === 'de' ? 'Mathematik I' : 'Mathematics I', credits: 9, type: 'mandatory' },
+        { name: language === 'de' ? 'Digitaltechnik' : 'Digital Technology', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Automaten, formale Sprachen' : 'Automata, Formal Languages', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Erfolgreich ins Studium starten' : 'Study Start', credits: 1, type: 'mandatory' },
+      ]
+    },
+    {
+      id: 2,
+      credits: 29,
+      phase: 'foundation',
+      icon: '📚',
+      modules: [
+        { name: language === 'de' ? 'Algorithmen und Datenstrukturen' : 'Algorithms & Data Structures', credits: 10, type: 'mandatory' },
+        { name: language === 'de' ? 'Mathematik II' : 'Mathematics II', credits: 9, type: 'mandatory' },
+        { name: language === 'de' ? 'Rechnerorganisation' : 'Computer Organization', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Aussagen- und Prädikatenlogik' : 'Propositional & Predicate Logic', credits: 5, type: 'mandatory' },
+      ]
+    },
+    {
+      id: 3,
+      credits: 25,
+      phase: 'core',
+      icon: '🧠',
+      modules: [
+        { name: language === 'de' ? 'Einführung in die KI' : 'Intro to AI', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Computersystemsicherheit' : 'Computer Security', credits: 5, type: 'mandatory' },
+        { name: 'Software Engineering', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Probabilistische Methoden' : 'Probabilistic Methods', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Modellierung & Semantik' : 'Modeling & Semantics', credits: 5, type: 'mandatory' },
+      ]
+    },
+    {
+      id: 4,
+      credits: 22,
+      phase: 'core',
+      icon: '👥',
+      modules: [
+        { name: language === 'de' ? 'Teamprojekt' : 'Team Project', credits: 9, type: 'mandatory' },
+        { name: language === 'de' ? 'Informationsmanagement' : 'Information Management', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Computernetze' : 'Computer Networks', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Wissenschaftliches Arbeiten' : 'Academic Writing', credits: 3, type: 'mandatory' },
+      ]
+    },
+    {
+      id: 5,
+      credits: 30,
+      phase: 'specialization',
+      icon: '⚡',
+      modules: [
+        { name: language === 'de' ? 'Parallele Programmierung' : 'Parallel Programming', credits: 5, type: 'mandatory' },
+        { name: language === 'de' ? 'Informatik und Gesellschaft' : 'CS & Society', credits: 3, type: 'mandatory' },
+        { name: language === 'de' ? 'Wahlpflichtmodule' : 'Elective Modules', credits: '~10', type: 'elective' },
+        { name: language === 'de' ? 'Praktikum / Seminar' : 'Practicum / Seminar', credits: '~12', type: 'specialization' },
+      ]
+    },
+    {
+      id: 6,
+      credits: 30,
+      phase: 'specialization',
+      icon: '🎓',
+      modules: [
+        { name: language === 'de' ? 'Bachelorarbeit' : 'Bachelor Thesis', credits: 12, type: 'thesis' },
+        { name: language === 'de' ? 'Restliche Wahlmodule' : 'Remaining Electives', credits: '~18', type: 'elective' },
+      ]
+    },
+  ];
+
+  const phaseColors = {
+    foundation: { main: '#58cc02', light: '#d7ffb8' },
+    core: { main: '#1cb0f6', light: '#ddf4ff' },
+    specialization: { main: '#ff9600', light: '#fff4e5' }
+  };
+
+  const typeColors = {
+    mandatory: '#004E8A',
+    elective: '#e67e22',
+    specialization: '#9b59b6',
+    thesis: '#c0392b'
+  };
 
   return (
-    <div style={{ padding: '20px', maxWidth: '1100px', margin: '0 auto' }}>
-      <h2 style={{ margin: '0 0 5px 0', color: '#004E8A' }}>Studien-Roadmap & Karrierewege</h2>
-      <p style={{ color: '#666', marginBottom: '10px', fontSize: '14px' }}>
-        Offizieller Studienplan B.Sc. Informatik (Satzungsbeilage 2023_II) mit Karriereweg-Empfehlungen
-      </p>
+    <div style={{
+      padding: '20px',
+      maxWidth: '800px',
+      margin: '0 auto',
+      background: 'linear-gradient(180deg, #f5f7fa 0%, #e8f4f8 100%)',
+      minHeight: '100vh'
+    }}>
+      {/* Header */}
+      <div style={{ textAlign: 'center', marginBottom: '30px' }}>
+        <h1 style={{
+          fontSize: '28px',
+          color: '#004E8A',
+          marginBottom: '8px',
+          textShadow: '0 2px 4px rgba(0,0,0,0.1)'
+        }}>
+          {t.title}
+        </h1>
+        <p style={{ color: '#666', fontSize: '15px' }}>
+          {t.subtitle}
+        </p>
+      </div>
 
-      {/* Credit overview */}
+      {/* Phase Legend */}
       <div style={{
-        display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
-        gap: '10px', marginBottom: '30px'
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '20px',
+        marginBottom: '30px',
+        flexWrap: 'wrap'
       }}>
-        {[
-          { label: 'Pflichtbereich', cp: '114 CP', color: '#004E8A' },
-          { label: 'Wahlpflichtbereich', cp: '10\u201335 CP', color: '#e67e22' },
-          { label: 'Informatik-Wahlbereiche', cp: '5\u201330 CP', color: '#009CDE' },
-          { label: 'Studienbegleitend', cp: '9\u201318 CP', color: '#8e44ad' },
-          { label: 'Studium Generale', cp: '5\u20136 CP', color: '#27ae60' },
-          { label: 'Bachelorarbeit', cp: '12 CP', color: '#c0392b' },
-        ].map(item => (
-          <div key={item.label} style={{
-            padding: '12px', backgroundColor: 'white', borderLeft: `4px solid ${item.color}`,
-            borderRadius: '6px', border: '1px solid #eee', borderLeftWidth: '4px', borderLeftColor: item.color
+        {Object.entries(t.phases).map(([key, label]) => (
+          <div key={key} style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '8px 16px',
+            backgroundColor: 'white',
+            borderRadius: '20px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.08)'
           }}>
-            <div style={{ fontSize: '12px', color: '#666' }}>{item.label}</div>
-            <div style={{ fontSize: '18px', fontWeight: 'bold', color: item.color }}>{item.cp}</div>
+            <div style={{
+              width: '16px',
+              height: '16px',
+              borderRadius: '50%',
+              backgroundColor: phaseColors[key].main
+            }} />
+            <span style={{ fontSize: '13px', color: '#555', fontWeight: '500' }}>{label}</span>
           </div>
         ))}
       </div>
 
-      {/* Semester-by-semester timeline */}
-      <h3 style={{ color: '#004E8A', marginBottom: '16px' }}>Studienplan nach Semester</h3>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '40px' }}>
-        {mockRoadmap.semesters.map((sem) => {
-          const semModules = sem.moduleIds.map(id => mockModules.find(m => m.id === id)).filter(Boolean);
-          const phase = mockRoadmap.phases.find(p => {
-            const [start, end] = p.semester_range.split('\u2013').map(Number);
-            return sem.semester >= start && sem.semester <= end;
-          });
-          const semMilestones = mockMilestones.filter(ms => ms.semester === sem.semester);
-          const careerSemModules = selectedCareer?.semesters?.[sem.semester];
+      {/* Duolingo-style Path */}
+      <div style={{ position: 'relative', padding: '0 20px' }}>
+        {semesters.map((semester, index) => {
+          const isLeft = index % 2 === 0;
+          const colors = phaseColors[semester.phase];
+          const isLast = index === semesters.length - 1;
 
           return (
-            <div
-              key={sem.semester}
-              style={{
-                backgroundColor: 'white',
-                border: '1px solid #ddd',
-                borderLeft: `6px solid ${getSemesterColor(sem.semester)}`,
-                borderRadius: '10px',
-                padding: '20px',
-                boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
-                <h4 style={{ margin: 0, fontSize: '17px', color: '#004E8A' }}>
-                  Semester {sem.semester}
-                  {phase && <span style={{ fontWeight: 'normal', color: '#666', fontSize: '14px' }}> \u2014 {phase.name}</span>}
-                </h4>
-                <span style={{
-                  padding: '3px 10px', backgroundColor: getSemesterColor(sem.semester), color: 'white',
-                  borderRadius: '10px', fontSize: '12px', fontWeight: 'bold'
-                }}>
-                  {sem.cp} CP Pflicht
-                </span>
-              </div>
-              <p style={{ margin: '0 0 10px 0', color: '#777', fontSize: '13px' }}>{sem.description}</p>
+            <div key={semester.id} style={{ position: 'relative', marginBottom: isLast ? '0' : '20px' }}>
+              {/* Connecting Path */}
+              {!isLast && (
+                <svg
+                  style={{
+                    position: 'absolute',
+                    left: '50%',
+                    top: '80px',
+                    transform: 'translateX(-50%)',
+                    width: '100px',
+                    height: '60px',
+                    zIndex: 0
+                  }}
+                >
+                  <path
+                    d={isLeft
+                      ? "M 50 0 Q 80 30 50 60"
+                      : "M 50 0 Q 20 30 50 60"
+                    }
+                    fill="none"
+                    stroke={colors.main}
+                    strokeWidth="8"
+                    strokeLinecap="round"
+                    strokeDasharray="0"
+                    opacity="0.3"
+                  />
+                  {/* Arrow */}
+                  <polygon
+                    points="45,50 55,50 50,60"
+                    fill={colors.main}
+                    opacity="0.5"
+                  />
+                </svg>
+              )}
 
-              {/* Pflicht modules */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                {semModules.map(mod => (
-                  <div key={mod.id} style={{
-                    display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                    padding: '8px 12px', backgroundColor: '#f8f9fa', borderRadius: '6px',
-                    borderLeft: `3px solid ${getCategoryColor(mod.category)}`
+              {/* Semester Node */}
+              <div
+                onClick={() => setSelectedSemester(semester)}
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: isLeft ? 'flex-start' : 'flex-end',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  cursor: 'pointer',
+                  position: 'relative',
+                  zIndex: 1
+                }}
+              >
+                {/* Main Circle Node */}
+                <div
+                  style={{
+                    width: '100px',
+                    height: '100px',
+                    borderRadius: '50%',
+                    backgroundColor: colors.main,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: `0 6px 20px ${colors.main}50, 0 3px 10px rgba(0,0,0,0.1)`,
+                    border: '4px solid white',
+                    transition: 'all 0.3s ease',
+                    position: 'relative'
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.transform = 'scale(1.1)';
+                    e.currentTarget.style.boxShadow = `0 10px 30px ${colors.main}70, 0 5px 15px rgba(0,0,0,0.15)`;
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.transform = 'scale(1)';
+                    e.currentTarget.style.boxShadow = `0 6px 20px ${colors.main}50, 0 3px 10px rgba(0,0,0,0.1)`;
+                  }}
+                >
+                  <span style={{ fontSize: '28px' }}>{semester.icon}</span>
+                  <span style={{
+                    color: 'white',
+                    fontWeight: 'bold',
+                    fontSize: '11px',
+                    marginTop: '2px'
                   }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-                      <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>{mod.name}</span>
-                      {mod.needsStudienleistung && (
-                        <span style={{ fontSize: '10px', color: '#e67e22', fontWeight: 'bold' }}>* Studienleistung</span>
-                      )}
+                    {t.semester} {semester.id}
+                  </span>
+                </div>
+
+                {/* Info Card below node */}
+                <div style={{
+                  marginTop: '12px',
+                  padding: '12px 20px',
+                  backgroundColor: 'white',
+                  borderRadius: '16px',
+                  boxShadow: '0 4px 15px rgba(0,0,0,0.08)',
+                  textAlign: 'center',
+                  minWidth: '160px',
+                  border: `2px solid ${colors.light}`,
+                  transition: 'all 0.2s ease'
+                }}>
+                  <div style={{
+                    fontSize: '24px',
+                    fontWeight: 'bold',
+                    color: colors.main
+                  }}>
+                    {semester.credits} CP
+                  </div>
+                  <div style={{
+                    fontSize: '12px',
+                    color: '#888',
+                    marginTop: '2px'
+                  }}>
+                    {semester.modules.length} {t.modules}
+                  </div>
+                  <div style={{
+                    marginTop: '8px',
+                    fontSize: '11px',
+                    color: colors.main,
+                    fontWeight: '600'
+                  }}>
+                    ▼ {t.clickDetails}
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+
+        {/* Finish Trophy */}
+        <div style={{ textAlign: 'center', marginTop: '30px', paddingBottom: '20px' }}>
+          <div style={{
+            display: 'inline-flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            padding: '20px 40px',
+            background: 'linear-gradient(135deg, #ffd700 0%, #ffed4a 100%)',
+            borderRadius: '20px',
+            boxShadow: '0 8px 25px rgba(255, 215, 0, 0.4)'
+          }}>
+            <span style={{ fontSize: '50px' }}>🏆</span>
+            <div style={{
+              fontWeight: 'bold',
+              color: '#8b6914',
+              fontSize: '18px',
+              marginTop: '5px'
+            }}>
+              B.Sc. Informatik
+            </div>
+            <div style={{
+              fontSize: '13px',
+              color: '#a67c00',
+              marginTop: '2px'
+            }}>
+              180 ECTS • 6 {t.semester}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Semester Detail Modal */}
+      {selectedSemester && (
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0,0,0,0.6)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 2000,
+            padding: '20px',
+            animation: 'fadeIn 0.2s ease'
+          }}
+          onClick={() => setSelectedSemester(null)}
+        >
+          <div
+            style={{
+              backgroundColor: 'white',
+              borderRadius: '24px',
+              padding: '0',
+              maxWidth: '450px',
+              width: '100%',
+              maxHeight: '85vh',
+              overflowY: 'auto',
+              position: 'relative',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
+              animation: 'slideUp 0.3s ease'
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div style={{
+              backgroundColor: phaseColors[selectedSemester.phase].main,
+              color: 'white',
+              padding: '25px',
+              textAlign: 'center',
+              borderRadius: '24px 24px 0 0'
+            }}>
+              <span style={{ fontSize: '40px', display: 'block', marginBottom: '10px' }}>
+                {selectedSemester.icon}
+              </span>
+              <div style={{ fontSize: '22px', fontWeight: 'bold' }}>
+                {t.semester} {selectedSemester.id}
+              </div>
+              <div style={{ marginTop: '5px', opacity: 0.9, fontSize: '14px' }}>
+                {t.phases[selectedSemester.phase]} • {selectedSemester.credits} {t.credits}
+              </div>
+            </div>
+
+            {/* Module List */}
+            <div style={{ padding: '20px' }}>
+              <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '10px'
+              }}>
+                {selectedSemester.modules.map((module, idx) => (
+                  <div
+                    key={idx}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      padding: '14px 16px',
+                      backgroundColor: '#f8f9fa',
+                      borderRadius: '12px',
+                      borderLeft: `4px solid ${typeColors[module.type]}`,
+                      transition: 'transform 0.2s'
+                    }}
+                  >
+                    <div style={{ flex: 1 }}>
+                      <div style={{
+                        fontWeight: '600',
+                        fontSize: '14px',
+                        color: '#333'
+                      }}>
+                        {module.name}
+                      </div>
+                      <div style={{
+                        fontSize: '11px',
+                        color: typeColors[module.type],
+                        marginTop: '3px',
+                        fontWeight: '500'
+                      }}>
+                        {t[module.type]}
+                      </div>
                     </div>
-                    <span style={{ fontSize: '12px', color: '#666', whiteSpace: 'nowrap' }}>{mod.credits} CP</span>
+                    <div style={{
+                      backgroundColor: typeColors[module.type],
+                      color: 'white',
+                      padding: '6px 12px',
+                      borderRadius: '20px',
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      minWidth: '50px',
+                      textAlign: 'center'
+                    }}>
+                      {module.credits} CP
+                    </div>
                   </div>
                 ))}
               </div>
 
-              {/* Career-specific elective recommendations for this semester */}
-              {careerSemModules && (
-                <div style={{ marginTop: '12px', padding: '12px', backgroundColor: '#f0f6fc', borderRadius: '8px', border: '1px solid #d0e3f0' }}>
-                  <div style={{ fontSize: '13px', fontWeight: '700', color: '#004E8A', marginBottom: '4px' }}>
-                    Empfohlen fuer {selectedCareer.name}:
-                  </div>
-                  <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: '#555', fontStyle: 'italic' }}>
-                    {careerSemModules.note}
-                  </p>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                    {careerSemModules.modules.map(id => {
-                      const mod = mockModules.find(m => m.id === id);
-                      if (!mod) return null;
-                      return (
-                        <div key={id} style={{
-                          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                          padding: '7px 10px', backgroundColor: 'white', borderRadius: '5px',
-                          borderLeft: `3px solid ${getCategoryColor(mod.category)}`
-                        }}>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                            <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>{mod.name}</span>
-                            <span style={{
-                              fontSize: '9px', padding: '1px 6px',
-                              backgroundColor: getCategoryColor(mod.category), color: 'white', borderRadius: '6px'
-                            }}>
-                              {mod.category}
-                            </span>
-                          </div>
-                          <span style={{ fontSize: '12px', color: '#666', whiteSpace: 'nowrap' }}>{mod.credits} CP</span>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Hint for semesters 4+ when no career selected */}
-              {sem.semester >= 4 && !selectedCareer && (
-                <p style={{ margin: '8px 0 0 0', fontSize: '12px', color: '#009CDE', fontStyle: 'italic' }}>
-                  Ab jetzt: Wahlpflicht, Informatik-Wahlbereiche, Studienbegleitende Leistungen und Studium Generale \u2014 waehle unten einen Karriereweg fuer konkrete Empfehlungen.
-                </p>
-              )}
-
-              {/* Milestones */}
-              {semMilestones.length > 0 && (
-                <div style={{ marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>
-                  {semMilestones.map(ms => (
-                    <div key={ms.id} style={{
-                      padding: '6px 10px', backgroundColor: '#fff8e1', borderRadius: '6px',
-                      fontSize: '12px', color: '#6d4c00', marginTop: '4px'
-                    }}>
-                      <strong>Meilenstein:</strong> {ms.title} \u2014 {ms.description}
-                      {ms.credits_required && <span> ({ms.credits_required} CP)</span>}
-                    </div>
-                  ))}
-                </div>
-              )}
+              {/* Close Button */}
+              <button
+                onClick={() => setSelectedSemester(null)}
+                style={{
+                  width: '100%',
+                  marginTop: '20px',
+                  padding: '14px',
+                  backgroundColor: phaseColors[selectedSemester.phase].main,
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '12px',
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  cursor: 'pointer',
+                  transition: 'transform 0.2s, box-shadow 0.2s'
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.transform = 'scale(1.02)';
+                  e.currentTarget.style.boxShadow = '0 4px 15px rgba(0,0,0,0.2)';
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.transform = 'scale(1)';
+                  e.currentTarget.style.boxShadow = 'none';
+                }}
+              >
+                {t.close}
+              </button>
             </div>
-          );
-        })}
-      </div>
-
-      {/* Career Paths selector */}
-      <h3 style={{ color: '#004E8A', marginBottom: '8px' }}>Karriereweg auswaehlen</h3>
-      <p style={{ color: '#666', fontSize: '13px', marginBottom: '16px' }}>
-        Waehle einen Karriereweg, um im Studienplan oben zu sehen, welche Wahlmodule du ab dem 4. Semester belegen solltest.
-      </p>
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-        gap: '12px',
-        marginBottom: '30px'
-      }}>
-        {mockCareerPaths.map(career => (
-          <button
-            key={career.id}
-            onClick={() => setSelectedCareer(selectedCareer?.id === career.id ? null : career)}
-            style={{
-              padding: '14px',
-              backgroundColor: selectedCareer?.id === career.id ? '#004E8A' : 'white',
-              color: selectedCareer?.id === career.id ? 'white' : '#004E8A',
-              border: '2px solid #004E8A',
-              borderRadius: '8px',
-              cursor: 'pointer',
-              fontSize: '14px',
-              fontWeight: '600',
-              transition: 'all 0.2s ease',
-              textAlign: 'center'
-            }}
-          >
-            <div style={{ fontSize: '24px', marginBottom: '4px' }}>{career.icon}</div>
-            {career.name}
-          </button>
-        ))}
-      </div>
-
-      {/* Selected Career Detail */}
-      {selectedCareer && (
-        <div style={{
-          backgroundColor: 'white',
-          border: '2px solid #004E8A',
-          borderRadius: '12px',
-          padding: '24px',
-          boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-            <span style={{ fontSize: '36px' }}>{selectedCareer.icon}</span>
-            <div>
-              <h3 style={{ margin: 0, color: '#004E8A' }}>{selectedCareer.name}</h3>
-              <p style={{ margin: '2px 0 0 0', color: '#009CDE', fontSize: '14px', fontWeight: '600' }}>
-                {selectedCareer.salary}
-              </p>
-            </div>
-          </div>
-
-          <p style={{ color: '#444', lineHeight: '1.6', marginBottom: '16px' }}>
-            {selectedCareer.description}
-          </p>
-
-          <div style={{ marginBottom: '20px' }}>
-            <strong style={{ color: '#004E8A' }}>Gefragte Skills:</strong>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '6px' }}>
-              {selectedCareer.skills.map((skill, i) => (
-                <span key={i} style={{
-                  padding: '4px 10px', backgroundColor: '#e8f4fd',
-                  color: '#004E8A', borderRadius: '10px', fontSize: '12px'
-                }}>
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-
-          {/* Semester-by-semester recommendations */}
-          <strong style={{ color: '#004E8A' }}>Empfohlener Wahlmodul-Plan:</strong>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '10px' }}>
-            {Object.entries(selectedCareer.semesters).map(([sem, data]) => {
-              const modules = data.modules.map(id => mockModules.find(m => m.id === id)).filter(Boolean);
-              return (
-                <div key={sem} style={{ padding: '14px', backgroundColor: '#f8f9fa', borderRadius: '8px', borderLeft: `4px solid ${getSemesterColor(Number(sem))}` }}>
-                  <div style={{ fontSize: '14px', fontWeight: '700', color: '#004E8A', marginBottom: '4px' }}>
-                    Semester {sem}
-                  </div>
-                  <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: '#666', fontStyle: 'italic' }}>{data.note}</p>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                    {modules.map(mod => (
-                      <div key={mod.id} style={{
-                        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                        padding: '6px 10px', backgroundColor: 'white', borderRadius: '5px',
-                        borderLeft: `3px solid ${getCategoryColor(mod.category)}`
-                      }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                          <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>{mod.name}</span>
-                          <span style={{
-                            fontSize: '9px', padding: '1px 6px',
-                            backgroundColor: getCategoryColor(mod.category), color: 'white', borderRadius: '6px'
-                          }}>
-                            {mod.category}
-                          </span>
-                        </div>
-                        <span style={{ fontSize: '12px', color: '#666', whiteSpace: 'nowrap' }}>{mod.credits} CP</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              );
-            })}
           </div>
         </div>
       )}
+
+      {/* CSS Animations */}
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes slideUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </div>
   );
-};
-
-const getSemesterColor = (semester) => {
-  const colors = { 1: '#004E8A', 2: '#005fa3', 3: '#0070bb', 4: '#009CDE', 5: '#00599A', 6: '#003366' };
-  return colors[semester] || '#004E8A';
-};
-
-const getCategoryColor = (category) => {
-  const colors = {
-    'Pflichtbereich': '#004E8A',
-    'Wahlpflichtbereich': '#e67e22',
-    'Informatik-Wahlbereich': '#009CDE',
-    'Studienbegleitende Leistungen': '#8e44ad',
-    'Studium Generale': '#27ae60',
-    'Abschlussbereich': '#c0392b',
-  };
-  return colors[category] || '#95a5a6';
 };
 
 export default RoadmapPage;
