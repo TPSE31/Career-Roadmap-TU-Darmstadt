@@ -5,6 +5,9 @@ from . import views
 # Create a router for future viewsets
 router = DefaultRouter()
 
+# Register CareerOffer viewset
+router.register(r'career-offers', views.CareerOfferViewSet, basename='career-offers')
+
 # NOTE: ViewSets temporarily removed during data model migration.
 # Will be reimplemented by backend team (Amine/Emir) for new models.
 # router.register(r'users', views.UserViewSet, basename='user')
