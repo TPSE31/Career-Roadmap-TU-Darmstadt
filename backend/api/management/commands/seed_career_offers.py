@@ -3,7 +3,7 @@ from api.models import CareerOffer
 
 
 class Command(BaseCommand):
-    help = 'Seeds the 13 yellow-highlighted career offers from Infomappe'
+    help = 'Seeds all 17 career offers from Infomappe'
 
     def handle(self, *args, **options):
         # Clear existing
@@ -110,7 +110,63 @@ class Command(BaseCommand):
                 'career_fields': ['industry', 'research', 'consulting', 'public_sector', 'startup', 'freelance', 'other'],
                 'priority': 4,
             },
-            # Category: Studienerfolg (2 offers)
+            # Category: Studienerfolg (6 offers)
+            {
+                'title_de': 'Zentrale Studienberatung und -orientierung (ZSB)',
+                'title_en': 'Central Student Advisory Service (ZSB)',
+                'provider': 'TU Darmstadt',
+                'category': 'studienerfolg',
+                'description_de': 'Ob Studienwahl, Bewerbung oder Studienalltag \u2013 die Zentrale Studienberatung (ZSB) ist die erste Anlauf- und Beratungsstelle f\u00fcr alle Anliegen rund um das Studium an der TU Darmstadt.',
+                'description_en': 'Whether it\u2019s choosing a course of study, applying for a job or dealing with everyday student life \u2013 the Central Student Advisory Service (ZSB) is the first point of contact for all matters relating to studying at TU Darmstadt.',
+                'relevance_reason_de': 'Erste Anlaufstelle f\u00fcr alle Studienangelegenheiten',
+                'relevance_reason_en': 'First point of contact for all study-related matters',
+                'links': [],
+                'contact_emails': ['info@zsb.tu-darmstadt.de'],
+                'career_fields': ['industry', 'research', 'consulting', 'public_sector', 'startup', 'freelance', 'other'],
+                'priority': 6,
+            },
+            {
+                'title_de': 'Studieren von A bis Z',
+                'title_en': 'Studying from A to Z',
+                'provider': 'TU Darmstadt',
+                'category': 'studienerfolg',
+                'description_de': 'Hier findest du eine Sammlung von Links zu allen wichtigen Themen, Webangeboten und hilfreichen Informationen rund ums Studium.',
+                'description_en': 'Here you will find a collection of links to all important topics, websites and helpful information about studying.',
+                'relevance_reason_de': 'Umfassende Informationssammlung f\u00fcr erfolgreiches Studieren',
+                'relevance_reason_en': 'Comprehensive information collection for successful studying',
+                'links': [],
+                'contact_emails': ['info@zsb.tu-darmstadt.de'],
+                'career_fields': ['industry', 'research', 'consulting', 'public_sector', 'startup', 'freelance', 'other'],
+                'priority': 5,
+            },
+            {
+                'title_de': 'FAQ einfachsTUdieren f\u00fcr Erstsemester',
+                'title_en': 'FAQ einfachsTUdieren for First-Semester Students',
+                'provider': 'TU Darmstadt',
+                'category': 'studienerfolg',
+                'description_de': 'Antworten auf die h\u00e4ufigsten Fragen zum Studienstart.',
+                'description_en': 'Answers to the most frequently asked questions about starting your studies.',
+                'relevance_reason_de': 'Wichtige Orientierungshilfe f\u00fcr einen erfolgreichen Studienstart',
+                'relevance_reason_en': 'Essential orientation guide for a successful start to your studies',
+                'links': [],
+                'contact_emails': ['info@zsb.tu-darmstadt.de'],
+                'career_fields': ['industry', 'research', 'consulting', 'public_sector', 'startup', 'freelance', 'other'],
+                'priority': 4,
+            },
+            {
+                'title_de': 'Hochschuldidaktische Arbeitsstelle (HDA) \u2013 Angebote f\u00fcr Studierende',
+                'title_en': 'Center for Higher Education (HDA) \u2013 Offers for Students',
+                'provider': 'TU Darmstadt: HDA',
+                'category': 'studienerfolg',
+                'description_de': 'Du willst deine Studienkompetenz aufbauen und Mitstudierende unterst\u00fctzen? Hier erf\u00e4hrst du mehr \u00fcber die Angebote, wie z.B. Trainings in Schl\u00fcsselkompetenzen (TiSK).',
+                'description_en': 'Do you want to develop your academic skills and support fellow students? Learn more about our offers here, e.g. key skills training courses can be found.',
+                'relevance_reason_de': 'Schl\u00fcsselkompetenzen und didaktische F\u00e4higkeiten f\u00fcr Studium und Beruf',
+                'relevance_reason_en': 'Key competencies and didactic skills for studies and career',
+                'links': [],
+                'contact_emails': ['info@hda.tu-darmstadt.de'],
+                'career_fields': ['industry', 'research', 'consulting', 'public_sector', 'startup', 'freelance', 'other'],
+                'priority': 3,
+            },
             {
                 'title_de': 'TU4YOU-Skills Portal',
                 'title_en': 'TU4YOU-Skills Portal',

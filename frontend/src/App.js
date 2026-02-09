@@ -3,7 +3,7 @@ import Dashboard from './components/Dashboard';
 import ModuleList from './components/ModuleList';
 import RoadmapPage from './components/RoadmapPage';
 import CareerPathsPage from './components/CareerPathsPage';
-import CareerGoals from './components/CareerGoals';
+import SupportPage from './components/SupportPage';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
@@ -14,8 +14,8 @@ function App() {
   };
 
   const t = {
-    de: { home: 'Home', modules: 'Module', careers: 'Karrierewege', roadmap: 'Roadmap' },
-    en: { home: 'Home', modules: 'Modules', careers: 'Careers', roadmap: 'Roadmap' }
+    de: { home: 'Home', modules: 'Module', careers: 'Karrierewege', roadmap: 'Roadmap', support: 'Support' },
+    en: { home: 'Home', modules: 'Modules', careers: 'Careers', roadmap: 'Roadmap', support: 'Support' }
   }[language];
 
   return (
@@ -72,10 +72,10 @@ function App() {
               {t.roadmap}
             </NavButton>
             <NavButton
-              active={currentView === 'career-goals'}
-              onClick={() => setCurrentView('career-goals')}
+              active={currentView === 'support'}
+              onClick={() => setCurrentView('support')}
             >
-              Career Goals
+              {t.support}
             </NavButton>
           </div>
 
@@ -112,7 +112,7 @@ function App() {
         {currentView === 'modules' && <ModuleList language={language} />}
         {currentView === 'careers' && <CareerPathsPage language={language} />}
         {currentView === 'roadmap' && <RoadmapPage language={language} />}
-        {currentView === 'career-goals' && <CareerGoals />}
+        {currentView === 'support' && <SupportPage language={language} />}
       </main>
 
       {/* Footer */}

@@ -1,350 +1,343 @@
 import React, { useState, useEffect } from 'react';
-import { getSupportServices, getCategories } from '../services/supportService';
-import LoadingSpinner from './LoadingSpinner';
-import ErrorMessage from './ErrorMessage';
+import careerOfferService from '../services/careerOfferService';
 
-const SupportPage = ({ language }) => {
-  const [services, setServices] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+const CATEGORIES = [
+  { key: 'all' },
+  { key: 'studienerfolg', de: 'Studienerfolg', en: 'Study Success', icon: '\uD83C\uDF93', color: '#e67e22', lightBg: '#fef5e7' },
+  { key: 'berufseinstieg', de: 'Berufseinstieg', en: 'Career Entry', icon: '\uD83D\uDE80', color: '#27ae60', lightBg: '#eafaf1' },
+  { key: 'integration', de: 'Integration & Sprache', en: 'Integration & Language', icon: '\uD83C\uDF0D', color: '#8e44ad', lightBg: '#f4ecf7' },
+];
+
+const SupportPage = ({ language = 'de' }) => {
+  const [offers, setOffers] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState('all');
-
-  const brandColor = '#0F6CBF';
-  const categories = getCategories();
-
-  const translations = {
-    en: {
-      title: 'Support Services',
-      subtitle: 'TU Darmstadt resources to help you succeed',
-      allCategories: 'All Services',
-      contact: 'Contact',
-      email: 'Email',
-      phone: 'Phone',
-      hours: 'Office Hours',
-      location: 'Location',
-      visitWebsite: 'Visit Website',
-      noServices: 'No services found in this category',
-    },
-    de: {
-      title: 'Hilfsangebote',
-      subtitle: 'TU Darmstadt Ressourcen fur Ihren Erfolg',
-      allCategories: 'Alle Angebote',
-      contact: 'Kontakt',
-      email: 'E-Mail',
-      phone: 'Telefon',
-      hours: 'Sprechzeiten',
-      location: 'Standort',
-      visitWebsite: 'Webseite besuchen',
-      noServices: 'Keine Angebote in dieser Kategorie gefunden',
-    }
-  };
-
-  const t = translations[language];
+  const [activeCategory, setActiveCategory] = useState('all');
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    loadServices();
+    const fetchOffers = async () => {
+      try {
+        setLoading(true);
+        const data = await careerOfferService.getCareerOffers();
+        const items = Array.isArray(data) ? data : (data.results || []);
+        setOffers(items);
+        setError(null);
+      } catch (err) {
+        setError(err.message);
+        setOffers([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchOffers();
   }, []);
 
-  const loadServices = async () => {
-    setIsLoading(true);
-    setError(null);
-    try {
-      const data = await getSupportServices();
-      setServices(data);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setIsLoading(false);
-    }
+  const t = language === 'de' ? {
+    title: 'Support & Ressourcen',
+    subtitle: 'Deine Anlaufstellen an der TU Darmstadt',
+    searchPlaceholder: 'Angebote durchsuchen...',
+    allLabel: 'Alle',
+    noResults: 'Keine Ergebnisse gefunden.',
+    clearSearch: 'Suche l\u00f6schen',
+    website: 'Webseite',
+    email: 'E-Mail',
+    provider: 'Anbieter',
+    loading: 'Lade Angebote...',
+    error: 'Fehler beim Laden.',
+    retry: 'Erneut versuchen',
+    results: 'Ergebnisse',
+  } : {
+    title: 'Support & Resources',
+    subtitle: 'Your contact points at TU Darmstadt',
+    searchPlaceholder: 'Search resources...',
+    allLabel: 'All',
+    noResults: 'No results found.',
+    clearSearch: 'Clear search',
+    website: 'Website',
+    email: 'Email',
+    provider: 'Provider',
+    loading: 'Loading resources...',
+    error: 'Failed to load.',
+    retry: 'Retry',
+    results: 'results',
   };
 
-  const filteredServices = selectedCategory === 'all'
-    ? services
-    : services.filter(s => s.category === selectedCategory);
+  const filtered = offers.filter(o => {
+    const matchesCat = activeCategory === 'all' || o.category === activeCategory;
+    if (!matchesCat) return false;
+    if (!searchTerm.trim()) return true;
+    const q = searchTerm.toLowerCase();
+    const title = (language === 'de' ? o.title_de : o.title_en).toLowerCase();
+    const desc = (language === 'de' ? o.description_de : o.description_en).toLowerCase();
+    const prov = o.provider.toLowerCase();
+    return title.includes(q) || desc.includes(q) || prov.includes(q);
+  });
 
-  const getCategoryColor = (category) => {
-    const colorMap = {
-      academic: '#0F6CBF',
-      career: '#28a745',
-      counseling: '#e83e8c',
-      administrative: '#6c757d',
-      financial: '#ffc107',
-      health: '#dc3545',
-      international: '#17a2b8',
-      other: '#6f42c1',
-    };
-    return colorMap[category] || '#6c757d';
+  const grouped = {
+    studienerfolg: filtered.filter(o => o.category === 'studienerfolg'),
+    berufseinstieg: filtered.filter(o => o.category === 'berufseinstieg'),
+    integration: filtered.filter(o => o.category === 'integration'),
   };
 
-  if (isLoading) {
+  const getCat = (key) => CATEGORIES.find(c => c.key === key);
+
+  // Loading
+  if (loading) {
     return (
-      <div style={styles.loadingContainer}>
-        <LoadingSpinner />
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '400px' }}>
+        <div style={{ textAlign: 'center', color: '#7f8c8d' }}>
+          <div style={{ fontSize: '36px', marginBottom: '12px', animation: 'spin 1s linear infinite' }}>&#9696;</div>
+          <p style={{ fontSize: '16px', margin: 0 }}>{t.loading}</p>
+        </div>
       </div>
     );
   }
 
+  // Error
   if (error) {
     return (
-      <div style={styles.container}>
-        <ErrorMessage message={error} onRetry={loadServices} />
+      <div style={{ maxWidth: '500px', margin: '80px auto', textAlign: 'center', padding: '40px', backgroundColor: 'white', borderRadius: '16px', boxShadow: '0 4px 20px rgba(0,0,0,0.08)' }}>
+        <div style={{ fontSize: '48px', marginBottom: '16px' }}>&#9888;&#65039;</div>
+        <p style={{ color: '#e74c3c', fontSize: '16px', margin: '0 0 20px 0' }}>{t.error}</p>
+        <button onClick={() => window.location.reload()} style={{ padding: '10px 28px', backgroundColor: '#004E8A', color: 'white', border: 'none', borderRadius: '8px', cursor: 'pointer', fontSize: '14px', fontWeight: '600' }}>{t.retry}</button>
       </div>
     );
   }
 
   return (
-    <div style={styles.container}>
+    <div style={{ maxWidth: '1300px', margin: '0 auto', padding: '24px 20px' }}>
+
       {/* Header */}
-      <div style={styles.header}>
-        <h1 style={styles.title}>{t.title}</h1>
-        <p style={styles.subtitle}>{t.subtitle}</p>
+      <div style={{ marginBottom: '28px' }}>
+        <h1 style={{ margin: '0 0 6px 0', fontSize: '26px', color: '#1a1a2e', fontWeight: '700' }}>{t.title}</h1>
+        <p style={{ margin: 0, fontSize: '15px', color: '#666' }}>{t.subtitle}</p>
       </div>
 
-      {/* Category Filter */}
-      <div style={styles.categoryFilter}>
-        <button
-          onClick={() => setSelectedCategory('all')}
-          style={{
-            ...styles.categoryButton,
-            backgroundColor: selectedCategory === 'all' ? brandColor : 'white',
-            color: selectedCategory === 'all' ? 'white' : '#333',
-          }}
-        >
-          {t.allCategories}
-        </button>
-        {categories.map((cat) => (
-          <button
-            key={cat.value}
-            onClick={() => setSelectedCategory(cat.value)}
+      {/* Search + Filters row */}
+      <div style={{ display: 'flex', gap: '12px', marginBottom: '24px', flexWrap: 'wrap', alignItems: 'center' }}>
+        {/* Search */}
+        <div style={{ position: 'relative', flex: '1 1 280px', maxWidth: '360px' }}>
+          <span style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', fontSize: '16px', color: '#999', pointerEvents: 'none' }}>&#128269;</span>
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder={t.searchPlaceholder}
             style={{
-              ...styles.categoryButton,
-              backgroundColor: selectedCategory === cat.value ? getCategoryColor(cat.value) : 'white',
-              color: selectedCategory === cat.value ? 'white' : '#333',
-              borderColor: getCategoryColor(cat.value),
+              width: '100%',
+              padding: '10px 12px 10px 38px',
+              border: '2px solid #e0e0e0',
+              borderRadius: '10px',
+              fontSize: '14px',
+              outline: 'none',
+              transition: 'border-color 0.2s',
+              boxSizing: 'border-box',
+              backgroundColor: 'white',
             }}
-          >
-            {cat.label}
-          </button>
-        ))}
+            onFocus={(e) => e.target.style.borderColor = '#004E8A'}
+            onBlur={(e) => e.target.style.borderColor = '#e0e0e0'}
+          />
+          {searchTerm && (
+            <button
+              onClick={() => setSearchTerm('')}
+              style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', cursor: 'pointer', fontSize: '16px', color: '#999', padding: '2px' }}
+            >&#10005;</button>
+          )}
+        </div>
+
+        {/* Filter pills */}
+        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+          {CATEGORIES.map(cat => {
+            const isActive = activeCategory === cat.key;
+            const count = cat.key === 'all' ? offers.length : offers.filter(o => o.category === cat.key).length;
+            return (
+              <button
+                key={cat.key}
+                onClick={() => setActiveCategory(cat.key)}
+                style={{
+                  padding: '8px 16px',
+                  borderRadius: '20px',
+                  border: 'none',
+                  backgroundColor: isActive ? (cat.color || '#004E8A') : '#f0f0f0',
+                  color: isActive ? 'white' : '#555',
+                  cursor: 'pointer',
+                  fontSize: '13px',
+                  fontWeight: isActive ? '600' : '500',
+                  transition: 'all 0.2s',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '5px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {cat.icon && <span style={{ fontSize: '14px' }}>{cat.icon}</span>}
+                {cat.key === 'all' ? t.allLabel : (language === 'de' ? cat.de : cat.en)}
+                <span style={{
+                  backgroundColor: isActive ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.08)',
+                  padding: '1px 7px',
+                  borderRadius: '10px',
+                  fontSize: '11px',
+                  fontWeight: '700',
+                }}>{count}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      {/* Services Grid */}
-      <div style={styles.servicesGrid}>
-        {filteredServices.length === 0 ? (
-          <div style={styles.emptyState}>
-            <p>{t.noServices}</p>
-          </div>
-        ) : (
-          filteredServices.map((service) => (
-            <div
-              key={service.id}
-              style={{
-                ...styles.serviceCard,
-                borderTop: `4px solid ${getCategoryColor(service.category)}`,
-              }}
-            >
-              {/* Category Badge */}
-              <span style={{
-                ...styles.categoryBadge,
-                backgroundColor: `${getCategoryColor(service.category)}20`,
-                color: getCategoryColor(service.category),
-              }}>
-                {categories.find(c => c.value === service.category)?.label || service.category}
-              </span>
+      {/* Results count when searching */}
+      {searchTerm && (
+        <p style={{ margin: '0 0 16px 0', fontSize: '13px', color: '#888' }}>
+          {filtered.length} {t.results}
+          {searchTerm && (
+            <button onClick={() => setSearchTerm('')} style={{ marginLeft: '10px', background: 'none', border: 'none', color: '#004E8A', cursor: 'pointer', fontSize: '13px', fontWeight: '600', textDecoration: 'underline' }}>{t.clearSearch}</button>
+          )}
+        </p>
+      )}
 
-              {/* Service Name */}
-              <h3 style={styles.serviceName}>{service.name}</h3>
+      {/* No results */}
+      {filtered.length === 0 && (
+        <div style={{ textAlign: 'center', padding: '60px 20px' }}>
+          <div style={{ fontSize: '48px', marginBottom: '12px', opacity: 0.4 }}>&#128270;</div>
+          <p style={{ color: '#888', fontSize: '16px', margin: '0 0 12px 0' }}>{t.noResults}</p>
+          <button onClick={() => { setSearchTerm(''); setActiveCategory('all'); }} style={{ background: 'none', border: 'none', color: '#004E8A', cursor: 'pointer', fontSize: '14px', fontWeight: '600' }}>{t.clearSearch}</button>
+        </div>
+      )}
 
-              {/* Description */}
-              <p style={styles.serviceDescription}>{service.description}</p>
+      {/* Content sections */}
+      {activeCategory === 'all' ? (
+        ['studienerfolg', 'berufseinstieg', 'integration'].map(key => {
+          const items = grouped[key];
+          if (!items || items.length === 0) return null;
+          return <CategorySection key={key} catKey={key} items={items} language={language} t={t} getCat={getCat} />;
+        })
+      ) : (
+        filtered.length > 0 && <CategorySection catKey={activeCategory} items={filtered} language={language} t={t} getCat={getCat} />
+      )}
+    </div>
+  );
+};
 
-              {/* Contact Info */}
-              <div style={styles.contactSection}>
-                <h4 style={styles.contactTitle}>{t.contact}</h4>
+/* ---------- Category Section ---------- */
+const CategorySection = ({ catKey, items, language, t, getCat }) => {
+  const cat = getCat(catKey);
+  if (!cat) return null;
 
-                {service.contactInfo?.email && (
-                  <div style={styles.contactRow}>
-                    <span style={styles.contactLabel}>{t.email}:</span>
-                    <a href={`mailto:${service.contactInfo.email}`} style={styles.contactLink}>
-                      {service.contactInfo.email}
-                    </a>
-                  </div>
-                )}
-
-                {service.contactInfo?.phone && (
-                  <div style={styles.contactRow}>
-                    <span style={styles.contactLabel}>{t.phone}:</span>
-                    <a href={`tel:${service.contactInfo.phone}`} style={styles.contactLink}>
-                      {service.contactInfo.phone}
-                    </a>
-                  </div>
-                )}
-
-                {service.contactInfo?.officeHours && (
-                  <div style={styles.contactRow}>
-                    <span style={styles.contactLabel}>{t.hours}:</span>
-                    <span style={styles.contactValue}>{service.contactInfo.officeHours}</span>
-                  </div>
-                )}
-
-                {service.location && (
-                  <div style={styles.contactRow}>
-                    <span style={styles.contactLabel}>{t.location}:</span>
-                    <span style={styles.contactValue}>{service.location}</span>
-                  </div>
-                )}
-              </div>
-
-              {/* Website Button */}
-              {service.url && (
-                <a
-                  href={service.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    ...styles.websiteButton,
-                    backgroundColor: getCategoryColor(service.category),
-                  }}
-                  onMouseEnter={(e) => e.target.style.opacity = '0.9'}
-                  onMouseLeave={(e) => e.target.style.opacity = '1'}
-                >
-                  {t.visitWebsite}
-                </a>
-              )}
-            </div>
-          ))
-        )}
+  return (
+    <div style={{ marginBottom: '36px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+        <span style={{ fontSize: '24px' }}>{cat.icon}</span>
+        <h2 style={{ margin: 0, fontSize: '20px', color: '#1a1a2e', fontWeight: '700' }}>
+          {language === 'de' ? cat.de : cat.en}
+        </h2>
+        <span style={{ fontSize: '12px', backgroundColor: cat.lightBg, color: cat.color, padding: '3px 10px', borderRadius: '10px', fontWeight: '700' }}>{items.length}</span>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(380px, 1fr))', gap: '16px' }}>
+        {items.map(offer => (
+          <ResourceCard key={offer.id} offer={offer} language={language} cat={cat} t={t} />
+        ))}
       </div>
     </div>
   );
 };
 
-const styles = {
-  container: {
-    maxWidth: '1200px',
-    margin: '0 auto',
-    padding: '30px 20px',
-  },
-  loadingContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    minHeight: '400px',
-  },
-  header: {
-    textAlign: 'center',
-    marginBottom: '30px',
-  },
-  title: {
-    fontSize: '32px',
-    fontWeight: 'bold',
-    color: '#1a1a2e',
-    margin: '0 0 10px 0',
-  },
-  subtitle: {
-    fontSize: '16px',
-    color: '#666',
-    margin: 0,
-  },
-  categoryFilter: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    gap: '10px',
-    justifyContent: 'center',
-    marginBottom: '30px',
-  },
-  categoryButton: {
-    padding: '8px 16px',
-    border: '1px solid #ddd',
-    borderRadius: '20px',
-    cursor: 'pointer',
-    fontSize: '13px',
-    fontWeight: '500',
-    transition: 'all 0.2s',
-  },
-  servicesGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
-    gap: '24px',
-  },
-  serviceCard: {
-    backgroundColor: 'white',
-    borderRadius: '12px',
-    padding: '24px',
-    boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  categoryBadge: {
-    alignSelf: 'flex-start',
-    padding: '4px 12px',
-    borderRadius: '12px',
-    fontSize: '11px',
-    fontWeight: 'bold',
-    textTransform: 'uppercase',
-    marginBottom: '12px',
-  },
-  serviceName: {
-    fontSize: '18px',
-    fontWeight: 'bold',
-    color: '#1a1a2e',
-    margin: '0 0 12px 0',
-  },
-  serviceDescription: {
-    fontSize: '14px',
-    color: '#666',
-    lineHeight: '1.6',
-    margin: '0 0 16px 0',
-    flex: 1,
-  },
-  contactSection: {
-    backgroundColor: '#f8f9fa',
-    borderRadius: '8px',
-    padding: '16px',
-    marginBottom: '16px',
-  },
-  contactTitle: {
-    fontSize: '14px',
-    fontWeight: 'bold',
-    color: '#333',
-    margin: '0 0 12px 0',
-  },
-  contactRow: {
-    display: 'flex',
-    fontSize: '13px',
-    marginBottom: '8px',
-  },
-  contactLabel: {
-    fontWeight: '500',
-    color: '#666',
-    minWidth: '80px',
-  },
-  contactValue: {
-    color: '#333',
-  },
-  contactLink: {
-    color: '#0F6CBF',
-    textDecoration: 'none',
-  },
-  websiteButton: {
-    display: 'block',
-    textAlign: 'center',
-    padding: '12px 20px',
-    color: 'white',
-    textDecoration: 'none',
-    borderRadius: '8px',
-    fontSize: '14px',
-    fontWeight: '500',
-    transition: 'opacity 0.2s',
-  },
-  emptyState: {
-    gridColumn: '1 / -1',
-    textAlign: 'center',
-    padding: '60px 20px',
-    color: '#666',
-    backgroundColor: 'white',
-    borderRadius: '8px',
-  },
+/* ---------- Resource Card ---------- */
+const ResourceCard = ({ offer, language, cat, t }) => {
+  const title = language === 'de' ? offer.title_de : offer.title_en;
+  const description = language === 'de' ? offer.description_de : offer.description_en;
+  const hasLinks = offer.links && offer.links.length > 0;
+  const hasEmails = offer.contact_emails && offer.contact_emails.length > 0;
+
+  return (
+    <div
+      style={{
+        backgroundColor: 'white',
+        borderRadius: '12px',
+        borderLeft: `4px solid ${cat.color}`,
+        padding: '20px 20px 16px 20px',
+        boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
+        transition: 'box-shadow 0.2s, transform 0.15s',
+        display: 'flex',
+        flexDirection: 'column',
+        cursor: 'default',
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.1)';
+        e.currentTarget.style.transform = 'translateY(-2px)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.boxShadow = '0 1px 4px rgba(0,0,0,0.06)';
+        e.currentTarget.style.transform = 'translateY(0)';
+      }}
+    >
+      {/* Title */}
+      <h3 style={{ margin: '0 0 6px 0', fontSize: '16px', fontWeight: '700', color: '#1a1a2e', lineHeight: '1.35' }}>{title}</h3>
+
+      {/* Provider */}
+      <p style={{ margin: '0 0 10px 0', fontSize: '12px', color: '#888', fontWeight: '500' }}>{offer.provider}</p>
+
+      {/* Description */}
+      <p style={{ margin: '0 0 14px 0', fontSize: '13.5px', color: '#4a4a4a', lineHeight: '1.55', flex: 1 }}>{description}</p>
+
+      {/* Actions row */}
+      {(hasLinks || hasEmails) && (
+        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', paddingTop: '12px', borderTop: '1px solid #f0f0f0' }}>
+          {hasLinks && offer.links.map((link, idx) => (
+            <a
+              key={idx}
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px',
+                padding: '7px 14px',
+                backgroundColor: cat.color,
+                color: 'white',
+                borderRadius: '8px',
+                textDecoration: 'none',
+                fontSize: '12.5px',
+                fontWeight: '600',
+                transition: 'opacity 0.2s',
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.opacity = '0.85'}
+              onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
+            >
+              <span style={{ fontSize: '13px' }}>&#8599;</span>
+              {t.website}
+            </a>
+          ))}
+          {hasEmails && offer.contact_emails.map((email, idx) => (
+            <a
+              key={idx}
+              href={`mailto:${email}`}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px',
+                padding: '7px 14px',
+                backgroundColor: cat.lightBg,
+                color: cat.color,
+                borderRadius: '8px',
+                textDecoration: 'none',
+                fontSize: '12.5px',
+                fontWeight: '600',
+                border: `1px solid ${cat.color}30`,
+                transition: 'background-color 0.2s',
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = `${cat.color}18`}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = cat.lightBg}
+            >
+              <span style={{ fontSize: '13px' }}>&#9993;</span>
+              {email}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default SupportPage;
