@@ -3,6 +3,7 @@ import Dashboard from './components/Dashboard';
 import ModuleList from './components/ModuleList';
 import RoadmapPage from './components/RoadmapPage';
 import CareerPathsPage from './components/CareerPathsPage';
+import CareerGoals from './components/CareerGoals';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
@@ -70,6 +71,12 @@ function App() {
             >
               {t.roadmap}
             </NavButton>
+            <NavButton
+              active={currentView === 'career-goals'}
+              onClick={() => setCurrentView('career-goals')}
+            >
+              Career Goals
+            </NavButton>
           </div>
 
           {/* Language Toggle */}
@@ -105,6 +112,7 @@ function App() {
         {currentView === 'modules' && <ModuleList language={language} />}
         {currentView === 'careers' && <CareerPathsPage language={language} />}
         {currentView === 'roadmap' && <RoadmapPage language={language} />}
+        {currentView === 'career-goals' && <CareerGoals />}
       </main>
 
       {/* Footer */}

@@ -10,6 +10,9 @@ router = DefaultRouter()
 router.register(r'modules', views.ModuleViewSet, basename='module')
 router.register(r'user/modules', views.UserModuleCompletionViewSet, basename='user-module')
 
+# Career offer endpoints
+router.register(r'career-offers', views.CareerOfferViewSet, basename='career-offers')
+
 # Milestone endpoints
 router.register(r'milestones', views.MilestoneDefinitionViewSet, basename='milestone')
 router.register(r'user/milestones', views.MilestoneProgressViewSet, basename='user-milestone')

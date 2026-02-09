@@ -11,7 +11,7 @@ from .models import (
     Module, ExaminationRegulation, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
     SupportService, Notification, CareerPath, ModuleCareerRelevance,
-    UserCareerInterest
+    UserCareerInterest, CareerOffer
 )
 from .serializers import (
     ModuleSerializer, ModuleDetailSerializer, UserModuleCompletionSerializer,
@@ -19,7 +19,8 @@ from .serializers import (
     MilestoneProgressSerializer, CareerGoalSerializer,
     NotificationSerializer, SupportServiceSerializer,
     CareerPathSerializer, CareerPathDetailSerializer,
-    UserCareerInterestSerializer, ModuleWithRelevanceSerializer
+    UserCareerInterestSerializer, ModuleWithRelevanceSerializer,
+    CareerOfferSerializer
 )
 
 
@@ -268,6 +269,40 @@ class UserCareerInterestViewSet(viewsets.ModelViewSet):
             'message': f'Set {len(created_interests)} career interests',
             'interests': serializer.data
         })
+
+
+# ============================================
+# CAREER OFFER VIEWS
+# ============================================
+
+class CareerOfferViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    API endpoint for career offers (yellow-highlighted from Infomappe).
+    Supports filtering by career field.
+    """
+    queryset = CareerOffer.objects.filter(is_active=True)
+    serializer_class = CareerOfferSerializer
+    permission_classes = [AllowAny]
+
+    @action(detail=False, methods=['get'])
+    def by_career_field(self, request):
+        """
+        GET /api/career-offers/by_career_field/?field=industry
+        Returns offers where career_fields array contains the specified field.
+        """
+        field = request.query_params.get('field', None)
+        if not field:
+            return Response({'error': 'field parameter required'}, status=400)
+
+        # Get all active offers and filter in Python (SQLite-compatible)
+        all_offers = self.queryset.all()
+        filtered_offers = [
+            offer for offer in all_offers
+            if field in offer.career_fields
+        ]
+
+        serializer = self.get_serializer(filtered_offers, many=True)
+        return Response(serializer.data)
 
 
 # ============================================

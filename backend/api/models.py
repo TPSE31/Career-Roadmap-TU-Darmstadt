@@ -550,6 +550,74 @@ class SupportService(models.Model):
         return f"{self.name} ({self.category})"
 
 
+class CareerOffer(models.Model):
+    """
+    PM-approved career resources from Infomappe (yellow-highlighted only).
+    Filtered by student's career field selection.
+    """
+    CATEGORY_CHOICES = [
+        ('berufseinstieg', 'Berufseinstieg / Career Entry'),
+        ('studienerfolg', 'Studienerfolg / Study Success'),
+        ('integration', 'Integration, Sprache und Unterstützung'),
+    ]
+
+    # Core identification
+    title_de = models.CharField(max_length=300, help_text="German title")
+    title_en = models.CharField(max_length=300, help_text="English title")
+    provider = models.CharField(max_length=200, help_text="e.g., 'TU Darmstadt: Dezernat Internationales'")
+    category = models.CharField(max_length=50, choices=CATEGORY_CHOICES)
+
+    # Bilingual descriptions
+    description_de = models.TextField(help_text="German description from PDF")
+    description_en = models.TextField(help_text="English description from PDF")
+
+    # Why this offer is relevant to selected career field
+    relevance_reason_de = models.TextField(help_text="Why relevant (German)")
+    relevance_reason_en = models.TextField(help_text="Why relevant (English)")
+
+    # Contact & Links
+    links = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="List of URLs: ['https://...', 'https://...']"
+    )
+    contact_emails = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="List of emails: ['email@example.com']"
+    )
+
+    # Career field mapping (array of goal_types from CareerGoal.GOAL_TYPE_CHOICES)
+    career_fields = models.JSONField(
+        default=list,
+        help_text="Array of applicable career fields: ['industry', 'research', ...]"
+    )
+
+    # Metadata
+    source = models.CharField(
+        max_length=100,
+        default='PM-approved (yellow-highlighted)',
+        help_text="Source tracking"
+    )
+    priority = models.IntegerField(default=0, help_text="Display order (higher = first)")
+    is_active = models.BooleanField(default=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'career_offers'
+        verbose_name = 'Career Offer'
+        verbose_name_plural = 'Career Offers'
+        ordering = ['-priority', 'category', 'title_de']
+        indexes = [
+            models.Index(fields=['category', 'is_active']),
+        ]
+
+    def __str__(self):
+        return f"{self.title_de} ({self.provider})"
+
+
 class Notification(models.Model):
     """
     In-app alerts and reminders for users.

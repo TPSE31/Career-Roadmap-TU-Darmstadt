@@ -3,7 +3,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from .models import (
     User, ExaminationRegulation, Module, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
-    SupportService, Notification, CareerPath, ModuleCareerRelevance,
+    SupportService, Notification, CareerOffer, CareerPath, ModuleCareerRelevance,
     UserCareerInterest
 )
 
@@ -95,6 +95,15 @@ class SupportServiceAdmin(admin.ModelAdmin):
     search_fields = ['name', 'description', 'location']
     filter_horizontal = ['related_milestones']
     ordering = ['category', 'name']
+
+
+@admin.register(CareerOffer)
+class CareerOfferAdmin(admin.ModelAdmin):
+    """Admin configuration for CareerOffer model."""
+    list_display = ['title_de', 'provider', 'category', 'is_active', 'priority']
+    list_filter = ['category', 'is_active']
+    search_fields = ['title_de', 'title_en', 'provider', 'description_de', 'description_en']
+    ordering = ['-priority', 'category', 'title_de']
 
 
 @admin.register(Notification)

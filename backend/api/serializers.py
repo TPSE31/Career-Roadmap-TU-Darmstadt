@@ -3,7 +3,7 @@ from .models import (
     User, Module, ExaminationRegulation, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
     SupportService, Notification, CareerPath, ModuleCareerRelevance,
-    UserCareerInterest
+    UserCareerInterest, CareerOffer
 )
 
 
@@ -318,3 +318,17 @@ class RecommendedModuleSerializer(serializers.ModelSerializer):
             'recommendation_reason'
         ]
         read_only_fields = ['id']
+
+
+# ============================================
+# CAREER OFFER SERIALIZERS
+# ============================================
+
+class CareerOfferSerializer(serializers.ModelSerializer):
+    """
+    Serializer for CareerOffer model.
+    Displays all fields for career offers from Infomappe.
+    """
+    class Meta:
+        model = CareerOffer
+        fields = '__all__'
