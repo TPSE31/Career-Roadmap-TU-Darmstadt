@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Dashboard from './components/Dashboard';
 import ModuleList from './components/ModuleList';
 import MilestoneTracker from './components/MilestoneTracker';
+import CareerGoals from './components/CareerGoals';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
@@ -53,6 +54,12 @@ function App() {
             >
               Milestones
             </NavButton>
+            <NavButton
+              active={currentView === 'career-goals'}
+              onClick={() => setCurrentView('career-goals')}
+            >
+              Career Goals
+            </NavButton>
           </div>
         </div>
       </nav>
@@ -62,6 +69,7 @@ function App() {
         {currentView === 'dashboard' && <Dashboard />}
         {currentView === 'modules' && <ModuleList />}
         {currentView === 'milestones' && <MilestoneTracker />}
+        {currentView === 'career-goals' && <CareerGoals />}
       </main>
 
       {/* Footer */}
