@@ -1,0 +1,2386 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+59 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+Wahlbereich Künstliche Intelligenz 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+60 
+ 
+Modulbeschreibung 
+Modulname 
+Data Mining und Maschinelles Lernen 
+Modul Nr. 
+20-00-0052 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0052-iv 
+Data Mining und Maschinelles 
+Lernen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Durch die rasante Entwicklung der Informationstechnologie sind immer größere 
+Datenmengen verfügbar. Diese enthalten oft implizites Wissen, das, wenn es bekannt wäre, 
+große wirtschaftliche oder wissenschaftliche Bedeutung hätte. Data Mining ist ein 
+Forschungsgebiet, das sich mit der Suche nach potentiell nützlichem Wissen in großen 
+Datenmengen beschäftigt, und Maschinelles Lernverfahren gehören zu den 
+Schlüsseltechnologien innerhalb dieses Gebiets. 
+Die Vorlesung bietet eine Einführung in das Gebiet des Maschinellen Lernens unter dem 
+besonderen Aspekt des Data Minings. Es werden Verfahren aus verschiedenen Paradigmen 
+des Maschinellen Lernens mit exemplarischen Anwendungen vorgestellt. Um das Wissen zu 
+operationalisieren, werden in den Übungen prak-tisch-e Erfahrungen mit Lernalgorithmen 
+gesammelt. 
+● Einführung (Grundbegriffe, Lernprobleme, Konzepte, Beispiele, Repräsentation) 
+● Regel-Lernen 
+○ Lernen einzelner Regeln (Generalisierung und Spezialisierung, Strukturierte 
+Hypothesenräume, Version Spaces) 
+○ Lernen von Regel-Mengen (Covering Strategie, Evaluierungsmaße für Regeln, 
+Pruning, Mehr-Klassenprobleme) 
+● Evaluierung und kosten-sensitives Lernen (Accuracy,X-Val,ROC-Kurven,Cost-Sensitive 
+Learning) 
+● Instanzenbasiertes Lernen (kNN,IBL,NEAR,RISE) 
+● Entscheidungsbaum-Lernen (ID3, C4.5, etc.)  
+● Ensemble-Methoden (Bias/Variance, Bagging, Randomization, Boosting, Stacking, ECOCs) 
+● Pre-Processing (Feature Subset Selection, Diskretisierung, Sampling, Data Cleaning) 
+● Clustering und Lernen von Assoziationsregeln (Apriori) 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+61 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach der erfolgreichen Absolvierung dieser Lehrveranstaltung sind die Studierenden in der 
+Lage 
+● grundlegende Techniken des Data Mining und Maschinellen Lernens zu verstehen und 
+erklären 
+● praktische Data Mining Systeme selbständig einsetzen und deren Stärken und Schwächen 
+verstehen 
+● neue Entwicklungen auf diesem Gebiet kritisch beurteilen 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0052-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0052-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+62 
+ 
+9 
+Literatur 
+● Mitchell: Machine Learning, McGraw-Hill, 1997 
+● Ian H. Witten and Eibe Frank: Data Mining: Practical Machine Learning Tools and 
+Techniques with Java Implementations, Morgan-Kaufmann, 1999 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+63 
+ 
+Modulbeschreibung 
+Modulname 
+Computer Vision 
+Modul Nr. 
+20-00-0157 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0157-iv 
+Computer Vision 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Grundlagen der Bildformierung 
+● Lineare und (einfache) nichtlineare Bildfilterung 
+● Grundlagen der Mehransichten-Geometrie 
+● Kamerakalibrierung & -posenschätzung 
+● Grundlagen der 3D-Rekonstruktion 
+● Grundlagen der Bewegungsschätzung aus Videos 
+● Template- und Unterraum-Ansätze zur Objekterkennung 
+● Objektklassifikation mit Bag of Words 
+● Objektdetektion 
+● Grundlagen der Bildsegmentierung 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende beherrschen nach erfolgreichem Besuch der Veranstaltung die Grundlagen der 
+Computer Vision. Sie verstehen grundlegende Techniken der Bild- und Videoanalyse, und 
+können deren Annahmen und mathematische Formulierungen benennen, sowie die sich 
+ergebenden Algorithmen beschreiben. Sie sind in der Lage diese Techniken praktisch so 
+umzusetzen, dass sie grundlegende Bildanalyseaufgaben an Hand realistischer Bilddaten 
+lösen können. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von „Visual Computing“ oder einer vergleichbaren 
+Veranstaltung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0157-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+64 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0157-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Literaturempfehlungen werden regelmässig aktualisiert und beinhalten beispielsweise: 
+● R. Szeliski, "Computer Vision: Algorithms and Applications", Springer 2011 
+● D. Forsyth, J. Ponce, "Computer Vision -- A Modern Approach", Prentice Hall, 2002 
+ 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+65 
+ 
+Modulbeschreibung 
+Modulname 
+Statistisches Maschinelles Lernen 
+Modul Nr. 
+20-00-0358 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0358-iv 
+Statistisches Maschinelles Lernen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Statistische Methodik für das Maschinelle Lernen 
+- Auffrischung zu Statistik, Optimierung und Linearer Algebra 
+- Bayes’sche Entscheidungstheorie  
+- Wahrscheinlichkeitsdichtenschätzung 
+- Nichtparametrische Modelle 
+- Mixtur Modelle und der EM-Algorithmus 
+- Lineare Modele zur Klassifikation und Regression  
+- Statistische Lerntheorie 
+- Kernel Methoden zur Klassification und Regression 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Lehrveranstaltung ist eine systematische Einführung in die Grundlagen und Methodik 
+des statistischen maschinellen Lernens.  Nach erfolgreichen Abschluss der 
+Lehrveranstaltung, verstehen Studierende die wichtigsten Methoden und Ansätze des 
+Statischen Maschinellen Lernens. Sie können maschinelle Lernverfahren anwenden, um eine 
+Vielzahl neuer Probleme zu lösen. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0358-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+66 
+ 
+ 
+ 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0358-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+1.  C.M. Bishop, Pattern Recognition and Machine Learning (2006), Springer 
+2. K.P. Murphy, Machine Learning: a Probabilistic Perspective (expected 2012), MIT Press 
+3. D. Barber, Bayesian Reasoning and Machine Learning (2012), Cambridge University Press 
+4. T. Hastie, R. Tibshirani, and J. Friedman (2003), The Elements of Statistical Learning, 
+Springer Verlag 
+5. D. MacKay, Information Theory, Inference, and Learning Algorithms (2003), Cambridge 
+University Press 
+6. R.O. Duda, P.E. Hart, and D.G. Stork, Pattern Classification (2nd ed. 2001), Willey-
+Interscience 
+7. T.M. Mitchell, Machine Learning (1997), McGraw-Hill 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+67 
+ 
+Modulbeschreibung 
+Modulname 
+Computer Vision II 
+Modul Nr. 
+20-00-0401 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0401-iv 
+Computer Vision II 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Computer Vision als (probabilistische) Inferenz 
+● Robuste Schätzung und Modellierung 
+● Grundlagen der Bayes’schen Netze und Markov’schen Zufallsfelder 
+● Grundlegende Inferenz- und Lernverfahren der Computer Vision 
+● Bildrestaurierung 
+● Stereo 
+● Optischer Fluß 
+● Bayes’sches Tracking von (artikulierten) Objekten 
+● Semantische Segmentierung 
+● Aktuelle Themen der Forschung 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende haben nach erfolgreichem Besuch der Veranstaltung ein vertieftes Verständnis 
+der Computer Vision. Sie formulieren Fragestellungen der Bild- und Videoanalyse als 
+Inferenzprobleme und berücksichtigen dabei Herausforderungen reeller Anwendungen, z.B. 
+im Sinne der Robustheit. Sie lösen das Inferenzproblem mittels diskreter oder 
+kontinuierlicher Inferenzalgorithmen, und wenden diese auf realistische Bilddaten an. Sie 
+evaluieren die anwendungsspezifischen Ergebnisse quantitativ. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von „Visual Computing“ und „Computer Vision I“ oder 
+vergleichbaren Veranstaltungen ist empfohlen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0401-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+68 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0401-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Literaturempfehlungen werden regelmässig aktualisiert und beinhalten beispielsweise: 
+● S. Prince, “Computer Vision: Models, Learning, and Inference”, Cambridge University 
+Press, 2012 
+● R. Szeliski, "Computer Vision: Algorithms and Applications", Springer 2011  
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+69 
+ 
+Modulbeschreibung 
+Modulname 
+Natural Language Processing and the Web 
+Modul Nr. 
+20-00-0433 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0433-iv 
+Natural Language Processing and 
+the Web 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Das Web beinhaltet mehr als 10 Milliarden indexierbare Webseiten, die mittels 
+Stichwortsuche zugänglich sind. Die Vorlesung behandelt Methoden der automatischen 
+Sprachverarbeitung bzw. des Natural Language Processing (NLP) zur Verarbeitung großer 
+Mengen unstrukturierter Texte im Web und zur Analyse von Online-Inhalten als wertvolle 
+Ressource für andere sprachtechnologische Anwendungen im Web. 
+  
+Zentrale Inhalte:  
+● Verarbeitung unstrukturierter Texte im Web 
+○ NLP-Grundlagen: Tokenisierung, Wortartenerkennung, Stemming, Lemmatisierung, 
+Chunking 
+○ UIMA: Grundlagen und Anwendungen 
+○ Web-Inhalte und ihre Charakteristika, u.a. verschiedene Genres, z.B. persönliche 
+Seiten, Nachrichtenportale, Blogs, Foren, Wikis 
+○ Das Web als Korpus, insb. innovative Verwendung des Webs als sehr großes, 
+verteiltes, verlinktes, wachsendes und multilinguales Korpus 
+● NLP-Anwendungen für das Web 
+○ Einführung in das Information Retrieval 
+○ Web-Suche und natürlichsprachliche Suchschnittstellen 
+○ Web-basierte Beantwortung von natürlichsprachlichen Fragen 
+○ Web-Mining im Web 2.0, z.B. Wikipedia, Wiktionary 
+○ Qualitätsbewertung von Web-Inhalten 
+○ Multilingualität 
+○ Internet-of-Services: Service Retrieval 
+○ Sentimentanalyse und Community Mining 
+○ Paraphrasen, Synonyme, semantische Verwandtschaft und das Web 
+ 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+70 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können sie 
+● Methoden und Ansätze zur Verarbeitung unstrukturierter Texte verstehen und 
+differenzieren, 
+● die Arbeitsweise von Web-Suchmaschinen nachvollziehen und erläutern, 
+● exemplarische Anwendungen der Sprachverarbeitung im Web selbständig aufbauen und 
+analysieren, 
+● das Potenzial von Web-Inhalten für die Verbesserung von sprachtechnologischen 
+Anwendungen analysieren und einschätzen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlegende Kenntnisse über Algorithmen und Datenstrukturen sowie 
+Programmierkenntnisse in Java werden erwartet 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0433-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0433-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+71 
+ 
+Modulbeschreibung 
+Modulname 
+Probabilistische Graphische Modelle 
+Modul Nr. 
+20-00-0449 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0449-iv 
+Probabilistische Graphische 
+Modelle 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Auffrischung Wahrscheinlichkeits- & Bayes’sche Entscheidungstheorie 
+● Gerichtete und ungerichtete graphische Modelle und deren Eigenschaften 
+● Inferenz in Baumgraphen 
+● Approximative Inferenz in allgemeinen Graphen: Message Passing und Mean Field 
+● Lernen von gerichteten und ungerichteten Modellen 
+● Sampling-Methoden für Inferenz und Lernen 
+● Modellierung in Beispielanwendungen, inkl. Topic-Modelle 
+● Tiefe Netze 
+● Halb-überwachtes Lernen  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende haben nach erfolgreichem Besuch der Veranstaltung ein vertieftes Verständnis 
+von probabilistischen graphischen Modellen. Sie beschreiben und analysieren die 
+Eigenschaften graphischer Modelle und formulieren geeignete Modelle für konkrete Schätz- 
+und Lernaufgaben. Sie verstehen Inferenzalgorithmen, beurteilen deren Eignung und 
+gebrauchen diese für graphische Modelle in relevanten Anwendungen. Sie ermitteln 
+weiterhin welche Lernverfahren sich eignen, um die Modellparameter anhand von 
+Beispieldaten zu bestimmen, und wenden diese an. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von “Statistisches Maschinelles Lernen” oder einer 
+vergleichbaren Veranstaltung ist empfohlen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0449-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+72 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0449-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Literaturempfehlungen werden regelmäßig aktualisiert und beinhalten beispielsweise: 
+● D. Barber: “Bayesian Reasoning and Machine Learning”, Cambridge University Press 2012 
+● D. Koller, N. Friedman: “Probabilistic Graphical Models: Principles and Techniques”, MIT 
+Press 2009 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+73 
+ 
+Modulbeschreibung 
+Modulname 
+Foundations of Language Technology 
+Modul Nr. 
+20-00-0546 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0546-iv 
+Foundations of Language 
+Technology 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Vorlesung bietet eine Einführung in die zentralen Sichtweisen, Probleme, Methoden und 
+Techniken der automatischen Sprachtechnologie am Beispiel der Programmiersprache 
+Python. 
+  
+Zentrale Inhalte: 
+  
+● Sprachtechnologie/Natural language processing (NLP) 
+○ Tokenisierung 
+○ Segmentierung 
+○ Wortartenerkennung 
+○ Korpora 
+○ Statistische Analyse 
+● Maschinelles Lernen 
+○ Kategorisierung und Klassifikation 
+○ Informationsextraktion 
+● Einführung in Python 
+○ Datenstrukturen 
+○ Strukturierte Programmierung 
+○ Arbeiten mit Dateien 
+○ Einsatz von Bibliotheken 
+○ Programmbibliothek NLTK 
+  
+Die Veranstaltung basiert auf der Klassenbibliothek NLTK für Python. Diese bietet einen 
+mächtigen Werkzeugkasten, um die theoretischen Methoden explorativ und problemlösend 
+einzusetzen, ohne umfangreiche Programmierkenntnisse vorauszusetzen. 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können sie 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+74 
+ 
+ 
+● die grundlegende Terminologie der automatischen Sprachtechnologie definieren, 
+● wesentliche Fragestellungen dieses Gebietes benennen und erläutern, 
+● einfache Pythonprogramme erklären und selbst implementieren, 
+● die gelernten Methoden und Techniken auf konkrete Anwendungsszenarien des 
+Textverstehens übertragen sowie 
+● deren Möglichkeiten und Grenzen kritisch beurteilen. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0546-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0546-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Steven Bird, Ewan Klein, Edward Loper: Natural Language Processing with Python, O'Reilly, 
+2009. ISBN: 978-0596516499. http://www.nltk.org/book/ 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+75 
+ 
+Modulbeschreibung 
+Modulname 
+Lernende Roboter 
+Modul Nr. 
+20-00-0629 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0629-vl 
+Lernende Roboter 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Grundlagen aus der Robotik und des Maschinellen Lernens für Lernende Roboter 
+- Maschinellen Lernen von Modellen 
+- Representation einer Policy. Hierarchische Abstraktion mit Bewegungsprimitiven 
+- Imitationslernen 
+- Optimale Steuerung mit gelernten Modellen 
+- Reinforcement Learning und Policy Search-Verfahren 
+- Inverses Reinforcement Learning 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichen Abschluss der Lehrveranstaltung verstehen Studierende die Grundlagen 
+des Maschinellen Lernens und der Robotik. Sie können maschinelle Lernverfahren 
+anwenden um einen Roboter zu befähigen, neue Aufgaben zu erlernen. Studierende 
+verstehen die Grundlagen von Reinforcement Learning und können verschiedene 
+Algorithmen anwenden um eine Policy des Roboters aufgrund von Interaktion mit der 
+Umgebung zu erlernen. Sie verstehen den Unterschied zwischen Imitation Learning, 
+Reinforcement Learning, Policy Search und Inverse Reinforcement Learning und können 
+einschätzen, wann sie welchen Ansatz verwenden sollen. Sie können diese Ansätze auch 
+problemlos auf geeignete Aufgabenstellungen anwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Gute Programmierkenntnisse in Matlab und der vorherige Besuch von 
+„Statistisches Maschinelles Lernen“ oder einer vergleichbaren Veranstaltung sind hilfreich 
+aber nicht zwingend erforderlich 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+76 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0629-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+•  [20-00-0629-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Deisenroth, M. P.; Neumann, G.; Peters, J. (2013). A Survey on Policy Search for Robotics, 
+Foundations and Trends in Robotics 
+Kober, J; Bagnell, D.; Peters, J. (2013). Reinforcement Learning in Robotics: A Survey, 
+International Journal of Robotics Research 
+C.M. Bishop, Pattern Recognition and Machine Learning (2006), 
+R. Sutton, A. Barto. Reinforcement Learning - an Introduction 
+Nguyen-Tuong, D.; Peters, J. (2011). Model Learning in Robotics: a Survey 
+ 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+77 
+ 
+Modulbeschreibung 
+Modulname 
+Automatisches Beweisen 
+Modul Nr. 
+20-00-0660 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0660-iv 
+Automatisches Beweisen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Theoretische Grundlagen der im automatischen Beweisen verwendeten Kalküle für Logik 
+erster Stufe 
+● Korrektheits- und Vollständigkeitsbeweise 
+● Algorithmen und Datenstrukturen, die in automatischen Beweisern für Logik erster Stufe 
+eingesetzt werden 
+● Vergleich verschiedener Ansätze im automatischen Beweisen 
+● Grundlagen moderner SAT- und SMT-Lösungswerkzeuge 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die erfolgreiche Teilnahme an der Lehrveranstaltung versetzt die Studierenden in die Lage, 
+die wichtigsten modernen automatische Beweisverfahren im Detail zu verstehen, ihre Vor- 
+und Nachteile zu beurteilen und in der Praxis anzuwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Stark empfohlen wird die Teilnahme an der Vorlesung “Aussagen- und 
+Prädikatenlogik” oder vergleichbarer Veranstaltungen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0660-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+78 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0660-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Robinson, Voronkov: Handbook of Automated Reasoning, 2 vols., North-Holland 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+79 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Deep Learning für Natural Language Processing 
+Modul Nr. 
+20-00-0947 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0947-iv Deep Learning für Natural 
+Language Processing 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Die Veranstaltung bietet eine Einführung in die grundlegenden Konzepte des Deep Learning 
+und ihren Einsatz für Problemstellungen im Bereich Natural Language Processing (NLP). 
+ 
+Zentrale Inhalte: 
+- grundlegende Konzepte des Deep Learning (e.g. Feed-Forward Netze, Hidden Layers, 
+Backpropagation, Aktivierungs- und Loss-Funktionen) 
+- Word Embeddings: Theorie, unterschiedliche Ansätze und Modelle, Verwendung in 
+maschinellen Lernverfahren 
+- neuronale Netzwerkarchitekturen (e.g. recurrent NN, recursive NN, convolutional NN) für 
+verschiedene Gruppen von NLP-Problemen wie die Klassifikation von Dokumenten (z.B. 
+Spamerkennung), die Bestimmung von Sequenzen (z.B. POS-Tagging, Named Entity 
+Recognition) und komplexeren Strukturen (z.B. Chunking, Parsing, Semantic Role Labeling) 
+ 
+Die Veranstaltung strebt eine enge Verzahnung zwischen theoretischen Konzepten und ihrer 
+praktischen Verwendung zur Lösung typischer Problemstellungen bei Datenanalyse auf freien 
+Texten mit Hilfe von existierenden Programm-Bibliotheken in Python an. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung abgeschlossen haben, können sie 
+- die grundlegenden Konzepte von neuronalen Netzen und Deep Learning erklären. 
+- Word Embeddings erklären, trainieren und für die Lösung von NLP-Problemen einsetzen. 
+- neuronale Netzwerkarchitekturen für NLP-Probleme wie die Klassifizierung von Dokumenten 
+und das Bestimmen linguistischer Sequenzen (z.B. POS-Tagging) und Strukturen (z.B. 
+Chunking) verstehen und beschreiben. 
+- neuronale Netzwerke für NLP-Probleme mit Hilfe existierender Bibliotheken in Python 
+implementieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlegende Mathematik- und Programmierkenntnisse 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+80 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0947-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0947-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+81 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Statistical Relational Artificial Intelligence: Logic, Probability, and Computation 
+Modul Nr. 
+20-00-1011 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1011-iv Statistical Relational Artificial 
+Intelligence: Logic, Probability, 
+and Computation 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
++ logische Programmierung 
++ Lernen von logischen Programmen aus Daten 
++ Probabilistische Graphische Modelle: Inferenz und Lernen 
++ Statistisch-Relationale Modelle wie z.B. ProbLog und Markov Logic Networks 
++ Schlussfolgern in statistisch-relationalen Modellen 
++ Lernen von statistisch-relationalen Modellen aus Daten 
++ Relationale lineare und quadratische Programme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Lehrveranstaltung ist eine systematische Einführung in die Grundlagen und Methodik des 
+statistisch-relationalen Lernens und Künstlichen Intelligenz: Das Studium und Design von 
+intelligenten Agenten, die in verrauschten Welten agieren, die aus Individuen (Objekte, Dinge) 
+und komplexe Beziehungen zwischen den Individuen bestehen. Nach erfolgreichem Abschluss 
+der Lehrveranstaltung verstehen Studierende die wichtigsten Methoden und Ansätze in der 
+statistisch-relationalen Künstlichen Intelligenz. Sie verstehen die grundlegenden 
+Herausforderungen von relationalen Domänen. Sie kennen aktuelle Ansätze, um diese 
+Herausforderungen zu lösen. Sie sind außerdem in der Lage ihre Kenntnisse auf aktuelle 
+Probleme anzuwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Der vorherige Besuch von “Statistisches Maschinelles Lernen” und “Probabilistische Graphische 
+Modelle” oder vergleicharer Veranstaltungen ist empfohlen, ist aber keine Voraussetzung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1011-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+82 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1011-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Literaturempfehlungen werden regelmäßig aktualisiert und beinhalten beispielsweise: 
+ 
+Luc De Raedt, Kristian Kersting, Sriraam Natarajan, David Poole (2016): Statistical Relational 
+Artificial Intelligence: Logic, Probability, and Computation. Synthesis Lectures on Artificial 
+Intelligence and Machine Learning, Morgan & Claypool Publishers, ISBN: 9781627058414. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+83 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Deep Learning für medizinische Bildgebung 
+Modul Nr. 
+20-00-1014 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1014-iv Deep Learning für 
+medizinische Bildgebung 
+5 
+Integrierte 
+Veranstaltung 
+3 
+2 
+Lerninhalt  
+Formulierung der medizinischen Bildsegmentierung, Computergestützte Diagnostik und 
+chirurgische Planung als Probleme des maschinellen Lernens, Deep Learning für medizinische 
+Bildsegmentierung, Deep Learning für computergestützte Diagnostik, Chirurgische Planung 
+von präoperativen Bildern mit Deep Learning, Tool-Präsenz Erkennung und Lokalisierung von 
+endoskopischen Videos durch Deep Learning, Adversarial Beispiele für medizinische 
+Bildgebung, Generative Adversarial Networks für Medizinische Bildgebung. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss des Kurses sind die Studierenden in der Lage sein, alle 
+Komponenten der Formulierung eines medizinischen Bildanalyseproblems als Problem des 
+Maschinellen Lernens zu verstehen. Sie sind auch in der Lage sein, fundierte Entscheidungen 
+über die Wahl eines universellen Deep Learning Paradigmas für ein gegebenes medizinische 
+Bildanalyseproblem zu treffen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Programmierkenntnisse 
+- Verständnis des algorithmischen Designs 
+- Kenntnisse aus dem Bereich Lineare Algebra 
+- Der vorherige Besuche von „Bildverarbeitung“, „Computer Vision I“ und „Statistisches 
+Maschinelles Lernen“ oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1014-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+84 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1014-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+85 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Deep Learning: Architectures & Methods 
+Modul Nr. 
+20-00-1034 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1034-iv Deep Learning: Architectures & 
+Methods 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+• Auffrischung des Hintergrundwissens 
+• Deep Feedforward Netze 
+• Regularisierung im Deep Learning 
+• Optimierung zum Training tiefer Netze 
+• Convolutional tiefe Netze 
+• Modelierung von Sequenzen durch Rekordernte und Rekursive Netze 
+• Lineare Faktor Modelle 
+• Autoenkoder 
+• Repräsentationslernen 
+• Strukturierte Probabilistische Modelle zum Deep Learning 
+• Monte Carlo Methoden 
+• Approximative Inferenz 
+• Tiefe generative Modelle 
+• Deep Reinforcement Learning 
+• Deep Learning in Vision 
+• Deep Learning in NLP 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Dieser Kurs richtet sich an Studierende mit fortgeschrittenem Erfahrung im maschinellen 
+Lernen und vermittelt diesen Studierenden das notwendige Wissen, um eigenständig 
+Forschungsprojekte im Bereich der Deep Learning durchzuführen, z.B. im Rahmen einer 
+Bachelor- oder Masterarbeit. Dies betrifft sowohl ein grundlegendes Verständnis der 
+algorithmischen Ansätze zum Deep Learning als auch die der Architekturen der tiefen tiefen 
+Netze. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von „Statistisches Maschinelles Lernen“ und „Data Mining 
+und Maschinelles Lernen“ oder vergleichbarer Veranstaltungen 
+ 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+86 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1034-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1034-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+87 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Tiefe Generative Modelle 
+Modul Nr. 
+20-00-1035 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1035-iv Tiefe Generative Modelle 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Generative Modelle, implizite und explizite Modelle, Variational AutoEncoders, Generative 
+Adversarial Networks, Numerische Optimierung für generative Modelle, Anwendungen in der 
+medizinischen Bildverarbeitung 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende das Modul besucht haben, können sie 
+- den Aufbau und die Funktionsweise Tiefer Generativer Modelle (Deep Generative Models, 
+DGM) erklären 
+- wissenschaftliche Veröffentlichungen zum Thema DGMs kritisch hinterfragen und damit 
+fachlich beurteilen 
+- grundlegende DGMs in einer dafür ausgelegten höheren Programmiersprache selbstständig 
+konstruieren / implementieren 
+- die Implementierung und Anwendung von DGMs auf unterschiedliche Anwendungen 
+übertragen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Programmierkenntnisse Python 
+- Kenntnisse aus dem Bereich Lineare Algebra 
+- Der vorherige Besuche von „Bildverarbeitung“, „Computer Vision I“ und „Statistisches 
+Maschinelles Lernen“ oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1035-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+88 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1035-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Wird in Veranstaltung bekannt gegeben. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+89 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Reinforcement Learning: Von Grundlagen zu den tiefen Ansätzen 
+Modul Nr. 
+20-00-1047 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1047-iv Reinforcement Learning: Von 
+Grundlagen zu den tiefen 
+Ansätzen 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+• Auffrischung des Hintergrundwissens 
+• Black box Reinforcement Learning 
+• Modellierung als Bandit, Markov Decision Processes und Partially Observable Markov 
+Decision Processes 
+• Optimale Steuerung und Regelung 
+• Modellernen 
+• Wertefunktionslernen 
+• Policy Search 
+• Tiefe Wertefunktion Methoden 
+• Tiefe Policy Search Methoden 
+• Exploration vs Exploitation 
+• Hierarchisches Reinforcement Learning 
+• Intrinsische Motivation 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Dieser Kurs richtet sich an Studierende mit erster Erfahrung im maschinellen Lernen und 
+vermittelt diesen Studierenden das notwendige Wissen, um eigenständig Forschungsprojekte im 
+Bereich der Reinforcement Learning durchzuführen, z.B. im Rahmen einer Bachelor- oder 
+Masterarbeit. Dies betrifft sowohl ein grundlegendes Verständnis der algorithmischen Ansätze 
+zum Reinforcement Learning als auch Anwendungen von tiefen Netzen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Gute Programmierkenntnisse in Python. 
+Der vorherige Besuch von „Statistisches Maschinelles Lernen“ oder einer vergleichbaren 
+Veranstaltung ist hilfreich aber nicht zwingend erforderlich 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+90 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1047-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1047-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+91 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Ethik in Natürlicher Sprachverarbeitung 
+Modul Nr. 
+20-00-1061 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1061-iv Ethik in Natürlicher 
+Sprachverarbeitung 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Mit zunehmender Verbreitung von Sprachtechnologien wächst das Bewusstsein, dass 
+Entscheidungen, die wir über unsere Daten, Methoden und Werkzeuge treffen, direkt mit deren 
+Auswirkungen auf Menschen und Gesellschaften verbunden sind. Diese Veranstaltung stellt 
+reale Anwendungen von Sprachtechnologien und die möglichen ethischen Implikationen vor. 
+Wir besprechen philosophische Grundlagen der ethischen Forschung und fortschrittliche 
+Methoden auf dem neuesten Stand der Technik. 
+ 
+Zentrale Inhalte: 
+ 
+- Philosophische Grundlagen: Was ist Ethik - Geschichte, medizinische und psychologische 
+Experimente, ethische Entscheidungsfindung. 
+- Falschdarstellung und Befangenheit: Algorithmen zur Identifizierung von Vorurteilen in 
+Modellen und Daten, sowie kontradiktorische Ansätze zum Gegensteuern. 
+- Datenschutz: Algorithmen für demografische Inferenz, Persönlichkeitsprofile und 
+Anonymisierung von demographischen und persönlichen Merkmalen. 
+- Höflichkeit in der Kommunikation: Techniken zur Überwachung des Trolling, Hate Speech, 
+missbräuchliche Sprache, Cybermobbing, toxische Kommentare. 
+- Demokratie und die Sprache der Manipulation: Ansätze zur Erkennung von Propaganda und 
+Manipulation in Nachrichten, zur Erkennung von gefälschten Nachrichten und zur politischen 
+Gestaltung. 
+- NLP zum Wohle der Menschheit: NLP mit geringen Ressourcen, Anwendungen zur Reaktion 
+auf Katastrophen und Überwachung von Krankheiten, medizinische Anwendungen, 
+psychologische Beratung, Schnittstellen für die Zugänglichkeit. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung abgeschlossen haben, können sie 
+- philosophische und praktische Aspekte von Ethik erklären 
+- die Grenzen und Limitierungen maschineller Lernmodelle aufzeigen 
+- Techniken einsetzen, um Befangenheit und Unfairness in Modellen und Daten zu 
+identifizieren und genezusteuern 
+- den Einfluss von Meinungsbeeinflussung in Datenaufbereitungen und Nachrichten aufzeigen 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+92 
+ 
+und quantifizieren 
+- Hassrede und Online-Missbrauch identifizieren sowie Gegenmaßnahmen entwickeln 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Grundlegende Kenntnisse von Algorithmen und Datenstrukturen sowie Programmierkenntnisse 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1061-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1061-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+93 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Affective Computing 
+Modul Nr. 
+20-00-
+1120 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Artificial Intelligence 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1120-
+iv 
+Affective Computing 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt 
+- Einführung in das Affective Computing mit einem Überblick über die Anwendung in 
+Unterhaltung, Gesundheit und Pädagogik 
+- Emotionstheorien: Psychologie, Kognitionswissenschaft und Neurowissenschaft 
+- Diskussion über Möglichkeiten, wie Maschinen Emotionen "haben" können 
+- Experimenteller Aufbau, Methodik und Analyse 
+- Emotionen und das Gehirn 
+- Körperlicher Ausdruck von Emotionen 
+- Synthese von emotionalem Verhalten 
+- Emotionen und soziale Interaktion 
+- Persönlichkeit und Kulturen 
+- Emotionserkennung in Text, Sprache und Gesicht 
+- Praktische Programmiererfahrung für Affective Computing 
+- Vorurteile und Ethik des Affective Computing 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Dieser Kurs zielt darauf ab, die Theorien, Methoden und Anwendungen rund um 
+Affective Computing in einer interdisziplinären Perspektive zu lehren. Nach erfolgreichem 
+Abschluss des Kurses verstehen die Studierenden affektive Interaktionen und deren 
+Auswirkungen auf die Mensch-Computer-Interaktion, lernen Methoden zur Erhebung, 
+Analyse und Auswertung affektiver Verhaltensdaten anzuwenden. Sie demonstrieren 
+Kenntnisse zur computergestützten Analyse, Synthese und Erkennung menschlicher 
+affektiver Verhaltensdaten und zum Entwurf emotionssensibler interaktiver Technologien 
+wie Interaktionen mit virtuellen Agenten, Robotern und Spielen. Sie gewinnen praktische 
+Erfahrung mit den Rahmenbedingungen für menschliches Affekt- und 
+Verhaltensverständnis und ein Bewusstsein für potenzielle Verzerrungen in Daten sowie 
+mögliche Gefahren im Umgang mit sensitiven personenbezogenen Daten. 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen werden:  
+ 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+94 
+ 
+- Programmierkenntnisse 
+- Statistisches Maschinelles Lernen oder Einführung in die Künstliche Intelligenz 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-1120-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-1120-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+95 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Bioinformatik (Vorlesung und Übung) 
+Modul Nr. 
+10-30-
+0036 
+Leistungspun
+kte 
+4 CP 
+Arbeitsaufwand 
+120 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+ 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+10-01-0036-
+se 
+Bioinformatik-Übung 
+0 
+Übung 
+2 
+10-01-0036-
+vl 
+Bioinformatik-Vorlesung 
+0 
+Vorlesung 
+2 
+2 
+Lerninhalt 
+Sequence Analysis and Alignment 
+Molecular Visualization 
+Structure Prediction, Homology Modeling 
+Molecular Dynamics 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studenten erwerben Grundlagenwissen in der sequenz-basierten Bioinformatik 
+(Sequence Alignment, Scoring Schemes, Datenbanken, Pattern Recognition) und der 
+Strukturmodellierung und Simulation (Structure Prediction, Molecular Dynamics). 
+Die Studenten werden in die Lage versetzt, eigenständig Standard-Werkzeuge der 
+Bioinformatik einzusetzen und deren grundlegende Algorithmen in diversen 
+Implementierungen zu identifizieren. 
+4 
+Voraussetzung für die Teilnahme 
+ 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche Prüfung,  Standard) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+bestandene Fachprüfung 
+7 
+Benotung 
+Modulabschlussprüfung:  
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+96 
+ 
+ 
+ Modulprüfung (Fachprüfung, mündliche Prüfung, Gewichtung: 100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Physik, B. Sc. Mathematik, B. Sc. Informationstechnik 
+9 
+Literatur 
+Deonier, Tavare, Waterman: Computational Genome Analysis, Springer, 2005  
+Durbin, Eddy, Krogh, Mitchison: Biological Sequence Analysis, Cambridge University 
+Press, 1998 
+MacKay: Information Theory, Inference, and Learning Algorithms, Cambridge University 
+Press, 2003 
+Schlick: Molecular Modeling and Simulation, Springer, 2002 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+97 
+ 
+ 
+ 
+ 
+7 
+Benotung 
+Standard 
+ 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Deonier, Tavare, Waterman Computational Genome Analysis, Springer, 2005 
+● Durbin, Eddy, Krogh, Mitchison, Biological Sequence Analysis, Cambridge University 
+Press, 
+● 1998 
+● MacKay, Information Theory, Inference, and Learning Algorithms, Cambridge University 
+● Press, 2003 
+● Schlick, Molecular Modeling and Simulation, Springer, 2002 
+ 
+10 
+Kommentar 
+ 

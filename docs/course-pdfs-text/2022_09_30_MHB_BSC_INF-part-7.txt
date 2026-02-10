@@ -1,0 +1,3551 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+166 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+ 
+Wahlbereich Software und Hardware 
+(Praktische, technische und angewandte Informatik) 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+167 
+ 
+Modulbeschreibung 
+Modulname 
+Graphische Datenverarbeitung I 
+Modul Nr. 
+20-00-0040 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0040-iv 
+Graphische Datenverarbeitung I 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Einführung in die Grundlagen der Computergraphik, insb. Ein- u. Ausgabegeräte, Rendering 
+Pipeline am Beispiel von OpenGL, räumliche Datenstrukturen, Beleuchtungsmodelle, Ray 
+Tracing, aktuelle Entwicklungen in der Computergraphik 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch dieser Veranstaltung sind Studierende in der Lage alle 
+Komponenten der Graphikpipeline zu verstehen und dadurch variable Bestandteile (Vertex-
+Shader, Fragment-Shader, etc.) anzupassen. Sie können Objekte im 3D-Raum anordnen, 
+verändern und effektiv speichern, sowie die Kamera und die Perspektive entsprechend 
+wählen und verschiedene Shading-Techniken und Beleuchtungsmodelle nutzen, um alle 
+Schritte auf dem Weg zum dargestellten 2D-Bild anzupassen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+● Programmierkenntnisse 
+● Kentnisse über grundlegende Algorithmen und Datenstrukturen 
+● Kenntnisse im Bereich Lineare Algebra 
+● Kenntnisse im Bereich Analysis 
+● Inhalte der Vorlesung „Visual Computing“ oder einer vergleichbaren Veranstaltung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0040-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+168 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0040-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+● Real-Time Rendering: Tomas Akenine-Möller, Eric Haines, Naty Hoffman A.K. Peters Ltd., 
+3rd edition, ISBN 987-1-56881-424-7 
+● Fundamentals of Computer Graphics: Peter Shirley, Steve Marschner, third edition, ISBN 
+979-1-56881-469-8 
+● Weitere aktuelle Literaturhinweise werden in der Veranstaltung gegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+169 
+ 
+Modulbeschreibung 
+Modulname 
+Graphische Datenverarbeitung II 
+Modul Nr. 
+20-00-0041 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0041-iv 
+Graphische Datenverarbeitung II 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Grundlagen der verschiedenen Objekt- und Oberflächen-Repräsentationen in der 
+graphischen Datenverarbeitung. Kurven und Oberflächen (Polynome, Splines, RBF) 
+Interpolation und Approximation, Displaytechniken, Algorithmen: de Casteljau, de Boor, 
+Oslo, etc. Volumen und implizite Oberflächen. Visualisierungstechniken, Iso-Surfaces, MLS, 
+Oberflächen-Rendering, Marching-Cubes. Polygonnetze. Netz Kompression , Netz-
+Vereinfachung, Multiskalen Darstellung, Subdivision. Punktwolken: Renderingtechniken, 
+Oberflächen-Rekonstruktion, Voronoi-Diagramme und Delaunay-Triangulierung. 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch dieser Veranstaltung sind Studierende in der Lage mit diversen 
+Objekt- und Oberflächen-Repräsentationen umzugehen, das heißt diese zu verwenden, 
+anzupassen, anzuzeigen (rendern) und effektiv zu speichern. Dazu gehören mathematisch 
+polynomiale Repräsentationen, Iso-oberflächen, volumen Darstellungen, implizite 
+Oberflächen, Polygonnetze, Subdivision-Kontrollnetze und Punktwolken. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+Der vorherige Besuch von „Algorithmen und Datenstrukturen“ und  „Graphische 
+Datenverarbeitung I“ oder vergleichbaren Veranstaltungen 
+Kenntnisse über Grundlagen aus der Höheren Mathematik 
+Programmierkenntnisse in C / C++ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0041-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+170 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0041-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Real-Time Rendering: Tomas Akenine-Möller, Eric Haines, Naty Hoffman A.K. Peters Ltd., 
+3rd edition, ISBN 987-1-56881-424-7 
+● Weitere aktuelle Literaturhinweise werden in der Veranstaltung gegeben. 
+ 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+171 
+ 
+Modulbeschreibung 
+Modulname 
+Geometrische Methoden des CAE/CAD 
+Modul Nr. 
+20-00-0140 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0140-iv 
+Geometrische Methoden des 
+CAE/CAD 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● parametrische Kurvenmodelle 
+● parametrische Flächenmodelle 
+● Topologie und CAD-Volumenmodelle 
+● CAD-Operationen auf Flächen 
+● Tessellierung 
+● Approximation von Kurven und Flächen 
+● Finite-Elemente-Methode und Strömungssimulation 
+● verschiedene Anwendungen aus dem CAD-Bereich 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende beherrschen nach erfolgreichem Besuch der Veranstaltung die Grundlagen der 
+rechnergestützten Methoden der geometrischen Modellierung und Simulation. Sie verstehen 
+verschiedene parametrische Kurven- und Oberflächenrepräsentationen und können diese 
+auswerten und miteinander vergleichen.  Weiter kennen Sie klassische Datenstrukturen und 
+Algorithmen aus dem Computer Aided Design (CAD). Sie sind in der Lage, diese Techniken 
+praktisch umzusetzen und damit 3D-Geometrie im Rechner darzustellen und zu 
+visualisieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundwissen in Informatik  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0140-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+172 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0140-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Vorlesungsfolien 
+Lee: Principles of CAD / CAM / CAE Systems, Addison-Wesley. 
+Piegl, Tiller: The NURBS Book, Springer Verlag. 
+Farin: Kurven und Flächen im Computer Aided Geometric Design, vieweg 
+Shah, Mäntylä: Parametric and Feature-based CAD/CAM, Wiley & Sons 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+173 
+ 
+Modulbeschreibung 
+Modulname 
+Bildverarbeitung 
+Modul Nr. 
+20-00-0155 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0155-iv 
+Bildverarbeitung 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Überblick über die Grundlagen der Bildverarbeitung: 
+- Bildeigenschaften 
+- Bildtransformationen 
+- einfache und komplexere Filterung 
+- Bildkompression, 
+- Segmentierung 
+- Klassifikation 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Noch erfolgreichem Besuch der Veranstaltung haben die Studierenden einen Überblick über 
+die Funktionsweise und die Möglichkeiten der modernen Bildverarbeitung. Studierende sind 
+dazu in der Lage, einfache bis mittlere Bildverarbeitungsaufgaben selbständig zu lösen. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0155-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+174 
+ 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0155-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+● Gonzalez, R.C., Woods, R.E., "Digital Image Processing", Addison- Wesley Publishing 
+Company, 1992 
+● Haberaecker, P., "Praxis der Digitalen Bildverarbeitung und Mustererkennung", Carl 
+Hanser Verlag, 1995 
+● Jaehne, B., "Digitale Bildverarbeitung", Springer Verlag, 1997 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+175 
+ 
+Modulbeschreibung 
+Modulname 
+Virtuelle und Erweiterte Realität 
+Modul Nr. 
+20-00-0160 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0160-iv 
+Virtuelle und Erweiterte Realität 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Im Rahmen dieser Lehrveranstaltung werden zuerst die Grundlagen, Begriffsbildungen und 
+Referenzmodelle zur Einordnung der Thematik im Rahmen der Computer-
+Graphik/Computer-Vision aufgezeigt. Aufbauend darauf werden die besonderen 
+Technologien, Algorithmen und Standards der Augmented Reality (AR) und der Virtual 
+Reality (VR) behandelt. Dazu gehören: 
+● Datenschnittstellen (Standards, Vorverarbeitung, Systeme, etc.) 
+● Interaktionstechniken (z.B. Interaktion mit Hilfe von Rangekameras) 
+● Darstellungsverfahren (z.B. Echtzeit-Rendering) 
+● Web-basierte VR/AR 
+● Computer-Vision-basiertes Tracking für Augmented-Reality 
+● Augmented Reality mit Rangekamera-Technologien 
+● Augmented Reality auf Smartphonesystemen 
+Schließlich werden diese Techniken an Beispielen aktueller Forschungsarbeiten aus den 
+Bereichen „AR/VR-Wartungsunterstützung“ und „AR/VR-gestützte Präsentation von 
+Kulturgütern“ dokumentiert. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die Anforderungen und 
+Problematiken von Virtual/Augmented Reality und sie wissen, für welche Problemstellungen 
+diese Technologien eingesetzt werden können. Sie kennen die Standards, mit deren Hilfe 
+VR/AR-Anwendungen spezifiziert werden, insb. wissen die Studierenden, welche Computer-
+Vision-Technologien eingesetzt werden können, um in verschiedenen Umgebungen die 
+Kamerapose stabil zu tracken. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der Graphischen Datenverarbeitung (GDV)  
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+176 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0160-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0160-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Dörner, R., Broll, W., Grimm, P., Jung, B. Virtual und Augmented Reality (VR / AR) 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+177 
+ 
+Modulbeschreibung 
+Modulname 
+Algorithmen für Hardware-Entwurfswerkzeuge 
+Modul Nr. 
+20-00-0183 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0183-vl 
+Algorithmen für Hardware-
+Entwurfswerkzeuge 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Das VLSI-Entwurfsproblem 
+- Grundlegende Graphenrepräsentationen und -algorithmen 
+- Darstellung von hierarchischen Schaltungen 
+- Realisierungstechnologien für integrierte Schaltungen 
+- Layout-Kompaktierung 
+- Timing-Analyse 
+- Heuristische Optimierungsverfahren 
+- Platzierungsprobleme, -verfahren und -kostenfunktionen 
+- Exakte Optimierungsverfahren 
+- Partitionierung mit Anwendung in der Platzierung 
+- Floorplanningprobleme, -repräsentationen und -verfahren 
+- Verdrahtungsprobleme, -verfahren und -kostenfunktionen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung verschiedene 
+Technologien für die Realisierung von integrierten Schaltungen. Sie können aus den 
+verschiedenen Technologien die Anforderungen an Automatisierungswerkzeuge für 
+verschiedene Teilaufgaben des Entwurfs- und Realisierungsprozesses herleiten. Sie sind 
+vertraut mit der Modellierung technologischer Probleme durch formale Konzepte wie 
+Graphen, Gleichungssysteme etc. Sie verstehen grundlegende Verfahren zur Lösung auch 
+von harten Problemen und können aufbauend auf Erfahrungen mit verschiedenen 
+Basisalgorithmen neue bzw. verfeinerte Implementierungen zur Erledigung der 
+Entwurfsaufgaben entwickeln. 
+4 
+Voraussetzung für die Teilnahme  
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+178 
+ 
+ 
+ 
+ 
+Empfohlen: Empfohlen wird der erfolgreiche Besuch der Veranstaltungen “Digitaltechnik” 
+sowie “Algorithmen und Datenstrukturen” und “Funktionale und objektorientierte 
+Programmierung” oder vergleichbarer Veranstaltungen. 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0183-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0183-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Literaturempfehlungen werden kontinuierlich aktualisiert, Beispiele für verwendete 
+Literatur könnten sein: 
+Gerez: Algorithms for VLSI Design Automation 
+Wang/Chang/Cheng: Electronic Design Automation  
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+179 
+ 
+Modulbeschreibung 
+Modulname 
+Informationsvisualisierung und Visual Analytics 
+Modul Nr. 
+20-00-0294 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0294-iv 
+Informationsvisualisierung und 
+Visual Analytics 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Diese Vorlesung wird eine detaillierte Einführung in die Informationsvisualisierung geben, 
+um sich dann intensiv den wissenschaftlichen Fragestellungen und praxisnahen 
+Anwendungsszenarien von Visual Analytics zu widmen. 
+•Überblick der Informationsvisualisierung und Visual Analytics (Definitionen, Modelle, 
+Historie) 
+•Datenpräsentierung und Datentransformation 
+•Abbildung von Daten auf visuelle Strukturen 
+• Visuelle Repräsentierungen und Interaktion fuer bivariate, multivariate Daten, Zeitreihen, 
+Graphen und Geographische Daten 
+• Grundlagen von Data Mining 
+•Grundlagen von Visual Analytics: - Analytische Beweisführung - Data Mining 
+• Evaluation von Visual Analytics Systemen 
+  
+Anwendungsgebiete: Medizin, Biologie, Finanzen und Wirtschaft, Meteorologie, 
+Rettungsdienst,.... 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende können nach erfolgreichem Besuch der Veranstaltung 
+•Informationsvisualisierungsmethoden für verschiedene Datentypen benutzen 
+•interactive Visualisierungsysteme für Daten aus verschiedenen Anwendungsgebieten 
+designen 
+•Visualisierung und automatische Datenverarbeitung kombinieren um Big Data Probleme zu 
+lösen 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+180 
+ 
+•Wissen über Hauptcharakteristika menschlicher visuellen Wahrnehmung in 
+Informationsvisualisierung und Visual Analytics anwenden 
+•geeignete Evaluationsmethode für spezifische Situationen und Szenarien auswählen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Interesse an Methoden der Computergrafik und Visualisierung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0294-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0294-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird in der Vorlesung bekanntgegeben. Beispiele für verwendete Literatur 
+könnten sein: 
+C. Ware: Information Visualization: Perception for Design 
+Ellis et al: Mastering the Information Age 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+181 
+ 
+Modulbeschreibung 
+ 
+ 
+Modulname 
+Medizinische Bildverarbeitung 
+Modul Nr. 
+20-00-0379 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0379-vl 
+Medizinische Bildverarbeitung 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Vorlesung gliedert sich in zwei Teile.  
+In der ersten Hälfte der Vorlesung wird die Funktionsweise von Geräten, welche 
+medizinische Bilder liefern (CT, MRI, PET, SPECT, Ultraschall), erklärt. 
+In der zweiten Hälfte werden verschiedene Bildverarbeitungsmethoden erklärt, welche 
+typischerweise für die Bearbeitung medizinischer Bilder eingesetzt werden. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Noch erfolgreichem Besuch der Veranstaltung haben die Studierenden einen Überblick über 
+die Funktionsweise und die Möglichkeiten der modernen medizinischen Bildverarbeitung. 
+Studierende sind dazu in der Lage, einfache bis mittlere medizinische 
+Bildverarbeitungsaufgaben selbständig zu lösen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Mathematische Grundlagen sind dringend empfehlenswert. Ferner wird 
+empfohlen, die Vorlesung „Bildverarbeitung“ oder eine vergleichbare Veranstaltung vorher 
+besucht zu haben.  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0379-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+182 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0379-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+1) Heinz Handels: Medizinische Bildverarbeitung 
+2) 2) Gonzalez/Woods: Digital Image Processing (last edition) 
+3)  3) Bernd Jähne: Digitale Bildverarbeitung. 6. überarbeitete und erweiterte Auflage. 
+Springer, Berlin u. a. 2005, ISBN 3-540-24999-0. 
+4) Kristian Bredies, Dirk Lorenz: Mathematische Bildverarbeitung. Einführung in 
+Grundlagen und moderne Theorie. Vieweg+Teubner, Wiesbaden 2011, ISBN 978-3-8348-
+1037-3. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+183 
+ 
+Modulbeschreibung 
+Modulname 
+Ambient Intelligence 
+Modul Nr. 
+20-00-0390 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0390-iv 
+Ambient Intelligence 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Vorlesung führt in aktuelle Entwicklungen von Ambient Intelligence ein. Im 
+Vordergrund der Vorlesung steht die Mensch-Maschine-Interaktion (MMI) in intelligenten 
+Umgebungen in einem allgegenwärtigen Informationsraum, wie sie beispielsweise 
+zunehmend durch eingebettete Systeme in alltägliche Gebrauchsobjekte gegeben ist. 
+Spezieller Fokus wird auf den mobilen Aspekt eines allgegenwärtigen Informationszugriffs 
+und der Informationsaufbereitung und -darstellung in mobilen Endgeräten gelegt. Dabei soll 
+einerseits ein Einblick in die grundlegenden Technologien, Anwendungen und Experimente 
+gegeben werden und anderseits (nicht im Schwerpunkt) auch die sozio-kulturellen 
+Implikationen und Aspekte neuer Ambient Intelligence Lösungen diskutiert werden. 
+Zusätzliche Themen der Vorlesung sind System-Architekturen für verteilte Umgebungen, 
+Kontext-Awareness und Kontext-Management, Benutzermodelle und deren Implikationen, 
+Sensornetzwerke und Interaktionstechniken. Die Vorlesung wird Beispiele aktueller Projekte 
+diskutieren und die internationalen Forschungslinien von Ambient Intelligence beleuchten. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung erfolgreich besucht haben, können sie 
+Technologietrends und Forschungserkenntnisse im Bereich Ambient Intelligence 
+beschreiben. Die wichtigsten Konzepte zur Realisierung „intelligenter Umgebungen“ - 
+intelligente Netzwerke und Objekte, Techniken der erweiterten, mobilen Realität, ubiquitäre 
+und allgegenwärtige Informationsräume, nomadische Kommunikationen, Echt-Zeit-
+Kommunikation und relevante Middleware, Eingebettete Systeme, Sensor Netzwerke und 
+Wearable Computing - können diskutiert und eingeordnet werden. Nach Abschluss der 
+zugehörigen Übung können Studierende die Projektphasen der Entwicklung einer Ambient-
+Intelligence Anwendung eigenständig planen und realisieren. 
+ 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+184 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von “Visual Computing“ und „Multimodale Interaktion 
+mit intelligenten Umgebungen“ oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0390-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0390-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Wird jeweils passend zu den aktuellen Themen bekanntgegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+185 
+ 
+Modulbeschreibung 
+Modulname 
+Programmierung Massiv-Paralleler Prozessoren 
+Modul Nr. 
+20-00-0419 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0419-iv 
+Programmierung Massiv-Paralleler 
+Prozessoren 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Grundlagen massiv-paralleler Hardware mit einem Schwerpunkt auf modernen 
+Beschleunigern 
+- parallele Algorithmen  
+- effiziente Programmierung massiv-paralleler Systeme 
+- praktische Programmierprojekte mit Co-Betreuung durch einen Wissenschaftler au seiner 
+Anwendungsdomain  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem erfolgreichen Besuch der Veranstaltung sind Studierende dazu in der Lage, 
+Problemstellungen im Kontext massiv-paralleler Systeme zu analysieren. Sie können 
+selbständig neue Anwendungen entwickeln und ihre Performanz systematisch verbessern. 
+Sie verstehen grundlegende parallele Algorithmen und Programmierparadigmen und 
+können sich selbständig aktuelle Literatur erarbeiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+solide Programmierkenntnisse in C/C++ 
+Kentnisse in paralleler Programmierung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0419-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+186 
+ 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0419-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+wird in der Veranstaltung bekanntgegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+187 
+ 
+Modulbeschreibung 
+Modulname 
+Capturing Reality 
+Modul Nr. 
+20-00-0489 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0489-iv 
+Capturing Reality 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Dieser Kurs deckt ein breites Spektrum von Techniken zur Digitalisierung und Modellierung 
+unserer Welt mit einem Fokus auf Anwendungen in der Computergraphik und Computer 
+Vision ab. Dies beinhaltet insbesondere: 
+- grundlegende Werkzeuge und Kalibrationstechniken für die Digitalisierung 
+- Digitalisierungs- und Modellierungstechniken für verschiedenste Objekt- und 
+Szeneneigenschaften (z.B. Geometrie, Reflexionseigenschaften) 
+- grundlegende mathematische Modellierungs- und Optimierunstechniken 
+- Implementierung und praktische Anwendung einer Reihe von Techniken 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem erfolgreichen Besuch der Veranstaltung sind Studierende dazu in der Lage, 
+Digitalisierungs- und Modellierungsprobleme für Objekte und Szenen in Computergraphik 
+und Computer Vision sowie die zugrunde liegenden Techniken zu analysieren. Sie können 
+selbständig neue Versuchsaufbauten entwickeln, Experimente durchführen und die 
+Ergebnisse auswerten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch der Veranstaltungen „Graphische Datenverarbeitung I“ 
+oder „Computer Vision I“ oder vergleichbaren Veranstaltungen sowie grundlegende 
+Programmierkenntnisse in C/C++ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0489-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+188 
+ 
+ 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0489-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Noriko Kurachi: The Magic of Computer Graphics. A K Peters/CRC Press 
+Richard Szeliski: Algorithms and Applications, Springer 
+Marcus Magnor, Oliver Grau, Olga Sorkine-Hornung, Christian Theobalt: Digital 
+Representations of the Real World: How to Capture, Model, and Render Visual Reality 
+Wolfgang Förstner, Bernhard P. Wrobel: Photogrammetric Computer Vision - Geometry, 
+Orientation and Reconstruction 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+189 
+ 
+Modulbeschreibung 
+Modulname 
+TK2: Human Computer Interaction 
+Modul Nr. 
+20-00-0535 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0535-vl 
+TK2: Human Computer Interaction 3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Vorlesung stellt verschiedene grundlegende Konzepte, Modelle und Theorien aus dem 
+Bereich der Human Computer Interaction (HCI) vor. Die Veranstaltung umfasst die 
+folgenden Inhalte: 
+•  Theoretische Grundlagen aus Psychologie und Interaktionsgestaltung als Basis für die 
+Gestaltung von Nutzerschnittstellen 
+•  Überblick über verschiedene Typen von Nutzerschnittstellen 
+•  Command-line interfaces 
+•  Grafische Nutzerschnittstellen, u.a. Mac OS und Windows 
+•  Interaktive Oberflächen, u.a. Tabletops, Multitouch 
+•  Mobile user interfaces, u.a. basierend auf iPhone OS, Android 
+•  Pen-based user interfaces, u.a. elektronische Stifte 
+•  Tangible user interfaces, Organic user interfaces 
+•  Sprachbasierte user interfaces 
+• Beurteilung, Messung, Bewertung von Nutzerschnittstellen 
+•  Nutzerstudien 
+•  Quantitative Evaluationsmethoden 
+•  Qualitative Evaluationsmethoden 
+•  Nutzerzentrierte Softwareentwicklung 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach der Teilnahme an dieser Lehrveranstaltung haben Studierende 
+● Verständnis der psychologischen Grundlagen des Designs von Benutzerschnittstellen 
+erworben 
+● Methoden des user-centric design process kennengelernt 
+● Überblickswissen über die gängigen UI Konzepte erworben 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+190 
+ 
+ 
+ 
+ 
+● Evaluationstechniken kennen gelernt und angewandt 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0535-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0535-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Literaturempfehlungen werden kontinuierlich aktualisiert, Beispiele für verwendete 
+Literatur könnten sein: 
+  
+Ausgewählte Kapitel aus den folgenden Standardwerken: 
+•  Donald Norman: The Design of Everyday Things 
+•  Alan Dix, Janet Finlay, Gregory Abowd and Russel Beale: Human-Computer Interaction 
+•  Jenny Preece , Yvonne Rogers and Helen Sharp: Interaction Design: Beyond Human-
+Computer Interaction 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+191 
+ 
+Modulbeschreibung 
+Modulname 
+Physikalisch-basierte Animation 
+Modul Nr. 
+20-00-0682 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0682-iv 
+Physikalisch-basierte Animation 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+1. Grundlagen der physikalisch-basierten Animation 
+    - Anwendungen 
+    - Simulationsmodelle 
+    - Definition holonomer und nichtholonomer Zwangsbedingungen 
+    - Bewegungsgleichungen für Partikel 
+    - Gewöhnliche Differentialgleichungen 
+    - Numerische Integrationsverfahren 
+2. Partikelsysteme 
+    - Aufbau von Partikelsystemen 
+    - Simulation physikalischer Effekte 
+3. Simulation von Haaren 
+    - Haarmodelle 
+    - Simulationsverfahren 
+    - Haar-Haar Interaktion 
+4. Simulation von Kleidung     
+    - Masse-Feder-Systeme 
+    - Finite-Elemente-Methoden 
+    - Positionsbasierte Verfahren 
+5. Simulation von Weichkörpern     
+    - Generierung von Volumennetzen 
+    - Masse-Feder-Systeme 
+    - Finite-Elemente-Methoden 
+    - Positionsbasierte Verfahren 
+    - Volumenerhaltung 
+6. Starrkörper 
+    - Grundlagen 
+    - Bewegungsgleichungen für Starrkörper 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+192 
+ 
+    - Simulation von Gelenken 
+7. Kollisionserkennung     
+    - Hüllkörper 
+    - Hüllkörperhierarchien 
+    - Zellrasterverfahren 
+    - Kollisionstests für Starrkörper 
+    - Kollisionstests für deformierbare Körper 
+    - Kontinuierliche Kollisionserkennung 
+    - Bildbasierte Verfahren 
+8. Brüche 
+    - Animation von Brüchen mit Bruchmustern 
+    - Simulation spröder Brüche 
+    - Anpassung des Simulationsnetzes 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach einem erfolgreichen Besuch der Veranstaltung Mehrkörpersysteme 
+und diskrete und kontinuierliche deformierbare Simulationsmodelle. Sie verstehen die 
+numerischen Simulationsverfahren sowie deren jeweiligen Anwendungsbereiche und 
+können diese Verfahren anwenden. Sie haben einen grundlegenden Überblick über 
+Verfahren der Echtzeitsimulation in der Computergraphik. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlegende Kenntnisse von Numerik, Algorithmen und Datenstrukturen, 
+Computergraphik  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0682-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0682-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+193 
+ 
+ 
+ 
+ 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+9 
+Literatur 
+wird in der Vorlesung bekannt gegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+194 
+ 
+Modulbeschreibung 
+Modulname 
+Fortgeschrittener Compilerbau 
+Modul Nr. 
+20-00-0701 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0701-vl 
+Fortgeschrittener Compilerbau 
+6 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Compilierung und Laufzeitumgebung für objektorientierte Programmiersprachen 
+- Kontrollflussgraphen als Zwischendarstellung 
+- Statische Datenflußanalyse 
+- Static Single Assignment Form 
+- Eliminierung totaler und partieller Redundanz 
+- Skalare Optimierung 
+- Registerallokation 
+- Ablaufplanung 
+- Schleifenoptimerung 
+- Aufbau realer Compiler (z.B. Phasen, Zwischendarstellung, Compilefluß) 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende verstehen nach erfolgreichem Besuch Techniken für die Übersetzung und 
+Ausführung von objektorientierten Programmen auf Maschinenebene. Sie können die 
+statische Datenflussanalyse auf Kontrollflussgraphen anwenden und sind geübt im 
+praktischen Umgang mit deren SSA-Darstellung. Sie beherrschen Optimierungsverfahren für 
+eine Reihe von Aufgaben sowie fundamentale Verfahren für die Registerallokation. Sie 
+kennen die interne Struktur von realen Compilern für den Produktivbetrieb. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreicher Besuch der Veranstaltung “Einführung in den Compilerbau” oder 
+vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0701-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+195 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0701-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Literaturempfehlungen werden kontinuierlich aktualisiert, Beispiele für verwendete 
+Literatur könnten sein: 
+Cooper/Torczon: Engineering a Compiler 
+Muchnick: Advanced Compiler Design and Implementation 
+Aho/Lam/Sethi/Ullman: Compilers - Principles, Techniques, and Tools  
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+196 
+ 
+Modulbeschreibung 
+Modulname 
+Grundlagen der Robotik 
+Modul Nr. 
+20-00-0735 
+Leistungspun
+kte 
+ 10 CP 
+Arbeitsaufwand 
+300 h 
+Selbststudium 
+210 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0735-iv 
+Grundlagen der Robotik 
+10 
+integrierte 
+Veranstaltung 
+6 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Lehrveranstaltung behandelt räumliche Darstellungen und Transformationen, 
+Manipulatorkinematik, Fahrzeugkinematik, kinematische Geschwindigkeit, Jacobi-Matrix, 
+Roboterdynamik, Robotersensoren und -antriebe, Roboterregelungen, Bahnplanung, 
+Lokalisierung und Navigation mobiler Roboter, Roboterautonomie und Roboterentwicklung. 
+ 
+Theoretische und praktische Übungen sowie Programmieraufgaben dienen zur Vertiefung 
+der Lehrinhalte. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende besitzen nach erfolgreicher Teilnahme die für grundlegende Untersuchungen 
+und ingenieurwissenschaftliche Entwicklungen in der Robotik notwendigen grundlegenden 
+Fachkenntnisse und methodischen Fähigkeiten im Bereich der Modellierung, Kinematik, 
+Dynamik, Regelung, Bahnplanung, Navigation, Wahrnehmung und Autonomie von 
+Robotern. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: grundlegende mathematische Kenntnisse und Fähigkeiten aus den Bereichen 
+Lineare Algebra, Analysis mehrerer Veränderlicher und gewöhnliche Differentialgleichungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0735-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+197 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+[20-00-0735-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+- vorlesungsbegleitendes Skript und Vorlesungsfolien 
+Umfassende Übersicht der Robotik: 
+- B. Siciliano, O. Khatib: Springer Handbook of Robotics, Springer Verlag 
+zu einzelnen Themen der Lehrveranstaltung: 
+- J.J. Craig: Introduction to Robotics: Mechanics and Control, 3rd edition, Prentice Hall 
+- M.W. Spong, S. Hutchinson, M. Vidyasagar: Robot Modeling and Control, Wiley 
+- R. Siegwart, I.R. Nourbakhsh, D. Scaramuzza: Introduction to Autonomous Mobile Robots,  
+MIT Press 
+- H. Choset, K.M. Lunch, S. Hutchinson, G.A. Kantor,W. Burgard, L.E. Kavraki, S. Thrun: 
+Principles of Robot Motion: Theory, Algorithms, and Implementations, Bradford 
+- S. Thrun,W. Burgard, D. Fox: Probabilistic Robotics, MIT Press 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+198 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+User-Centered Design in Visual Computing 
+Modul Nr. 
+20-00-0793 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0793-iv User-Centered Design in Visual 
+Computing 
+3 
+Integrierte 
+Veranstaltung 
+2 
+2 
+Lerninhalt  
+Die Entwicklung von benutzerzentrierten Softwarelösungen dient nicht nur zur besseren und 
+effizienteren Nutzung von Software, sie erhöht vielmehr die Akzeptanz und somit auch die 
+Verbreitung und Verwendung. Die Vorlesung “User Centered Design in Visual Computing“ 
+richtet sich in erster Linie an Studierende des Fachbereichs Informatik und vermittelt Modelle, 
+Methoden und Techniken zur benutzerzentrierten Entwicklung von Visualisierungssoftware und 
+visuell-interaktiven Benutzerschnittstellen. Dabei werden insbesondere Methoden vorgestellt, 
+die zu einer gesteigerten Akzeptanz und effizienterer Benutzung der entworfenen Lösungen 
+führen. Des Weiteren werden Methoden der Evaluation vorgestellt, die die Akzeptanz und 
+Nutzbarkeit messen. Die Vorlesung behandelt die eingeführten Themen mit besonderem Bezug 
+zu Visual Computing und graphischen Benutzerschnittstellen. 
+Stoffplan: 
+• Usability 
+• User Experience 
+• Task Analysis 
+• Benutzerschnittstellen 
+• Interaktionsdesign 
+• Prototyping 
+• Graphikdesign und Informationsvisualisierung 
+• Evaluation während und nach der Softwareentwicklung 
+• Anwendungen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende können nach erfolgreichem Besuch der Veranstaltung: 
+• Geeignete Methoden zur Entwicklung von benutzerzentrierten Softwarelösungen 
+identifizieren und begründen 
+• Techniken zu benutzerzentrierten Nutzungsschnittstellen anwenden 
+• Evaluationsmethoden zur Untersuchung der eingesetzten Techniken in den verschiedenen 
+Phasen der Entwicklung identifizieren und auswählen 
+• Verbesserungen zur Informationsaufnahme und Navigation auf Basis vorhandener 
+Untersuchungen und Evaluationen vorschlagen 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+199 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen des Visual Computing, wie sie beispielsweise in den Veranstaltungen 
+„Visual Computing“ und „Graphische Datenverarbeitung I“ vermittelt werden 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0793-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0793-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+200 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Formale Spezifikation und Verifikation von Software 
+Modul Nr. 
+20-00-0794 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0794-iv Formale Spezifikation und 
+Verifikation von Software 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+In dieser Vorlesung behandeln wir fortgeschrittene Themen aus dem Gebiet der formalen 
+Spezifikation und deduktiven Verifikation objekt-orientierter Software. 
+ 
+Der Kurs deckt insbesondere folgende Themen ab: 
+* Spezifikation von Interfaces und Klassen mit Hilfe von Queries, Ghost- und Modellfeldern; 
+* Das "Framing" Problem: Statische und dynamische Frames 
+* Programmlogik und -kalkül als Grundlage der deduktiven Verifikation 
+* Spezifikation und Verifikation rekursiver Methoden und Schleifen 
+* Modulare Verifikation: Sichtbarkeiten, Beweis und Anwendung von Framing-Eigenschaften 
+* Automatische Erzeugung von Schleifeninvarianten und Methodenverträgen 
+ 
+Der Kurs behandelt vorwiegend sequentielle Programme. Es werden aber auch aktuelle 
+Ansätze zur Spezifikation und Verifikation nebenläufiger bzw. verteilter Software diskutiert. 
+ 
+Für fast alle Themen wird deren praktische Anwendung mit Hilfe geeigneter Tools 
+demonstriert und in den Übungen vertieft. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+* Erwerbung der Fähigkeit zur Spezifikation komplexer objekt-orientierter Software 
+* Studierende sollen in der Lage sein einen für das vorliegende Problem passenden 
+Spezifikationsansatz auszuwählen und anzuwenden 
+* Studierende sollen in der Lage sein rekursive Methoden und Schleifen zu spezifizieren 
+* Studierende sollen in der Lage sein mit Hilfe von deduktiver Verifikation ihre Programme als 
+korrekt zu beweisen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+Grundlagenwissen über Logik erster Ordnung 
+Inhalt der Vorlesungen „Aussagen- und Prädikatenlogik“ und „Formale Methoden im 
+Softwareentwurf“ oder vergleichbarer Veranstaltungen 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+201 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0794-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0794-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+202 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Multithreading in C++ 
+Modul Nr. 
+20-00-0953 
+Leistungspun
+kte 
+10 CP 
+Arbeitsaufwand 
+300 h 
+Selbststudium 
+210 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0953-iv Multithreading in C++ 
+10 
+Integrierte 
+Veranstaltung 
+6 
+2 
+Lerninhalt  
+C++ bietet eine der fortschrittlichsten Threadschnittstellen, die heute verfügbar sind. Am 
+Beispiel C++ führt dieser Kurs in die parallele Programmierung für gemeinsamen Speicher mit 
+Threads ein. 
+• Architekturen mit gemeinsamem Speicher 
+• Management von Threads 
+• Zugriff auf gemeinsame Daten 
+• Synchronisierung nebenläufiger Operationen 
+• Entwurf lockbasierter nebenläufiger Datenstrukturen 
+• Entwurf von nebenläufigem Code 
+• Testen und Fehlersuche 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Kompetenz in der Entwicklung paralleler Programme 
+• Systematisch korrekte und effiziente parallele Programme entwickeln 
+• Parallele Datenstrukturen entwerfen und umsetzen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Kenntnisse in C/C++ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0953-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+ 
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+203 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0953-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+204 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Deep Learning für medizinische Bildgebung 
+Modul Nr. 
+20-00-1014 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1014-iv Deep Learning für 
+medizinische Bildgebung 
+5 
+Integrierte 
+Veranstaltung 
+3 
+2 
+Lerninhalt  
+Formulierung der medizinischen Bildsegmentierung, Computergestützte Diagnostik und 
+chirurgische Planung als Probleme des maschinellen Lernens, Deep Learning für medizinische 
+Bildsegmentierung, Deep Learning für computergestützte Diagnostik, Chirurgische Planung 
+von präoperativen Bildern mit Deep Learning, Tool-Präsenz Erkennung und Lokalisierung von 
+endoskopischen Videos durch Deep Learning, Adversarial Beispiele für medizinische 
+Bildgebung, Generative Adversarial Networks für Medizinische Bildgebung. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss des Kurses sind die Studierenden in der Lage sein, alle 
+Komponenten der Formulierung eines medizinischen Bildanalyseproblems als Problem des 
+Maschinellen Lernens zu verstehen. Sie sind auch in der Lage sein, fundierte Entscheidungen 
+über die Wahl eines universellen Deep Learning Paradigmas für ein gegebenes medizinische 
+Bildanalyseproblem zu treffen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Programmierkenntnisse 
+- Verständnis des algorithmischen Designs 
+- Kenntnisse aus dem Bereich Lineare Algebra 
+- Der vorherige Besuche von „Bildverarbeitung“, „Computer Vision I“ und „Statistisches 
+Maschinelles Lernen“ oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1014-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+205 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1014-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+206 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Tiefe Generative Modelle 
+Modul Nr. 
+20-00-1035 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1035-iv Tiefe Generative Modelle 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Generative Modelle, implizite und explizite Modelle, Variational AutoEncoders, Generative 
+Adversarial Networks, Numerische Optimierung für generative Modelle, Anwendungen in der 
+medizinischen Bildverarbeitung 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende das Modul besucht haben, können sie 
+- den Aufbau und die Funktionsweise Tiefer Generativer Modelle (Deep Generative Models, 
+DGM) erklären 
+- wissenschaftliche Veröffentlichungen zum Thema DGMs kritisch hinterfragen und damit 
+fachlich beurteilen 
+- grundlegende DGMs in einer dafür ausgelegten höheren Programmiersprache selbstständig 
+konstruieren / implementieren 
+- die Implementierung und Anwendung von DGMs auf unterschiedliche Anwendungen 
+übertragen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Programmierkenntnisse Python 
+- Kenntnisse aus dem Bereich Lineare Algebra 
+- Der vorherige Besuche von „Bildverarbeitung“, „Computer Vision I“ und „Statistisches 
+Maschinelles Lernen“ oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1035-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+207 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1035-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Wird in Veranstaltung bekannt gegeben. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+208 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Verteilte Geometrieverarbeitung 
+Modul Nr. 
+20-00-1075 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1075-iv Verteilte 
+Geometrieverarbeitung 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+* Grundlagen und Algorithmen der Geometrieverarbeitung: Smoothing, Remeshing, Delaunay-
+Triangulierung, Parametrisierung, Texturierung, u.a. 
+* Einführung in Big Data und Cloud Computing 
+* Indexstrukturen für den schnellen Zugriff auf massive Geometriedatenmengen: Quad tree, R-
+tree, Space-filling curves, u.a. 
+* Verteilte und cloud-basierte Datenspeicherung 
+* Architekturen für verteilte Verarbeitungspipelines 
+* Programmiermodelle für verteilte Algorithmen (z.B. MapReduce) 
+* Technologien und Frameworks für die verteilte Datenverarbeitung (z.B. Spark, Vert.x) und 
+Geometrieverarbeitung (Draco, u.a.) 
+* Deployment von verteilten Anwendungen in die Cloud 
+* Ergänzend gibt es praktische und theoretische Übungen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem erfolgreichen Besuch der Veranstaltung besitzen die Studierenden grundlegende 
+Kenntnisse zur Geometrieverarbeitung sowie zur verteilten, cloud-basierten Verarbeitung sehr 
+großer Datenmengen im Allgemeinen. Sie sind in der Lage, selbstständig skalierbare 
+Anwendungen zu entwickeln und diese in der Cloud auszuführen, um die 
+Geometrieverarbeitung zu parallelisieren und damit die Performance zu erhöhen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+* Programmierkenntnisse in Java oder anderen JVM-Sprachen 
+* Grundlegende Algorithmen und Datenstrukturen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1075-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 44
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+209 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1075-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 45
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+210 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Model Checking 
+Modul Nr. 
+20-00-
+1115 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1115-
+vl 
+Model Checking 
+3 
+Vorlesung 
+2 
+2 
+Lerninhalt 
+* Temporallogiken: 
+- Lineare temporal Logik (LTL), Computation Tree Logic (CTL) und CTL*: Syntax, 
+Semantik, Komplexität 
+* Modelprüfungsverfahren für LTL, CTL, CTL*, insbesondere Büchiautomaten 
+* Partial Order Reduction 
+* Timed Automata 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Im Rahmen des Kurses sollen die Studierenden folgende Fähigkeiten erwerben: 
+* Verständnis der theoretischen Grundlagen der Temporallogiken LTL, CTL und CTL* 
+* Fähigkeit zur Auswahl der geeigneten Logik zur Spezifikation und Modellprüfung in 
+Abhängigkeit von dem zu modellierenden System und der zu prüfenden Eigenschaft 
+* Verfahren und Techniken zur Modellprüfung (Model Checking) z.B. Modellprüfung mit 
+Büchiautomaten, Partial Order Reduction u.ä. 
+* Wissen über die Charakteristika und Grenzen der Modellprüfung 
+* Kenntnisse in der Modellprüfung von Timed Automate 
+* Fähigkeit zur Anwendung von Tools zur Modellprüfung 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen werden Kenntnisse in 
+* Aussagenlogik 
+* Deduktionssystemen 
+* Automatentheorie 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-1115-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 46
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+211 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-1115-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 47
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+212 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Hands-On HCI 
+Modul Nr. 
+20-00-
+1116 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1116-
+iv 
+Hands-On HCI 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt 
+Vielleicht haben Sie bereits von Virtual / Augmented Reality, 3D-Druck, am Körper 
+getragenen oder anfassbaren (tangible) Benutzeroberflächen gehört oder diese sogar 
+ausprobiert. Der Bereich Human-Computer-Interaktion (HCI) deckt all diese spannenden 
+Themen ab und bietet die Möglichkeit, neue Prototypen zu bauen und diese in 
+Benutzerstudien auszuprobieren. Wenn Sie Theorie und Praxis im Bereich der HCI 
+verbinden möchten ist dieser Kurs - Hands-On HCI - genau das Richtige für Sie. Das Ziel 
+des Kurses ist es, Sie durch den gesamten Forschungszyklus im Bereich der HCI zu 
+führen. Damit kann dieser Kurs eine Vorbereitung für Ihre zukünftige Bachelor- / 
+Masterarbeit in diesem Bereich sein, sowie einen ersten Baustein auf Ihrem akademischen 
+Weg darstellen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Abschluss des Moduls können Studierende 
+ 
+- drei Ansätze zur HCI-Forschung voneinander unterscheiden und anwenden. 
+- drei Arten empirischer Untersuchungen unterscheiden. 
+- effektiv eine wissenschaftliche Publikation lesen. 
+- zwischen Arten von HCI-Beiträgen unterscheiden. 
+- Forschungsfragen, Hypothesen und experimentelle Variablen formulieren und 
+definieren. 
+- basierend auf den zuvor erarbeiteten Forschungsfragen ein dazu passendes 
+Studiendesign entwerfen. 
+- eine Studie durchführen und dabei quantitative und qualitative Methoden zur 
+Datensammlung verwenden. 
+- quantitative Daten auf der Basis von statistischen Methoden analysieren, auswerten und 
+interpretieren. 
+- qualitative Daten auf der Basis von Grounded Theory analysieren und interpretieren. 
+- den Peer-Review Prozess verstehen und sowie Reviews für eine wissenschaftliche 
+Publikation schreiben. 
+
+============================================================
+PAGE 48
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+213 
+ 
+- Evaluationstechniken mit und ohne Nutzern verstehen und anwenden. 
+- die gewonnenen Erkenntnisse als wissenschaftliche Publikation verschriftlichen und vor 
+einem Fachpublikum präsentieren. 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen wird die vorherige Belegung von „TK2: Human-Computer Interaction“ oder 
+einer vergleichbaren Veranstaltung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-1116-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-1116-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 49
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+214 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Mensch- und Identitätsfokussiertes Maschinelles Lernen 
+Modul Nr. 
+20-00-
+1118 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1118-
+iv 
+Mensch- und 
+Identitätsfokussiertes 
+Maschinelles Lernen 
+6  
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt 
+Hintergründe und Konzepte von Human-Centric Machine Learning: Das Ziel von Identität 
+und Human-Centric Machine Learning. Die Unterschiede zwischen Identitätslernen und 
+anderen gängigen Klassifikationsarten. 
+ 
+Repräsentationsextraktion für subjektbezogene Daten: Methoden für die Feature 
+Erstellung für identitätsbezogene Anwendungen. Grundlagen und Hintergründe für 
+handgefertigte oder Deep Learning Features. 
+ 
+Deep-Learning Strategien für Identitätsrepräsentationen: Erlernen von 
+Identitätsrepräsentationen mit Hilfe von Deep Learning. Lernstrategien und Loss-
+Funktionen. 
+ 
+Netzwerkarchitekturen und identitätsspezifische Komponenten. 
+ 
+Knowledge Transfer und Distillation: Transfer Learning und Identitätsrepräsentation. 
+Konzepte und Anwendungen von Knowledge Distillation. 
+ 
+Effizientes Machine Learning: Beziehung zwischen Ressourcenbeschränkungen, Green-AI 
+und Deep Learning. Methoden zum Aufbau effizienter Lösungen für Maschinelles Lernen. 
+ 
+Synthetische Identität: Die Notwendigkeit einer synthetischen Identität. Synthetische 
+Identität als Adversarial. Generierung synthetischer identitätsgesteuerter Daten unter 
+verschiedenen Einschränkungen. 
+ 
+Machine Learning Biases: Analyse der demografischen Fairness und der Ursachen der 
+Fairnessprobleme. ML-basierte Abmilderung von demografischen Bias. 
+ 
+Privatsphäre erlernen: Analyse von unbeabsichtigt gelernten Informationen. 
+Lernstrategien zur gezielten Unterdrückung von Informationen auf verschiedenen 
+Repräsentationsebenen. 
+
+============================================================
+PAGE 50
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+215 
+ 
+ 
+Data Utility: Verständnis der Auswirkungen von Data Utility im Lernprozess. Verstehen 
+von Sample Utility im Betrieb. ML-Konzepte und Strategien zur Schätzung von Sample 
+Utilities. 
+ 
+Angriffe auf Sample-Level: Überblick über Adversarial, Sample Manipulation und andere 
+Angriffe auf Human-Centric ML. Deep Learning Konzepte, Netzwerkblöcke und 
+LossStrategien um Sample-Level Angriffe zu erkennen und zu umgehen. 
+ 
+Explainability: Überblick über den Bedarf von Explainability in verschiedenenen 
+Entscheidungsprozessen. Verschiedene Strategien um Explainability für Themen aus 
+vergangenen Vorlesungen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch des Kurses sind die Studierenden mit Konzepten des 
+maschinellen Lernens im Umgang mit personen- und identitätsbezogenen Informationen 
+vertraut. Sie verstehen die grundlegenden Techniken für die Extraktion 
+subjektspezifischer Repräsentationen, einschließlich der damit verbundenen Konzepte für 
+Knowledge Transfer und Distillation. Die Studierenden haben ein Verständnis für 
+demografisch bedingte Verzerrungen beim maschinellen Lernen und 
+Datenschutzbedenken zu Function-Creep erlangt, einschließlich der wichtigsten Konzepte 
+zur Abschwächung dieser Probleme. Sie kennen die Anforderungen und Techniken, die 
+für ein eingebettetes und effizientes HumanCentric Machine Learning erforderlich sind. 
+Ebenfalls sind sie mit den Auswirkungen von Data Utility im Lernprozess und dem 
+Hauptkonzept zur Schätzung der Utility von subjektbezogenen Daten vertraut. Sie 
+werden fundiertes Wissen über die Erklärungsmethoden für ML-Entscheidungen auf der 
+Grundlage von identitätsbezogenen Daten erlangen. Die Studierenden werden in die 
+Konzepte der KI-Ethik und der KIRegulierung im Zusammenhang mit der Verarbeitung 
+und Speicherung personenbezogener Daten eingeführt. Sie sind in der Lage, diese 
+Techniken zur Lösung grundlegender Aufgaben im Bereich von Identitäts- und Human-
+Centric Machine Learning auf realistische Probleme anzuwenden. 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Der vorherige Besuch der Veranstaltung „Visual Computing“ oder einer 
+vergleichbaren Veranstaltung. Grundlagen in Mathematik und 
+Wahrscheinlichkeitsrechnung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1118-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+
+============================================================
+PAGE 51
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+216 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1118-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur  
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 52
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+217 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Programmanalyse 
+Modul Nr. 
+20-00-
+1122 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Software und Hardware 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1122-
+vl 
+Programmanalyse 
+6 
+Vorlesung 
+und Übung 
+4 
+2 
+Lerninhalt 
+Statische Analysen sind Werkzeuge die Informationen von Programmen extrahieren ohne 
+diese auszuführen. Statische Analysen haben vielseitige Anwendungen in integrierten 
+Entwicklungsumgebungen (IDEs), Compilern und Continous Integration Servern. Zum 
+Beispiel werden statische Analysen in IDEs verwendet um Programmfehler und 
+Sicherheitslücken zu erkennen. Des Weiteren werden sie in Compilern zum Typechecking 
+und für Optimierungen verwendet. 
+ 
+DIeser Kurs gibt einen Überblick über die zugrundeliegende Konzepte von statischen 
+Analysen. Insbesondere diskutieren wir den Kompromiss zwischen der Performanz, der 
+Präzision, und der Korrektheit von statischen Analysen. Des Weiteren werden Ihnen 
+verschieden Sorten von statischen Analysen vorgestellt, wie zum Beispiel 
+Kontrollflussanalysen, Datenflussanalysen, Zeigeranalysen, sowie Seiteneffekt- und 
+Unveränderlichkeitsanalysen. Abschließend lernen sie verschiedene Analyseframeworks 
+kennen, wie das monotone Framework, Big-Step Abstrakte Interpreter und IFDS/IDE 
+Frameworks. 
+ 
+In der begleitenden Übung wenden Sie die neuen Analysekonzepte praktisch an, und 
+erweitern oder entwickeln existierende Analysen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Das Ziel dieses Kurses ist es die zugrundeliegenden Konzepte von statischen Analysen zu 
+vermitteln. Dies erlaubt es Studierenden statische Analysen in IDEs effektiver zu 
+verwenden. Des Weiteren sind Studierende nach dem Kurs in der Lage Eigenschaften von 
+statischen Analysen wie Performanz und Präzision zu beurteilen 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Wir erwarten, dass Studierende die Konzepte der Programmiersprachen, wie 
+Zuweisungen, Schleifen, Ausnahmebehandlung, Objekte, und anonyme Funktionen gut 
+verstanden haben. Des Weiteren sollten die Kursteilnehmer*innen mit grundlegender 
+Universitätsmathematik und Logik vertraut sein. 
+
+============================================================
+PAGE 53
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+218 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1122-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1122-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 54
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+219 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Software-Engineering - Wartung und Qualitätssicherung 
+Modul Nr. 
+18-su-
+2010 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. rer. nat. Andreas Schürr 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+18-su-2010-
+ue 
+Software-Engineering - 
+Wartung und 
+Qualitätssicherung 
+0 
+Übung 
+1 
+18-su-2010-vl Software-Engineering - 
+Wartung und 
+Qualitätssicherung 
+0 
+Vorlesung 
+3 
+2 
+Lerninhalt 
+Die Lehrveranstaltung vertieft Teilthemen der Softwaretechnik, welche sich mit der 
+Pflege und Weiterentwicklung und Qualitätssicherung von Software beschäftigen. Dabei 
+werden diejenigen Hauptthemen des IEEE "Guide to the Software Engineering Body of 
+Knowledge" vertieft, die in einführenden Softwaretechnik-Lehrveranstaltungen nur kurz 
+angesprochen werden. Das Schwergewicht wird dabei auf folgende Punkte gelegt: 
+Softwarewartung und Reengineering, Konfigurationsmanagement, statische 
+Programmanalysen und Metriken sowie vor allem dynamische Programmanalysen und 
+Laufzeittests. In den Übungen werden die in der Vorlesung vorgestellten 
+Analysetechniken und Methoden zur Weiterentwicklung und Qualitätssicherung von 
+Software an Hand von verschiedenen Beispielen untersucht und vertieft. 
+In der Lehrveranstaltung wird zudem großer Wert auf die Einübung praktischer 
+Fertigkeiten in der Auswahl und im Einsatz von Softwareentwicklungs- Wartungs- und 
+Testwerkzeugen verschiedenster Arten gelegt. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Das Modul vermittelt den Studierenden nach erfolgreichem Abschluss anhand praktischer 
+Beispiele grundlegende Software-Wartungs- und Qualitätssicherungs-Techniken, also eine 
+ingenieurmäßige Vorgehensweise zur zielgerichteten Wartung und Evolution von 
+Softwaresystemen. Die Studierenden sind in der Lage, die im Rahmen der 
+Softwarewartung und -pflege eines größeren Systems anfallenden Tätigkeiten 
+durchzuführen. Dies gilt insbesondere auch für Techniken zur Verwaltung von 
+Softwareversionen und -konfigurationen sowie auf das systematische Testen von 
+Software. 
+4 
+Voraussetzung für die Teilnahme 
+Grundlagen der Softwaretechnik sowie gute Kenntnisse objektorientierter 
+
+============================================================
+PAGE 55
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+220 
+ 
+Programmiersprachen (insbesondere Java). 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, Klausur, Dauer 90 Min, Standard) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+MSc ETiT, MSc iST, MSc Wi-ETiT, Informatik 
+9 
+Literatur 
+https://www.es.tu-darmstadt.de/lehre/aktuelle-veranstaltungen/se-ii-v und Moodle 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 56
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+221 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Echtzeitsysteme 
+Modul Nr. 
+18-su-
+2020 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. rer. nat. Andreas Schürr 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+18-su-2020-
+ue 
+Echtzeitsysteme 
+0 
+Übung 
+1 
+18-su-2020-vl Echtzeitsysteme 
+0 
+Vorlesung 
+3 
+2 
+Lerninhalt 
+Die Vorlesung Echtzeitsysteme befasst sich mit einem Softwareentwicklungsprozess, der 
+speziell auf die Spezifika von Echtzeitsystemen zugeschnitten ist. Dieser 
+Softwareentwicklungsprozess wird im weiteren Verlauf während der Übungen in 
+Ausschnitten durchlebt und vertieft. Der Schwerpunkt liegt dabei auf dem Einsatz 
+objektorientierter Techniken. In diesem Zusammenhang wird ein echtzeitspezifisches 
+State-of-the-Art-CASE-Tool vorgestellt und eingesetzt. Des Weiteren werden 
+grundlegende Charakteristika von Echtzeitsystemen und Systemarchitekturen eingeführt. 
+Auf Basis der Einführung von Schedulingalgorithmen werden Einblicke in 
+Echtzeitbetriebssysteme gewährt. Die Veranstaltung wird durch eine Gegenüberstellung 
+der Programmiersprache Java und deren Erweiterung für Echtzeitsysteme (RT-Java) 
+abgerundet. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende sind nach erfolgreichem Abschluss des Moduls in der Lage, modellbasierte 
+(objektorientierte) Techniken zur Entwicklung eingebetteter Echtzeitsysteme zu 
+verwenden und zu bewerten. Dazu gehören folgende Fähigkeiten: 
+ 
+Systemarchitekturen zu bewerten und Echtzeitsysteme zu klassifizieren 
+ 
+selbständig ausführbare Modelle zu erstellen und zu analysieren 
+ 
+Prozesseinplanungen anhand üblicher Schedulingalgorithmen durchzuführen 
+ 
+Echtzeitprogrammiersprachen und -Betriebssysteme zu unterscheiden, zu 
+bewerten und einzusetzen. 
+4 
+Voraussetzung für die Teilnahme 
+Grundkenntnisse des Software-Engineerings sowie Kenntnisse einer objektorientierten 
+Programmiersprache 
+
+============================================================
+PAGE 57
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+222 
+ 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Dauer 90 Min, 
+Standard) 
+Die Prüfung erfolgt durch eine Klausur (Dauer: 90 Min.). Falls absehbar ist, dass sich 
+weniger als 15 Studierende anmelden, erfolgt die Prüfung mündlich (Dauer: 30 Min.). 
+Die Art der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. 
+Notenverbesserung bis zu 0,4 nach APB §25 (2) durch Bonus für die regelmäßige Abgabe 
+von Übungsaufgaben 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+MSc ETiT, BSc iST, MSc Wi-ETiT, BSc Informatik 
+9 
+Literatur 
+https://www.es.tu-darmstadt.de/lehre/aktuelle-veranstaltungen/es-v und Moodle 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 

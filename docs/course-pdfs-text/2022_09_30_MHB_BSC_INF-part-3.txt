@@ -1,0 +1,660 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+48 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch 
+B. Sc. Informatik 
+ 
+B Wahlpflichtbereich 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+49 
+ 
+Modulbeschreibung 
+Modulname 
+Betriebssysteme 
+Modul Nr. 
+20-00-0903 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0903-iv 
+Betriebssysteme 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Einführung in Betriebsysteme (BS) - Notwendigkeit, Design 
+● Prozesse und Threads - BS Datenstrukturen, Abstraktionen, Kernel/User mode, context 
+switches, Interrupts 
+● Interprozeß-Kommunikation - IPC, RPC, Schnittstellen, Hierarchien, Messaging-
+Semantiken 
+● Koordination: Deadlocks - Critical sections, Deadlock-Charakterisierung, Entdeckung, 
+Recovery und Vermeidung. 
+● Scheduling/Ressourcen-Management - Prozess-Reihenfolgen, unterbrechendes und 
+unterbrechungsfreies Scheduling, verschiedene Scheduling-Konzepte und -Algorithmen, 
+Implementierungen in BS 
+● Nebenläufigkeit: Races, Mutual Exclusions - Critical sections, races, spin locks, 
+Synchronisation 
+● Programmierungsabstraktionen: Semaphoren, Monitore 
+● Speicherverwaltung - BS-Datenstrukturen, Management- und Austausch-Ansätze, 
+virtueller Speicher, paging, caching, segmentation 
+● I/O - Geräte-Management, Treiber, Interrupt-Behandlung, DMA 
+● Dateisysteme - Anforderungen, Design, Implementierungen, Datenstrukturen, 
+Verzeichnisse, virtuelle Dateisysteme 
+● Einführung in die grundlegende Sicherheitsaspekte von BS 
+Virtuelle Maschinen (VM) - Grundlagen und Typisierung von VMs und Hypervisoren 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende erhalten nach erfolgreichem Besuch der Veranstaltung einen Überblick über 
+grundlegende Betriebssystem-Konzepte. Verschiedene Ansätze einzelner BS-Konzepte 
+können von Studierenden diskutiert und ausgewählte Ansätze hinsichtlich variierender 
+technischer Anforderungen - insbesondere Design-Prinzipien, Sicherheit und Performanz - 
+analysiert werden. Weiterhin verstehen sie Techniken zum Aufbau solcher Systeme. 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+50 
+ 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: “Algorithmen und Datenstrukturen”, “Funktionale und objektorientierte 
+Programmierung”, “Rechnerorganisation”  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0903-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-0903-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+JBA Informatik 
+B.Sc. Informationssystemtechnik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Modern Operating Systems; A. Tanenbaum, Prentice Hall, ISBN 0-13-813459-6 
+● Operating System Concepts; Silberschatz et al, John Wiley and Sons, ISBN 0-470-23399-3 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+51 
+ 
+Modulbeschreibung 
+Modulname 
+Einführung in den Compilerbau 
+Modul Nr. 
+20-00-0904 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0904-iv 
+Einführung in den Compilerbau 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Aufbau von Compilern 
+- Kontextfreie Grammatiken zur Beschreibungen der Syntax von Programmiersprachen 
+- Lexing- und Parsingverfahren 
+- Zwischendarstellungen 
+- Semantische Analyse 
+- Laufzeitorganisation 
+- Code-Erzeugung 
+- Software-Werkzeuge für den Compilerbau 
+- Implementierungstechniken für Compiler 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung den Aufbau von 
+Compilern. Sie verstehen formale Konzepte zur Beschreibung von Syntax und Semantik von 
+Programmiersprachen. Sie können diese Konzepte mit algorithmischen Verfahren 
+kombinieren, um selbständig zu einer spezifizierten Programmiersprache einen passenden 
+Compiler zu implementieren, der die Sprache auf die gewünschte Zielmaschine abbildet. Sie 
+kennen Software-Werkzeuge zur Unterstützung des Compilerbaus und können diese 
+zusammen mit manuellen Techniken bei der Implementierung von Compilern einsetzen. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreicher Besuch der Vorlesungen “Algorithmen und Datenstrukturen”, 
+“Funktionale und objektorientierte Programmierung” sowie “Rechnerorganisation”, bzw. 
+entsprechende Kenntnisse aus anderen Studiengängen  
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+52 
+ 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0904-iv] (Studienleistung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-0904-iv] (Studienleistung, Klausur, Gewichtung: 100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Literaturempfehlungen werden kontinuierlich aktualisiert, ein Beispiel für verwendete 
+Literatur könnte sein: 
+Watt/Brown: Programming Language Processors in Java 
+ 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+53 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Scientific Computing  
+Modul Nr. 
+20-00-1156 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1156-iv Scientific Computing 
+5 
+Integrierte 
+Veranstaltung 
+3 
+2 
+Lerninhalt  
+- Grundlagen der wissenschaftlichen Modellierung und „The Scientific Method“ 
+- Modellbildung und Systembeschreibung am Beispiel mechanischer Systeme 
+- Problemspezifikation für die Simulation komplexer Modelle 
+- Modellbildung und -identifikation am Beispiel mechanischer Systeme 
+- Modellanalyse statischer Systeme durch numerische Verfahren zur Lösung linearer und 
+nichtlinearer Gleichungssysteme  
+- Modellanalyse und Simulation dynamischer Modellen durch Anfangswertprobleme mit 
+gewöhnlichen Differentialgleichungen 
+- Implementierung von Modellen und Simulationen an Beispielen z.B. aus der Robotik und 
+anderen Bereichen  
+- Validierung von Modellen und Simulationen anhand von Messdaten 
+- Anwendungen in der Simulation und Steuerung von Robotern sowie der physikalisch basierten 
+Animation und Computerspielen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die grundlegenden Schritte 
+zur Entwicklung von ersten Modellen und Simulationen und sind in der Lage, erste 
+Simulationsstudien z.B. in der Robotik durchzuführen. Sie kennen die wesentlichen Schritte 
+zum Aufbau solcher Simulationssysteme (Problemspezifikation, Modellbildung und 
+Parameteridentifikation, Modellanalyse, Implementierung und Validierung) und können mit 
+diesen erste Simulationen konstruieren, die gegebene Anforderungen erfüllen. Hierbei wird die 
+Fähigkeit erlernt für grundlegende Aufgabenstellungen in der Simulation geeignete numerische 
+Verfahren auszuwählen und anzuwenden.  
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Mathematik I für Informatiker und Mathematik II für Informatiker oder 
+vergleichbare Veranstaltungen 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+54 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1156-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%)  
+7 
+Benotung 
+ 
+[20-00-01156-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Literatur zu einzelnen Kapiteln der Lehrveranstaltung: 
+R.N. Giere, J. Bickle, R. Mauldin:  Understanding Scientific Reasoning 
+F. Morrison: The Art of Modeling Dynamic Systems 
+L. Ljung, T. Glad: Modeling and Identification of Dynamic Systems 
+P. Corke: Robotics, Vision & Control, Springer, 2011 
+F.L. Severance: System Modeling and Simulation: An Introduction, J. Wiley & Sons, 2001 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+55 
+ 
+Modulbeschreibung 
+Modulname 
+Formale Methoden im Softwareentwurf 
+Modul Nr. 
+20-00-0901 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0901-iv 
+Formale Methoden im 
+Softwareentwurf 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Modellierung nebenläufiger Software mit der Sprache ProMeLa 
+● Formalisierung von Sicherheits- und Lebendigkeitseigenschaften mit temporaler 
+Aussagenlogik 
+● Theoretische Grundlagen von Modellprüfungsverfahren 
+● Verifikation von ProMeLa Programmen mittels des Modellprüfers SPIN 
+● Syntax, Semantik und Sequenzenkalkül für typisierte Logik erster Stufe 
+● Grundlagen der kontraktbasierten Softwarespezifikationssprache JML 
+● Dynamische Logik als eine Programmlogik erster Stufe 
+● Formale Programmverifikation durch symbolische Ausführung und Invariantenschließen 
+● Werkzeugunterstützte Verifikation von Java-Programen mit der KeY System 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch der Veranstaltung haben die Studierenden praktisch 
+anwendbare Grundkenntnisse in den beiden wichtigsten Verfahren zur formalen 
+Spezifikation und Verifikation von Software:  
+1. Modellprüfung gegen in temporaler Aussagenlogik spezifierte Eigenschaften 
+2. Deduktive Verifikation von Methodenkontrakten 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Programmierkenntnisse in Java und Vertrautheit mit Aussagenlogik wird 
+erwartet. Empfohlen ist der Besuch der Vorlesung “Aussagen- und Prädikatenlogik” oder 
+einer vergleichbaren Vernstaltung. 
+ 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+56 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0901-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-0901-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Für den ersten Teil des Kurses: 
+● Ben-Ari: Principles of the SPIN Model Checker, Springer 
+● Holzmann: The SPIN Model Checker, Addison-Wesley 
+ 
+Für den zweiten Teil des Kurses: 
+● Beckert et al.: Verification of Object-Oriented Software, Springer 
+Die Literaturempfehlungen werden kontinuierlich aktualisiert 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+57 
+ 
+Modulbeschreibung 
+Modulname 
+Visual Computing 
+Modul Nr. 
+20-00-0014 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0014-iv 
+Visual Computing 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Grundlagen der Wahrnehmung 
+● Grundlagen der Fouriertransformation 
+● Bilder, Bildfilterung, -kompression & -verarbeitung 
+● Grundlagen der Objekterkennung 
+● Geometrische Transformationen 
+● Grundlagen der 3D-Rekonstruktion 
+● Oberflächen- und Szenenrepräsentationen 
+● Renderingverfahren 
+● Farbe: Wahrnehmung, Räume & Modelle 
+● Grundlagen der n-dimensionalen Informationsvisualisierung 
+ 
+Benutzeroberflächen & Multimedia Retrieval 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch der Veranstaltung beschreiben Studierende die Grundkonzepte 
+sowie grundlegende Modelle und Methoden des Visual Computings. Sie erklären wichtige 
+Verfahren zur Bildsynthese (Computergraphik & Visualisierung) sowie zur Bildanalyse 
+(Computer Vision) und können damit einfache Bildsynthese- und -analyseaufgaben lösen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorige (ggf. parallele) Besuch der Veranstaltungen “Mathematik I/II/III” 
+oder vergleichbarer Veranstaltungen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0014-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+58 
+ 
+  
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-0014-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Literaturempfehlungen werden regelmäßig aktualisiert und beinhalten beispielsweise: 
+● R. Szeliski, “Computer Vision: Algorithms and Applications”, Springer 2011 
+● B. Blundell, “An Introduction to Computer Graphics and Creative 3D Environments”, 
+Springer 2008 
+ 
+10 
+Kommentar 
+ 

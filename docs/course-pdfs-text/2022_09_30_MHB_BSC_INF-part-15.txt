@@ -1,0 +1,1949 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+537 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+Wahlbereich Studienbegleitende Leistungen  
+ 
+Praktikum in der Lehre 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+538 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Algorithmen und Datenstrukturen 
+Modul Nr. 
+20-00-0289 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0289-pl Praktikum in der Lehre - 
+Algorithmen und 
+Datenstrukturen 
+5 
+Praktikum 
+3 
+2 
+Lerninhalt  
+Mitarbeit in der Ausrichtung der Lehrveranstaltung Algorithmen und Datenstrukturen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und dabei auch die 
+Lernenden zu betreuen und anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ Algorithmen und Datenstrukturen oder vergleichbare Veranstaltung 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0289-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+539 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0289-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+540 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Allgemeine Informatik II 
+Modul Nr. 
+20-00-0292 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0292-pl Praktikum in der Lehre - 
+Allgemeine Informatik II 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Mitarbeit in der Ausrichtung der Lehrveranstaltung Allgemeine Informatik ll (Programmieren in 
+Java) 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und dabei auch die 
+Lernenden zu betreuen und anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundstudium Informatik 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0292-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0292-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+541 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+542 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Allgemeine Informatik I 
+Modul Nr. 
+20-00-0333 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0333-pl Praktikum in der Lehre - 
+Allgemeine Informatik I 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Dieser Kurs befasst sich mit damit Lehrinhalte der Veranstaltung Allgemeine Informatik 1 
+didaktisch aufzubereiten und durch begleitende praktische Übungen besser verständlich zu 
+machen. 
+ 
+Dies umfasst unter anderem: Die Mitwirkung bei der Erstellung des Programmierprojektes; die 
+Überarbeitung von Übungsmaterialien; die Erstellung von Minitests zur Leistungskontrolle; die 
+Konzeption von Materialien für leistungsschwache wie leistungsstarke Studenten um Inhalte der 
+Vorlesung zu vertiefen; das Erstellen von anspruchsvollen Bonussystemen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden können nach erfolgreicher Durchführung der Veranstaltung: 
+- Lehrinhalte aus der Vorlesung für Haus- und Präsenzübungen aufbereiten 
+- Praxisnahe Übungsformen konzipieren und erstellen 
+- Übungen mit Studierendengruppen aller Leistungsniveaus konzipieren und durchführen 
+- Ein Konzept für aufeinander aufbauende praktische Übungen entwickeln 
+- Methoden der Lernkontrolle für die Lerninhalte der Vorlesung anwenden 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Erfolgreiche Teilnahme am Kurs Allgemeine Informatik I oder vegleichbarer Veranstaltung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0333-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+543 
+ 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0333-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+544 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Softwaretechnik 
+Modul Nr. 
+20-00-0443 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0443-pl Praktikum in der Lehre - 
+Softwaretechnik 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Vorbereitung und Korrektur von Übungen, Abhalten von Übungsstunden, Betreuung von 
+Praktischen Übungen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und dabei auch die 
+Lernenden zu betreuen und anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0443-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0443-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+545 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+546 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Visual Computing 
+Modul Nr. 
+20-00-0519 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0519-pl Praktikum in der Lehre - Visual 
+Computing 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Mitarbeit in der Ausrichtung der Lehrveranstaltung Visual Computing (Übungskonzeption, 
+Korrektur, Begleitung des Lernenden) 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und dabei auch die 
+Lernenden zu betreuen und anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Der vorherige Besuch der Veranstaltung „Visual Computing“ oder einer vergleichbaren 
+Veranstaltung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0519-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+547 
+ 
+ 
+ [20-00-0519-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+548 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Formale Methoden im Softwareentwurf 
+Modul Nr. 
+20-00-0531 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0531-pl Praktikum in der Lehre - 
+Formale Methoden im 
+Softwareentwurf 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Vorbereitung und Korrektur von Übungsaufgaben, Betreuung von Übungsgruppen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und dabei auch die 
+Lernenden zu betreuen und anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Formale Methoden im Softwareentwurf 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0531-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0531-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+549 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+550 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Betriebssysteme 
+Modul Nr. 
+20-00-0550 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0550-pl Praktikum in der Lehre - 
+Betriebssysteme 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Mitarbeit in der Ausrichtung der Lehrveranstaltung Betriebssysteme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für  Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz  kritisch zu begleiten und dabei auch die 
+Lernenden zu betreuen und  anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Vorheriger Besuch der Lehrveranstaltung Betriebssysteme oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0550-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0550-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+551 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Siehe Literatur zu Betriebssysteme 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+552 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Digitaltechnik 
+Modul Nr. 
+20-00-0597 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0597-pr Praktikum in der Lehre - 
+Digitaltechnik 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und/oder dabei auch 
+die Lernenden zu betreuen und anzuleiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Kenntnisse aus Digitaltechnik oder vergleichbarer Vorlesung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0597-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0597-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+553 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+554 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - TK1 
+Modul Nr. 
+20-00-0683 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0683-pr Praktikum in der Lehre - TK1 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien selbst zu erstellen, ihren 
+Einsatz kritisch zu begleiten und dabei auch die Lernenden zu betreuen und anzuleiten. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Kenntnisse der Thematik in TK1 
+ 
+4 
+Voraussetzung für die Teilnahme  
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0683-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0683-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+555 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+556 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Informationsvisualisierung und Visual Analytics 
+Modul Nr. 
+20-00-0767 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Vertiefung Visual 
+Computing 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0767-pl 
+Praktikum in der Lehre - 
+Informationsvisualisierung und 
+Visual Analytics 
+5 
+Praktikum in der 
+Lehre 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Dieser Kurs ermöglicht es Studierenden, die Haus- und Präsenzübungen für die Vorlesung 
+“Informationsvisualisierung und Visual Analytics” unter Anleitung durch die Lehrenden zu 
+konzipieren, durchzuführen und die Lernergebnisse der Vorlesungsteilnehmer zu evaluieren. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden können nach erfolgreicher Durchführung der Veranstaltung: 
+•Lehrinhalte aus der Vorlesung für Haus- und Präsenzübungen aufbereiten 
+•Übungen mit Studentengruppen konzipieren und durchführen 
+•Ein Konzept für aufeinander aufbauende praktische Übungen entwickeln 
+•Methoden der Lernkontrolle für die Lerninhalte der Vorlesung anwenden 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Informationsvisualisierung und Visual Analytics  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0767-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: 
+einschließlich der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+557 
+ 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0767-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+558 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Graphische Datenverarbeitung II 
+Modul Nr. 
+20-00-0954 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0954-pl Praktikum in der Lehre - 
+Graphische Datenverarbeitung 
+II 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Das Erstellen von Lehrmaterial, die Beurteilung und Betreuung von Übungen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Aufbereitung und Vermittlung des Vorlesungsinhaltes. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der Vorlesungsinhalt von „Graphische Datenverarbeitung II“ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0954-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-0954-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+559 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+560 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Internetsicherheit und Sicherheit in Mobilen Netzen 
+Modul Nr. 
+20-00-0957 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0957-pl Praktikum in der Lehre - 
+Internetsicherheit und 
+Sicherheit in Mobilen Netzen 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Dieser Kurs befasst sich mit damit Lehrinhalte der Themenschwerpunkte Internetsicherheit und 
+Sicherheit in Mobilen Netzen didaktisch aufzubereiten und durch begleitende praktische 
+Übungen besser verständlich zu machen. 
+ 
+Dies umfasst unter anderem: Die Implementierung von Systemen die in der Vorlesung 
+behandelte Schwachstellen aufweisen und den Studierenden für praktische Übungen verfügbar 
+gemacht werden; die Erstellung von Minitests zur Leistungskontrolle; die Konzeption von 
+Materialien für leistungsschwache wie leistungsstarke Studenten um Inhalte der Vorlesung zu 
+vertiefen; das Erstellen von anspruchsvollen Bonussystemen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden können nach erfolgreicher Durchführung der Veranstaltung: 
+- Lehrinhalte aus der Vorlesung für Haus- und Präsenzübungen aufbereiten 
+- Praxisnahe Übungsformen konzipieren und erstellen 
+- Übungen mit Studierendengruppen aller Leistungsniveaus konzipieren und durchführen 
+- Ein Konzept für aufeinander aufbauende praktische Übungen entwickeln 
+- Methoden der Lernkontrolle für die Lerninhalte der Vorlesung anwenden 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Erfolgreicher Besuch der SEEMOO Veranstaltung für die das PIDL durchgeführt wird. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0957-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+561 
+ 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0957-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+562 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Rechnerorganisation 
+Modul Nr. 
+20-00-0965 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0965-pl Praktikum in der Lehre - 
+Rechnerorganisation 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+- Erstellen von Übungs- und Lehrmaterial zu Rechnerorganisation 
+- Betreuung von Studierenden zu Themen der Rechnerorganisation, insbesondere unter 
+Verwendung des neuen Lehrmaterials 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien für Schulungen in 
+Informatikthemen selbst zu erstellen, ihren Einsatz kritisch zu begleiten und/oder dabei auch 
+die Lernenden zu betreuen und anzuleiten. 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ 
+Kenntnisse aus Digitaltechnik, Rechnerorganisation oder vergleichbarer Vorlesung 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0965-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+ 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+563 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0965-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+564 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - IT in der Grundlehre 
+Modul Nr. 
+20-00-0970 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0970-pl Praktikum in der Lehre - IT in 
+der Grundlehre 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Entwicklung von IT-basierten Konzepten für Vorlesung sowie Übungs-und Prüfungsbetrieb in 
+Lehrveranstaltungen mit großen, heterogenen Teilnehmergruppen. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Besuch der Veranstaltung haben die Studierenden praktische Erfahrungen darin 
+gesammelt, geeignete IT-basierte Konzepte für Vorlesung sowie Übungs-und Prüfungsbetrieb in 
+Lehrveranstaltungen mit großen, heterogenen Teilnehmergruppen zu entwickeln und 
+softwareseitig umzusetzen. 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+ 
+Funktionale und objeltorientierte Programmierkonzepte oder vergleichbare Veranstaltung 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0970-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+ 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+565 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0970-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+566 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Software Engineering 
+Modul Nr. 
+20-00-0972 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0972-pl Praktikum in der Lehre - 
+Software Engineering 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Vorbereitung und Korrektur von Übungen, Abhalten von Übungsstunden, Betreuung von 
+Praktischen Übungen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können Sie  
+- Lerninhalte in Form von Übungsaufgaben auf angemessener Abstraktionsebene aufbereiten 
+- fachliche Inhalte aufbereiten und erklären (für die Zielgruppe der Studierenden)  
+- Übungsgruppen betreuen 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ 
+Sehr gute Kenntnisse in Software Engineering 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0972-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehend der Prüfung (100%) 
+ 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+567 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0972-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+10 Kommentar 
+ 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+568 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Computersystemsicherheit 
+Modul Nr. 
+20-00-0986 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0986-pl Praktikum in der Lehre – 
+Computersystemsicherheit 
+ 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+- Ausarbeitung neuer Übungs- und Programmieraufgaben 
+- Konzeption von Übungsblättern 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können sie Lerninhalte als Übungs- 
+und Programmieraufgaben aufbereiten. 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: erfolgreiche Teilnahme an der Lehrveranstaltung "Computersystemsicherheit" 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0986-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0986-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+569 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+570 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Einführung in den Compilerbau 
+Modul Nr. 
+20-00-0988 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0988-pl Praktikum in der Lehre - 
+Einführung in den Compilerbau 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+- Erstellen von Übungs- und Lehrmaterial zu Einführung in den Compilerbau 
+- Betreuung von Studierenden zu Themen der Einführung in den Compilerbau, insbesondere 
+unter Verwendung des neuen Lehrmaterials 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Absolvieren der Veranstaltung sind die Studierenden in der Lage, 
+selbständig Lehrmaterialien zu Informatikthemen zu erstellen. Sie können das Material in 
+Schulungen erfolgreich einsetzen und seine didaktische Wirksamkeit kritisch beurteilen. Sie 
+können Studierende in direktem persönlichen Kontakt, aber auch über elektronische 
+Kommunikationsmedien anleiten und betreuen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Kenntnisse aus Funktionale und Objektorientierte Programmierkonzepte, Algorithmen und 
+Datenstrukturen, Einführung in den Compilerbau sowie Rechnerorganisation (oder 
+vergleichbaren Veranstaltungen) 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0988-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0988-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+571 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+10 Kommentar 
+ 
+ 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+572 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum in der Lehre - Ubiquitous / Mobile Computing 
+Modul Nr. 
+20-00-0996 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0996-pl Praktikum in der Lehre - 
+Ubiquitous / Mobile Computing 
+5 
+Praktikum in 
+der Lehre 
+3 
+2 
+Lerninhalt  
+Es sollen Fähigkeiten erlernt werden, geeignete Lernmaterialien selbst zu erstellen, ihren 
+Einsatz kritisch zu begleiten und dabei auch die Lernenden zu betreuen und anzuleiten. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Aufbereitung und Vermittlung des Vorlesungsinhaltes. 
+4 
+Voraussetzung für die Teilnahme 
+  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0996-pl] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Portfolio, Bericht (Optional: einschließlich 
+der Abgabe von Lehrmaterial) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0996-pl] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+573 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+10 Kommentar 
+ 
+ 
+ 

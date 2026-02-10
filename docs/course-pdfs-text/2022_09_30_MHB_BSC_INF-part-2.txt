@@ -1,0 +1,2856 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch 
+B. Sc. Informatik 
+ 
+A Pflichtbereich 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+5 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Erfolgreich ins Informatik-Studium starten (eiiss) 
+Modul Nr. 
+20-00-
+1141 
+Leistungspun
+kte 
+1 CP 
+Arbeitsaufwand 
+30 h 
+Selbststudium 
+20 h 
+Moduldauer 
+2 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1141-
+tt 
+Erfolgreich ins Informatik-
+Studium starten 
+1 
+Tutorium 
+0 
+2 
+Lerninhalt 
+In wöchentlichen Gesprächen zwischen einem erfahrenen Studierenden aus höherem 
+Semester (Mentor*in) und einem Studierenden im ersten Semester (Mentee) werden 
+folgende Inhalte thematisiert: 
+- Selbstorganisation zu Studienbeginn 
+- Orientierung in Bezug auf die Anforderungen des B. Sc. Informatik 
+- Nutzung von Lerngruppen 
+- Lernen an der Universität und Reflexion des Lernstandes 
+- Teamarbeit im Studium 
+- Umgang mit Prüfungen und Prüfungsvorbereitung 
+- Organisation und Strukturierung der Prüfungsphase 
+ 
+Im zweiten Semester werden die Inhalte der Gespräche aus dem ersten Semester 
+bedarfsorientiert durch weitere Gespräche und Workshops vertieft. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Veranstaltung zielt darauf ab, dass die Studierenden ihr Studium selbstorganisiert 
+strukturieren und planen, sodass sie zielorientiert studieren. Die Studierenden sind am 
+Ende des Moduls in der Lage die Grundstruktur des Studiums zu erkennen sowie die 
+Anforderungen der Studienfächer abzuschätzen und dementsprechend ihr Studium zu 
+optimieren. Weiterhin sind sie in der Lage verschiedene Vorgehensweisen beim Lernen an 
+der Universität zu reflektieren und auf ihr eigenes Lernverhalten zu übertragen. 
+4 
+Voraussetzung für die Teilnahme 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0000-tt] (Studienleistung, Sonderform, Bestanden/Nicht bestanden) 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+6 
+ 
+Zum Bestehen ist die Teilnahme an wöchentlichen Gesprächen mit studentischen 
+Mentor*innen und die Abgabe von wöchentlichen Fragebögen zur Studiensituation 
+während der Vorlesungszeit erforderlich. Fehlende Teilnahmen an den Gesprächen 
+und/oder Abgaben der Fragebögen können durch das Anfertigen einer schriftlichen 
+Ersatzleistung zu den Inhalten der Lehrveranstaltung ausgeglichen werden. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0000-tt] (Studienleistung, Sonderform, Gewichtung: 100%, 
+Bestanden/Nicht bestanden) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+ 
+9 
+Literatur 
+Die Materialien zur Veranstaltung werden über den entsprechenden Moodle-Kurs 
+bereitgestellt. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+7 
+ 
+Modulbeschreibung 
+Modulname 
+Funktionale und objektorientierte Programmierkonzepte 
+Modul Nr. 
+20-00-0004 
+Leistungspun
+kte 
+ 10 CP 
+Arbeitsaufwand 
+300 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0004-iv 
+Funktionale und objektorientierte 
+Programmierkonzepte 
+10 
+integrierte 
+Veranstaltung 
+8 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Essentielle Kompetenzen in wissenschaftlich basierter, problemorientierter Entwicklung von 
+Softwaresystemen. Vermittlung grundlegender Begriffe der Informatik, sowie Entwicklung 
+einfacher Programmierfähigkeiten. Verstehen der Bedeutung von Abstraktion und 
+Modellierung in der Informatik. 
+ 
+Themenschwerpunkte sind: 
+● Grundlegende Programmierkonzepte  
+● Grundlagen der funktionalen Programmierung 
+● Grundlagen der objektorientierten Programmierung  
+● Entwurf einfacher Softwaresysteme 
+● Einfache Typsysteme 
+● Rekursion 
+● Einfache Ein-/Ausgabe 
+● Grundlagen des Testens 
+● Dokumentation von Sourcecode  
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss der Veranstaltung sind Studierende mit den Grundlagen von 
+funktionalen und objektorientierten Programmiersprachen vertraut und die Studierenden 
+können die folgenden Aufgaben bewältigen: 
+● einfache Programmieraufgaben mit Hilfe von funktionalen und/oder objektorientierten 
+Programmiersprachen systematisch lösen; 
+● Qualitätssicherung mittels einfacher (Unit-) Tests durchführen● Sourcecode grundlegend 
+unter Zuhilfenahme von Standardwerkzeugen dokumentieren. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+8 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0004-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 120 min.) 
+ 
+ [20-00-0004-iv] (Studienleistung, Sonderform, Bestanden/Nicht bestanden) 
+Das erfolgreiche Bestehen der Studienleistung ist Zulassungsvoraussetzung zur 
+Fachprüfung. 
+Die Form der Studienleistung wird zu Beginn der Lehrveranstaltung bekannt gegeben. 
+Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten 
+Formen. 
+Softwareentwicklung (optional: einschließlich der Abgabe von Quellcode und Testaten), 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten), Portfolio 
+Für eine Zulassung zur Fachprüfung sollen nicht mehr als 50% der in den verwendeten 
+Formen erzielbaren Leistungen erforderlich sein. Begründete Ausnahmen bedürfen der 
+Genehmigung des Studiendekans/der Studiendekanin. 
+  
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0004-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+ 
+[20-00-0004-iv] (Studienleistung, Sonderform, Gewichtung: 0%, Bestanden/Nicht 
+bestanden) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann.  
+8 
+Verwendbarkeit des Moduls 
+ 
+B. Sc. Informatik 
+B.Sc. Wirtschaftsinformatik 
+JBA Informatik 
+B.Sc. Informationssystemtechnik 
+B.Sc. Computational Engineering 
+Lehramt an Gymnasien – Fach Informatik  
+Bachelor/Master of Education mit beruflicher Fachrichtung oder Unterrichtsfach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+9 
+ 
+9 
+Literatur 
+Wird in der Veranstaltung bekannt gegeben. 
+ 
+10 
+Kommentar 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+10 
+ 
+Modulbeschreibung 
+Modulname 
+Digitaltechnik 
+Modul Nr. 
+20-00-0900 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0900-iv 
+Digitaltechnik 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Digitaltechnik: digitale Abstraktion und ihre technische Umsetzung, Zahlensysteme, Fest-
+/Gleitkommadarstellung, Logikgatter, MOSFET Transistoren und CMOS Gatter, 
+Leistungsaufnahme 
+- Kombinatorische Schaltungen: Boole’sche Gleichungen und Algebra, Abbildung auf Gatter, 
+mehrstufige Schaltungen, vierwertige Logik (0,1,X,Z), Minimierung von Ausdrücken, 
+kombinatorische Grundelemente, Zeitverhalten  
+- Sequentielle Schaltungen: Latches, Flip-Flops, Entwurf synchroner Schaltungen, endliche 
+Automaten, Zeitverhalten, Parallelität 
+- Hardware-Beschreibungssprachen: Modellierung kombinatorischer und sequentieller 
+Schaltungen, Strukturbeschreibungen, Modellierung endlicher Automaten, Datentypen, 
+parametrisierte Module, Testrahmen 
+- Grundelemente digitaler Schaltungen: arithmetische Schaltungen, sequentielle 
+Grundelemente, Speicherfelder, Logikfelder  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende verstehen nach erfolgreichem Besuch der Veranstaltung die Konzepte und 
+Grundelemente der digitalen Logik sowie ihre technologische Realisierung. Sie können diese 
+Kenntnisse selbständig anwenden, um zielgerichtet kombinatorische und sequentielle 
+Schaltungen zu konstruieren und in einer Hardware-Beschreibungssprache zu 
+implementieren. Sie können digitale Schaltungen bezüglich funktionaler und nicht-
+funktionaler Eigenschaften analysieren. 
+4 
+Voraussetzung für die Teilnahme  
+keine 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0900-iv] (Fachprüfung, Klausur, Standard) 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+11 
+ 
+ 
+ 
+ 
+ 
+Klausur (Dauer 90 min.) 
+ 
+ [20-00-0900-iv] (Studienleistung, Sonderform, Bestanden/Nicht bestanden) 
+Das erfolgreiche Bestehen der Studienleistung ist Zulassungsvoraussetzung zur 
+Fachprüfung. 
+Die Form der Studienleistung wird zu Beginn der Lehrveranstaltung bekannt gegeben. 
+Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten 
+Formen. 
+Softwareentwicklung (optional: einschließlich der Abgabe von Quellcode und Testaten), 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten), Portfolio 
+Für eine Zulassung zur Fachprüfung sollen nicht mehr als 50% der in den verwendeten 
+Formen erzielbaren Leistungen erforderlich sein. Begründete Ausnahmen bedürfen der 
+Genehmigung des Studiendekans/der Studiendekanin.  
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0900-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+ 
+[20-00-0900-iv] (Studienleistung, Sonderform, Gewichtung: 0%, Bestanden/Nicht 
+bestanden)  
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Die Literaturempfehlungen werden kontinuierlich aktualisiert. Ein Beispiel für die 
+verwendete Literatur ist: 
+David Money Harris, Sarah L. Harris: Digital Design and Computer Architecture. Morgan 
+Kaufmann 
+ 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+12 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Mathematik I für Informatik 
+Modul Nr. 
+04-10-
+0118/de 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. phil. nat. Ulrich Kohlenbach 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+04-00-0128-
+vu 
+Mathematik I (für Informatik 
+und Wirtschaftsinformatik) 
+0 
+Vorlesung 
+und Übung 
+6 
+2 
+Lerninhalt 
+ 
+ 
+Mengen, Relationen, Funktionen, algebraische Grundstrukturen 
+ 
+modulare Arithmetik, RSA Verfahren für Verschlüsselung von Daten 
+ 
+endlichdimensionale Vektorräume, lineare Abbildungen und Matrizen, Gauß-
+Algorithmus, Determinanten, Eigenwerte 
+ 
+Grundlagen: reelle und komplexe Zahlen 
+ 
+Folgen und Konvergenz 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+ 
+Beherrschung der mengentheoretischen Sprechweise 
+ 
+Vertrautheit mit grundlegenden algebraischen Strukturen und Grundbegriffen 
+ 
+Verständnis der grundlegenden Begriffe der linearen Algebra 
+ 
+Beherrschung der grundlegenden Algorithmen der linearen Algebra 
+ 
+Verständnis des Begriffs der reellen Zahlen und Beherrschung des Umgangs mit 
+Grenzwertprozessen. 
+4 
+Voraussetzung für die Teilnahme 
+keine 
+5 
+Prüfungsform 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+13 
+ 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, 
+Bestanden/Nicht bestanden) 
+Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Minuten), bei 
+geringer Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird 
+anhand der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen 
+festgelegt. 
+ 
+Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die 
+Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während 
+des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+0%, Bestanden/Nicht bestanden) 
+8 
+Verwendbarkeit des Moduls 
+Pflicht 
+9 
+Literatur 
+ 
+ 
+Finckenstein, Lehn, Schellhaas, Wegmann: Arbeitsbuch Mathematik für 
+Ingenieure I/II, Teubner 
+ 
+Meyberg/Vachenauer: Höhere Mathematik I/II, Springer-Verlag 
+ 
+Vorlesungsskript 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+14 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Automaten, formale Sprachen und Entscheidbarkeit 
+Modul Nr. 
+04-10-
+0120/de 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. rer. nat. Martin Otto 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+04-00-0091-
+vu 
+Automaten, formale 
+Sprachen und 
+Entscheidbarkeit 
+0 
+Vorlesung 
+und Übung 
+3 
+2 
+Lerninhalt 
+Einführung: Transitionssysteme, Wörter, Sprachen; Mathematische Grundbegriffe und 
+elementare Beweismethoden; Endliche Automaten und reguläre Sprachen; 
+Determinismus und Nichtdeterminismus, Abschlusseigenschaften und 
+Automatenkonstruktionen;  
+Sätze von Kleene, Myhill-Nerode, Pumping Lemma; 
+Grammatiken und Chomsky-Hierarchie, 
+kontextfreie Sprachen, Abschlusseigenschaften, Pumping Lemma, CYK Algorithmus;  
+Berechnungsmodelle: Kellerautomaten, Turingmaschinen; Entscheidbarkeit und 
+Aufzählbarkeit in der Chomsky-Hierarchie 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden lernen elementare Techniken und Methoden der diskreten Mathematik 
+im Umfeld von formalen Sprachen und Automaten kennen und anzuwenden; sie lernen, 
+endliche Automaten als Beispiel eines fundamentalen Berechnungsmodells operational 
+und semantisch zu interpretieren und zu analysieren.  
+Sie verfügen über die notwendigen Grundkenntnisse, Grammatiken und formale 
+Sprachen im Rahmen der Chomsky-Hierarchie und zugehöriger Berechnungsmodelle 
+einzuordnen und zu analysieren. 
+4 
+Voraussetzung für die Teilnahme 
+keine 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Bestanden/Nicht 
+bestanden) 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+15 
+ 
+Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Min), bei geringer 
+Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand 
+der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen 
+festgelegt. 
+ 
+Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die 
+Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während 
+des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+0%, Bestanden/Nicht bestanden) 
+8 
+Verwendbarkeit des Moduls 
+Pflichtveranstaltung in Informatik-Studiengängen; 
+Bestandteil des Moduls "Formale Grundlagen der Imformatik" im BSc Mathematik 
+9 
+Literatur 
+Schöning: Theoretische Informatik -- kurz gefasst  
+\newline 
+Hopcroft, Motwani, Ullman: Einführung in die Automatentheorie, formale Sprachen und 
+Komplexitätstheorie 
+\newline 
+Wegener: Theoretische Informatik -- eine algorithmenorientierte Einführung  
+\newline 
+Skript (elektronisch unter www.mathematik.tu-darmstadt.de&#47;˜otto) 
+ 
+10 Kommentar 
+durchgeführt als Teil einer (4+2) Veranstaltung 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+16 
+ 
+Modulbeschreibung 
+Modulname 
+Algorithmen und Datenstrukturen 
+Modul Nr. 
+20-00-0005 
+Leistungspun
+kte 
+ 10 CP 
+Arbeitsaufwand 
+300 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0005-iv 
+Algorithmen und Datenstrukturen 10 
+integrierte 
+Veranstaltung 
+8 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Datenstrukturen: Array, Listen, Binäre Suchbäume, B-Bäume, Graphenrepräsentationen, 
+Hash-Tabellen, Heaps 
+ 
+- Algorithmen: Sortieralgorithmen, Stringmatching, Traversieren, Einfügen, Suchen und 
+Löschen bei Datenstrukturen, Kürzeste-Wege-Suche, Minimale Spannbäume 
+ 
+- Asymptotische Komplexität: Laufzeit, Landau-Notation, Klassen P und NP, NP-
+Vollständigkeit 
+ 
+- Algorithmisches Strategien, zum Beispiel: Divide-and-Conquer, Dynamische 
+Programmierung, Brute-Force, Greedy, Backtracking, Metaheuristiken 
+3 
+Qualifikationsziele / Lernergebnisse 
+In dieser Veranstaltung lernen Studierende grundlegende Datenstrukturen und Algorithmen 
+sowie die Komplexitätsklassen P, NP und NPC kennen. Sie erwerben die Fähigkeiten, die 
+Grundprinzipien der Algorithmik anzuwenden und asymptotische Komplexität 
+einzuschätzen und zu bestimmen. Außerdem verstehen sie bedeutende algorithmische 
+Strategien und können diese anwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von „Funktionale und objektorientierte 
+Programmierkonzepte“ oder einer vergleichbaren Veranstaltung  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0005-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 120 min.) 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+17 
+ 
+ 
+ 
+ [20-00-0005-iv] (Studienleistung, Sonderform, Bestanden/Nicht bestanden) 
+Das erfolgreiche Bestehen der Studienleistung ist Zulassungsvoraussetzung zur 
+Fachprüfung. 
+Die Form der Studienleistung wird zu Beginn der Lehrveranstaltung bekannt gegeben. 
+Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten 
+Formen. 
+Softwareentwicklung (optional: einschließlich der Abgabe von Quellcode und Testaten), 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten), Portfolio 
+Für eine Zulassung zur Fachprüfung sollen nicht mehr als 50% der in den verwendeten 
+Formen erzielbaren Leistungen erforderlich sein. Begründete Ausnahmen bedürfen der 
+Genehmigung des Studiendekans/der Studiendekanin.  
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0005-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+ 
+[20-00-0005-iv] (Studienleistung, Sonderform, Gewichtung: 0%, Bestanden/Nicht 
+bestanden)  
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+B.Sc. Wirtschaftsinformatik 
+JBA Informatik 
+B.Sc. Informationssystemtechnik 
+B.Sc. Computational Engineering 
+Lehramt an Gymnasien – Fach Informatik  
+Bachelor/Master of Education mit beruflicher Fachrichtung oder Unterrichtsfach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird in der Veranstaltung bekannt gegeben 
+ 
+10 
+Kommentar 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+18 
+ 
+Modulbeschreibung 
+Modulname 
+Rechnerorganisation 
+Modul Nr. 
+20-00-0902 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0902-iv 
+Rechnerorganisation 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Architektur von Mikroprozessoren: Programmierung in Assembler- und Maschinensprache, 
+Adressierungsarten, Werkzeugflüsse, Laufzeitumgebung 
+- Mikroarchitektur: Befehlssatz und architektureller Zustand, Leistungsbewertung, 
+Mikroarchitekturen mit Eintakt-/Mehrtakt-/Pipeline-Ausführung, Ausnahmebehandlung, 
+fortgeschrittene Mikroarchitekturen 
+- Speicher und Ein-/Ausgabesysteme: Leistungsbewertung, Caches, virtueller Speicher, Ein-
+/Ausgabetechniken, Standardschnittstellen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende verstehen nach erfolgreichem Besuch der Veranstaltung die Grundkonzepte der 
+maschinennahen Programmierung in Assembler und können zielgerichtet auf dieser Ebene 
+Algorithmen implementieren. Sie sind vertraut mit verschiedenen Techniken, um 
+selbständig Prozessorarchitekturen als Mikroarchitekturen in digitaler Logik zu realisieren. 
+Sie verstehen den Aufbau und die Funktion von Speicher- und Ein-/Ausgabesystemen und 
+kennen die Grundlagen verschiedener Standardschnitsttellen. Sie können die Qualität der 
+Realisierungen in verschiedenen Gütemaßen bewerten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch der Vorlesung „Digitaltechnik” oder einer vergleichbaren 
+Veranstaltung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0902-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+ [20-00-0902-iv] (Studienleistung, Sonderform, Bestanden/Nicht bestanden) 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+19 
+ 
+ 
+ 
+ 
+ 
+Das erfolgreiche Bestehen der Studienleistung ist Zulassungsvoraussetzung zur 
+Fachprüfung. 
+Die Form der Studienleistung wird zu Beginn der Lehrveranstaltung bekannt gegeben. 
+Möglich ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten 
+Formen. 
+Softwareentwicklung (optional: einschließlich der Abgabe von Quellcode und Testaten), 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten), Portfolio 
+Für eine Zulassung zur Fachprüfung sollen nicht mehr als 50% der in den verwendeten 
+Formen erzielbaren Leistungen erforderlich sein. Begründete Ausnahmen bedürfen der 
+Genehmigung des Studiendekans/der Studiendekanin.  
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0902-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+ 
+[20-00-0902-iv] (Studienleistung, Sonderform, Gewichtung: 0%, Bestanden/Nicht 
+bestanden)  
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+JBA Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Die Literaturempfehlungen werden kontinuierlich aktualisiert. Ein Beispiel für die 
+verwendete Literatur ist: 
+David Money Harris, Sarah L. Harris: Digital Design and Computer Architecture. Morgan 
+Kaufmann 
+ 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+20 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Mathematik II für Informatik 
+Modul Nr. 
+04-10-
+0119/de 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. phil. nat. Ulrich Kohlenbach 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+04-00-0087-
+vu 
+Mathematik II (für 
+Informatik und 
+Wirtschaftsinformatik) 
+0 
+Vorlesung 
+und Übung 
+6 
+2 
+Lerninhalt 
+ 
+ 
+Reihen und Potenzreihen 
+ 
+elementare Funktionen 
+ 
+reelle Funktionen und Stetigkeit 
+ 
+Differentialrechnung, Extrema, Umkehrfunktion 
+ 
+Exponentialfunktion und Logarithmus 
+ 
+Integralrechnung: Integrale, Hauptsatz, Integrationsmethoden 
+ 
+reelle Funktionen in mehreren Variablen 
+ 
+Taylorreihen, Fourierreihen 
+ 
+gewöhnliche Differentialgleichungen, elementare Lösungsmethoden und 
+Beispiele, lineare Differentialgleichungen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+ 
+Beherrschung der wichtigsten Konvergenzkriterien für Reihen und ihrer 
+Anwendung 
+ 
+Sicherheit im Umgang mit elementaren Funktionen wie Exponentialfunktion, 
+Winkelfunktionen und Logarithmus 
+ 
+Verständnis topologischer Grundbegriffe und ihrer Verwendung 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+21 
+ 
+ 
+Verständnis des Begriffs der Differenzierbarkeit und Beherrschung der 
+Differentiationsregeln 
+ 
+Verständnis des Riemann-Integrals und Beherrschung einfacher 
+Integrationstechniken 
+ 
+Verständnis der Differentiation von Funktionen mehrerer reeller Variablen 
+ 
+Fähigkeit, Extremwertsaufgaben für Funktionen in mehreren Variablen zu lösen 
+ 
+Vertrautheit mit einfachen gewöhnlichen Differentialgleichungen und 
+Lösungsmethoden dafür 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Mathematik I 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Bestanden/Nicht 
+bestanden) 
+Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Min), bei geringer 
+Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand 
+der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen 
+festgelegt. 
+ 
+Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die 
+Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während 
+des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+0%, Bestanden/Nicht bestanden) 
+8 
+Verwendbarkeit des Moduls 
+Pflicht 
+9 
+Literatur 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+22 
+ 
+ 
+Finckenstein, Lehn, Schellhaas, Wegmann: Arbeitsbuch Mathematik für 
+Ingenieure I/II, Teubner 
+ 
+Meyberg/Vachenauer: Höhere Mathematik I/II, Springer-Verlag 
+ 
+Vorlesungsskript 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+23 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Aussagenlogik und Prädikatenlogik 
+Modul Nr. 
+04-10-
+0121/de 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. rer. nat. Martin Otto 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+04-00-0090-
+vu 
+Aussagenlogik und 
+Prädikatenlogik 
+0 
+Vorlesung 
+und Übung 
+3 
+2 
+Lerninhalt 
+Syntax und Semantik der Aussagenlogik, funktionale Vollständigkeit und Normalformen, 
+Kompaktheitssatz der Aussagenlogik, vollständige Beweiskalküle: Resolution und ein 
+Sequenzenkalkül;  
+\newline 
+Syntax und Semantik der Logik erster Stufe, Strukturen und Belegungen, Normalformen 
+und Skolemisierung, der Satz von Herbrand und der Kompaktheitsstaz der Logik erster 
+Stufe, vollständige Beweiskalküle: (Grundinstanzen-)Resolution und ein 
+Sequenzenkalkül, 
+Gödelscher Vollständigkeitssatz, Unentscheidbarkeit der Logik erster Stufe; 
+\newline 
+optional: Exkurse zu Ausdrucksstärke und model checking 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden werden mit Inhalten und Methoden der mathematischen Logik und 
+ihrer Rolle in der Informatik vertraut gemacht. Sie lernen die grundlegenden Begriffe und 
+Resultate der Logik, insbesondere der Logik erster Stufe, kennen und anzuwenden. Sie 
+beherrschen die grundsätzlichen mathematischen Methoden in der Behandlung von 
+Syntax, Semantik und formalen Beweisen, sowie die Diskussion einfacher 
+modelltheoretischer und algorithmischer Aspekte der behandelten logischen Systeme 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Automaten, formale Sprachen und Entscheidbarkeit 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, 
+Bestanden/Nicht bestanden) 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+24 
+ 
+Fachprüfung: In der Regel erfolgt die Prüfung durch eine Klausur (90 Min), bei geringer 
+Teilnehmerzahl gegebenenfalls mündlich (30 Min). Die Form der Prüfung wird anhand 
+der voraussichtlichen Teilnehmerzahl in den ersten beiden Veranstaltungswochen 
+festgelegt. 
+ 
+Studienleistung: In der Regel erfolgreiche Bearbeitung eines Teils der Hausübungen. Die 
+Anzahl sowie das Bewertungsschema der Hausübungen als Studienleistung wird während 
+des ersten Veranstaltungstermins durch die Prüferin/den Prüfer bekannt gegeben. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+0%, Bestanden/Nicht bestanden) 
+8 
+Verwendbarkeit des Moduls 
+Pflichtveranstaltung in Informatik-Studiengängen, 
+Bestandteil des Moduls "Formale Grundlagen der Informatik" im BSc Mathematik 
+9 
+Literatur 
+Burris: Logic for Mathematics and Computer Science 
+\newline 
+Schöning: Logik für Informatiker 
+\newline 
+Boolos, Burgess, Jeffrey: Computability and Logic 
+\newline 
+Skript (2 Teile, elektronisch unter www.mathematik.tu-darmstadt.de&#47;˜otto) 
+ 
+10 Kommentar 
+durchgeführt als Teil einer (4+2) Veranstaltung 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+25 
+ 
+Modulbeschreibung 
+Modulname 
+Software Engineering 
+Modul Nr. 
+20-00-0017 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0017-iv 
+Software Engineering 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Vermittlung eines grundlegenden Überblicks über die wesentlichen Bereiche des Software 
+Engineering sowie der Kenntnisse und Fähigkeiten, die für die Modellierung und 
+Realisierung kleinerer Softwaresysteme notwendig sind.  
+Die Schwerpunkthemen sind: 
+ 
+Anforderungsanalyse 
+ 
+Domänenmodellierung 
+ 
+Objektorientierte Analyse und Entwurf 
+ 
+Softwarearchitektur 
+ 
+Software Qualität; insbesondere: 
+o Verifikation (u.a. Testen und statische Analyse) 
+o Softwaremetriken 
+ 
+Entwurfsmuster (Design Patterns) 
+ 
+Refaktorisierung 
+ 
+Evolution und Softwarevariabilität 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem erfolgreichen Abschluss der Veranstaltung sind die Studierenden in der Lage 
+folgende Aufgaben zu bewältigen: 
+ 
+Die wesentlichen Bereiche des Software Engineering zu benennen und im Kontext 
+eines Softwareentwicklungsprojekts einzuordnen 
+ 
+Durchführung einer Anforderungsanalyse 
+ 
+Qualitätssicherung durch Verifikationstechniken beherrschen 
+ 
+Modellierung, Entwurf und Implementierung objektorientierter Systeme mit Hilfe 
+grundlegender Entwurfsmuster 
+ 
+Fähigkeit einen Entwurf kritisch zu bewerten und gegebenenfalls zu verbessern 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+26 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von „Funktionale und objektorientierte 
+Programmierkonzepte“ und „Algorithmen und Datenstrukturen“ oder vergleichbaren 
+Veranstaltungen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0017-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0017-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+B.Sc. Wirtschaftsinformatik 
+JBA Informatik 
+B.Sc. Informationssystemtechnik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+Software Engineering; Ian Sommerville; Pearson 
+ 
+Design Patterns - Elements of Reusable Object-Oriented Software; E. Gamma, R. 
+Helm, R. Johnson, J. Vlissides; Prentice Hall  
+ 
+Refactoring: Wie Sie das Design bestehender Software verbessern; Martin Fowler; 
+mitp Professional 
+ 
+Writing Effective Use Cases; A. Cockburn; Pearson 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+27 
+ 
+Modulbeschreibung 
+Modulname 
+Computersystemsicherheit 
+Modul Nr. 
+20-00-
+0018 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0018-iv 
+Computersystemsicherheit 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Teil I: Kryptographie 
+- Mathematische Grundlagen der Kryptographie 
+- Schutzziele: Vertraulichkeit, Integrität, Authentizität 
+- Symmetrische und Asymmetrische Kryptographie 
+- Hash-Funktionen und Digitale Signaturen 
+- Protokolle zum Schlüsseltausch 
+Teil II: IT-Sicherheit und Zuverlässigkeit 
+- Grundlegende Konzepte der IT-Sicherheit 
+- Authentifizierung  
+- Access Control Modelle und Mechanismen 
+- Grundkonzepte der Netzwerksicherheit 
+- Grundkonzepte der Software-Sicherheit 
+- Grundkonzepte der Web-Sicherheit 
+- Zuverlässige Systeme: Fehlertoleranz, Redundanz, Verfügbarkeit 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die wichtigsten 
+Konzepte, Methoden und Modelle im Bereich der Kryptographie und der IT-Sicherheit. 
+Sie verstehen die wichtigsten Methoden, um Software- und Hardwaresysteme gegen 
+Angriffe abzusichern und können diese auf konkrete Szenarien anwenden. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+ 
+ 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+28 
+ 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0018-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-0018-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+B.Sc. Wirtschaftsinformatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+- M. Bishop, Computer Security: Art and Science, Addison Wesley, 2018 
+- P.C.van Oorschot: Computer Security and the Internet, Springer, 2021 
+- J. Katz, Y. Lindell: Introduction to Modern Cryptography, Chapman & Hall, 2020 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+29 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Einführung in die Künstliche Intelligenz 
+Modul Nr. 
+20-00-1058 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1058-iv Einführung in die Künstliche 
+Intelligenz 
+5 
+Integrierte 
+Veranstaltung 
+3 
+2 
+Lerninhalt  
+Die Künstliche Intelligenz (KI) beschäftigt sich mit Algorithmen zur Lösung von Problemen, von 
+denen man gemeinhin annimmt, dass deren Lösung Intelligenz erfordert. Orientierte man sich 
+in den Anfangstagen der Wissenschaft primär an psychologischen Erkenntnissen über das 
+menschliche Denken, hat sich das Gebiet seither zunehmend dahingehend entwickelt, dass in 
+den Problemlösungsansätzen versucht wird, die Stärken des Computers auszunutzen. Im Zuge 
+dieser Vorlesung werden wir einen kurzen Überblick über die zentralen Themen dieser 
+Kernwissenschaft der Informatik geben, insbesondere in die Themen Suche, Planen, Lernen und 
+Schließen. Die historischen und philosophischen Grundlagen werden ebenfalls behandelt. 
+ 
+- Grundlagen 
+- Einführung, Geschichte der AI (RN chapter 1) 
+- Intelligente Agenten (RN chapter 2) 
+- Suche 
+- Uninformierte Suche (RN chapters 3.1 - 3.4) 
+- Heuristische Suche (RN chapters 3.5, 3.6) 
+- Lokale Suche (RN chapter 4) 
+- Constraint Satisfaction Problems (RN chapter 6) 
+- Spiele: Suche mit Gegnern (RN chapter 5) 
+- Planning 
+- Planen im Zustandsraum (RN chapter 10) 
+- Planen im Planraum (RN chapter 11) 
+- Decisions under Uncertainty 
+- Unsicherheit und Wahrscheinlichkeiten (RN chapter 13) 
+- Bayesian Networks (RN chapter 14) 
+- Decision Making (RN chapter 16) 
+- Machine Learning 
+- Neural Networks (RN chapters 18.1,18.2,18.7) 
+- Reinforcement Learning (RN chapter 21) 
+- Philosophische Grundlagen 
+ 
+ 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+30 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach der erfolgreichen Absolvierung dieser Lehrveranstaltung sind die Studierenden in der 
+Lage 
+- grundlegende Techniken der Künstlichen Intelligenz zu verstehen und zu erklären 
+- in einer Diskussion über die prinzipielle Möglichkeit der Schaffung einer Künstlichen 
+Intelligenz fundierte Argumente vorzubringen 
+- neue Entwicklungen auf diesem Gebiet kritisch zu beurteilen 
+4 
+Voraussetzung für die Teilnahme  
+Keine 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1058-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+• [20-00-1058-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+B.Sc. Cognitive Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+31 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Probabilistische Methoden der Informatik 
+Modul Nr. 
+20-00-1150 
+Leistungspun
+kte 
+5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1150-iv Probabilistische Methoden der 
+Informatik 
+5 
+Integrierte 
+Veranstaltung 
+3 
+2 
+Lerninhalt 
+1. Grundlagen aus der Wahrscheinlichkeitstheorie, Statistik und Informationstheorie 
+2. Probabilistische Ansätze zur graphenbasierten Modellierung in der Informatik 
+3. Grundlegende probabilistische Fragestellungen und Einsatz probabilistischer Methoden  
+o in praktischer Informatik (z.B. Laufzeitanalyse von Programmen, Datenkompression),  
+o in technischer Informatik (z.B. Zuverlässigkeit von Hardware, Caching), und 
+o in der angewandten Informatik (z.B. Simulation von stochastischen Systemen, 
+probabilitische Robotik) 
+4. Ausgewählte randomisierte Algorithmen, deren Analyse durch ‚The Probabilistic Method‘, 
+Algorithmen zur automatisierten Entscheidungsfindung und Optimierung  
+5. Anwendung probabilistischer Methoden in künstlicher Intelligenz (z.B. Lernverfahren, 
+neuronale Netze) und Data Science 
+6. Implementierung probabilistischer Methoden anhand von praktischen 
+Programmierbeispielen  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die grundlegenden 
+probabilistischen Fragestellungen in den Kerngebieten der Informatik. Sie können 
+probabilistische Methoden selbständig in Informatikproblemen zur Analyse und Synthese von 
+Algorithmen, Software, Hardware, Informatik-Anwendungen, Data Science und in der 
+künstlichen Intelligenz selbständig anwenden und in einer geeigneten Programmiersprache 
+implementieren.  
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Mathematik I für Informatiker und Mathematik II für Informatiker oder 
+vergleichbare Veranstaltungen 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+32 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1150-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-1150-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+M. Mitzenbacher, E. Upfahl: Probability and Computing, Cambridge University Press 
+S.H. Chan:  Probability for Data Science, Michigan University Press 
+K. P. Murphy: Probabilistic Machine Learning, MIT Press 
+D.J.C. MacKay:  Information Theory, Inference, and Learning Algorithms, Cambridge University 
+Press 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+33 
+ 
+Modulbeschreibung 
+ 
+ 
+Modulname 
+Modellierung, Spezifikation und Semantik 
+Modul Nr. 
+20-00-0013 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0013-iv 
+Modellierung, Spezifikation und 
+Semantik 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+ Modellbegriff und Bedeutung von Modellen in der Informatik 
+ Einführung in die diskrete Modellierung mit logischen und algebraischen Konzepten 
+ Interpretation und Angemessenheit formaler Modelle 
+ Abstraktion, Verfeinerung, Komposition und Zerlegen von Modellen 
+ strukturiertes Vorgehen bei der Modellierung und Umgang mit Entwurfsentscheidungen 
+ Syntax und operationale Semantik von Programmiersprachen 
+ Einführung in Spezifikationssprachen 
+ Syntax und denotationale Semantik von Spezifikationssprachen 
+ elementare Beweistechniken und deren Verwendung 
+ Modellierung von Systemen und Anforderungen 
+ Modellierung von Koordination und Kommunikation in nebenläufigen Systemen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung kennen Studierende grundlegende 
+Konzepte und Methoden aus den Bereichen Modellierung, Spezifikation und Semantik.  Sie 
+können Prädikatenlogik und algebraische Konzepte zur Präzisierung von informell 
+gegebenen Sachverhalten verwenden und die Angemessenheit formaler Modelle von 
+Systemen beurteilen.  Sie können diskrete Modelle schrittweise erstellen, mit den dabei 
+notwendigen Entwurfsentscheidungen umgehen und während der formalen Modellierung 
+als Hilfestellung auch informelle Notationen und Graphiken sinnvoll einsetzen.   Sie kennen 
+eine Auswahl relevanter, formaler Spezifikationssprachen und können mindestens eine 
+solche Sprache einsetzen.  Sie verstehen die Trennung zwischen Syntax und Semantik 
+formaler Sprachen und können sowohl Aussagen über konkrete Programme und 
+Spezifikationen als auch einfache Metaaussagen über Programmier- und 
+Spezifikationssprachen beweisen. Sie können Systemanforderungen denotationell 
+formalisieren und die Angemessenheit solcher Formalisierungen beurteilen. 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+34 
+ 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreiche Teilnahme an den Pflichtveranstaltungen “Automaten, formale 
+Sprachen und Entscheidbarkeit” und “Aussagen- und Prädikatenlogik” bzw. anderweitig 
+erworbene, vergleichbare Kompetenzen in  formalen Sprachen, Automaten, Logik und 
+Kalkülen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0013-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-0013-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+U. Kastens, H. Kleine Büning: Modellierung - Grundlagen und formale Methoden, Hanser  
+G. Winskel: The Formal Semantics of Programming Languages, MIT Press  
+C. A. R. Hoare: Communicating Sequential Processes, Prentice-Hall 
+Die Literaturempfehlungen werden kontinuierlich aktualisiert. 
+ 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+35 
+ 
+Modulbeschreibung 
+Modulname 
+Informationsmanagement 
+Modul Nr. 
+20-00-0015 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0015-iv 
+Informationsmanagement 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Grundkonzepte des Informationsmanagements: 
+Strukturierte und unstrukturierte Daten (Text) als wichtige Datenquellen 
+Relevanz des Informationsmanagements (Betriebliche Informationssysteme) 
+Überblick zu Data Science und dessen Teilgebieten 
+ 
+Teil 1: Strukturierte Daten / Datenbanken  
+Datenmodellierung: 
+Konzeptuelle Datenmodelle (ER / UML Strukturdiagramme) 
+Konzeptueller Entwurf 
+Logisches Datenmodelle (relationales Modell) 
+Abbildung vom konzeptuellen auf das logische Modell 
+ 
+Relationale Abfragesprachen: 
+SQL (im Detail) 
+Relationale Algebra 
+ 
+Datenbanktheorie: 
+Funktionale Abhängigkeiten 
+Entwurfstheorie und Normalisierung 
+ 
+Implementierung von Datenbanksystemen: 
+Physische Datenspeicherung 
+Abfrageverabeitung und -optimierung 
+Transaktionsverarbeitung 
+ 
+Aktuelle Trends im Bereich Datenbanken: 
+Hauptspeicherdatenbanken & spaltenbasierte Datenhaltung 
+NoSQL Datenbanken 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+36 
+ 
+Big Data Systeme 
+ 
+Teil 2: Unstrukturierte Daten / Textverarbeitung 
+Grundlagen unstrukturierter Daten: 
+Kodierung und Speicherung unstrukturierter Textdaten 
+Erstellung und Annotation von Text-Korpora 
+Lexikalische Ressourcen und Wissensdatenbanken 
+ 
+Natürliche Sprachverarbeitung: 
+Segmentierungsverfahren 
+Syntaktische und semantische Analyseverfahren 
+ 
+Weitere Anwendungen für unstrukturierte Daten: 
+Informationssuche 
+Informationsextraktion 
+ 
+Weiterführende Themen: 
+Einführung in das Forschungsdatenmanagement 
+Datenkuration und -visualisierung 
+Dokumentation und Archivierung 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die Grundlagen des 
+Informationsmanagements und Anwendungen des Informationsmanagements (Betriebliche 
+Informationssysteme aber auch Data Science).  
+Sie verstehen Umgang mit strukturierten und unstrukturierten Daten und entsprechenden 
+Verfahren und Ansätzen zur Informationsverarbeitung.  
+Ein Ausblick auf weitereführende Themen (z.B. Forschungsdatenmanagement) und aktuelle 
+Trends des Informationsmanagements (z.B. Big Data) wird gegeben. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreicher Besuch der Vorlesungen „Funktionale und objektorientierte 
+Programmierkonzepte“ und „Algorithmen und Datenstrukturen“ bzw. entsprechende 
+Kenntnisse aus anderen Studiengängen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0015-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+37 
+ 
+ 
+ 
+ 
+ 
+7 
+Benotung 
+ 
+[20-00-0015-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+B.Sc. Wirtschaftsinformatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird jeweils aktuell bekanntgegeben, Beispiele sind 
+ 
+Teil 1: 
+ 
+Kemper, Alfons:  "Datenbanksysteme: Eine Einführung" 
+Haerder, Rahm, "Datenbanksysteme - Konzepte und Techniken der Implementierung"  
+Hector Garcia-Molina: "Database Systems" 
+ 
+Teil 2: 
+ 
+Jurafsky, Dan und Martin, James H.: “Speech and Language Processing” 
+ 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+38 
+ 
+Modulbeschreibung 
+Modulname 
+Computernetze und verteilte Systeme 
+Modul Nr. 
+20-00-1151 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+1151-iv 
+Computernetze und verteilte 
+Systeme 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Einführung in vernetzte und verteilte Systeme als grundlegender Baustein der modernen 
+Informatik. Der Kurs behandelt grundlegende Konzepte des Entwurfs, der Modellierung, 
+Planung und Bewertung vernetzter und verteilter Systeme.  
+- Grundlagen: Dienste, Protokolle, Verbindungen, Schichtenmodell 
+- Aufgaben von Sicherungsschicht, Vermittlungsschicht, Transportschicht, 
+Anwendungsschicht 
+- Basismechanismen (Algorithmen, Protokolle) für Multiplexing, Broadcast, Multicast, 
+Routing und Paketweiterleitung 
+- Dienstgüte und Zuverlässigkeit: Definition und Mechanismen 
+- Koordination in verteilten Systemen: von Primitiven zu Anwendungen 
+- Ausgewählte Internetprotokolle und -technologien  
+ 
+Die Lehrveranstaltung führt die Studierenden in vernetzte und verteilte Systeme ein. Sie 
+behandelt insbesondere Themen der "klassischen Vernetzung", die aus der Kommunikation 
+über paketvermittelte Netze, dem OSI-Modell und der Kopplung mit entfernten Knoten 
+besteht, als auch solche aus "modernen Bereichen", wie verteilte Datenverwaltung und 
+verteiltes Computing. Ziel dieser Vorlesung ist es, die wichtigsten Grundlagen von vernetzen 
+und verteilten Systemen einzuführen, um die Studierenden auf weiterführende Kurse 
+vorzubereiten, in denen ausgewählte Aspekte von Computernetzwerken bzw. verteilten 
+Systemen vertieft werden. 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Abschluss der Veranstaltung verfügen Studierende über 
+- ein Überblickswissen über relevante Bereiche und grundlegende Probleme vernetzter 
+Softwaresysteme,  
+- ein tiefgehendes Verständnis ausgewählter, elementarer Algorithmen, Protokolle und 
+Verfahren, die im Internet eingesetzt werden sowie  
+- anwendbares Methodenwissen zu weit verbreiteten Elementen der Modellierung und des 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+39 
+ 
+ 
+Engineerings von vernetzten Softwaresystemen. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige oder parallele Besuch von „Funktionale und objektorientierte 
+Programmierkonzepte“, „Algorithmen und Datenstrukturen“, „Rechnerorganisation“ und 
+„Parallele Programmierung“ oder vergleichbarer Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1151-iv] (Fachprüfung, Klausur, Standard) 
+Klausur (Dauer 90 min.) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-1151-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Hauptliteratur 
+- J. Kurose, K. Ross: Computer Networks, Pearson Education 2021 (also in german)  
+- M. van Steen, A. Tanenbaum: Distributed Systems, distributed-systems.net, 2017. 
+ 
+Ausgewählte Kapitel aus: 
+- G. Coulouris, J. Dollimore, T. Kindberg: Distributed Systems – Concept and Design, 
+Pearson Studium 
+- A. Tanenbaum, D. Wetherall: Computer Networks, Pearson Education 2012 (also in 
+german) 
+- W.R. Stevens: Unix Network Programming, Volume 1: The Sockets Networking API 
+(Addison Wesley) 
+ 
+Ausgewählte Konferenzbeiträge und Zeitschriftenartikel 
+ 
+10 
+Kommentar 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+40 
+ 
+Modulbeschreibung 
+Modulname 
+Parallele Programmierung 
+Modul Nr. 
+20-00-1152 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+1152-iv 
+Parallele Programmierung 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt 
+   
+- Grundlagen paralleler Systeme 
+- parallele Architekturen 
+- Programmiermodelle für paralleles Rechnen 
+- parallele Algorithmen 
+- Vertiefung der gelernten Inhalte in Praktika mit signifikantem Umfang 
+- falls notwendig Einführung in Basisprogrammiersprachen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+Nach dem erfolgreichen Besuch der Veranstaltung verstehen Studierende die Grundlagen 
+paralleler Systeme und ihrer sowohl korrekten als auch effizienten Programmierung. Sie 
+können einfache Anwendungen mittels paralleler Programmierung auf ausgewählten 
+Plattformen entwickeln und analysieren. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1152-iv] (Studienleistung, Sonderform, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Softwareentwicklung (optional: einschließlich der Abgabe von Quellcode und Testaten), 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten), Kolloquium (optional: 
+einschließlich Präsentation), Portfolio 
+ 
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+41 
+ 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+ 
+[20-00-1152-iv] (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+Wird in der Veranstaltung bekanntgegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+42 
+ 
+Modulbeschreibung 
+Modulname 
+Informatik und Gesellschaft 
+Modul Nr. 
+20-00-1153 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+1153-iv 
+Informatik und Gesellschaft 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt 
+   
+Die Lehrveranstaltung „Informatik und Gesellschaft“ vermittelt den Studierenden 
+praxisbezogenes Wissen zu den gesellschaftlichen und ethischen Herausforderungen in der 
+Informatik. Es werden soziale und moralische Fragestellungen bezüglich der Informatik 
+adressiert, z.B. wie kann Informatik (politisch) missbraucht werden? Inwiefern kann sie 
+Ungerechtigkeit reproduzieren? Dabei werden auch Antworten erforscht, z.B. wie kann 
+verantwortungsvolles oder wertsensitives Design stattfinden?  
+Als Grundlage wird den Studierenden eine Einführung in das Themenfeld „Informatik und 
+Gesellschaft“ sowie die Computer- und Informationsethik gegeben. Des Weiteren werden 
+konkrete ethische Leitlinien der Informatik (GI/ACM/VDI) behandelt und 
+Gestaltungsmethoden zur Einbindung dieser Leitlinien und ethischer Aspekte in der IT-
+Entwicklung vorgestellt. Auf dieser Grundlage werden Anwendungsbereiche wie 
+beispielsweise Privatheit, geistiges Eigentum, autonome Systeme, Transparenz, Diversität, 
+Dual Use und Cyberwar behandelt und dazu Fallbeispiele bearbeitet. Die Studierenden 
+erlernen durch die Beschäftigung mit Fallbeispielen neben den informatikspezifischen 
+Herausforderungen und Lösungsstrategien auch die kritische Reflexion in Bezug auf 
+ethische und gesellschaftliche Aspekte in der Informatik.  
+Inhalt: 
+ 
+Einführung und Begriffserklärung in die Computer- und Informationsethik und 
+Kurzbetrachtung relevanter Bereiche der Philosophie. 
+ 
+Kennen und Bewerten ethischer Leitlinien verschiedener Institutionen 
+ 
+Gestaltungsmethoden zur Berücksichtigung von ethischen Debatten in der 
+Informatik 
+Anwendungs- und Fallbeispiele für diese Gestaltungsmethoden (z. B. Privatheit, autonome 
+Systeme, geistiges Eigentum) 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+43 
+ 
+ 
+ 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+ 
+Kenntnisse zu Computer- und Informationsethik, technikphilosophischen 
+Grundlagen, Spannungsfeldern der Informatik mit der Gesellschaft 
+ 
+Kenntnisse von verschiedenen ethischen Leitlinien und Fähigkeit der kritischen 
+Bewertung solcher Regelwerke 
+ 
+Kenntnisse über Lösungsansätze zum ethischen und sozialen Umgang mit Informatik 
+ 
+Methodenwissen zur Implementation von ethischen Regelwerken in Prozesse oder 
+Organisationen der Informatik 
+ 
+Befähigung, die eigene Rolle als Informatiker*in kritisch zu reflektieren 
+ 
+Fähigkeit, Sachverhalte aus der Sicht der Informatik hinsichtlich ethischer und 
+gesellschaftlicher Kriterien zu bewerten und ggf. Verbesserungsvorschläge zu 
+entwickeln 
+4 
+Voraussetzung für die Teilnahme  
+ 
+keine 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1153-iv] (Studienleistung, Klausur, Standard) 
+Klausur (Dauer 75 min.) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+ 
+ 
+[20-00-1153-iv] (Studienleistung, Klausur, Gewichtung: 100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+Wird in der Veranstaltung bekanntgegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+44 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Einführung in wissenschaftliches Arbeiten 
+Modul Nr. 
+20-00-1154 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+1154-iv 
+Einführung in 
+wissenschaftliches Arbeiten 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt 
+   
+Wissenschaftliches Arbeiten beinhaltet die kritische Auseinandersetzung mit einer 
+Problemstellung unter Anwendung wissenschaftlicher Methoden und Erkenntnisse aus 
+aktueller Fachliteratur. Dabei sind klare Strukturierung, die Verwendung angemessener 
+Begrifflichkeiten, inhaltliche Richtigkeit, sowie der kritische Umgang mit Literatur und den 
+selbst generierten Erkenntnissen essentiell. 
+Die Lehrveranstaltung „Einführung in wissenschaftliches Arbeiten“ vermittelt den 
+Studierenden die Grundlagen des wissenschaftlichen Arbeitens in der Informatik. Hierbei 
+werden u.a. die Literaturrecherche, die Qualitätsbewertung und Verwaltung externer 
+Quellen, der Aufbau wissenschaftlicher Ausarbeitungen, die wissenschaftliche 
+Argumentation, der Schreibprozess sowie die korrekte Zitierweise behandelt und den 
+Studierenden anhand konkreter Beispiele und Aufgaben erklärt. 
+Die praktische Anwendung wird in Übungseinheiten vertieft. Dazu werden unter anderem 
+eigene Literaturrecherchen, Einschätzung und Bewertung ausgewählter Texte, die 
+Anfertigung eigener Ausarbeitungen sowie gegenseitige Qualitätssicherung durch Peer-
+Feedback angewendet. 
+Inhalt: 
+● Wissenschaftliches Arbeiten - Methodische Einführung, Argumentation und Logik 
+● Literaturrecherche / Bibliographien - Methoden, Techniken und Werkzeuge 
+● Nachhaltiges Forschungsdatenmanagement, Dokumentation und Reproduzierbarkeit 
+● Was ist konstruktives Feedback? Qualitätskriterien und Anwendung 
+● Konzeption von Präsentationen und Ausarbeitungen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+● Kenntnisse über Methoden und Werkzeuge der Literaturrecherche und -verwaltung 
+● Fähigkeit zur kritischen Einordnung externer Quellen, Kenntnisse über Normen und 
+Standards des Zitierens 
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+45 
+ 
+ 
+ 
+ 
+● Kenntnisse zu nachhaltiger Dokumentation von Forschungsergebnissen und 
+Reproduzierbarkeit von Experimenten 
+● Fähigkeit zum strukturierten und anschaulichen Präsentieren 
+● Befähigung, eigene wissenschaftliche Arbeiten unter Einhaltung gängiger 
+Qualitätsstandards anzufertigen 
+ 
+4 
+Voraussetzung für die Teilnahme  
+ 
+keine 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1154-iv] (Studienleistung, Sonderform, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Abgaben von Ergebnissen der praktischen Anwendung von Inhalten der Veranstaltung 
+(beispielsweise die Ergebnisse einer Literaturrecherche), Mündliche Prüfung (Dauer 15 oder 
+30 Minuten), Hausübungen (optional: einschließlich Testaten), Klausur (Dauer 60 oder 90 
+oder 120 Minuten), Kolloquium (optional: einschließlich Präsentation), Portfolio 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+ 
+ 
+[20-00-1154-iv] (Studienleistung, Sonderform, Gewichtung: 100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+Wird jeweils bekanntgegeben  
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+46 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Teamprojekt Softwareentwicklung 
+Modul Nr. 
+20-00-1155 
+Leistungspun
+kte 
+ 9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+1155-pr 
+Teamprojekt Softwareentwicklung 9 
+Praktikum 
+6 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Anwendung des im Rahmen der grundlegenden Veranstaltungen erworbenen Wissens im 
+Kontext eines komplexen Softwareentwicklungsprojektes. Die einzelnen Aufgabenstellungen 
+werden dabei von Fachgebieten der TU Darmstadt gestellt und leisten im Regelfall einen 
+Beitrag zu deren Forschung. 
+ 
+Schwerpunkte des Praktikums sind: 
+● Planung und Durchführung eines Softwareentwicklungsprojektes 
+● Anwendung von Softwareentwicklungsprozessen 
+● Ermittlung und Priorisierung von Anforderungen 
+● Durchführung systematischer Qualitätssicherung 
+● Präsentationstechnik  
+● Teamarbeit 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss des Teamprojektes Softwareentwicklung sind die 
+Studierenden in der Lage, folgende Aufgaben lösen zu können: 
+● Umsetzung kleinerer Programmierprojekte über einen längeren Zeitraum (~ 6 Monate) in 
+einem kleinen Team (4 bis 5 Personen); 
+● Systematische Organisation und Planung von Softwareprojekten; 
+● Ermittlung und Dokumentation von Projektanforderungen; 
+● Systematische Durchführung grundlegender, dem Projekt angemessener, 
+Qualitätssicherung; 
+● Effektiver Einsatz grundlegender Softwarewerkzeuge (z.B. Testwerkzeuge, 
+Versionskontrollsysteme und Projektplanungswerkzeuge); 
+
+============================================================
+PAGE 44
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+47 
+ 
+ 
+● Projektpräsentation für Außenstehende im Rahmen eines kurzen Vortrags sowie 
+Darlegung des Projektstands. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreicher Abschluss der Veranstaltungen: 
+● Funktionale und Objektorientierte Programmierkonzepte 
+● Software Engineering  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1155-pr] (Studienleistung, Sonderform, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Ein Programmierprojekt (optional: einschließlich der Abgabe von Quellcode, der Abgabe 
+von Dokumentationen aus dem Bereich der Softwareentwicklung und Testaten), 
+Hausübungen (optional: einschließlich Testaten), Kolloquium (optional: einschließlich 
+Präsentation), Portfolio 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+ 
+[20-00-1155-pr] (Studienleistung, Sonderform, Gewichtung: 100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+Lehramt an Gymnasien – Fach Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Allgemein: 
+● Lehrbuch der Softwaretechnik: Softwaremanagement; H. Balzert; Springer 
+● Design Patterns - Elements of Reusable Object-Oriented Software; E. Gamma, R. Helm, R. 
+Johnson, J. Vlissides; Prentice Hall  
+● Software Qualität - Testen, Analysieren und Verifizieren von Software; P. Liggesmeyer; 
+Springer 
+● Writing Effective Use Cases; A. Cockburn; Pearson 
+● Clean Code: A Handbook of Agile Software Craftsmanship; R. C. Martin; Prentice Hall 
+Weiterhin ist je nach bearbeiteter Aufgabenstellung weitere Literatur notwendig. 
+ 
+10 
+Kommentar 
+ 
