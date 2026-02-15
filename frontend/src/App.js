@@ -1,18 +1,30 @@
 import React, { useState } from 'react';
 import Dashboard from './components/Dashboard';
 import ModuleList from './components/ModuleList';
-import MilestoneTracker from './components/MilestoneTracker';
+import RoadmapPage from './components/RoadmapPage';
+import CareerPathsPage from './components/CareerPathsPage';
+import SupportPage from './components/SupportPage';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
+  const [language, setLanguage] = useState('de');
+
+  const toggleLanguage = () => {
+    setLanguage(prev => prev === 'de' ? 'en' : 'de');
+  };
+
+  const t = {
+    de: { home: 'Home', modules: 'Module', careers: 'Karrierewege', roadmap: 'Roadmap', support: 'Support' },
+    en: { home: 'Home', modules: 'Modules', careers: 'Careers', roadmap: 'Roadmap', support: 'Support' }
+  }[language];
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#f5f7fa' }}>
       {/* Navigation */}
       <nav style={{
-        backgroundColor: '#2c3e50',
+        backgroundColor: '#004E8A',
         padding: '0',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+        boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
         position: 'sticky',
         top: 0,
         zIndex: 1000
@@ -30,7 +42,7 @@ function App() {
             fontWeight: 'bold',
             color: 'white'
           }}>
-            🎓 Career Roadmap
+            Career Roadmap
           </div>
 
           {/* Navigation Buttons */}
@@ -39,34 +51,73 @@ function App() {
               active={currentView === 'dashboard'}
               onClick={() => setCurrentView('dashboard')}
             >
-              Dashboard
+              {t.home}
             </NavButton>
             <NavButton
               active={currentView === 'modules'}
               onClick={() => setCurrentView('modules')}
             >
-              Modules
+              {t.modules}
             </NavButton>
             <NavButton
-              active={currentView === 'milestones'}
-              onClick={() => setCurrentView('milestones')}
+              active={currentView === 'careers'}
+              onClick={() => setCurrentView('careers')}
             >
-              Milestones
+              {t.careers}
+            </NavButton>
+            <NavButton
+              active={currentView === 'roadmap'}
+              onClick={() => setCurrentView('roadmap')}
+            >
+              {t.roadmap}
+            </NavButton>
+            <NavButton
+              active={currentView === 'support'}
+              onClick={() => setCurrentView('support')}
+            >
+              {t.support}
             </NavButton>
           </div>
+
+          {/* Language Toggle */}
+          <button
+            onClick={toggleLanguage}
+            style={{
+              marginRight: '20px',
+              padding: '8px 16px',
+              backgroundColor: 'rgba(255,255,255,0.1)',
+              color: 'white',
+              border: '1px solid rgba(255,255,255,0.3)',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontSize: '14px',
+              fontWeight: '600',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.2)'}
+            onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.1)'}
+          >
+            <span style={{ fontSize: '16px' }}>{language === 'de' ? '🇩🇪' : '🇬🇧'}</span>
+            {language === 'de' ? 'DE' : 'EN'}
+          </button>
         </div>
       </nav>
 
       {/* Main Content */}
       <main style={{ paddingBottom: '40px' }}>
-        {currentView === 'dashboard' && <Dashboard />}
-        {currentView === 'modules' && <ModuleList />}
-        {currentView === 'milestones' && <MilestoneTracker />}
+        {currentView === 'dashboard' && <Dashboard onNavigate={setCurrentView} language={language} />}
+        {currentView === 'modules' && <ModuleList language={language} />}
+        {currentView === 'careers' && <CareerPathsPage language={language} />}
+        {currentView === 'roadmap' && <RoadmapPage language={language} />}
+        {currentView === 'support' && <SupportPage language={language} />}
       </main>
 
       {/* Footer */}
       <footer style={{
-        backgroundColor: '#34495e',
+        backgroundColor: '#003366',
         color: 'white',
         textAlign: 'center',
         padding: '20px',
@@ -74,9 +125,6 @@ function App() {
       }}>
         <p style={{ margin: 0, fontSize: '14px' }}>
           Career Roadmap Tool - TU Darmstadt © 2025
-        </p>
-        <p style={{ margin: '5px 0 0 0', fontSize: '12px', opacity: 0.7 }}>
-          Frontend Integration by Yigit
         </p>
       </footer>
     </div>
@@ -90,10 +138,10 @@ const NavButton = ({ children, active, onClick }) => {
       onClick={onClick}
       style={{
         padding: '16px 24px',
-        backgroundColor: active ? '#34495e' : 'transparent',
+        backgroundColor: active ? '#003366' : 'transparent',
         color: 'white',
         border: 'none',
-        borderBottom: active ? '3px solid #3498db' : '3px solid transparent',
+        borderBottom: active ? '3px solid #009CDE' : '3px solid transparent',
         cursor: 'pointer',
         fontSize: '15px',
         fontWeight: active ? 'bold' : 'normal',
@@ -102,7 +150,7 @@ const NavButton = ({ children, active, onClick }) => {
       }}
       onMouseOver={(e) => {
         if (!active) {
-          e.target.style.backgroundColor = '#34495e';
+          e.target.style.backgroundColor = '#003366';
         }
       }}
       onMouseOut={(e) => {

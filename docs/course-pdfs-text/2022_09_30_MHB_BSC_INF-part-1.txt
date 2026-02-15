@@ -1,0 +1,203 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch 
+B. Sc. Informatik 
+Fachbereich Informatik 
+Technische Universität Darmstadt 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch B. Sc. Informatik 
+Technische Universität Darmstadt 
+Fachbereich Informatik 
+Hochschulstr. 10 
+64289 Darmstadt 
+ 
+Redaktion 
+Dipl.-Inform. Tim Neubacher 
+Jasmin Boghrat, M.A. 
+Stand: 30.09.2022 
+ 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+3 
+ 
+ 
+Inhaltsverzeichnis 
+A Pflichtbereich 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   4 
+ 
+B Wahlpflichtbereich 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  48 
+ 
+C Wahlbereich 
+ 
+Wahlbereich Fachprüfungen 
+ 
+Wahlbereich Künstliche Intelligenz  
+ 
+ 
+ 
+ 
+ 
+ 
+  59 
+ 
+Wahlbereich Cybersicherheit und Privatheit  
+ 
+ 
+ 
+ 
+ 
+  98 
+ 
+Wahlbereich Komplexe vernetzte Systeme  
+ 
+ 
+ 
+ 
+ 
+142 
+ 
+Wahlbereich Software und Hardware 
+ 
+ 
+ 
+ 
+ 
+ 
+166 
+ 
+Wahlbereich Theorie  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+223 
+ 
+ 
+Wahlbereich Studienbegleitende Leistungen 
+ 
+Praktika, Projektpraktika und ähnliche Veranstaltungen 
+ 
+ 
+ 
+ 
+238 
+ 
+Seminare 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+390 
+ 
+Praktikum in der Lehre 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+537 
+ 
+ 
+ 
+Bachelorarbeit 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+608 
+ 
+ 
+ 
+ 
+ 
+ 

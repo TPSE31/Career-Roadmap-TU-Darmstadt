@@ -1,0 +1,2809 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+285 
+ 
+Modulbeschreibung 
+Modulname 
+Praktikum zur Technischen Informatik 
+Modul Nr. 
+20-00-0647 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0647-pr 
+Praktikum zur Technischen 
+Informatik 
+6 
+Praktikum 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Teilnehmerinnen und Teilnehmer bearbeiten alleine oder in einer Kleingruppe eigenständig 
+eine individuell gestellte praktische Aufgabe aus dem Bereich der technischen Informatik. 
+Die Aufgaben sind dabei in der Regel Programmier- und/oder Hardware-
+Entwicklungsarbeiten angelehnt an die aktuellen Forschungen am Fachgebiet für 
+Eingebettete Systeme und ihre Anwendungen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Absolvieren der Veranstaltung können die Studierenden eigenständig 
+ein komplexeres Problem aus dem Bereich der Technischen Informatik lösen. Sie können die 
+Qualität ihrer Lösung evaluieren und mit anderen bestehenden Lösungen vergleichen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Hängt von der konkreten Aufgabe ab. Typische empfohlene Veranstaltungen 
+sind “Digitaltechnik”, “Rechnerorganisation”, “Architekturen und Entwurf von 
+Rechnersystemen” und/oder “Einführung in Compilerbau” und “Fortgeschrittener 
+Compilerbau”  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0647-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+286 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-0647-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird spezifisch für die gestellte Aufgabe ausgewählt. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+287 
+ 
+Modulbeschreibung 
+Modulname 
+Serious Games Projektpraktikum 
+Modul Nr. 
+20-00-0649 
+Leistungspun
+kte 
+ 9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr.  Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00- 
+0649-pp 
+Serious Games Projektpraktikum 
+9 
+Projektpraktikum 
+6 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+In dem Projektpraktikum werden für aktuelle Themen aus dem Bereich Serious Games 
+(beispielsweise für Bildung, Gesundheit und Sport) Konzepte entwickelt und prototypisch 
+realisiert. 
+Die Themen haben jeweils Bezug zur aktuell laufenden Forschung des Fachgebiets, teilweise 
+in Kooperation mit Partnern aus der Games Industrie und/oder Serious Games Anwendern. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Absolvieren der Veranstaltung können die Studierenden eine praktische 
+Aufgabenstellung aus dem „Serious Games“-Umfeld eigenständig bearbeiten sowie die dafür 
+nötige Software konzipieren und prototypisch umsetzen. Zusätzlich erwerben sie praktisches 
+Wissen im Bereich des Projektmanagements, dass sie nicht nur auf ihr eigenes Thema 
+anwenden, sondern auch auf zukünftige Projekte transferieren können. Außerdem können 
+sie die von ihnen erzielten Ergebnisse einem Publikum unter Anwendung von verschiedenen 
+Präsentationstechniken vorstellen sowie eine dazugehörige Fachdiskussion aktiv bestreiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Programmierkenntnisse (die Programmiersprache ist jeweils abhängig von 
+Thema und kann teilweise frei gewählt werden).  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00- 0649-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+288 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00- 0649-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Keine 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+289 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Software Development Tools 
+Modul Nr. 
+20-00-0673 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0673-pr 
+ 
+Software Development Tools 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Die Entwicklung von Werkzeugen zur Unterstützung der Entwicklung von Software. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Gewinnen von praktischer Erfahrung in der Entwicklung von Softwareentwicklungswerkzeugen. 
+Verstehen der Grenzen von Softwareentwicklungswerkzeugen. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch der Veranstaltung „Software Engineering“ oder einer 
+vergleichbaren Veranstaltung 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0673-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-0673-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+290 
+ 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+291 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Softwaresecurity durch Laufzeitüberwachung 
+Modul Nr. 
+20-00-0719 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0719-pr Softwaresecurity durch 
+Laufzeitüberwachung 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Benutzer vertrauen Computeranwendungen in zunehmendem Maße sensible Daten wie z.B. 
+Kontakt- und Kontodaten oder Bilder an. Bösartige oder fehlerhafte Anwendungen können 
+durch Missbrauch solcher Daten großen Schaden verursachen. Es ist somit wünschenswert, 
+Nutzeranforderungen an Informationssicherheit und Privacy durch geeignete Mechanismen 
+sicherzustellen. Mit Laufzeitüberwachung existiert eine Technik für Mechanismen, die zur 
+Laufzeit einer Anwendung deren Verhalten überwachen und geeignete Gegenmaßnahmen 
+ergreifen sobald nötig. Besondere Bedeutung für die Informationssicherheit kommt zunehmend 
+den verteilten Systemen wie sozialen Netzen und Cloud-Speichernlösungen zu. 
+Laufzeitüberwachung für derartige verteilte Systeme ist der Fokus dieses Praktikums. 
+ 
+Dieses Praktikum bietet Studenten die Möglichkeit, praktische Erfahrung beim Implementieren, 
+Einsetzen und Evaluieren von Mechanismen zur Laufzeitüberwachung zu erlangen. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Praktische Erfahrung mit Laufzeitüberwachung zur Anwendungssicherheit, insbesondere zu: 
+Inlining von Mechanismen zur Laufzeitüberwachung; formale Spezifikation von 
+Sicherheitsanforderungen; Laufzeitüberwachung von Sicherheit in verteilten Systemen; 
+Schwachstellenanalyse von Laufzeitmechanismen; Testen und Evaluation von 
+Laufzeitmechanismen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Programmiererfahrung in Java; Informatikkenntnisse entsprechend dem 4. Semester des 
+Bachelorstudiengangs 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0719-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+292 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0719-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+293 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Forschungsprojekt Knowledge Engineering und Maschinelles Lernen 
+Modul Nr. 
+20-00-0751 
+Leistungspun
+kte 
+ 12 CP 
+Arbeitsaufwand 
+360 h 
+Selbststudium 
+240 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0751-pj 
+Forschungsprojekt Knowledge 
+Engineering und Maschinelles 
+Lernen 
+12 
+Projekt 
+8 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+An einem individuellen Projekt soll das eigenständige Forschen in den Gebieten Knowledge 
+Engineering, Künstliche Intelligenz, maschinelles Lernen und Data Mining unter Anleitung 
+erlernt werden. Dabei werden die Themen jeweils in Zusammenarbeit mit dem Betreuer 
+definiert.  
+Mögliche Themenfelder:  
+● Maschinelles Lernen und Data Mining  
+● Induktives Regel-Lernen  
+● Learning from Preferences  
+● Multilabel Classification  
+● Information Extraction  
+● Web Mining  
+● Semantic Web  
+● Game Playing  
+Konkrete Aufgabenstellungen werden individuell vereinbart, und das Projekt kann jederzeit 
+begonnen werden.  
+Studierende, die an einem derartigen Projekt interessiert sind, wenden sich bitte an einen 
+Mitarbeiter des anbietenden Fachgebiets. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Bearbeitung dieses Projekts sind die Studierenden in der Lage 
+● selbständig kleinere Forschungsarbeiten in den Bereichen Knowledge Engineering, 
+Künstliche Intelligenz, maschinelles Lernen und Data Mining durchzuführen 
+● diese Ergebnisse in einem Abschlußreport zu dokumentieren 
+● in einem wissenschaftlichen Vortrag zu präsentieren 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+294 
+ 
+ 
+ 
+●  in einer kritischen Diskussion zu verteidigen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlegende Kenntnisse in den Bereichen Knowledge Engineering, Künstliche 
+Intelligenz, Data Mining und maschinelles Lernen sind hilfreich. Es werden außerdem 
+grundlegende Kenntnisse in einer Programmiersprache (z.B. Java o.ä.) vorausgesetzt.  
+Darüber hinaus ist aber besonders die Motivation zur selbstständigen Arbeit und das 
+Interesse an aktuellen Forschungsfragen relevant. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0751-pj] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0751-pj] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+295 
+ 
+Modulbeschreibung 
+Modulname 
+Lernende Roboter: Integriertes Projekt, Teil 1 
+Modul Nr. 
+20-00-0753 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0753-pj 
+Lernende Roboter: Integriertes 
+Projekt, Teil 1 
+6 
+Praktikum 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+In "Lernende Roboter: Integriertes Projekt, Teil 1" wird zunächst von Studierenden unter 
+Anleitung eine aktuelle Problemstellung des Roboter-Lernens erarbeitet, welche den 
+Forschungsinteressen der Studierenden entspricht, und eine Literaturstudie durchgeführt. 
+Basierend auf diesen Vorarbeiten werden ein Projektplan ausgearbeitet, die notwendigen 
+Algorithmen erprobt und eine prototypische Realisierung in Simulation erstellt. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichen Abschluss der Lehrveranstaltung, können Studierende unabhängig kleine 
+Forschungsprojekte im Bereich Robot Learning aufbauen und in Simulation erproben. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Gleichzeitiger oder vorheriger Besuch der Vorlesung „Lernende Roboter“ oder 
+einer vergleichbaren Veranstaltung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0753-pj] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+296 
+ 
+ 
+ 
+ 
+•  [20-00-0753-pj] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+297 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Lernende Roboter: Integriertes Projekt, Teil 2 
+Modul Nr. 
+20-00-0754 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0754-pj 
+Lernende Roboter: Integriertes 
+Projekt, Teil 2 
+6 
+Praktikum 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+In "Lernende Roboter: Integriertes Projekt, Teil 2" werden die Lösungen aus dem "Teil 1" 
+vervollständigt und auf einen realen Roboter angewandt. Ein wissenschaftlicher Artikel wird 
+über die Fragestellung, Methoden und Ergebnisse geschrieben sowie ggf. eingereicht. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss der Lehrveranstaltung können Studierende unabhängig kleine 
+Forschungsprojekte im Bereich Robot Learning aufbauen und in Simulation erproben. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Gleichzeitiger oder vorheriger Besuch der Vorlesung „Lernende Roboter“ oder 
+einer vergleichbaren Veranstaltung. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0754-pj] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0754-pj] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+298 
+ 
+  
+ 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+299 
+ 
+Modulbeschreibung 
+Modulname 
+Projektpraktikum Programmierung Massiv Paralleler Systeme 
+Modul Nr. 
+20-00-0763 
+Leistungspun
+kte 
+ 9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0763-
+pp 
+Projektpraktikum Programmierung 
+Massiv Paralleler Systeme 
+9 
+Projektpraktikum 
+6 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Im Rahmen dieses Projektpraktikums werden größere ausgewählte Themen aus dem 
+Bereich der Programmierung massiv-paralleler Systeme (wie z.B. GPUs) von den 
+Studierenden in Gruppen bearbeitet und am Ende des Projektpraktikums in einem Vortrag 
+vorgestellt. Die konkreten Themen wechseln von Semester zu Semester. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem erfolgreichen Abschluss des Projektpraktikums sind die Studierenden in der Lage 
+große massiv-parallele Projekte zu bearbeiten, welche den Umfang der meisten anderen 
+Projekte während des Studiums weit übersteigen. Hierzu können sie aktuelle Techniken 
+analysieren, modifizieren und anwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: gute C/C++ Programmierkenntnisse, Grundlagen der massiv-parallelen 
+Programmierung (z.B. aus der Veranstaltung „Programmierung Massiv-Paralleler 
+Prozessoren“)  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0763-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+300 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0763-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+wird in der Veranstaltung bekanntgegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+301 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum Capturing Reality 
+Modul Nr. 
+20-00-0764 
+Leistungspun
+kte 
+ 9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0764-
+pp 
+Projektpraktikum Capturing 
+Reality 
+9 
+Projektpraktikum 
+6 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Im Rahmen dieses Projektpraktikums werden größere ausgewählte Themen aus dem 
+Bereich Capturing Reality - also an der Schnittstelle von Computer Vision und 
+Computergraphik - von den Studierenden in Gruppen bearbeitet und am Ende des 
+Projektpraktikums in einem Vortrag vorgestellt. Die konkreten Themen wechseln von 
+Semester zu Semester. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Im Rahmen des Projektpraktikums lernen Studierende, eine umfangreiches Problem an der 
+Schnittstelle von Computergraphik und Computer Vision im Team zu lösen. Hierzu können 
+sie aktuelle Techniken analysieren, modifizieren und anwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: empfohlen wird der vorherige Besuch der Veranstaltung „Capturing Reality“ 
+oder einer vergleichbaren Veranstaltung sowie grundlegende Programmierkenntnisse in 
+C/C++  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0764-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+302 
+ 
+  
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0764-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+wird in der Veranstaltung bekanntgegeben 
+ 
+10 
+Kommentar 
+ 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+303 
+ 
+Modulbeschreibung 
+Modulname 
+Praktikum: Formale Spezifikation und Verifikation in Isabelle/HOL 
+Modul Nr. 
+20-00-0778 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0778-pr 
+Praktikum: Formale Spezifikation 
+und Verifikation in Isabelle/HOL 
+6 
+Praktikum 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Logik höherer Stufe (HOL) 
+● Einführung in das Werkzeug Isabelle/HOL 
+● Definition von Typen, Funktionen, Mengen und anderen grundlegenden Konzepten in der 
+Spezifikationssprache von Isabelle/HOL 
+● Führen von Beweisen für einfache Aussagen in Isabelle/HOL 
+● Modellierung von Systemen und Eigenschaften sowie Beweis von Aussagen von 
+schrittweise wachsender konzeptioneller Komplexität 
+● Diskussion und Bewertung von formalen Modellen und Beweisen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung kennen Studierende die Formalismen 
+auf denen Isabelle/HOL basiert, und sie könnnen dieses moderne Verifikationswerkzeug 
+verwenden.  Sie können in Isabelle/HOL sowohl eigenständig als auch im Team formale 
+Modelle von Systemen und Eigenschaften konstruieren und Aussagen beweisen.  Sie können 
+erstellte formale Modelle und Beweise beurteilen, anderen präsentieren und im Team 
+fundiert diskutieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Informatik- und Mathematikkenntnisse entsprechend den ersten 4 Semestern 
+des Bachelorstudiengangs Informatik, insbesondere grundlegende Logikkenntnisse und 
+Fähigkeit mit formalen Sprachen und Kalkülen umzugehen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0778-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+304 
+ 
+ 
+ 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0778-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● T. Nipkow, L. C. Paulson, M. Wenzel: Isabelle/HOL: A Proof Assistant for Higher-Order 
+Logic; Springer 
+● online documentation material on Isabelle and Higher-Order Logic (HOL) 
+Die Literaturempfehlungen werden kontinuierlich aktualisiert. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+305 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Dynamische Kontrolle von Systemanforderungen 
+Modul Nr. 
+20-00-0797 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0797-
+pp 
+Dynamische Kontrolle von 
+Systemanforderungen 
+9 
+Praktikum 
+6 
+2 
+Lerninhalt  
+- grundlegende Konzepte der dynamischen Kontrolle in verteilten Systemen 
+- Einführung in Werkzeuge zur Laufzeitkontrolle wie CliSeAu, JavaMOP und Polymer 
+- Spezifikation von Systemanforderungen in unterschiedlichen Formalismen 
+- Kombination von dynamischen Kontrollmechanismen mit Zielprogrammen 
+- zentrale vs dezentrale Kontrolle in verteilten Systemen 
+- Protokolle zur Koordination zwischen dezentralen Kontrollmechanismen in verteilten 
+Systemen 
+- eigenständige Adaption von dynamischen Kontrollmechanismen für Zielprogramme 
+- eigenständige Erweiterung einer bestehenden Infrastruktur zur dynamischen Kontrolle von 
+Anforderungen in verteilten Systemen und Evaluation von Erweiterungen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung kennen Studierende 
+grundlegende Konzepte der dynamischen Kontrolle in verteilten Systemen. 
+Sie verstehen wie Schwachstellen in verteilten Softwaresystemen, wie z.B. Sicherheitslücken, 
+mit Hilfe von dynamischen Kontrollen beseitigt werden können. Sie verstehen, wie 
+Anforderungen als Politiken formalisiert werden können und können solche Formalisierungen 
+von Anforderungen in verschiedenen Sprachen durchführen. Sie können Mechanismen zur 
+dynamischen Kontrolle für konkrete Systeme und Anforderungen einsetzen und adaptieren. 
+Sie können Mechanismen zur dynamischen Kontrolle entwickeln, evaluieren und mit anderen 
+Mechanismen integrieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Informatik- und Mathematikkenntnisse entsprechend den ersten 4 Semestern des 
+Bachelorstudiengangs Informatik, insbesondere Programmierkenntnisse in Java und die 
+Fähigkeit, mit formalen Sprachen umzugehen 
+ 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+306 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0797-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0797-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+307 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Zuverlässige Softwaresicherheit für mobile Endgeräte 
+Modul Nr. 
+20-00-0799 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0799-pr Zuverlässige 
+Softwaresicherheit für mobile 
+Endgeräte 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+- Einführung in Android und in die Programmierung von Apps 
+- mögliche Bedrohungen der Privatheit durch die Ausführung von Apps 
+- Entdecken möglicher Informationslecks durch Informationsflussanalysen 
+- statische und dynamische Sicherheitsanalysen 
+- Proof-Carrying-Code 
+- eigenständige Entwicklung von Apps und Sicherheitsanalyse dieser Apps 
+- eigenständige Erweiterung einer bestehenden Infrastruktur zur formal fundierten 
+Sicherheitsanalyse von Android Apps 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung kennen Studierende grundlegende 
+Konzepte von Android wie das Berechtigungssystem. Sie verstehen Sicherheitsprobleme, die 
+durch die Ausführung von apps entstehen können und verstehen wie diese durch 
+Informationsflussanalysen verhindert werden. Sie verstehen die Vorteile der Verwendung von 
+Proof-Carrying-Code. Sie können apps eigenständig entwickeln und die durch ihre Ausführung 
+entstehenden Informationsflüsse bezüglich Privatheitsanforderungen evaluieren. 
+Sie können Erweiterungen für eine existierende Sicherheitsinfrastruktur entwickeln und 
+funktionsfähig integrieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Informatik- und Mathematikkenntnisse entsprechend den ersten 4 Semestern des 
+Bachelorstudiengangs Informatik, insbesondere Programmierkenntnisse in Java und die 
+Fähigkeit mit formalen Sprachen und Kalkülen umzugehen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0799-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+308 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0799-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+309 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum Compilerbau 
+Modul Nr. 
+20-00-0911 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0911-pr Praktikum Compilerbau 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Eigenständiges Implementieren eines Compilers bzw. von wesentlichen Teilen davon (z.B. 
+einzelne Optimierungspasses oder Back-Ends). 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Absolvieren der Veranstaltung können die Studierenden wesentliche Teile 
+von modernen Compilern selbständig implementieren und ggf. in existierende Compiler-
+Frameworks integrieren. Dabei können sie ihre Kenntnisse sowohl von compiler-spezifischem 
+Wissen (beispielsweise über verschiedene Zwischendarstellungen) als auch allgemeinen 
+Programmiertechnik (z.B. Design Patterns) anwenden und vertiefen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreicher Besuch der Vorlesungen „Rechnerorganisation“, „Einführung in den 
+Compilerbau“ und „Fortgeschrittener Compilerbau“ bzw. entsprechende Kenntnisse aus anderen 
+Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0911-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+310 
+ 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0911-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird jeweils passend für die aktuelle Aufgabenstellung bekanntgegeben (z.B. wissenschaftliche 
+Arbeiten zu Optimierungsverfahren, Beschreibung eines Zielprozessors) 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+311 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projekt-Praktikum Knowledge Engineering und Maschinelles Lernen 
+Modul Nr. 
+20-00-0919 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0919-
+pp 
+Projekt-Praktikum Knowledge 
+Engineering und Maschinelles 
+Lernen 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Im Rahmen des Projektpratikums implementieren Studierende eine vordefinierte, größere 
+Aufgabe aus den Gebieten Knowledge Engineering, Künstliche Intelligenz, maschinelles 
+Lernen und Data Mining. Dabei werden die Themen jeweils in Zusammenarbeit mit dem 
+Betreuer definiert. 
+ 
+Mögliche Themenfelder: 
+- Maschinelles Lernen und Data Mining 
+- Induktives Regel-Lernen 
+- Learning from Preferences 
+- Multilabel Classification 
+- Information Extraction 
+- Web Mining 
+- Semantic Web 
+- Game Playing 
+ 
+Konkrete Aufgabenstellungen werden individuell vereinbart, und das Praktikum kann jederzeit 
+begonnen werden. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Bearbeitung dieses Projekts sind die Studierenden in der Lage 
+- selbständig größere Programmieraufgaben in den Bereichen Knowledge Engineering, 
+Künstliche Intelligenz, Maschinelles Lernen und Data Mining durchzuführen 
+- mit Hilfe der implementierte Instrumente wissenschaftliche Experimente und Evaluierungen 
+durchzuführen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlegende Kenntnisse in den Bereichen Knowledge Engineering, Künstliche 
+Intelligenz, Data Mining und maschinelles Lernen sind hilfreich. Es werden außerdem 
+grundlegende Kenntnisse in einer Programmiersprache (z.B. Java o.ä.) vorausgesetzt. 
+Darüber hinaus ist aber besonders die Motivation zur selbstständigen Arbeit und das Interesse 
+an aktuellen Forschungsfragen relevant. 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+312 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+•  [20-00-0919-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0919-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+313 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Softwareprojekt Datenanalyse für natürliche Sprache 
+Modul Nr. 
+20-00-0948 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Vertiefung Data 
+Science and Engineering 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0948-pp Softwareprojekt Datenanalyse 
+für natürliche Sprache 
+9 
+Praktikum 
+6 
+2 
+Lerninhalt  
+Große Datenmengen sind heute eine wertvolle Informationsquelle. Allerdings ist nur durch die 
+Verwendung von intelligenter Datenanalyse das volle Potential dieser Daten nutzbar. Solche 
+Methoden ermöglichen es neue und praktisch nutzbare Informationen in großen 
+natürlichsprachlichen Daten zu identifizieren und unterstützen dadurch die 
+Entscheidungsfindung bei komplexen Aufgaben. In diesem Projekt werden Studenten eigene 
+Ideen und neue Softwaresysteme entwickeln die es ermöglichen Informationen für 
+verschiedene Aufgaben aus einer großen Menge natürlichsprachlicher Texte (Big Data) zu 
+extrahieren. Das jeweilige Rahmenthema der Veranstaltung wechselt jedes Semester und wird 
+auf der Fachgebietshomepage bekannt gegeben. 
+ 
+Weitere Informationen: https://www.ukp.tu-darmstadt.de/teaching/courses/software-project/ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können sie 
+- sprachtechnologische Frameworks verstehen und einsetzen, 
+- komplexe NLP-Systeme eigenständig planen und umsetzen, 
+- große natürlichsprachliche Daten analysieren und 
+- die eigenen Ergebnisse mündlich und schriftlich präsentieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Programmierkenntnisse (Scala, Java oder Python) 
+- Interesse mit Texten aus natürlicher Sprache zu arbeiten 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0948-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+314 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0948-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+315 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Hardware-Entwurf für die Videoverarbeitung 
+Modul Nr. 
+20-00-
+0958 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0958-
+pr 
+Hardware-Entwurf für die 
+Videoverarbeitung 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt 
+In diesem Praktikum geht es um die Verarbeitung von Videodatenströmen in Echtzeit 
+durch spezialisierte Hardware-Einheiten. Solche Probleme sind hoch relevant im 
+industriellen Einsatz und werden im Praktikum an einer Anwendung (Corner Detector) 
+aus dem Bereich autonomer Fahrzeuge vorgestellt. 
+ 
+Die dafür nötigen Hardware-Beschleuniger sollen in einer Hardware-
+Beschreibungssprache entworfen, im Simulator validiert und dann in ein reales FPGA-
+basiertes Hardware-System integriert werden. 
+ 
+Dabei werden als Kontrast zu den üblicherweise am FG ESA in Ausbildung und 
+Forschung eingesetzten Technologien hier die Hardware-Beschreibungssprache VHDL 
+sowie FPGA-Systeme der Fa. Altera, speziell auch die Entwurfswerkzeuge Quartus und 
+Qsys eingesetzt. Die Veranstaltung beginnt mit einer Kurzeinführung in die Sprache in 
+VHDL und die EDA/CAD-Werkzeuge, Details sollen sich die Teilnehmenden anhand des 
+bereitgestellten Hintergrundmaterials selbst erarbeiten. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme können die Studierenden Echtzeit-Hardwarebeschleuniger 
+für den Bereich Videoverarbeitung in der Hardware-Beschreibungssprache VHDL 
+entwerfen und mittels Simulation validieren. Sie können durch Verwendung der 
+EAD/CAD-Werkzeuge ihre Entwürfe in ein rekonfigurierbares System-on-Chip 
+integrieren. Sie können die entstehenden Systeme evaluieren und aus den beobachteten 
+Charakteristika Rückschlüsse für die weitere Entwicklung ziehen. 
+ 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Erfolgreicher Besuch der Vorlesungen „Digitaltechnik“, 
+„Rechnerorganisation“, „Architektur und Entwurf von Rechnersystemen“ und 
+idealerweise auch „Visual Computing“ oder vergleichbare Kenntnisse aus anderen 
+Studiengängen. 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+316 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0958-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0958-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+317 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Embedded System Hands-On 1: Entwurf und Realisierung von Hardware/Software-Systemen 
+Modul Nr. 
+20-00-0959 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0959-pr Embedded System Hands-On 1: 
+Entwurf und Realisierung von 
+Hardware/Software-Systemen 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Diese Veranstaltung richtet sich an Studierende, die grundlegende praktische 
+Kenntnisse im Entwurf und der Realisierung eingebetteter Systeme erwerben möchten. 
+ 
+Nach der Einführung 
+von wichtigen Konzepten und Techniken wie 
+ 
+- Grundlagen der Elektotechnik 
+- Umgang mit Laborelektonik 
+- Entwurf und Realisierung von elektronischen Schaltungen 
+- Sensordaten: Erfassung und Verarbeitung 
+- Bus-Systeme in eingebetteten Systemen 
+- Programmieren und Debuggen von heterogenen eingebetteten Systemen 
+- Linux Kernel in eingebetteten Systemen 
+ 
+entwickeln die Teilnehmerinnen und Teilnehmer auf Basis des zuvor 
+Gelernten ein eigenes eingebettetes System. 
+ 
+Dabei stehen verschiedene 
+Projekte zur Auswahl, welche je nach eigenen Interessen eine Fokusierung auf die Software- 
+oder die Hardware-Entwicklung erlauben. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme sind Studierende mit dem praktischen Entwurf und der 
+Realisierung von eingebetten Hardware/Software-Systemen vertraut. 
+ 
+Dazu gehören auch Kenntnisse von elektrotechnischen Grundlagen und der Umgang mit 
+Laborelektronik, die Verwendung von Beschreibungssprachen und EDA/CAD-Werkzeugen für 
+den Hardware-Entwurf, das Programmieren und Debuggen speziell im Umfeld eingebetteter 
+Systeme sowie auch der Einsatz von Linux als Betriebssystem in diesem Kontext. 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+318 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreicher Besuch der Vorlesungen „Digitaltechnik“, „Rechnerorganisation“, 
+„Architektur und Entwurf von Rechnersystemen“, „Betriebssysteme“ und „Parallele 
+Programmierung“ oder vergleichbare Kenntnisse aus anderen Veranstaltungen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0959-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0959-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+319 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Embedded Systems Hands-On 2: Entwurf von Hardware-Beschleunigern für Systems-on-Chip 
+Modul Nr. 
+20-00-0968 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0968-pr Embedded Systems Hands-On 
+2: Entwurf von Hardware-
+Beschleunigern für Systems-on-
+Chip 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Diese Veranstaltung richtet sich an Studierende, die grundlegende 
+Kenntnisse im Design von Hardwarebeschleunigern im Rahmen eines Systems-on-Chip 
+erhalten möchten. 
+ 
+Im Rahmen des Praktikums erhalten Studierende umfangreiche Einblicke in 
+relevante Themen wie: 
+- Treiber für selbst erstellte Hardwarebeschleuniger 
+- Einbindung von in Bluespec erstellten Beschleunigern in ein Zynq SoC 
+- Toolchains für Hardware- und Software-Komponenten 
+ 
+Die Teilnehmer werden im Rahmen des Praktikums Aufgaben zu einem 
+typischen Einsatzgebiet von Hardwarebeschleunigung bearbeiten. 
+Ein typisches Anwendungsgebiet eines solchen Hardwarebeschleunigers ist 
+die Verarbeitung und Erfassung von Kamerabildern, zum Beispiel im Rahmen 
+von Stereo Vision. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Teilnehmenden erwerben die Fertigkeiten, das in vorangehenden Veranstaltungen 
+erworbene Methodenwissen nun anzuwenden, um ein eingebettetes System mittels 
+Hardware/Software-Co-Entwurf zu realisieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Grundlegende Kenntnisse im Umgang mit embedded Linux zum Beispiel aus 
+„Embedded Systems Hands-On 1“  
+Bluespec SystemVerilog aus „Architektur und Entwurf von Rechnersystemen“ 
+ 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+320 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0968-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0968-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+321 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum E-Learning 
+Modul Nr. 
+20-00-0979 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0979-pp Projektpraktikum E-Learning 
+9 
+Praktikum 
+6 
+2 
+Lerninhalt  
+Im Projektpraktikum E-Learning werden vertiefte E-Learning Inhalte erarbeitet oder 
+vorhandene E-Learning Elemente untersucht und verbessert. Die konkreten 
+Themenschwerpunkte werden nach Absprache mit dem Betreuer festgelegt. Zu den möglichen 
+Themen zählt beispielsweise die Entwicklung von innovativen Konzepten zur Nutzung von 
+Moodle in Lehrveranstaltungen, die Visualisierung von Algorithmen und Datenstrukturen, oder 
+die Erstellung von E-Learning-Einheiten mittels einer Autorensoftware. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem Projektpraktikum haben die Studierenden ein besseres Verständnis von E-Learning 
+und umfangreicheres Wissen über die Gestaltung und Umsetzung von lernförderndem E-
+Learning erhalten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Gute Programmierkenntnis in Java (oder je nach Themenwahl den How to Design Programs 
+Teaching Languages aus der Vorlesung „Funktionale und objektorierntierte 
+Programmierkonzepte“ oder von Moodle) sowie Kenntnis der gängigen Datenstrukturen und 
+Algorithmen (etwa aus der Vorlesung „Algorithmen und Datenstrukturen“) werden 
+vorausgesetzt. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0979-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+322 
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0979-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+323 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum Deep Learning in der Computer Vision 
+Modul Nr. 
+20-00-0980 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0980-
+pp 
+Projektpraktikum Deep 
+Learning in der Computer 
+Vision 
+9 
+Praktikum 
+6 
+2 
+Lerninhalt  
+Im Rahmen des Projektpraktikums werden ausgewählte Themen aus dem Bereich des Deep 
+Learning (tiefe neuronale Netze) für Fragestellungen in der Computer Vision in Gruppen 
+bearbeitet. Dazu gehört die praktische Umsetzung mit modernen Deep Learning Frameworks. 
+Die Ergebnisse werden am Ende in einem Vortrag vorgestellt. Die konkreten Themen 
+orientieren sich am aktuellen Stand der Forschung und wechseln von Semester zu Semester. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Durch erfolgreiche Teilnahme erwerben Studierende vertiefte Kenntnisse in tiefen neuronalen 
+Netzen und deren Anwendungen in der Computer Vision. Sie können aktuelle Techniken in 
+diesem Bereich analysieren, modifizieren und anwenden. Sie trainieren weiterhin 
+Präsentationsfähigkeiten und die Arbeit in einem Team. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+* Gute Programmierkenntnisse in C/C++ oder Python oder Lua 
+* Vorherige oder parallele Belegung von "Computer Vision I" oder einer vergleichbaren 
+Veranstaltung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0980-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+324 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0980-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+325 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Distributed Systems Programming: Projektpraktikum 
+Modul Nr. 
+20-00-0984 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0984-
+pp 
+Distributed Systems 
+Programming: 
+Projektpraktikum 
+9 
+Praktikum 
+6 
+2 
+Lerninhalt  
+Das "DSP-Projektpraktikum" adressiert Forschungsthemen im Bereich von distributed systems 
+(DS, deutsch verteilten Anwendungen) und Programmiersprachen für DS. Die angebotenen 
+Themen hängen von der aktuellen Forschung der DSP Gruppe ab und umfassen unter 
+anderem: 
+ 
+ 
+ Software-defined networking (SDN) 
+ 
+ Network function virtualization (NFV) and in-network processing (INP) 
+ 
+ Traffic engineering (TE) 
+ 
+ Network monitoring 
+ 
+ Resource management in datacenters (RMF) 
+ 
+ Big data analytics (Spark, YARN, OpenStack, ..) 
+ 
+ Event-based systems 
+ 
+ Security in SDN, INP, and big data 
+ 
+ Geo-distributed data processing 
+ 
+ Compiler infrastructures for DS 
+ 
+ Language abstractions for DS 
+ 
+ Session types / calculi for DS 
+ 
+ Network Protocols 
+ 
+Die teilnehmenden Studierenden realisieren ein Forschungsprojekt welches zusammen mit 
+den Betreuern definiert wird. 
+Das “DSP: Projektpraktikum” hat im Vergleich zum “DSP: Praktikum” einen größeren Umfang. 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach der Teilnahme am "DSP-Projektpraktikum" können Studierende technische und 
+wissenschaftliche Probleme im Bereich DS lösen. 
+ 
+Je nach ausgewähltem Thema erlernen Studierende folgende Kompetenzen: 
+ 
+ Entwurf komplexer DS 
+ Methodische Analyse und Auswertung von: 
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+326 
+ 
+ 
+ Modellen 
+ 
+ Experimenten 
+ 
+ Software 
+ 
+ Entwurf von Programmiersprachen 
+ 
+ Schreiben von technischen Dokumenten oder Projektberichten 
+ 
+ Erstellen und vortragen eines Abschlussvortrages 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Interesse am Erarbeiten von Lösungsvorschlägen für herausfordernde Probleme im 
+Bereich DS, eigenverantwortliches arbeiten und ein großes Interesse an aktuellen 
+Forschungsthemen. 
+ 
+Da die angebotenen Themen ein großes Themengebiet abdecken, sind die Anforderungen sehr 
+verschieden und projektabhängig. Eine detaillierte Beschreibung der Themen als auch der 
+Anforderungen wird während des ersten Termins präsentiert. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0984-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-0984-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+327 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Distributed Systems Programming: Praktikum 
+Modul Nr. 
+20-00-0985 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0985-pr Distributed Systems 
+Programming: Praktikum 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Das "DSP-Praktikum" adressiert Forschungsthemen im Bereich von distributed systems (DS, 
+deutsch verteilten Anwendungen) und Programmiersprachen für DS. Die angebotenen 
+Themen hängen von der aktuellen Forschung der DSP Gruppe ab und umfassen unter 
+anderem: 
+ 
+ Software-defined networking (SDN) 
+ 
+ Network function virtualization (NFV) and in-network processing (INP) 
+ 
+ Traffic engineering (TE) 
+ 
+ Network monitoring 
+ 
+ Resource management in datacenters (RMF) 
+ 
+ Big data analytics (Spark, YARN, OpenStack, ..) 
+ 
+ Event-based systems 
+ 
+ Security in SDN, INP, and big data 
+ 
+ Geo-distributed data processing 
+ 
+ Compiler infrastructures for DS 
+ 
+ Language abstractions for DS 
+ 
+ Session types / calculi for DS 
+ 
+ Network Protocols 
+ 
+Die teilnehmenden Studierenden realisieren ein Forschungsprojekt welches zusammen mit 
+den Betreuern definiert wird. 
+Das “DSP: Projektpraktikum” hat im Vergleich zum “DSP: Praktikum” einen größeren Umfang. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach der Teilnahme am "DSP-Praktikum" können Studierende technische und 
+wissenschaftliche Probleme im Bereich DS lösen. 
+ 
+Je nach ausgewähltem Thema erlernen Studierende folgende Kompetenzen: 
+ 
+ Entwurf komplexer DS 
+ Methodische Analyse und Auswertung von: 
+ 
+ Modellen 
+
+============================================================
+PAGE 44
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+328 
+ 
+ 
+ Experimenten 
+ 
+ Software 
+ 
+ Entwurf von Programmiersprachen 
+ 
+ Schreiben von technischen Dokumenten oder Projektberichten 
+ 
+ Erstellen und vortragen eines Abschlussvortrages 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Interesse am Erarbeiten von Lösungsvorschlägen für herausfordernde Probleme im Bereich DS, 
+eigenverantwortliches Arbeiten und ein großes Interesse an aktuellen Forschungsthemen. 
+ 
+Da die angebotenen Themen ein großes Themengebiet abdecken, sind die Anforderungen sehr 
+verschieden und projektabhängig. Eine detaillierte Beschreibung der Themen als auch der 
+Anforderungen wird während des ersten Termins präsentiert. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0985-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-0985-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 45
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+329 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Agile Software Engineering Projekt 
+Modul Nr. 
+20-00-0989 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0989-pp Agile Software Engineering 
+Projekt 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Durchführung eines realen Softwareentwicklungsprojekts für externe Kunden in einem festen 
+Zeitraum. Die Entwicklung umfasst alle Schritte von der Ermittlung der Anforderungen bis hin 
+zur Einführung der Software in den Betrieb. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+- Erfahrung in der Entwicklung realer Softwareprojekte 
+- Wertschätzung der verschiedenen Rollen im Rahmen von Softwareentwicklungsprojekten 
+- Projektabhängige Evaluierung vorhandener Werkzeuge und Methoden 
+- Training von "Soft Skills"; insbesondere Teamarbeit und Präsentationsfähigkeiten 
+- Kommunikation mit Kunden 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ 
+- (Introduction to)Software Engineering 
+- ein ausgeprägtes Interesse an der Entwicklung von Softwareprodukten 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0989-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+
+============================================================
+PAGE 46
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+330 
+ 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0989-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 

@@ -1,0 +1,2677 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+98 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+Wahlbereich Cybersicherheit und Privatheit 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+99 
+ 
+Modulbeschreibung 
+Modulname 
+Public Key Infrastrukturen 
+Modul Nr. 
+20-00-0063 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0063-iv 
+Public Key Infrastrukturen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+1. Security Goals 
+1. Confidentiality 
+2. Integrity 
+3. Authenticity of Data 
+4. Entity Authentication/Identification 
+5. Non-repudiation 
+6. Availability 
+7. Other Goals 
+2. Public Key Cryptography 
+1. Encryption (symmetric, assymetric, hybrid, cryptosystems, key exchange, 
+performance, security, computational problems) 
+2. Cryptographic Hash Functions 
+3. Message Authentication Codes 
+4. Digital Signatures (performance, standards) 
+3. Certificates 
+1. X.509 Public Key Certificates (properties, content, extensions) 
+2. PGP 
+3. WAP Certificates 
+4. Attribute Certificates 
+4. Trust Models 
+1. Direct Trust (fingerprints, examples of) 
+2. Web of Trust (key legitimacy, owner trust, trusted introducers) 
+3. Use of PGP 
+4. Hierarchical Trust (trusted list, common root, cross-certification, bridge) 
+5. Private Keys 
+1. Software Personal Security Environments (PKCS#12, Java Keystore, application 
+specific ) 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+100 
+ 
+2. Hardware Personal Security Environments (smart cards, hardware security modules, 
+java cards) 
+3. Private Key Life-cycle 
+6. Revocation 
+1. Revocation (reaons for, requirements, criteria) 
+2. Certificate Revocation Lists 
+3. Delta Certificate Revocation Lists 
+4. Other Certificate Revocation Lists (over-issued, indirect, redirect) 
+5. OCSP 
+6. Other Revocation Mechanisms (NOVOMODO) 
+7. Policies 
+1. Certificate Life-cycle 
+2. Certificate Policy and Certification Practice Statement 
+3. Set of Provisions 
+8. Validity Models 
+1. Shell Model 
+2. Modified Shell Model 
+3. Chain Model 
+9. Certification Path Validation 
+10. Trust Center 
+1. Registration Authority (registration protocols, proof-of-possession, extended 
+validation certificates) 
+2. Certification Authority 
+3. Certificate Management Authority 
+11. Certification Paths and Protocols 
+1. Construction 
+2. LDAP and other methods 
+3. SCVP 
+4. Timestamping 
+5. Long Term Archiving Signatures 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung Public Key Infrastrukturen besucht haben, können 
+Sie 
+● die IT Sicherheitsziele und die kryptographischen Primitive zu deren Realisierung 
+verstehen. 
+● die Grundlagen von Public Key Infrastrukturen, insbesondere die verschiedenen 
+Komponenten (bspw. private Schlüssel, Zertifikate, Policies), Akteure (bspw. Trust Center, 
+Schlüsselinhaberinhaber) und Prozesse (bspw. Zertifikatsbeantragung, Zertifikatserstellung, 
+Revokation, Zertifikatsvalidierung) verstehen und erklären. 
+● die zugrundeliegenden theoretischen Modelle (bspw. Vertrauensmodelle, 
+Gültigkeitsmodelle) verstehen, erklären und anwenden. 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+101 
+ 
+ 
+● Public Key Infrastrukturen in der Praxis anwenden (bspw. für Email Signatur und -
+Verschlüsselung, Prüfung der Authentizität von Webseiten). 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0063-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0063-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+●  J. Buchmann, E. Karatsiolis, and A. Wiesmaier. "Introduction to Public Key 
+Infrastructures", Springer-Verlag Berlin Heidelberg, 2013. ISBN: 978-3-642-40656-0 (Print) 
+978-3-642-40657-7 (Online) 
+● J. Buchmann, "Einführung in die Kryptographie", ISBN 3-540-41283-2 
+● C. Adams / S. Lloyd, "Understanding Public-Key Infrastructure", ISBN 1-57870-166-X 
+● Tom Austin, "PKI / A Wiley Tech Brief", ISBN 0-471-35380-9 
+● R. Housley / T. Polk, "Planning for PKI", ISBN 0-471-39702-4 
+● A. Nash / W. Duane / C. Joseph/ D. Brink, "PKI Implementing and Managing E-Security", 
+ISBN 0-007-213123-3 
+● Henk C.A. van Tilborg, "Encyclopedia of Cryptography and Security", ISBN-13: 978-
+0387234731 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+102 
+ 
+Modulbeschreibung 
+Modulname 
+Einführung in die Kryptographie 
+Modul Nr. 
+20-00-0085 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0085-iv 
+Einführung in die Kryptographie 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Math. Grundlagen: 
+● Berechnungen in Kongruenz- und Restklassenringen 
+ 
+Grundlagen der Verschlüsselung: 
+● Symmetrische vs. Asymmetrische Kryptosysteme 
+● Block- und Stromchiffren, AES, DES 
+● Kryptanalyse 
+● Wahrscheinlichkeit und Perfekte Sicherheit 
+● Verschlüsselung mit öffentlichen Schlüsseln 
+● RSA, Diffie-Hellman, ElGamal 
+● Faktorisierung großer Zahlen 
+● Diskrete Logarithmen 
+● Kryptografische Hashfunktionen 
+● Digitale Signaturen 
+● Identifikation 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+● Verstehen der mathematischen Grundlagen der Kryptographie wie z.B. Berechnungen in 
+Kongruenz- und Restklassenringen, Faktorisierung großer Zahlen, Wahrscheinlichkeit und 
+Perfekte Sicherheit 
+● Verstehen der Prinzipien von Public und Secret-Key-Verschlüsselung und der relevanten 
+Verfahren einschließlich ihrer Sicherheit und Effizienz 
+● Verstehen der Prinzipien digitaler Signaturen und der relevanten Verfahren einschließlich 
+ihre Sicherheit und Effizienz 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+103 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+● Lineare Algebra  
+●  Funktionale und objektorientierte Programmierkonzepte 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0085-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0085-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Johannes Buchmann: Einführung in die Kryptographie, 5. Auflage, Springer-Verlag, 2010, 
+278 p. ISBN: 978-3-642-11185-3 
+● Johannes Buchmann: Cryptographic Protocols. Vorlesungsskript (u.a. Undeniable, Fail-
+Stop und Blind Signatures) 
+● Neal Koblitz: A Course in Number Theory and Cryptography, Springer Verlag, 1994 
+● Alfred J. Menezes, Paul C. van Oorschot, Scot A. Vanstone: Handbook of Applied 
+Cryptography, CRC Press, 1997 (erhältlich als PDF) 
+● Bruce Schneier: Applied Cryptography, John Wiley & Sons, Inc., 1994 
+● Douglas R. Stinson: Cryptography - Theory and Practice, CRC Press, 1995 
+● Gustavus J. Simmons: Contemporary Cryptology - The Science of Information Integrity, 
+IEEE Press, 1992 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+104 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+105 
+ 
+Modulbeschreibung 
+Modulname 
+Sicherheit in Multimedia Systemen und Anwendungen 
+Modul Nr. 
+20-00-0093 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+i. d. R. jedes Jedes 
+2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0093-iv 
+Sicherheit in Multimedia Systemen 
+und Anwendungen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Studierenden erhalten einen Überblick über die Herausforderungen der Multimedia 
+Sicherheit und den bekannten Lösungsansätzen hierzu. Dazu gehören die Konzepte der 
+Medien-Integrität, -Vertraulichkeit und -Authentizität. Verfahren aus dem Bereichen digitale 
+Wasserzeichen, robuste Hashverfahren, partielle Verschlüsslung, Multimedia Forensik und 
+DRM sind dem Studenten bekannt. Er kann Herausforderungen der Multimedia Sicherheit 
+aus einer Palette von Lösungsmechanismen bedarfsabhängig optimal adressieren. 
+●  Partielle Verschlüsselungsverfahren für Video und Audio zur Sicherung der 
+Vertraulichkeit und der Authentizität 
+● Digitale Wasserzeichen für Bild und Audio - Anwendungsgebiete, Methoden und 
+Verfahren 
+● Digital Rights Management und Kopierschutzverfahren 
+● Visuelle Kryptographie  
+ 
+Neben der Diskussion von Algorithmen, deren Möglichkeiten, Grenzen und Schwachstellen 
+nehmen auch die kommerziellen und gesellschaftlichen Aspekte des Einsatzes von 
+Schutzmaßnahmen ihren Platz in der Vorlesung ein. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden erhalten einen Überblick über die Herausforderungen der Multimedia 
+Sicherheit und den bekannten Lösungsansätzen hierzu. Dazu gehören die Konzepte der 
+Medien-Integrität, -Vertraulichkeit und -Authentizität. Verfahren aus dem Bereichen digitale 
+Wasserzeichen, robuste Hashverfahren, partielle Verschlüsslung, Multimedia Forensik und 
+DRM sind den Studierenden bekannt. Sie können Herausforderungen der Multimedia 
+Sicherheit aus einer Palette von Lösungsmechanismen bedarfsabhängig optimal adressieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundkenntnisse in Multimedia-Formaten und IT-Sicherheit.  
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+106 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0093-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0093-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Steinmetz: Multimedia-Technologie. Grundlagen, Komponenten und Systeme, ISBN: 
+3540673326, Springer, Heidelberg, 2000 
+● Dittmann: Digitale Wasserzeichen, Springer Verlag, ISBN 3 - 540 - 66661 - 3, 2000 
+● Cox, Miller, Bloom: Digital Watermarking, Academic Press, San Diego, USA, ISBN 1-
+55860-714-5, 2002 
+● und spezifische Veröffentlichungen aus Tagungsbänden 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+107 
+ 
+Modulbeschreibung 
+Modulname 
+IT-Sicherheit 
+Modul Nr. 
+20-00-0219 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0219-iv 
+IT-Sicherheit 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Ausgewählte Konzepte der IT-Sicherheit (Kryptographie; Sicherheitsmodelle; 
+Authentifikation; Zugriffskontrolle; Sicherheit in Netzen; Trusted Computing; Security 
+Engineering; Privatsphäre und Datenschutz; Web- und Browser-Sicherheit; 
+Informationssicherheitsmanagement, IT-Forensik, Cloud Computing) 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung sind die Studierenden in der Lage 
+kritisch über gängige Mechanismen und Protokolle zur Erhöhung der IT-Sicherheit heutiger 
+Systeme zu diskutieren. Studenten haben nach Abschluss der Veranstaltung in breites 
+Wissen über IT-Sicherheit, Datenschutz und Privatsphäre im Internet. 
+Studierende sind vertraut mit modernen IT-Schutzkonzepten aus dem Bereich 
+Kryptographie, Identitätmanagement, Web-, Browser- und Netzwerksicherheit. Sie sind in 
+der Lage Angriffsvektoren in IT-Systemen zu erkennen und Gegenmaßnahmen zu 
+entwickeln. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Besuch der Vorlesung  Computersystemsicherheit 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0219-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+108 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0219-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+• C. Eckert: IT-Sicherheit, 3. Auflage, Oldenbourg Verlag, 2004 
+• J. Buchmann, Einführung in die Kryptographie, 2.erw. Auflage, Springer Verlag, 2001 
+• E. D. Zwicky, S. Cooper, B. Chapman: Building Internet Firewalls, 2. Auflage, O'Reilly, 
+2000 
+• B. Schneier, Secrets & Lies: IT-Sicherheit in einer vernetzten Welt, dpunkt Verlag, 2000 
+• W. Rankl und W. Effing: Handbuch der Chipkarten, Carl Hanser Verlag, 1999 
+• S. Garfinkel und G. Spafford: Practical Unix & Internet Security, O'Reilly & Associates 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+109 
+ 
+Modulbeschreibung 
+Modulname 
+Formale Methoden der Informationssicherheit 
+Modul Nr. 
+20-00-0362 
+Leistungspun
+kte 
+ 9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0362-iv 
+Formale Methoden der 
+Informationssicherheit 
+9 
+integrierte 
+Veranstaltung 
+6 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● formale Modellierung sicherheitskritischer Systeme in Prädikatenlogik 
+● Theoretische Grundlagen von Zugriffskontrollen und Informationsflusskontrollen 
+● formale Modellierung von Sicherheitseigenschaften in Prädikatenlogik 
+● Unterscheidung von qualitativen und quantitativen Sicherheitseigenschaften 
+● Entscheidbarkeits- und Komplexitätsresultate für Sicherheitseigenschaften 
+● Verifikation von Sicherheitsgarantien in verteilten Systemen 
+● Auswirkung von Komposition und Verfeinerung auf Sicherheitsgarantien 
+● formale Sprachen zur Beschreibung von Sicherheitspolitiken und deren Semantik 
+● Zertifizierung sicherheitskritischer Systeme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung kennen Studierende relevante formale 
+Sicherheitsmodelle und Analysetechniken. Sie verstehen fundamentale Unterschiede 
+zwischen verschiedenen Klassen von Sicherheitseigenschaften und das Zusammenspiel 
+zwischen schrittweiser Softwareentwicklung und Sicherheitseigenschaften.  Sie können 
+Systeme und Sicherheitsanforderungen formal modellieren und sicherheitsrelevante Aspekte 
+basierend auf formalen Spezifikationen formal analysieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Informatik- und Mathematikkenntnisse entsprechend den ersten 4 Semestern 
+des Bachelorstudiengangs Informatik, insbesondere grundlegende Logikkenntnisse und 
+Fähigkeit mit formalen Sprachen und Kalkülen umzugehen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0362-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+110 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0362-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● M. Bishop: Computer Security, Addison-Wesley 
+● J. Biskup: Security in Computing Systems, Springer-Verlag 
+● C. P. Pfleeger, S. L. Pfleeger: Security in Computing, Prentice Hall 
+● D. Denning: Cryptography and Data Security, Addison Wesley 
+Die Literaturempfehlungen werden kontinuierlich aktualisiert. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+111 
+ 
+Modulbeschreibung 
+Modulname 
+Netzsicherheit 
+Modul Nr. 
+20-00-0512 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0512-iv 
+Netzsicherheit 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die integrierte Veranstaltung Netzsicherheit umfasst Sicherheits-Prinzipien und -Praxis in 
+Telekommunikationsnetzen und dem Internet. Die grundlegenden Verfahren aus dem 
+Bereich IT Sicherheit und Kryptographie werden auf den Bereich der Kommunikationsnetze 
+übertragen. Hierbei verfolgen wir einen Top-down Ansatz. Beginnend mit der 
+Anwendungsschicht erfolgt eine detaillierte Betrachtung von Prinzipien und Protokollen zur 
+Absicherung von Netzen. Ergänzend zu etablierten Mechanismen werden ausgewählte 
+aktuelle Entwicklungen im Bereich Netzsicherheit erläutert. 
+Lerninhalte: 
+- Netzsicherheit: Einführung, Motivation und Herausforderungen 
+- Grundlagen: Ein Referenzmodell für Netzsicherheit, Sicherheitsstandards für Netze und 
+das Internet, Bedrohungen, Angriffe, Sicherheitsdienste und -mechanismen 
+- Kryptographische Grundlagen zur Absicherung von Netzen: Symmetrische Kryptographie 
+und deren Anwendung in Netzen, asymmetrische Kryptographie und deren Anwendung in 
+Netzen, unterstützende Mechanismen zur Implementierung von Sicherheitslösungen 
+- Sicherheit auf der Anwendungschicht 
+- Sicherheit auf der Transportschicht 
+- Sicherheit auf der Vermittlungsschicht 
+- Sicherheit auf der Sicherungsschicht 
+- Sicherheit auf der Bitübertragungsschit und physische Sicherheit 
+- Angewandte Netzsicherheit: Firewalls, Intrusion Detection Systeme 
+- Ausgewählte Themen der Netzsicherheit 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung haben die Studierenden ein 
+umfassendes Wissen auf dem Gebiet der Netzsicherheit mit dem Schwerpunkt auf 
+Internetsicherheit. Sie können die wichtigsten Grundlagen der IT Sicherheit sowie der 
+Kryptographie auf den Bereich Kommunikationsnetze übertragen und anwenden. Die 
+Studierenden können die wichtigsten Basistechnologien zur Absicherung von Netzen 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+112 
+ 
+unterscheiden. Sie weisen ein tiefgehendes Verständnis von Sicherheitsmechanismen auf 
+den unterschiedlichen Protokollschichten auf (Anwendungschicht, Transportschicht, 
+Vermittlungsschicht, Sicherungsschicht, physikalische Schicht). Somit sind sie in der Lage, 
+die Charakteristiken und Grundprinzipien des Problemraumes Netzsicherheit detailliert zu 
+erläutern und weisen auf diesem Feld ein fundiertes Wissen in Praxis und Theorie auf. 
+Darüber hinaus können sie aktuelle Entwicklungen im Bereich Netzsicherheit erläutern (z.B. 
+Sicherheit in peer-to-peer Systemen, Sicherheit in mobilen Netzen, etc.). Die Übung vertieft 
+das theoretische Wissen durch Literatur-, Rechen- und praktische Implementierungs-
+/Anwendungsübungen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der IT-Sicherheit, Kryptographie und Kommunikationsnetze  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0512-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0512-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+ 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+113 
+ 
+9 
+Literatur 
+Charlie Kaufman, Radia Perlman, Mike Speciner: Network Security – Private 
+Communication in a Public World, 2nd Edition, Prentice Hall, 2002, ISBN: 978-0-14-
+046019-6; weiterhin ausgewählte Buchkapitel und ausgewählte wissenschaftliche 
+Veröffentlichungen 
+10 
+Kommentar 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+114 
+ 
+Modulbeschreibung 
+Modulname 
+Embedded System Security 
+Modul Nr. 
+20-00-0581 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+135 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0581-iv 
+Embedded System Security 
+6 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Trusted Computing 
+● Authentifiziertes Booten 
+● Binding und Sealing 
+● Messen der Plattform-Integrität und Attestierung 
+● Direct Anonymous Attestation 
+● Trusted Platform Modules (TPM/MTM) 
+● On-board Credentials 
+ 
+Mobile Sicherheit mit Fokus auf Smartphones 
+● Sicherheitsarchitekturen 
+● Ausgewählte Zugriffsmodelle 
+● Kontext-basierte Sicherheitsrichtlinien 
+● Ausgewählte moderne Angriffstechniken 
+ 
+Hardware-basierte Kryptographie 
+● Sichere Berechnungen basierend auf Hardware 
+● Einführung in Physikalisch Unklonbare Funktionen (PUFs) 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Durch die erfolgreiche Teilnahme an dieser Veranstaltung erwerben Studierende 
+detailliertes Wissen über ausgewählte Aspekte der eingebetteten Systemsicherheit 
+(Hardware- und Software-basiert). 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der Kryptographie  
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+115 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0581-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0581-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Challener, David, VanDoorn, Leendert, Safford, David, Yoder, Kent, Catherman, Ryan "A 
+Practical Guide to Trusted Computing", IBM Press, 2007  
+● Smith, Sean W. "Trusted Computing Platforms: Design and Applications", Springer Verlag, 
+2005 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+116 
+ 
+Modulbeschreibung 
+Modulname 
+Sichere Mobile Systeme 
+Modul Nr. 
+20-00-0583 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0583-iv 
+Sichere Mobile Systeme 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die integrierte Veranstaltung Sichere Mobile Systeme befasst sich mit Fragen zur Sicherheit 
+in drahtlosen und Mobilen Netzen und Kommunikationssystemen. Grundlagen der Thematik 
+werden durch aktuelle Forschungsthemen ergänzt. 
+Lerninhalte: 
+- Sicherheitsbetrachtung und Modellierung von Bedrohungen bei mobilen und drahtlosen 
+Systemen 
+- Ausgewählte Angriffe und Sicherheitsmechanismen spezifisch für mobile und drahtlosen 
+Systeme 
+- Sicherheit in drahtlosen Sensornetzen 
+- Sicherheit in drahtlosen Mesh-Netzen 
+- Bedrohungen und Schutz der Privatsphäre in mobilen und drahtlosen Systemen 
+- Sicherheit in zellularen Netzen (GSM, UMTS, LTE) 
+- Sicherheit auf der Bitübertragungsschicht 
+- Ausgewählte Forschungsthemen in mobilen und drahtlosen Systemen 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung besitzen die Studierenden ein 
+spezialiertes Wissen auf dem Gebiet der Sicherheit in mobilen, verteilten, drahtlosen Netzen 
+mit dem Schwerpunkt auf Internetsicherheit. Sie können die wichtigsten Grundlagen der IT 
+Sicherheit, der Kryptographie sowie der Netzsicherheit in klassischen Netzen auf mobile 
+Systeme übertragen und anwenden. 
+Die Studierenden weisen ein tiefgehendes Verständnis von Sicherheitsmechanismen auf den 
+unterschiedlichen Protokollschichten auf (Anwendungschicht, Transportschicht, 
+Vermittlungsschicht, Sicherungsschicht, physikalische Schicht). Somit sind sie in der Lage, 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+117 
+ 
+ 
+ 
+ 
+die Charakteristiken und Grundprinzipien des Problemraumes zu erfassen und weisen auf 
+dem Feld sicherer mobiler Systeme ein fundiertes Wissen in Praxis und Theorie auf. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der Netzsicherheit und der Mobilen Netze  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0583-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0583-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+9 
+Literatur 
+Levente Buttyan, Jean-Pierre Hubaux: Security and Cooperation in Wireless Networks, 
+Cambridge University Press, 2008, ISBN: 978-0-521-87371-0 (book is available online for 
+download). 
+Ausgewählte Buchkapitel und ausgewählte wissenschaftliche Veröffentlichungen. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+118 
+ 
+Modulbeschreibung 
+Modulname 
+Kryptoplexität 
+Modul Nr. 
+20-00-0585 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0585-iv 
+Kryptoplexität 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Algorithmische Komplexität von kryptographischen Bausteinen wie One-Way-Funktionen, 
+digitalen Signaturen, Commitments, Verschlüsselungen etc. Insbesondere ihre Relationen, 
+z.B. ob man aus jedem Signaturverfahren auch ein Verschlüsselungsverfahren bauen kann. 
+Gelegentliche "Ausflüge" in die Komplexitätstheorie, sofern relevant. 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme können die Teilnehmer abstrakte kryptographische 
+Eigenschaften und ihr Verhältnis untereinander beurteilen. Die lernen die Zusammenhänge 
+zwischen Kryptographie und Komplexitätstheorie und werden in die Lage versetzt, unter 
+Schranken in der Kryptographie mittels verschiedener Techniken zu beweisen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Einführung in die Kryptographie  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0585-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+119 
+ 
+ 
+ 
+ 
+ 
+[20-00-0585-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Arora, Barak: Computational Complexity: A Modern Approach, 2007 (auch online 
+erhältlich). 
+● Balcazar, Diaz, Gabarro; Structural Complexity I und II, 1995 (nicht mehr als Hardcover 
+verfügbar) 
+● Katz, Lindell: Introduction to Modern Cryptography, 2007 
+● Goldreich: Foundations of Cryptography, Volume I und II, 2001 und 2004 (als Online-
+Variante erhältlich) 
+● Goldreich: Computational Complexity: A Conceptual Approach, 2006 (als Online-Variante 
+erhältlich) 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+120 
+ 
+Modulbeschreibung 
+Modulname 
+Forschungsorientierte Kryptographie 
+Modul Nr. 
+20-00-0680 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0680-iv 
+Forschungsorientierte 
+Kryptographie 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Aktuelle Arbeiten aus dem Gebiet der Kryptographie und Komplexitätstheorie verstehen und 
+neue Forschungsansätze herausarbeiten. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Durch eine erfolgreiche Teilnahme am Kurs werden die Teilnehmer in die Lage versetzt, 
+wissenschaftliche Arbeiten weitgehend selbstständig zu lesen und wichtige Details einer 
+Arbeit  zu erkennen. Sie können die  Arbeiten anderer präsentieren und neue 
+Forschungsfragen ableiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+Einführung in die Kryptographie 
+Kryptoplexität  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0680-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+121 
+ 
+ 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0680-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Arora, Barak: Computational Complexity: A Modern Approach, 2007 (auch online 
+erhältlich). 
+● Balcazar, Diaz, Gabarro; Structural Complexity I und II, 1995 (nicht mehr als Hardcover 
+verfügbar) 
+● Katz, Lindell: Introduction to Modern Cryptography, 2007 
+● Goldreich: Foundations of Cryptography, Volume I und II, 2001 und 2004 (als Online-
+Variante erhältlich) 
+● Goldreich: Computational Complexity: A Conceptual Approach, 2006 (als Online-Variante 
+erhältlich) 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+122 
+ 
+Modulbeschreibung 
+Modulname 
+Physical Layer Security in Drahtlosen Systemen 
+Modul Nr. 
+20-00-0745 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0745-iv 
+Physical Layer Security in 
+Drahtlosen Systemen 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Physical Layer Security Verfahren zur Absicherung drahtloser Kommunikation versprechen 
+eine informationstheoretische Sicherheit auf der Bitübertragungsschicht (Physical Layer). 
+Die integrierte Veranstaltung betrachtet die Theorie und Praxis von Physical Layer Security. 
+Hierzu werden ausgewählte theoretische Grundlagen eingeführt und die Übertragung dieser 
+Grundlagen hin zu praktikablen Lösungen diskutiert. Angriffe auf (praktische) Physical 
+Layer Security-Verfahren werden erörtert. Theoretische und praktische Übungen sowie die 
+Vorstellung ausgewählter Forschungsergebnisse in Seminarvorträgen vertiefen die 
+Veranstaltung. 
+  
+Lerninhalte: 
+- Eigenschaften des Physical Layer 
+- Grundlagen informationstheorischer Sicherheit und Abgrenzung zur Kryptographie 
+- Physical Layer Security Verfahren (u.a. Cooperative Jamming, Orthogonal Blinding, Zero-
+Forcing, Interference Alignment, Key Extraction) 
+- Praktische Aspekte von Physical Layer Security Verfahren 
+- Praktische Implementierung von Physical Layer Security-Verfahren mit Software Defined 
+Radios 
+- Ausgewählte aktuelle Ansätze zu Physical Layer Security 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung besitzen die Studierenden ein 
+theoretisches Grundwissen sowie ein fundiertes praktisches Wissen auf dem Gebiet von 
+Physical Layer Security. Sie können die wichtigsten informationstheoretischen Grundlagen 
+erläutern und kennen theoretische wie praktische Verfahren im Detail. Sie sind in der Lage 
+praktische Verfahren zu beurteilen und Schwächen darzulegen. Die Studierenden haben 
+Kompetenzen in der praktischen Realisierung von Physical Layer Security-Verfahren auf 
+Basis von Software-defined Radios. Sie können sich aktuelle Arbeiten zum Stand der 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+123 
+ 
+ 
+ 
+ 
+Forschung zu Physical Layer Security selbstständig aneignen und das erarbeitete Wissen 
+verständlich vermitteln. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der Mobilen Netze  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0745-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0745-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Ausgewählte Buchkapitel und ausgewählte wissenschaftliche Veröffentlichungen 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+124 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Schutz in vernetzten Systemen—Vertrauen, Widerstandsfähigkeit und Privatheit 
+Modul Nr. 
+20-00-0969 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0969-iv Schutz in vernetzten 
+Systemen—Vertrauen, 
+Widerstandsfähigkeit und 
+Privatheit 
+3 
+Integrierte 
+Veranstaltung 
+2 
+2 
+Lerninhalt  
+- Schutz in vernetzten Systemen: Hintergrund, Motivation und Herausforderungen 
+- Vertrauen (Computational Trust): Modelle und Mechanismen 
+- Vertrauen (Computational Trust): PKI-Anwendungen, Cloud Computing, Reputationssysteme 
+und Web Services 
+- Vertrauen: Verwaltung von Enttäuschungen and Komfort von Geräte 
+- Privatheit: Definitionen, Modelle, Daten-Anonymität und Kommunikations-Anonymität 
+- Privatheit und Vertrauen: Privatheit-respektierende Vertrauensmodelle, Mechanismen und 
+Anwendungen für Identitätsmanagement 
+- Sicherheit &amp; Ökonomie 
+- Widerstandsfähigkeit: Modelle, Netzwerk-Angriffserkennungs-Systeme, kollaborative 
+Angriffserkennung, Honeypots 
+- Resilient networks 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die integrierte Veranstaltung Schutz in vernetzten Systemen—Vertrauen, Widerstandsfähigkeit 
+und Privatheit deckt die Themenbereiche berechenbares Vertrauen (computational trust), 
+Widerstandsfähigkeit (resilience), anonyme Netzwerke, sowie kollaborative 
+Schutzmechanismen ab. Mit der Teilnahme an diesem Kurs wird das Verständnis von 
+Herausforderungen und Lösungen im Kontext von vernetzten Systemen vermittelt. Dieser Kurs 
+betrachtet das Konzept von Ende-zu-Ende Systemen mit Schwerpunkt auf Nutzer, Geräte, 
+Netzwerke, sowie Anwendungen und Dienste. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+125 
+ 
+ 
+ [20-00-0969-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0969-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+- Trust and Reputation for Service-Oriented Environments: Technologies For Building Business 
+Intelligence And Consumer Confidence, Elizabeth Chang, Tharam Dillon, and Farookh K. 
+Hussain, 374 pages, 2006. ISBN: 978-0-470-01547-6 
+- On anonymity in an electronic society: A survey of anonymous communication systems, 
+Matthew Edman and Bülent Yener, ACM Computing Surveys, Vol. 42, Issue 1, 2009. 
+- Taxonomy and Survey of Collaborative Intrusion Detection, Emmanouil Vasilomanolakis, 
+Shankar Karuppayah, Max Mühlhäuser, Mathias Fischer, ACM Computing Surveys, Vol. 47 
+Issue 4, 2015. 
+- Selected book chapters and scientific publications 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+126 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Kryptographie in der Praxis 
+Modul Nr. 
+20-00-0993 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0993-iv Kryptographie in der Praxis 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Schlüsselableitung, Schlüsselaustausch, sichere Kommunikation, credentials, crypto currencies 
+(TLS, SSH, IPSec, Bitcoin,…). 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Absolvierung verstehen die Teilnehmer das Design und die 
+Sicherheitsgarantien von kryptographischen Verfahren in der Praxis, die heutzutage im 
+alltäglichen Einsatz sind. Die Teilnehmer lernen die Bedeutung und Grenzen von 
+Sicherheitsmodellen und Sicherheitsbeweisen für die Praxis kennen. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ 
+Einführung in die Kryptographie 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-0993-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0993-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+127 
+ 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+128 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Blockchain Technology 
+Modul Nr. 
+20-00-
+1010 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1010-iv Blockchain Technology 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt 
+Konzepte von Blockchain Technologies: 
+- Kryptographische Bausteine: Hash-Funktionen, Signaturen, Commitments. 
+- Distributed Systems und Fehlertoleranz 
+- Broadcast- und Konsensverfahren 
+- Einführung in Bitcoin und Nakamoto Konsensus 
+- Mining, Inzentivmechanismen und Wallets 
+- Privacy in Blockchains 
+- Angriffe auf Kryptowährungen 
+- Smart Contracts und Anwendungen 
+- Skalierbarkeit von Blockchain-Systemen 
+- Blockchain-Ökosystem (insb. DeFi und Altcoins) 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Teilnehmer*innen verstehen nach erfolgreichem Besuch des Kurses die grundlegenden 
+technischen und theoretischen Konzepte von Blockchain Technologien. Insbesondere werden 
+folgende Fragestellungen behandelt: 
+- Den Umgang mit kryptographischen Bausteinen und kryptographischen Protokollen und 
+deren Sicherheitsanalyse. 
+- Die Entwicklung von sicheren verteilten Systemen 
+- Die grundlegenden Konzepte von Blockchain-Systemen, insbesondere Konsensmechanismen, 
+Wallets und Mining 
+- Mögliche Angriffe auf Kryptowährungen und die zugrundeliegende Technologie 
+- Die Grundkonzepte der Entwicklung von Smart Contracts und deren Anwendung 
+- Neue Lösungsansätze zur Verbesserung von Blockchains in Bezug auf Anonymität, 
+Skalierbarkeit und Sicherheit 
+- Ein Überblick über verschiedene Altcoins und deren Vor-/Nachteile 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+129 
+ 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Besuch der Vorlesung “Introduction to Cryptography / Einführung in die 
+Kryptographie” bzw. entsprechende Kenntnisse aus anderen Studiengängen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1010-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1010-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+130 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Sicherheitskritische Mensch-Computer-Interaktion 
+Modul Nr. 
+20-00-1025 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1025-iv Sicherheitskritische Mensch-
+Computer-Interaktion 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Diese Lehrveranstaltung gibt eine fundierte und praxisbezogene Einführung sowie einen 
+Überblick über Grundlagen, Methoden und Anwendungen der Mensch-Computer-Interaktion im 
+Kontext von Sicherheit, Notfällen, Krisen, Katastrophen, Krieg und Frieden. Dies adressierend 
+werden interaktive, mobile, ubiquitäre und kooperative Technologien sowie Soziale Medien 
+vorgestellt. Hierbei finden klassische Themen wie benutzbare (IT-)Sicherheit, Industrie 4.0, 
+Katastrophenschutz, Medizin und Automobil, aber auch Augmented Reality, Crowdsourcing, 
+Shitstorm Management, Social Media Analytics und Cyberwar ihren Platz. Methodisch wird das 
+Spektrum von Usable Safety- bis Usable Security Engineering von Analyse über Design bis 
+Evaluation abgedeckt. 
+ 
+Details für das aktuelle Semester finden Sie unter www.peasec.de/lehre 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+• Verständnis sicherheitskritischer MCI und der zugrundeliegenden Disziplinen MCI sowie 
+Krisen- und Sicherheitsmanagement 
+• Überblick über ausgewählte Grundlagen und Methoden sicherheitskritischer MCI (Usable 
+Safety; Usable Security; Analyse, Design, Umsetzung, Evaluation; Recht, Ethik und Kultur) 
+• Orientierung in Anwendungsdomänen und -feldern 
+• Kenntnisse über sicherheitskritische interaktive Systeme (Betriebliche Informationssysteme, 
+Krisenmanagementsysteme, Medizintechnik, Warn- und Assistenzsysteme) 
+• Kenntnisse über sicherheitskritische kooperative Systeme (Soziale Medien, 
+Kooperationssysteme, Freiwillige Partizipation, Frieden und Sicherheit) 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1025-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+131 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1025-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+132 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Informationstechnologie für Frieden und Sicherheit 
+Modul Nr. 
+20-00-1026 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1026-iv Informationstechnologie für 
+Frieden und Sicherheit 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+- Grundlagen: Friedens-, Konflikt- und Sicherheitsforschung 
+o (Naturwissenschaftliche) Friedensforschung 
+o Informatische Friedensforschung 
+- Informatik in Militär, Krieg und Konflikten 
+o Militärische Nutzung von Informatik und Dual-Use-Problematik 
+o Cyberwar: Konflikte im Cyberspace mit Information Warfare, Vulnerabilität und Resilienz 
+kritischer (IT-)Infrastrukturen, Fake News und Social Bots 
+o Terrorismus und terroristische Propaganda in sozialen Medien 
+- Informatik und Frieden 
+o Mensch-Computer-Interaktion zur Friedensförderung 
+o IT im Kontext politischer Aktivisten 
+o Bekämpfung terroristischer Propaganda in sozialen Medien 
+Themen für das aktuelle Semester finden Sie unter www.peasec.de/lehre 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+- Kenntnisse von Grundlagen der informatischen Friedens-, Konflikt- und Sicherheits-forschung 
+- Bewertung von IT zur Förderung oder Verhinderung von Frieden und Sicherheit 
+- Kenntnisse in der Gestaltung und Entwicklung von IT für Frieden 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1026-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+133 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1026-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+134 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Kryptographische Protokolle 
+Modul Nr. 
+20-00-1032 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1032-iv Kryptographische Protokolle 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Kryptographische Protokolle erlauben es mehreren Parteien mit möglicherweise 
+unterschiedlichen Interessen, gemeinsam bestimmte Aufgaben zu erfüllen. Diese 
+Lehrveranstaltung behandelt grundlegende und fortgeschrittene kryptographische Protokolle 
+und ihre Anwendungen, wie z.B. Commitments, Secure Coin Flipping, Zero-Knowledge 
+Beweise, Mixnetze, Anonyme Credentials, Private Information Retrieval, Sichere 
+Mehrparteienberechnungen und Hardware-unterstützte kryptographische Protokolle. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen grundlegende und fortgeschrittene kryptographische Protokolle, können 
+deren Effizienz und Sicherheit bewerten und vergleichen, und kennen deren grundlegenden 
+Anwendungen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Grundkenntnisse der Kryptographie werden sehr empfohlen, z.B. durch erfolgreiches Bestehen 
+der Veranstaltung "Einführung in die Kryptographie". 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1032-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+135 
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1032-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+136 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Beweisbare Sicherheit 
+Modul Nr. 
+20-00-1051 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1051-vl 
+ 
+Beweisbare Sicherheit 
+3 
+Vorlesung 
+2 
+2 
+Lerninhalt  
+In dieser Vorlesung wird gezeigt, wie man Sicherheitseigenschaften von 
+kryptografischen Protokollen formal beweisen kann. Dabei konzentrieren 
+wir uns auf starke Sicherheitsgarantien und realistische 
+Angreifermodelle und lernen verschiedene Beweistechniken kennen. Die 
+erlernten Techniken werden wir auf teils real eingesetzte 
+Verschlüsselungsverfahren anwenden und so eine gute Vorstellung von 
+deren Sicherheitseigenschaften erhalten. 
+ 
+(1) Einführung beweisbare Sicherheit 
+* Definition von Sicherheit 
+* Einführung Sicherheitsparameter und PPT Angreifer 
+* Der Begriff der Reduktion 
+* Kryptographische Annahmen (Faktorisieren, diskrete Logarithmen) 
+* IND-CPA Sicherheit und das ElGamal Verschlüsselungsverfahren 
+* Beweis durch Reduktion: ElGamal ist IND-CPA-sicher unter der 
+Decisional Diffie-Hellman Annahme (DDH) 
+ 
+(2) IND-CCA Sicherheit 
+* ElGamal ist nicht IND-CCA sicher 
+* Das Verfahren von Naor und Yung 
+* Das Verfahren von Cramer und Shoup 
+ 
+(3) Das Random-Oracle Modell (ROM) 
+* Einführung ROM 
+* Hashfunktionen 
+* Ist das ROM sinnvoll? 
+* IND-CPA und IND-CCA Sicherheit von RSA-OAEP im ROM 
+ 
+(4) Simulationsbasierte Sicherheit 
+* Vergleich simulationsbasierte und spielbasierte Sicherheitsdefinition 
+* Komponierbare Sicherheitsdefinitionen 
+* Das Universal Composability Framework 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+137 
+ 
+* Programmierbare Random Oracles 
+* Sicherer Nachrichtentransfer im (programmierbaren) ROM 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem die Studierenden die Vorlesung besucht haben können sie 
+- verschiedene Sicherheitsdefinitionen von Verschlüsselungsverfahren wiedergeben und 
+vergleichen 
+- beschreiben, welche Voraussetzungen hinreichend sind, um starke Sicherheitseigenschaften zu 
+erreichen 
+- formale Sicherheitsbeweise für einige Verschlüsselungsverfahren präsentieren 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen, aber nicht notwendig: "Einführung in die Kryptographie" 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1051-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1051-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+138 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Privatheit biomedizinischer Daten 
+Modul Nr. 
+20-00-1084 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1084-vl Privatheit biomedizinischer 
+Daten 
+3 
+Vorlesung 
+2 
+2 
+Lerninhalt  
+Grundlagen Genetik, Epigenetik 
+Grundlagen Bioinformatik in der Humanmedizin 
+Biomedizinische Sensorik 
+Das TMF-Konzept zum Datenschutz 
+Privacy Metriken 
+Secure-Multi-Party-Computations 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden können aktuelle Forschungsliteratur erfassen und Technologieentwicklungen 
+hinsichtlich ihrer Datenschutzniveaus im Bereich der Biomedizin unterscheiden. 
+Sie können weiterhin anhand der erläuterten Grundlagen potentielle Re-Identifikationsrisiken 
+einschätzen und Mechanismen zu deren Behebung konzeptionell vorschlagen. 
+Sie können weiterhin einfach Abfragen/Auswertungen/Studien-Designs hinsichtlich ihrer 
+Privacy-Implikationen einschätzen. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der Kryptographie 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1084-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+139 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-1084-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+140 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Informationssicherheitsmanagement 
+Modul Nr. 
+20-00-
+1123 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Cybersecurity and Privacy 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1123-
+vl 
+Informationssicherheitsmanage
+ment 
+3 
+Vorlesung 
+2 
+2 
+Lerninhalt 
+Im Rahmen der Vorlesung wird anhand eines beispielhaften, fiktiven Unternehmens 
+dargelegt, wie Informationssicherheit ganzheitlich in alle Prozesse des Unternehmens 
+etabliert wird. 
+ 
+Dabei werden u.a. die folgenden Themengebiete betrachtet: 
+* Reifegradbewertung bzgl. Informationssicherheit des Unternehmens 
+* Capability Maturity Model Integration (CMMI) Framework 
+* Etablierung einer Cyber Security Strategie 
+* Informationssicherheits-Governance 
+* Etablierung eines Informationssicherheitsmanagementsystems (ISMS) nach ISO/IEC 
+27001:2013 und nach IT-Grundschutz 
+* Sicherheitsbewusstsein im Unternehmen (Security Awareness) 
+* Key Performance Indicator zum Messen der Informationssicherheit 
+* Asset Management, Informationsverbunde und Prozessanalysen 
+* Schutzbedarfsfeststellungen und Business Impact Analysen 
+* Qualitatives und quantitatives Risikomanagement 
+* Prozesse der Risikoanalyse, -behandlung und -überwachung 
+* Vulnerability Management (Umgang mit IT-Schwachstellen in eigenen und 
+ausgelagerten Systemen) 
+* Business Continuity Management (BCM) 
+* Business Continuity Planning (BCP) 
+* Sicherer IT-Betrieb, Absicherung der Betriebsprozesse 
+* Sichere Entwicklung 
+* Absicherung von Cloud-Diensten 
+* Management von Dienstleistern 
+* Incident Management: Absicherung, Erkennung und Reaktion auf Sicherheitsvorfälle 
+* Audit Management 
+* Überprüfung der eigenen Compliance und Governance 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Das Hauptziel dieser Veranstaltung ist es zu vermitteln, wie die IT- und 
+
+============================================================
+PAGE 44
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+141 
+ 
+Informationssicherheit in einem Unternehmen ganzheitlich gemanagt wird, wobei der 
+Fokus auf dem Management und weniger auf technischer oder formaler IT-Sicherheit 
+liegt. 
+ 
+* Kenntnisse, Inhalte und Strukturen eines Informationssicherheitsmanagements (ISMS) 
+* Überblick über gängige Verfahren bzgl. Informationssicherheitsmanagement wie z.B. 
+ISO 27001, IT-Grundschutz, NIST Cybersecurity Framework 
+* Identifikation und Schutzbedarfsanalyse von Assets im Unternehmen 
+* Kenntnisse über übliche Verfahren im Risikomanagement 
+* Systematische Bewertung der Informationssicherheit im Unternehmen anhand von 
+Metriken 
+* Etablierung von informationssicherheitsrelevanten Prozessen wie Vulnerability 
+Management, BCM-Prozesse, Incident Management und Audit Management 
+4 
+Voraussetzung für die Teilnahme 
+Der Besuch der Veranstaltung „Computersystemsicherheit“ wird empfohlen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1123-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1123-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 

@@ -1,0 +1,883 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+223 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+ 
+Wahlbereich Theorie 
+(Theoretische Informatik) 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+224 
+ 
+Modulbeschreibung 
+Modulname 
+Effiziente Graphenalgorithmen 
+Modul Nr. 
+20-00-0110 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0110-iv 
+Effiziente Graphenalgorithmen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Effiziente Algorithmen für Graphendurchlauf und Zusammenhangsprobleme in Graphen 
+- Optimale Bäume und Branchings 
+- Netzwerk-Flussprobleme 
+- Matching- und Zuweisungsprobleme 
+- Planare Graphen 
+- Theorie, generische Ansätze, Verbesessrungen durch Beschleunigungstechniken und  
+   Datenstrukturen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende erfolgreich diese Veranstaltung besucht haben, 
+- kennen sie grundlegende Algorithmen  
+- kennen sie Verfahren zur Effizienzsteigerung  
+- können sie Graphenalgorithmen analysieren 
+- beherrschen sie Methoden, um spezielle Eigenschaften (Planarität, Dünnbesetztheit) 
+auszunutzen 
+- können sie die Effizienz von Verfahren in der Praxis beurteilen 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0110-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+225 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0110-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird in der Veranstaltung bekannt gegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+226 
+ 
+Modulbeschreibung 
+Modulname 
+Algorithmische Modellierung / Grundlagen des Operations Research 
+Modul Nr. 
+20-00-0113 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0113-iv 
+Algorithmische Modellierung / 
+Grundlagen des Operations 
+Research 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Algorithmische Optimierungssprachen wie OPL und Eclipse 
+- Modellierung innerhalb eines restriktiven Modellierungsrahmens (zum Beispiel lineare 
+Optimierung oder ganzzahlige lineare Optimierung) 
+- Modellierung als kombinatorische Optimierungsprobleme  (z.B. Netzwerkflussprobleme, 
+Färbungsprobleme, Wegeprobleme) 
+- Komplexe Fallbeispiele aus der Praxis, z.B. Anwendungen in Logistik, deterministisches 
+und stochastiches Scheduling  
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende erfolgreich diese Veranstaltung besucht haben, 
+- kennen sie Modellierungsstrategien für Entscheidungs-, Konstruktions- und 
+Optimierungsprobleme  
+- können sie zwei algorithmische Modellierungssprachen anwenden 
+- können sie komplexe Probleme adäquat modellieren 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: „Algorithmen und Datenstrukturen“ oder vergleichbar 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0113-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+227 
+ 
+ 
+ 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0113-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+wird in der Veranstaltung bekannt gegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+228 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Statische und dynamische Programmanalyse 
+Modul Nr. 
+20-00-0580 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0580-iv Statische und dynamische 
+Programmanalyse 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+- operationelle Semantiken für sequentielle und parallele Programme 
+- Übersicht über Techniken zur statischen und dynamischen Programmanalyse 
+- Abstrakte Interpretation 
+- Datenflussanalysen 
+- Slicing-Techniken 
+- typbasierte Programmanalysen 
+- Konzepte der Laufzeitüberwachung 
+- Implementierungstechniken zur Laufzeitüberwachung 
+- Sprachbasierte Sicherheit 
+- Korrektheit und Präzision von Programmanalysen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung kennen Studierende ein Spektrum von 
+unterschiedlichen Programmanalysen. Sie verstehen die Funktionsweise der einzelnen 
+Analysetechniken und verstehen die Unterschiede zwischen diesen. Sie können beurteilen, 
+welche Analysetechnik für welche Problemstellung in Frage kommt und haben die Fähigkeit, 
+die ausgewählte Analysetechnik einzusetzen. Sie können Programmanalysen bezüglich ihrer 
+Präzision und Korrektheit beurteilen. Sie können Programmanalysen auch implementieren 
+und Varianten von bekannten Programmanalysen definieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Informatik- und Mathematikkenntnisse entsprechend den ersten 4 Semestern des 
+Bachelorstudiengangs Informatik, insbesondere grundlegende Logikkenntnisse und Fähigkeit, 
+mit formalen Sprachen und Kalkülen umzugehen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+229 
+ 
+ 
+ [20-00-0580-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0580-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+230 
+ 
+Modulbeschreibung 
+Modulname 
+Optimierungsalgorithmen 
+Modul Nr. 
+20-00-0667 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0667-iv 
+Optimierungsalgorithmen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Algorithmische Standardansätze für komplexe diskrete Optimierungsprobleme, bspw. 
+Evolutionsstrategien, dynamische Programmierung, Branch-and-Bound u.ä. 
+3 
+Qualifikationsziele / Lernergebnisse 
+In der Veranstaltung erwerben Studierende systematische Kenntnis generischer 
+algorithmischer Ansätze in der diskreten Optimierung sowie die Fähigkeit, komplexe 
+diskrete Optimierungsprobleme Ziel führend algorithmisch anzugehen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Der vorherige Besuch von „Funktionale und objektorientierte 
+Programmierkonzepte“ und „Algorithmen und Datenstrukturen“ oder vergleichbaren 
+Veranstaltungen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0667-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+231 
+ 
+ 
+ 
+ 
+•  [20-00-0667-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Wird in der Veranstaltung bekannt gegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+232 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Automatische Softwareverifikation 
+Modul Nr. 
+20-00-1069 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1069-iv Automatische 
+Softwareverifikation 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Die Veranstaltung befasst sich mit dem Techniken zur automatischen Softwareverifikation und 
+behandelt dabei folgende Themebereiche: 
+- operationelle Semantik von sequentiellen Programmen 
+- konfigurierbare Programmanalyse inklusive Konfiguration für Datenflussanalysen und Model 
+Checking 
+- counter-example guided abstraction refinement (CEGAR) 
+- Bounded Model Checking 
+- k-Induktion 
+- kooperative Verifikation, insbesondere Conditional Model Checking 
+- inkrementelle Verifikation 
+- Nachprüfung von Verifikationsergebnissen (a la Proof-Carrying Code, Witness Validation) 
+- Generierung von Testeingaben mittels Verifizierern 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden eine Vielzahl von 
+Verfahren zur automatischen Verfikation benennen. Sie können die den Verfahren zugrunde 
+liegenden Formalismen wiedergeben, die Funktionsweise der Verfahren beschreiben und die 
+Verfahren klassifizieren. Außerdem können die Studierenden die Verfahren auf Beispielen 
+anwenden und neue konfigurierbare Programmanalysen entwickeln. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Informatikkenntnisse entsprechend der ersten vier Semester des Bachelorstudiengangs 
+Informatik, insbesondere Kenntnisse aus der Vorlesung „Aussagen- und Prädikatenlogik“ oder 
+Vergleichbares. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1069-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+233 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1069-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+234 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Verifikation paralleler Programme 
+Modul Nr. 
+20-00-1079 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1079-iv Verifikation paralleler 
+Programme 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Die Veranstaltung befasst sich mit überwiegend automatischen Techniken zur Verifikation von 
+parallelen Programmen, insbesondere multi-threaded Programmen mit gemeinsamen Speicher. 
+Die Veranstaltung behandelt dabei folgende Themenbereiche: 
+- Semantik von parallelen Programmen (z.B. Interleaving-Semantik, Semantik von 
+ausgewählten schwachen Speichermodellen) 
+- Statische und dynamische Techniken zur Erkennung von Data Races 
+- Techniken der Deadlockanalyse 
+- Analyse von Programmeigenschaften (z.B. mittels Sequentialisierung, Bounded Model 
+Checking, etc.) 
+- Partial Order Reduction 
+- Thread-modulare Verifikation 
+- Verifikation unter schwachen Speichermodellen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden Verfahren zur 
+Verifikation von parallelen Programmen, insbesondere Verfahren zur Analyse von Data Races, 
+Deadlocks und Sicherheitseigenschaften (Safety) benennen. Sie können die den Verfahren 
+zugrunde liegenden Formalismen wiedergeben, die Funktionsweise der Verfahren beschreiben 
+und die Verfahren auf Beispielen anwenden. Außerdem können die Studierenden die Stärken 
+und Schwächen der Verfahren beurteilen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Informatikkenntnisse entsprechend der ersten vier Semester des 
+Bachelorstudiengangs Informatik. Vorteilhaft, aber nicht erforderlich ist der Besuch der 
+Veranstaltung „Automatische Software Verifikation“. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1079-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+235 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1079-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+236 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Einführung in das Quantencomputing 
+Modul Nr. 
+20-00-
+1136 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Theorie 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1136-
+iv 
+Einführung in das 
+Quantencomputing 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt 
+Allgemeine Einführung und Motivation 
+Einführung in die Quantenmechanik (Zustände, Messungen, Evolution, ein kurzer Überblick zur 
+linearen Algebra) 
+Elementare Quantengatter und Schaltkreismodell 
+Universelle Quantenberechnungen 
+Quantenparallelismus und der Deutsch-Jozsa-Algorithmus 
+Simon’s Algorithm 
+Die Fourier-Transformation 
+Der Shor-Algorithmus 
+Das Problem der versteckten Untergruppe 
+Der Grover-Algorithmus 
+Quantenfehlerkorrektur und Fehlertoleranz 
+Verschränkung und Nichtlokalität 
+Eine grundlegende Einführung in die Quantenschlüsselverteilung 
+Überblick über Quantencomputerplattformen und Aussagen zur Quantenüberlegenheit 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Abschluss des Kurses sind die Studierenden mit allen grundlegenden Konzepten der 
+Quanteninformationsverarbeitung und -berechnung vertraut und können diese mit der 
+Quantenprogrammiersprache Qiskit programmieren. Sie lernen die wichtigsten "Eigenheiten" 
+der Quantenwelt kennen und können diese mit rechnerischen und kryptographischen 
+Aufgabenstellungen verbinden. Am Ende der Vorlesung wird eine Zusammenfassung der 
+neuesten Entwicklungen in Industrie und Wissenschaft gegeben, die es den Studierenden 
+ermöglicht, ihre zukünftigen Interessen in diesem Bereich zu steuern. 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen werden grundlegende Kenntnisse in elementarer linearer Algebra 
+(Matrixmultiplikation, Ermittlung von Eigenwerten) 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+237 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1136-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 Minuten), 
+Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Empfohlen werden grundlegende Kenntnisse in elementarer linearer Algebra 
+(Matrixmultiplikation, Ermittlung von Eigenwerten) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1136-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 

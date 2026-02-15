@@ -1,0 +1,2225 @@
+[
+  {
+    "id": "software_engineer",
+    "title_en": "Software Engineer",
+    "title_de": "Softwareentwickler/in",
+    "description_en": "Builds and maintains software applications and services across the full development lifecycle.",
+    "description_de": "Entwickelt und wartet Softwareanwendungen und -dienste über den gesamten Entwicklungszyklus.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 65000,
+      "senior": 80000
+    },
+    "required_skills": [
+      "Programming (Java, C#, C++, Python)",
+      "Version control (Git)",
+      "Software engineering fundamentals",
+      "Relational and NoSQL databases",
+      "Clean code, unit testing, debugging"
+    ]
+  },
+  {
+    "id": "backend_developer",
+    "title_en": "Backend Developer",
+    "title_de": "Backend-Entwickler/in",
+    "description_en": "Implements server-side logic, APIs and database access for web and mobile applications.",
+    "description_de": "Implementiert serverseitige Logik, APIs und Datenbankzugriffe für Web- und Mobile-Anwendungen.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 82000
+    },
+    "required_skills": [
+      "Java/Spring, Node.js or Python (Django/Flask)",
+      "REST and GraphQL APIs",
+      "SQL and NoSQL databases",
+      "Linux and basic networking",
+      "Testing and performance optimization"
+    ]
+  },
+  {
+    "id": "frontend_developer",
+    "title_en": "Frontend Developer",
+    "title_de": "Frontend-Entwickler/in",
+    "description_en": "Builds user interfaces for web applications with a focus on usability and responsive design.",
+    "description_de": "Entwickelt Benutzeroberflächen für Webanwendungen mit Fokus auf Usability und Responsive Design.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 60000,
+      "senior": 75000
+    },
+    "required_skills": [
+      "HTML, CSS, JavaScript, TypeScript",
+      "Modern frameworks (React, Vue, Angular)",
+      "Responsive design and basic UX",
+      "State management (Redux, Vuex, etc.)",
+      "Testing (Jest, Cypress) and browser debugging"
+    ]
+  },
+  {
+    "id": "fullstack_developer",
+    "title_en": "Full Stack Developer",
+    "title_de": "Full-Stack-Entwickler/in",
+    "description_en": "Develops both frontend and backend components of web applications, handling the complete technology stack.",
+    "description_de": "Entwickelt sowohl Frontend- als auch Backend-Komponenten von Webanwendungen und beherrscht den gesamten Technologie-Stack.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "Frontend (HTML, CSS, JavaScript, React/Vue)",
+      "Backend (Node.js, Python, Java)",
+      "Databases (SQL and NoSQL)",
+      "API design and development",
+      "DevOps basics and deployment"
+    ]
+  },
+  {
+    "id": "mobile_developer",
+    "title_en": "Mobile Developer",
+    "title_de": "Mobile-Entwickler/in",
+    "description_en": "Creates applications for mobile devices using native (iOS/Android) or cross-platform technologies.",
+    "description_de": "Entwickelt Anwendungen für mobile Geräte mit nativen (iOS/Android) oder plattformübergreifenden Technologien.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "Swift/Kotlin or cross-platform (Flutter, React Native)",
+      "Mobile UI/UX design patterns",
+      "RESTful APIs and data persistence",
+      "App Store/Play Store deployment",
+      "Performance optimization and testing"
+    ]
+  },
+  {
+    "id": "data_scientist",
+    "title_en": "Data Scientist",
+    "title_de": "Data Scientist",
+    "description_en": "Analyses data and builds statistical and machine learning models to answer business questions.",
+    "description_de": "Analysiert Daten und erstellt statistische Modelle und Machine-Learning-Modelle zur Beantwortung von Geschäftsfragen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 70000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Python (pandas, scikit-learn) or R",
+      "Statistics and probability",
+      "SQL and data querying",
+      "Data visualization (Matplotlib, Seaborn, BI tools)",
+      "Machine learning fundamentals"
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "title_en": "Data Analyst",
+    "title_de": "Datenanalyst/in",
+    "description_en": "Collects, processes and analyzes data to help organizations make informed business decisions.",
+    "description_de": "Sammelt, verarbeitet und analysiert Daten, um Organisationen bei fundierten Geschäftsentscheidungen zu unterstützen.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 58000,
+      "senior": 72000
+    },
+    "required_skills": [
+      "SQL and database querying",
+      "Excel and spreadsheet analysis",
+      "Data visualization (Tableau, Power BI)",
+      "Basic statistics and analytics",
+      "Python or R for data analysis"
+    ]
+  },
+  {
+    "id": "data_engineer",
+    "title_en": "Data Engineer",
+    "title_de": "Data Engineer",
+    "description_en": "Builds data pipelines and platforms so teams can reliably store and process large amounts of data.",
+    "description_de": "Erstellt Datenpipelines und -plattformen, damit Teams große Datenmengen zuverlässig speichern und verarbeiten können.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 72000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "Python, Java or Scala",
+      "SQL and ETL concepts",
+      "Big data tools (Spark, Kafka)",
+      "Workflow orchestration (Airflow, similar)",
+      "Cloud data services (AWS, GCP or Azure)"
+    ]
+  },
+  {
+    "id": "ml_engineer",
+    "title_en": "Machine Learning Engineer",
+    "title_de": "Machine-Learning-Engineer",
+    "description_en": "Productionizes machine learning models and operates them as reliable services.",
+    "description_de": "Bringt Machine-Learning-Modelle in Produktion und betreibt sie als zuverlässige Services.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 80000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Python, TensorFlow or PyTorch",
+      "ML model training and evaluation",
+      "APIs and microservices",
+      "Docker, Kubernetes and Linux",
+      "ML pipelines and experiment tracking"
+    ]
+  },
+  {
+    "id": "ai_engineer",
+    "title_en": "AI Engineer",
+    "title_de": "KI-Ingenieur/in",
+    "description_en": "Designs and implements artificial intelligence solutions including NLP, computer vision and generative AI systems.",
+    "description_de": "Entwirft und implementiert Lösungen der künstlichen Intelligenz einschließlich NLP, Computer Vision und generativer KI-Systeme.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 82000,
+      "senior": 105000
+    },
+    "required_skills": [
+      "Deep learning frameworks (PyTorch, TensorFlow)",
+      "NLP and Large Language Models",
+      "Computer vision techniques",
+      "Prompt engineering and AI APIs",
+      "Model fine-tuning and deployment"
+    ]
+  },
+  {
+    "id": "devops_engineer",
+    "title_en": "DevOps Engineer",
+    "title_de": "DevOps-Engineer",
+    "description_en": "Automates build, deployment and monitoring processes and bridges development and operations.",
+    "description_de": "Automatisiert Build-, Deployment- und Monitoring-Prozesse und schlägt die Brücke zwischen Entwicklung und Betrieb.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Linux and scripting (Bash, Python)",
+      "CI/CD tools (GitHub Actions, GitLab CI, Jenkins)",
+      "Docker and Kubernetes",
+      "Infrastructure as Code (Terraform, Ansible)",
+      "Monitoring and logging (Prometheus, Grafana, ELK)"
+    ]
+  },
+  {
+    "id": "sre_engineer",
+    "title_en": "Site Reliability Engineer (SRE)",
+    "title_de": "Site Reliability Engineer",
+    "description_en": "Ensures high availability and reliability of production systems through automation and engineering practices.",
+    "description_de": "Gewährleistet hohe Verfügbarkeit und Zuverlässigkeit von Produktionssystemen durch Automatisierung und Engineering-Praktiken.",
+    "average_salary": {
+      "junior": 58000,
+      "mid": 78000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "System administration and Linux",
+      "Programming (Python, Go)",
+      "Monitoring and observability",
+      "Incident management and on-call",
+      "Capacity planning and performance tuning"
+    ]
+  },
+  {
+    "id": "it_security_engineer",
+    "title_en": "IT Security Engineer",
+    "title_de": "IT-Security-Engineer",
+    "description_en": "Secures systems and applications, performs security tests and monitors for threats.",
+    "description_de": "Sichert Systeme und Anwendungen, führt Sicherheitstests durch und überwacht Bedrohungen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Network and application security basics",
+      "Firewalls, VPNs, IDS/IPS",
+      "Secure coding practices",
+      "Vulnerability scanning and penetration testing tools",
+      "Security monitoring and incident response"
+    ]
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title_en": "Cybersecurity Analyst",
+    "title_de": "Cybersecurity-Analyst/in",
+    "description_en": "Monitors and analyzes security threats, responds to incidents and implements protective measures.",
+    "description_de": "Überwacht und analysiert Sicherheitsbedrohungen, reagiert auf Vorfälle und implementiert Schutzmaßnahmen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 88000
+    },
+    "required_skills": [
+      "Security information and event management (SIEM)",
+      "Threat intelligence and analysis",
+      "Incident response procedures",
+      "Network security and protocols",
+      "Forensics and malware analysis"
+    ]
+  },
+  {
+    "id": "cloud_architect",
+    "title_en": "Cloud Architect",
+    "title_de": "Cloud-Architekt/in",
+    "description_en": "Designs secure and scalable cloud architectures and selects appropriate cloud services.",
+    "description_de": "Entwirft sichere und skalierbare Cloud-Architekturen und wählt passende Cloud-Services aus.",
+    "average_salary": {
+      "junior": 70000,
+      "mid": 90000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "AWS, Azure or GCP architecture",
+      "Containerization (Docker, Kubernetes)",
+      "Networking, identity and access management",
+      "Infrastructure as Code (Terraform, CloudFormation, etc.)",
+      "Cost optimization and reliability patterns"
+    ]
+  },
+  {
+    "id": "software_architect",
+    "title_en": "Software Architect",
+    "title_de": "Software-Architekt/in",
+    "description_en": "Designs the high-level structure of software systems, makes technology decisions and ensures quality attributes.",
+    "description_de": "Entwirft die Gesamtstruktur von Softwaresystemen, trifft Technologieentscheidungen und stellt Qualitätsmerkmale sicher.",
+    "average_salary": {
+      "junior": 70000,
+      "mid": 88000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "System design and architecture patterns",
+      "Multiple programming languages and paradigms",
+      "Microservices and distributed systems",
+      "Technical leadership and documentation",
+      "Performance, scalability and security design"
+    ]
+  },
+  {
+    "id": "database_administrator",
+    "title_en": "Database Administrator (DBA)",
+    "title_de": "Datenbankadministrator/in",
+    "description_en": "Manages, optimizes and secures database systems ensuring data integrity and availability.",
+    "description_de": "Verwaltet, optimiert und sichert Datenbanksysteme und gewährleistet Datenintegrität und Verfügbarkeit.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "SQL and database management (PostgreSQL, MySQL, Oracle)",
+      "Database performance tuning",
+      "Backup, recovery and replication",
+      "Database security and access control",
+      "Data modeling and schema design"
+    ]
+  },
+  {
+    "id": "network_engineer",
+    "title_en": "Network Engineer",
+    "title_de": "Netzwerkingenieur/in",
+    "description_en": "Designs, implements and maintains computer networks ensuring connectivity and security.",
+    "description_de": "Entwirft, implementiert und wartet Computernetzwerke und gewährleistet Konnektivität und Sicherheit.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 62000,
+      "senior": 82000
+    },
+    "required_skills": [
+      "TCP/IP, DNS, DHCP and routing protocols",
+      "Network hardware (routers, switches, firewalls)",
+      "Network security and VPNs",
+      "Network monitoring and troubleshooting",
+      "Cloud networking (AWS VPC, Azure VNet)"
+    ]
+  },
+  {
+    "id": "systems_administrator",
+    "title_en": "Systems Administrator",
+    "title_de": "Systemadministrator/in",
+    "description_en": "Manages and maintains IT infrastructure including servers, operating systems and enterprise software.",
+    "description_de": "Verwaltet und wartet IT-Infrastruktur einschließlich Server, Betriebssysteme und Unternehmenssoftware.",
+    "average_salary": {
+      "junior": 42000,
+      "mid": 55000,
+      "senior": 72000
+    },
+    "required_skills": [
+      "Linux and Windows server administration",
+      "Virtualization (VMware, Hyper-V)",
+      "Scripting and automation (Bash, PowerShell)",
+      "Active Directory and identity management",
+      "Backup and disaster recovery"
+    ]
+  },
+  {
+    "id": "qa_engineer",
+    "title_en": "QA Engineer",
+    "title_de": "QA-Ingenieur/in",
+    "description_en": "Ensures software quality through test planning, test automation and quality processes.",
+    "description_de": "Stellt Softwarequalität durch Testplanung, Testautomatisierung und Qualitätsprozesse sicher.",
+    "average_salary": {
+      "junior": 42000,
+      "mid": 55000,
+      "senior": 72000
+    },
+    "required_skills": [
+      "Test planning and test case design",
+      "Test automation frameworks (Selenium, Cypress, Playwright)",
+      "API testing (Postman, REST-assured)",
+      "CI/CD integration for testing",
+      "Performance and load testing"
+    ]
+  },
+  {
+    "id": "embedded_systems_engineer",
+    "title_en": "Embedded Systems Engineer",
+    "title_de": "Embedded-Systems-Ingenieur/in",
+    "description_en": "Develops software for embedded devices and microcontrollers in IoT, automotive and industrial applications.",
+    "description_de": "Entwickelt Software für eingebettete Geräte und Mikrocontroller in IoT-, Automobil- und Industrieanwendungen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 88000
+    },
+    "required_skills": [
+      "C/C++ programming",
+      "Microcontrollers (ARM, AVR, ESP32)",
+      "Real-time operating systems (RTOS)",
+      "Hardware interfaces (I2C, SPI, UART)",
+      "Debugging and testing embedded systems"
+    ]
+  },
+  {
+    "id": "game_developer",
+    "title_en": "Game Developer",
+    "title_de": "Spieleentwickler/in",
+    "description_en": "Creates video games including gameplay programming, graphics and game engine development.",
+    "description_de": "Entwickelt Videospiele einschließlich Gameplay-Programmierung, Grafik und Game-Engine-Entwicklung.",
+    "average_salary": {
+      "junior": 42000,
+      "mid": 58000,
+      "senior": 78000
+    },
+    "required_skills": [
+      "Game engines (Unity, Unreal Engine)",
+      "C++ or C# programming",
+      "3D mathematics and physics",
+      "Graphics programming and shaders",
+      "Game design principles"
+    ]
+  },
+  {
+    "id": "blockchain_developer",
+    "title_en": "Blockchain Developer",
+    "title_de": "Blockchain-Entwickler/in",
+    "description_en": "Develops decentralized applications and smart contracts on blockchain platforms.",
+    "description_de": "Entwickelt dezentrale Anwendungen und Smart Contracts auf Blockchain-Plattformen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Solidity or other smart contract languages",
+      "Ethereum, Polygon or other blockchain platforms",
+      "Web3.js and blockchain APIs",
+      "Cryptography fundamentals",
+      "DeFi and tokenomics concepts"
+    ]
+  },
+  {
+    "id": "ux_designer",
+    "title_en": "UX Designer",
+    "title_de": "UX-Designer/in",
+    "description_en": "Designs user experiences through research, wireframing, prototyping and usability testing.",
+    "description_de": "Gestaltet Benutzererfahrungen durch Forschung, Wireframing, Prototyping und Usability-Tests.",
+    "average_salary": {
+      "junior": 42000,
+      "mid": 58000,
+      "senior": 78000
+    },
+    "required_skills": [
+      "User research and personas",
+      "Wireframing and prototyping (Figma, Sketch)",
+      "Usability testing methods",
+      "Information architecture",
+      "Design systems and accessibility"
+    ]
+  },
+  {
+    "id": "technical_writer",
+    "title_en": "Technical Writer",
+    "title_de": "Technische/r Redakteur/in",
+    "description_en": "Creates technical documentation, API references, user guides and developer tutorials.",
+    "description_de": "Erstellt technische Dokumentation, API-Referenzen, Benutzerhandbücher und Entwickler-Tutorials.",
+    "average_salary": {
+      "junior": 40000,
+      "mid": 52000,
+      "senior": 68000
+    },
+    "required_skills": [
+      "Technical writing and documentation",
+      "Markdown, reStructuredText, docs-as-code",
+      "API documentation (OpenAPI, Swagger)",
+      "Basic programming knowledge",
+      "Information architecture and content strategy"
+    ]
+  },
+  {
+    "id": "product_manager_tech",
+    "title_en": "Product Manager (Tech)",
+    "title_de": "Produktmanager/in (Tech)",
+    "description_en": "Owns the product vision and roadmap, prioritises features and aligns stakeholders.",
+    "description_de": "Verantwortet Produktvision und Roadmap, priorisiert Features und stimmt Stakeholder ab.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 80000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Agile methods (Scrum, Kanban)",
+      "Requirements engineering and user stories",
+      "Stakeholder and communication skills",
+      "Basic technical understanding (APIs, web, databases)",
+      "Product discovery, UX and data-driven decisions"
+    ]
+  },
+  {
+    "id": "engineering_manager",
+    "title_en": "Engineering Manager",
+    "title_de": "Engineering Manager/in",
+    "description_en": "Leads and manages software engineering teams, focusing on people development and delivery.",
+    "description_de": "Leitet und führt Software-Engineering-Teams mit Fokus auf Personalentwicklung und Delivery.",
+    "average_salary": {
+      "junior": 75000,
+      "mid": 95000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "Technical leadership and mentoring",
+      "Agile project management",
+      "Hiring and team building",
+      "Performance management",
+      "Strategic planning and roadmapping"
+    ]
+  },
+  {
+    "id": "research_scientist",
+    "title_en": "Research Scientist (CS)",
+    "title_de": "Forschungswissenschaftler/in (Informatik)",
+    "description_en": "Conducts academic or industrial research in computer science, publishes papers and advances the field.",
+    "description_de": "Führt akademische oder industrielle Forschung in der Informatik durch, veröffentlicht Paper und treibt das Fachgebiet voran.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Research methodology and academic writing",
+      "Deep expertise in specialization area",
+      "Programming and prototyping",
+      "Literature review and paper writing",
+      "Presentation and teaching skills"
+    ]
+  },
+  {
+    "id": "it_consultant",
+    "title_en": "IT Consultant",
+    "title_de": "IT-Berater/in",
+    "description_en": "Advises organizations on technology strategy, system selection and digital transformation.",
+    "description_de": "Berät Organisationen zu Technologiestrategie, Systemauswahl und digitaler Transformation.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Broad technical knowledge",
+      "Business analysis and requirements",
+      "Presentation and communication",
+      "Project management",
+      "Industry and domain expertise"
+    ]
+  },
+  {
+    "id": "solutions_architect",
+    "title_en": "Solutions Architect",
+    "title_de": "Solutions Architect",
+    "description_en": "Designs end-to-end technical solutions for clients, bridging business requirements and technology.",
+    "description_de": "Entwirft End-to-End-Technologielösungen für Kunden und verbindet Geschäftsanforderungen mit Technologie.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 85000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "Enterprise architecture patterns",
+      "Cloud platforms (AWS, Azure, GCP)",
+      "Integration and API design",
+      "Pre-sales and client communication",
+      "Cost estimation and technical proposals"
+    ]
+  },
+  {
+    "id": "mlops_engineer",
+    "title_en": "MLOps Engineer",
+    "title_de": "MLOps-Engineer",
+    "description_en": "Builds and operates the infrastructure for machine learning model deployment, monitoring and lifecycle management.",
+    "description_de": "Erstellt und betreibt die Infrastruktur für ML-Modell-Deployment, Monitoring und Lifecycle-Management.",
+    "average_salary": {
+      "junior": 58000,
+      "mid": 78000,
+      "senior": 98000
+    },
+    "required_skills": [
+      "ML pipelines (Kubeflow, MLflow, Airflow)",
+      "Model serving and deployment",
+      "Kubernetes and Docker",
+      "Model monitoring and drift detection",
+      "Feature stores and data versioning"
+    ]
+  },
+  {
+    "id": "robotics_engineer",
+    "title_en": "Robotics Engineer",
+    "title_de": "Robotik-Ingenieur/in",
+    "description_en": "Designs and programs robots and autonomous systems for industrial, service or research applications.",
+    "description_de": "Entwirft und programmiert Roboter und autonome Systeme für industrielle, Service- oder Forschungsanwendungen.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 70000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "ROS (Robot Operating System)",
+      "C++ and Python programming",
+      "Control systems and kinematics",
+      "Computer vision and sensor fusion",
+      "Simulation and testing"
+    ]
+  },
+  {
+    "id": "computer_vision_engineer",
+    "title_en": "Computer Vision Engineer",
+    "title_de": "Computer-Vision-Ingenieur/in",
+    "description_en": "Develops systems that can interpret and process visual information from images and videos.",
+    "description_de": "Entwickelt Systeme, die visuelle Informationen aus Bildern und Videos interpretieren und verarbeiten können.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 98000
+    },
+    "required_skills": [
+      "Deep learning for vision (CNNs, transformers)",
+      "OpenCV and image processing",
+      "Object detection and segmentation",
+      "3D vision and depth estimation",
+      "Edge deployment and optimization"
+    ]
+  },
+  {
+    "id": "nlp_engineer",
+    "title_en": "NLP Engineer",
+    "title_de": "NLP-Ingenieur/in",
+    "description_en": "Builds systems that understand, process and generate human language using AI techniques.",
+    "description_de": "Entwickelt Systeme, die menschliche Sprache mit KI-Techniken verstehen, verarbeiten und generieren.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "NLP frameworks (Hugging Face, spaCy)",
+      "Large Language Models and transformers",
+      "Text classification and NER",
+      "Information retrieval and RAG",
+      "Multilingual NLP"
+    ]
+  },
+  {
+    "id": "prompt_engineer",
+    "title_en": "Prompt Engineer",
+    "title_de": "Prompt-Engineer",
+    "description_en": "Designs, tests and optimizes prompts for large language models to achieve desired AI outputs and behaviors.",
+    "description_de": "Entwirft, testet und optimiert Prompts für Large Language Models, um gewünschte KI-Ausgaben und -Verhaltensweisen zu erzielen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 80000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "Natural language processing understanding",
+      "LLM behavior and capabilities (GPT, Claude, Llama)",
+      "Prompt design patterns and techniques",
+      "Python and API integration",
+      "Evaluation and testing of AI outputs"
+    ]
+  },
+  {
+    "id": "ai_research_scientist",
+    "title_en": "AI Research Scientist",
+    "title_de": "KI-Forschungswissenschaftler/in",
+    "description_en": "Conducts cutting-edge research in artificial intelligence, develops new algorithms and publishes scientific papers.",
+    "description_de": "Führt Spitzenforschung im Bereich künstliche Intelligenz durch, entwickelt neue Algorithmen und veröffentlicht wissenschaftliche Arbeiten.",
+    "average_salary": {
+      "junior": 70000,
+      "mid": 95000,
+      "senior": 130000
+    },
+    "required_skills": [
+      "Deep learning and neural network architectures",
+      "Mathematics (linear algebra, calculus, statistics)",
+      "Research methodology and paper writing",
+      "PyTorch or TensorFlow expertise",
+      "Experimentation and hypothesis testing"
+    ]
+  },
+  {
+    "id": "generative_ai_developer",
+    "title_en": "Generative AI Developer",
+    "title_de": "Generative-KI-Entwickler/in",
+    "description_en": "Builds applications using generative AI models for content creation, code generation, and creative tasks.",
+    "description_de": "Entwickelt Anwendungen mit generativen KI-Modellen für Content-Erstellung, Code-Generierung und kreative Aufgaben.",
+    "average_salary": {
+      "junior": 58000,
+      "mid": 82000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "LLM APIs (OpenAI, Anthropic, Google)",
+      "RAG (Retrieval Augmented Generation)",
+      "Vector databases and embeddings",
+      "LangChain, LlamaIndex or similar frameworks",
+      "Fine-tuning and model customization"
+    ]
+  },
+  {
+    "id": "ai_ethics_specialist",
+    "title_en": "AI Ethics Specialist",
+    "title_de": "KI-Ethik-Spezialist/in",
+    "description_en": "Ensures AI systems are developed and deployed responsibly, addressing bias, fairness, transparency and societal impact.",
+    "description_de": "Stellt sicher, dass KI-Systeme verantwortungsvoll entwickelt und eingesetzt werden, adressiert Bias, Fairness, Transparenz und gesellschaftliche Auswirkungen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "AI/ML technical understanding",
+      "Ethics and philosophy frameworks",
+      "Bias detection and mitigation",
+      "AI governance and policy",
+      "Stakeholder communication"
+    ]
+  },
+  {
+    "id": "conversational_ai_developer",
+    "title_en": "Conversational AI Developer",
+    "title_de": "Conversational-AI-Entwickler/in",
+    "description_en": "Builds chatbots, virtual assistants and voice interfaces using NLP and dialogue management systems.",
+    "description_de": "Entwickelt Chatbots, virtuelle Assistenten und Sprachschnittstellen mit NLP und Dialogmanagementsystemen.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "NLP and dialogue systems",
+      "Chatbot frameworks (Rasa, Dialogflow, Botpress)",
+      "LLM integration for conversational AI",
+      "Voice interfaces and speech recognition",
+      "User experience for conversational interfaces"
+    ]
+  },
+  {
+    "id": "ai_product_manager",
+    "title_en": "AI Product Manager",
+    "title_de": "KI-Produktmanager/in",
+    "description_en": "Manages AI-powered products, bridging technical AI capabilities with user needs and business goals.",
+    "description_de": "Verwaltet KI-gestützte Produkte und verbindet technische KI-Fähigkeiten mit Benutzeranforderungen und Geschäftszielen.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 90000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "AI/ML concepts and capabilities",
+      "Product management fundamentals",
+      "Data-driven decision making",
+      "Cross-functional collaboration",
+      "AI product lifecycle management"
+    ]
+  },
+  {
+    "id": "cloud_engineer",
+    "title_en": "Cloud Engineer",
+    "title_de": "Cloud-Engineer",
+    "description_en": "Designs, deploys and manages cloud infrastructure and services on platforms like AWS, Azure or GCP.",
+    "description_de": "Entwirft, deployt und verwaltet Cloud-Infrastruktur und -Dienste auf Plattformen wie AWS, Azure oder GCP.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "AWS, Azure or GCP services",
+      "Infrastructure as Code (Terraform, CloudFormation)",
+      "Containerization (Docker, Kubernetes)",
+      "Networking and security in cloud",
+      "Cost optimization and monitoring"
+    ]
+  },
+  {
+    "id": "platform_engineer",
+    "title_en": "Platform Engineer",
+    "title_de": "Platform-Engineer",
+    "description_en": "Builds and maintains internal developer platforms that enable teams to deploy and manage applications efficiently.",
+    "description_de": "Erstellt und wartet interne Entwicklerplattformen, die Teams ermöglichen, Anwendungen effizient zu deployen und zu verwalten.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 78000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Kubernetes and container orchestration",
+      "CI/CD pipeline design",
+      "Infrastructure as Code",
+      "Developer experience and tooling",
+      "Service mesh and observability"
+    ]
+  },
+  {
+    "id": "penetration_tester",
+    "title_en": "Penetration Tester / Ethical Hacker",
+    "title_de": "Penetrationstester/in / Ethical Hacker",
+    "description_en": "Tests systems and applications for security vulnerabilities by simulating cyber attacks.",
+    "description_de": "Testet Systeme und Anwendungen auf Sicherheitslücken durch Simulation von Cyberangriffen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Penetration testing methodologies (OWASP, PTES)",
+      "Security tools (Burp Suite, Metasploit, Nmap)",
+      "Web and network security",
+      "Scripting (Python, Bash)",
+      "Report writing and communication"
+    ]
+  },
+  {
+    "id": "soc_analyst",
+    "title_en": "SOC Analyst",
+    "title_de": "SOC-Analyst/in",
+    "description_en": "Monitors security systems, analyzes alerts and responds to security incidents in a Security Operations Center.",
+    "description_de": "Überwacht Sicherheitssysteme, analysiert Alarme und reagiert auf Sicherheitsvorfälle in einem Security Operations Center.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 60000,
+      "senior": 80000
+    },
+    "required_skills": [
+      "SIEM tools (Splunk, QRadar, Sentinel)",
+      "Incident response procedures",
+      "Log analysis and threat detection",
+      "Network protocols and security",
+      "Malware analysis basics"
+    ]
+  },
+  {
+    "id": "iam_specialist",
+    "title_en": "IAM Specialist",
+    "title_de": "IAM-Spezialist/in",
+    "description_en": "Designs and implements identity and access management solutions to secure user authentication and authorization.",
+    "description_de": "Entwirft und implementiert Identity- und Access-Management-Lösungen zur Sicherung von Benutzerauthentifizierung und -autorisierung.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "IAM platforms (Okta, Azure AD, Auth0)",
+      "Single Sign-On (SSO) and MFA",
+      "OAuth, SAML, OpenID Connect",
+      "Directory services (LDAP, Active Directory)",
+      "Zero Trust architecture"
+    ]
+  },
+  {
+    "id": "security_architect",
+    "title_en": "Security Architect",
+    "title_de": "Security-Architekt/in",
+    "description_en": "Designs security architecture for enterprise systems, ensuring comprehensive protection against threats.",
+    "description_de": "Entwirft Sicherheitsarchitektur für Unternehmenssysteme und gewährleistet umfassenden Schutz gegen Bedrohungen.",
+    "average_salary": {
+      "junior": 70000,
+      "mid": 90000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "Security architecture frameworks (TOGAF, SABSA)",
+      "Enterprise security design",
+      "Risk assessment and threat modeling",
+      "Cloud security architecture",
+      "Compliance and governance"
+    ]
+  },
+  {
+    "id": "ar_vr_developer",
+    "title_en": "AR/VR Developer",
+    "title_de": "AR/VR-Entwickler/in",
+    "description_en": "Creates augmented and virtual reality applications for gaming, training, visualization and enterprise use cases.",
+    "description_de": "Erstellt Augmented- und Virtual-Reality-Anwendungen für Gaming, Training, Visualisierung und Unternehmensanwendungen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Unity or Unreal Engine",
+      "3D graphics and spatial computing",
+      "AR frameworks (ARKit, ARCore)",
+      "VR development (Quest, SteamVR)",
+      "C# or C++ programming"
+    ]
+  },
+  {
+    "id": "iot_developer",
+    "title_en": "IoT Developer",
+    "title_de": "IoT-Entwickler/in",
+    "description_en": "Develops applications and systems for Internet of Things devices, connecting sensors and devices to the cloud.",
+    "description_de": "Entwickelt Anwendungen und Systeme für Internet-of-Things-Geräte und verbindet Sensoren und Geräte mit der Cloud.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 88000
+    },
+    "required_skills": [
+      "Embedded programming (C, C++, Python)",
+      "IoT protocols (MQTT, CoAP, HTTP)",
+      "Cloud IoT platforms (AWS IoT, Azure IoT)",
+      "Sensor integration and data processing",
+      "Edge computing concepts"
+    ]
+  },
+  {
+    "id": "api_developer",
+    "title_en": "API Developer",
+    "title_de": "API-Entwickler/in",
+    "description_en": "Designs and builds APIs that enable communication between software systems and services.",
+    "description_de": "Entwirft und erstellt APIs, die Kommunikation zwischen Softwaresystemen und -diensten ermöglichen.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "REST and GraphQL API design",
+      "API documentation (OpenAPI, Swagger)",
+      "Authentication (OAuth, JWT, API keys)",
+      "Rate limiting and versioning",
+      "API testing and monitoring"
+    ]
+  },
+  {
+    "id": "low_code_developer",
+    "title_en": "Low-Code/No-Code Developer",
+    "title_de": "Low-Code/No-Code-Entwickler/in",
+    "description_en": "Builds applications using visual development platforms with minimal traditional coding.",
+    "description_de": "Erstellt Anwendungen mit visuellen Entwicklungsplattformen mit minimalem traditionellem Programmieren.",
+    "average_salary": {
+      "junior": 42000,
+      "mid": 55000,
+      "senior": 72000
+    },
+    "required_skills": [
+      "Low-code platforms (OutSystems, Mendix, Power Apps)",
+      "Business process automation",
+      "Database design and integration",
+      "Basic programming concepts",
+      "Workflow automation"
+    ]
+  },
+  {
+    "id": "digital_twin_engineer",
+    "title_en": "Digital Twin Engineer",
+    "title_de": "Digital-Twin-Engineer",
+    "description_en": "Creates digital replicas of physical systems for simulation, monitoring and optimization in Industry 4.0.",
+    "description_de": "Erstellt digitale Abbilder physischer Systeme für Simulation, Monitoring und Optimierung in Industrie 4.0.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "3D modeling and simulation",
+      "IoT and sensor integration",
+      "Data analytics and visualization",
+      "CAD/CAM software",
+      "Industry 4.0 and manufacturing systems"
+    ]
+  },
+  {
+    "id": "automation_engineer",
+    "title_en": "Automation Engineer",
+    "title_de": "Automatisierungsingenieur/in",
+    "description_en": "Develops automated solutions for testing, deployment, business processes and industrial systems.",
+    "description_de": "Entwickelt automatisierte Lösungen für Testing, Deployment, Geschäftsprozesse und industrielle Systeme.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "Scripting (Python, PowerShell, Bash)",
+      "Test automation frameworks",
+      "CI/CD and build automation",
+      "RPA tools (UiPath, Automation Anywhere)",
+      "Process analysis and optimization"
+    ]
+  },
+  {
+    "id": "it_support_specialist",
+    "title_en": "IT Support Specialist",
+    "title_de": "IT-Support-Spezialist/in",
+    "description_en": "Provides technical support to users, troubleshoots hardware and software issues, and maintains IT systems.",
+    "description_de": "Bietet technischen Support für Benutzer, behebt Hardware- und Softwareprobleme und wartet IT-Systeme.",
+    "average_salary": {
+      "junior": 35000,
+      "mid": 45000,
+      "senior": 58000
+    },
+    "required_skills": [
+      "Hardware and software troubleshooting",
+      "Operating systems (Windows, macOS, Linux)",
+      "Networking basics",
+      "Help desk and ticketing systems",
+      "Customer service and communication"
+    ]
+  },
+  {
+    "id": "scrum_master",
+    "title_en": "Scrum Master",
+    "title_de": "Scrum Master",
+    "description_en": "Facilitates Scrum processes, removes impediments and coaches teams in agile methodologies.",
+    "description_de": "Moderiert Scrum-Prozesse, beseitigt Hindernisse und coacht Teams in agilen Methoden.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 88000
+    },
+    "required_skills": [
+      "Scrum and agile frameworks",
+      "Facilitation and coaching",
+      "Conflict resolution",
+      "Agile tools (Jira, Azure DevOps)",
+      "Team dynamics and collaboration"
+    ]
+  },
+  {
+    "id": "business_analyst_tech",
+    "title_en": "Business Analyst (Tech)",
+    "title_de": "Business Analyst (Tech)",
+    "description_en": "Analyzes business needs and translates them into technical requirements for software development.",
+    "description_de": "Analysiert Geschäftsanforderungen und übersetzt sie in technische Anforderungen für Softwareentwicklung.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 62000,
+      "senior": 80000
+    },
+    "required_skills": [
+      "Requirements gathering and documentation",
+      "Business process modeling (BPMN)",
+      "SQL and data analysis",
+      "Agile and waterfall methodologies",
+      "Stakeholder communication"
+    ]
+  },
+  {
+    "id": "it_project_manager",
+    "title_en": "IT Project Manager",
+    "title_de": "IT-Projektmanager/in",
+    "description_en": "Plans, executes and delivers IT projects on time and within budget, managing teams and stakeholders.",
+    "description_de": "Plant, führt aus und liefert IT-Projekte termingerecht und im Budget, verwaltet Teams und Stakeholder.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Project management methodologies (PRINCE2, PMP)",
+      "Agile project management",
+      "Budget and resource management",
+      "Risk management",
+      "Stakeholder and vendor management"
+    ]
+  },
+  {
+    "id": "systems_analyst",
+    "title_en": "Systems Analyst",
+    "title_de": "Systemanalytiker/in",
+    "description_en": "Analyzes and designs IT systems to meet business requirements, bridging business and technology.",
+    "description_de": "Analysiert und entwirft IT-Systeme zur Erfüllung von Geschäftsanforderungen, verbindet Business und Technologie.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 62000,
+      "senior": 82000
+    },
+    "required_skills": [
+      "Systems analysis and design",
+      "UML and data modeling",
+      "Database and application knowledge",
+      "Requirements engineering",
+      "Technical documentation"
+    ]
+  },
+  {
+    "id": "bi_developer",
+    "title_en": "Business Intelligence Developer",
+    "title_de": "Business-Intelligence-Entwickler/in",
+    "description_en": "Builds data warehouses, reports and dashboards to enable data-driven business decisions.",
+    "description_de": "Erstellt Data Warehouses, Reports und Dashboards zur Ermöglichung datengetriebener Geschäftsentscheidungen.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "BI tools (Power BI, Tableau, Looker)",
+      "SQL and data warehousing",
+      "ETL processes",
+      "Data modeling (star schema, snowflake)",
+      "Dashboard design and visualization"
+    ]
+  },
+  {
+    "id": "data_visualization_specialist",
+    "title_en": "Data Visualization Specialist",
+    "title_de": "Datenvisualisierungsspezialist/in",
+    "description_en": "Creates compelling visual representations of data to communicate insights effectively.",
+    "description_de": "Erstellt überzeugende visuelle Darstellungen von Daten zur effektiven Kommunikation von Erkenntnissen.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 60000,
+      "senior": 78000
+    },
+    "required_skills": [
+      "Visualization tools (Tableau, D3.js, Power BI)",
+      "Data storytelling",
+      "Design principles and UX",
+      "Statistical understanding",
+      "Python or R for visualization"
+    ]
+  },
+  {
+    "id": "site_reliability_engineer",
+    "title_en": "Site Reliability Engineer (SRE)",
+    "title_de": "Site Reliability Engineer",
+    "description_en": "Ensures high availability and reliability of production systems through automation and engineering practices.",
+    "description_de": "Gewährleistet hohe Verfügbarkeit und Zuverlässigkeit von Produktionssystemen durch Automatisierung und Engineering-Praktiken.",
+    "average_salary": {
+      "junior": 58000,
+      "mid": 78000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "System administration and Linux",
+      "Programming (Python, Go)",
+      "Monitoring and observability",
+      "Incident management and on-call",
+      "Capacity planning and performance tuning"
+    ]
+  },
+  {
+    "id": "edge_computing_engineer",
+    "title_en": "Edge Computing Engineer",
+    "title_de": "Edge-Computing-Engineer",
+    "description_en": "Develops and deploys computing solutions at the network edge for low-latency, real-time processing.",
+    "description_de": "Entwickelt und deployt Computing-Lösungen am Netzwerkrand für Niedriglatenz- und Echtzeitverarbeitung.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Edge computing platforms",
+      "IoT and embedded systems",
+      "Containerization at the edge",
+      "Real-time data processing",
+      "Network protocols and optimization"
+    ]
+  },
+  {
+    "id": "ai_trainer",
+    "title_en": "AI Trainer / Data Annotator",
+    "title_de": "KI-Trainer/in / Datenannotator/in",
+    "description_en": "Labels and annotates data to train machine learning models, ensuring quality training datasets.",
+    "description_de": "Labelt und annotiert Daten zum Training von Machine-Learning-Modellen, stellt qualitativ hochwertige Trainingsdatensätze sicher.",
+    "average_salary": {
+      "junior": 35000,
+      "mid": 45000,
+      "senior": 58000
+    },
+    "required_skills": [
+      "Data annotation tools and techniques",
+      "Quality assurance for datasets",
+      "Understanding of ML concepts",
+      "Attention to detail",
+      "Domain expertise for specialized data"
+    ]
+  },
+  {
+    "id": "quantum_computing_researcher",
+    "title_en": "Quantum Computing Researcher",
+    "title_de": "Quantencomputing-Forscher/in",
+    "description_en": "Researches and develops quantum algorithms and applications for next-generation computing.",
+    "description_de": "Erforscht und entwickelt Quantenalgorithmen und -anwendungen für die nächste Computergeneration.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 90000,
+      "senior": 130000
+    },
+    "required_skills": [
+      "Quantum mechanics fundamentals",
+      "Quantum programming (Qiskit, Cirq)",
+      "Linear algebra and mathematics",
+      "Classical algorithms and complexity",
+      "Research and experimentation"
+    ]
+  },
+  {
+    "id": "fintech_developer",
+    "title_en": "FinTech Developer",
+    "title_de": "FinTech-Entwickler/in",
+    "description_en": "Builds financial technology applications including payment systems, trading platforms and banking software.",
+    "description_de": "Entwickelt Finanztechnologie-Anwendungen einschließlich Zahlungssysteme, Handelsplattformen und Banking-Software.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 98000
+    },
+    "required_skills": [
+      "Programming (Java, Python, C++)",
+      "Financial systems and regulations",
+      "Payment protocols and APIs",
+      "Security and compliance",
+      "High-performance computing"
+    ]
+  },
+  {
+    "id": "healthtech_developer",
+    "title_en": "HealthTech Developer",
+    "title_de": "HealthTech-Entwickler/in",
+    "description_en": "Develops healthcare technology solutions including medical software, health apps and clinical systems.",
+    "description_de": "Entwickelt Gesundheitstechnologie-Lösungen einschließlich medizinischer Software, Gesundheits-Apps und klinischer Systeme.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Healthcare standards (HL7, FHIR)",
+      "Medical device regulations",
+      "Data privacy (HIPAA, GDPR)",
+      "Mobile and web development",
+      "Interoperability and integration"
+    ]
+  },
+  {
+    "id": "autonomous_vehicle_engineer",
+    "title_en": "Autonomous Vehicle Engineer",
+    "title_de": "Autonome-Fahrzeuge-Ingenieur/in",
+    "description_en": "Develops software and systems for self-driving vehicles including perception, planning and control.",
+    "description_de": "Entwickelt Software und Systeme für selbstfahrende Fahrzeuge einschließlich Wahrnehmung, Planung und Steuerung.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 85000,
+      "senior": 115000
+    },
+    "required_skills": [
+      "Computer vision and sensor fusion",
+      "Motion planning and control systems",
+      "ROS and automotive software",
+      "C++ and Python programming",
+      "Safety-critical systems development"
+    ]
+  },
+  {
+    "id": "speech_recognition_engineer",
+    "title_en": "Speech Recognition Engineer",
+    "title_de": "Spracherkennungs-Ingenieur/in",
+    "description_en": "Develops systems that convert spoken language to text and understand voice commands.",
+    "description_de": "Entwickelt Systeme, die gesprochene Sprache in Text umwandeln und Sprachbefehle verstehen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Speech recognition frameworks",
+      "Deep learning for audio",
+      "Signal processing",
+      "Acoustic modeling",
+      "Python and C++ programming"
+    ]
+  },
+  {
+    "id": "recommender_systems_engineer",
+    "title_en": "Recommender Systems Engineer",
+    "title_de": "Empfehlungssysteme-Ingenieur/in",
+    "description_en": "Builds personalization and recommendation engines for e-commerce, streaming and content platforms.",
+    "description_de": "Entwickelt Personalisierungs- und Empfehlungs-Engines für E-Commerce-, Streaming- und Content-Plattformen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Collaborative and content-based filtering",
+      "Deep learning for recommendations",
+      "A/B testing and experimentation",
+      "Large-scale data processing",
+      "Python and ML frameworks"
+    ]
+  },
+  {
+    "id": "information_security_manager",
+    "title_en": "Information Security Manager",
+    "title_de": "Informationssicherheitsmanager/in",
+    "description_en": "Manages information security programs, policies, and teams to protect organizational assets.",
+    "description_de": "Verwaltet Informationssicherheitsprogramme, -richtlinien und -teams zum Schutz organisatorischer Vermögenswerte.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 85000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "Security management frameworks (ISO 27001, NIST)",
+      "Risk management and assessment",
+      "Security policy development",
+      "Team leadership and management",
+      "Compliance and audit"
+    ]
+  },
+  {
+    "id": "devsecops_engineer",
+    "title_en": "DevSecOps Engineer",
+    "title_de": "DevSecOps-Engineer",
+    "description_en": "Integrates security practices into DevOps pipelines, automating security testing and compliance.",
+    "description_de": "Integriert Sicherheitspraktiken in DevOps-Pipelines, automatisiert Sicherheitstests und Compliance.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 98000
+    },
+    "required_skills": [
+      "CI/CD security integration",
+      "Container and Kubernetes security",
+      "SAST/DAST tools",
+      "Infrastructure security automation",
+      "Security as Code"
+    ]
+  },
+  {
+    "id": "technical_account_manager",
+    "title_en": "Technical Account Manager",
+    "title_de": "Technical Account Manager/in",
+    "description_en": "Serves as a technical liaison between customers and the company, ensuring successful product adoption.",
+    "description_de": "Dient als technische Schnittstelle zwischen Kunden und Unternehmen, stellt erfolgreiche Produktadoption sicher.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Technical product knowledge",
+      "Customer relationship management",
+      "Problem-solving and troubleshooting",
+      "Presentation and communication",
+      "Project coordination"
+    ]
+  },
+  {
+    "id": "developer_advocate",
+    "title_en": "Developer Advocate / DevRel",
+    "title_de": "Developer Advocate / DevRel",
+    "description_en": "Builds relationships between developers and tech companies through content, events and community engagement.",
+    "description_de": "Baut Beziehungen zwischen Entwicklern und Technologieunternehmen durch Content, Events und Community-Engagement auf.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 78000,
+      "senior": 105000
+    },
+    "required_skills": [
+      "Technical expertise and coding",
+      "Public speaking and presentation",
+      "Content creation (blogs, videos, tutorials)",
+      "Community management",
+      "Developer experience understanding"
+    ]
+  },
+  {
+    "id": "sap_developer",
+    "title_en": "SAP Developer",
+    "title_de": "SAP-Entwickler/in",
+    "description_en": "Develops custom applications and extensions for SAP enterprise systems using ABAP, Fiori, and SAP Cloud Platform.",
+    "description_de": "Entwickelt maßgeschneiderte Anwendungen und Erweiterungen für SAP-Unternehmenssysteme mit ABAP, Fiori und SAP Cloud Platform.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "ABAP programming",
+      "SAP Fiori and UI5",
+      "SAP modules (FI, CO, MM, SD)",
+      "SAP Cloud Platform",
+      "Integration technologies (RFC, BAPI, IDoc)"
+    ]
+  },
+  {
+    "id": "erp_consultant",
+    "title_en": "ERP Consultant",
+    "title_de": "ERP-Berater/in",
+    "description_en": "Advises organizations on enterprise resource planning systems, customizes solutions and manages implementations.",
+    "description_de": "Berät Organisationen zu Enterprise-Resource-Planning-Systemen, passt Lösungen an und verwaltet Implementierungen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "ERP systems (SAP, Oracle, Microsoft Dynamics)",
+      "Business process analysis",
+      "Project management",
+      "Change management",
+      "Industry-specific knowledge"
+    ]
+  },
+  {
+    "id": "bioinformatics_scientist",
+    "title_en": "Bioinformatics Scientist",
+    "title_de": "Bioinformatiker/in",
+    "description_en": "Applies computational methods to analyze biological data including genomics, proteomics and drug discovery.",
+    "description_de": "Wendet rechnergestützte Methoden zur Analyse biologischer Daten an, einschließlich Genomik, Proteomik und Arzneimittelforschung.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Python, R, or Perl programming",
+      "Biological sequence analysis",
+      "Statistical methods and ML",
+      "Genomics and proteomics tools",
+      "Database management and SQL"
+    ]
+  },
+  {
+    "id": "computational_biologist",
+    "title_en": "Computational Biologist",
+    "title_de": "Computerbiologe/in",
+    "description_en": "Uses mathematical modeling and simulations to understand biological systems and processes.",
+    "description_de": "Nutzt mathematische Modellierung und Simulationen zum Verständnis biologischer Systeme und Prozesse.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 70000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "Mathematical modeling",
+      "Systems biology",
+      "Programming (Python, MATLAB)",
+      "Statistical analysis",
+      "Molecular biology fundamentals"
+    ]
+  },
+  {
+    "id": "graphics_programmer",
+    "title_en": "Graphics Programmer",
+    "title_de": "Grafikprogrammierer/in",
+    "description_en": "Develops real-time graphics systems, rendering engines and shader programs for games, simulation and visualization.",
+    "description_de": "Entwickelt Echtzeit-Grafiksysteme, Rendering-Engines und Shader-Programme für Spiele, Simulation und Visualisierung.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "C++ and low-level programming",
+      "OpenGL, Vulkan, or DirectX",
+      "Shader programming (GLSL, HLSL)",
+      "3D mathematics and linear algebra",
+      "Rendering techniques and algorithms"
+    ]
+  },
+  {
+    "id": "shader_developer",
+    "title_en": "Shader Developer / Technical Artist",
+    "title_de": "Shader-Entwickler/in / Technical Artist",
+    "description_en": "Creates visual effects and shaders for real-time applications, bridging art and programming.",
+    "description_de": "Erstellt visuelle Effekte und Shader für Echtzeitanwendungen und verbindet Kunst mit Programmierung.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 62000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "Shader languages (GLSL, HLSL, Shader Graph)",
+      "Game engines (Unity, Unreal)",
+      "3D modeling and texturing",
+      "Color theory and visual design",
+      "Performance optimization"
+    ]
+  },
+  {
+    "id": "audio_dsp_engineer",
+    "title_en": "Audio/DSP Engineer",
+    "title_de": "Audio/DSP-Ingenieur/in",
+    "description_en": "Develops digital signal processing algorithms for audio applications including music, speech and communications.",
+    "description_de": "Entwickelt digitale Signalverarbeitungsalgorithmen für Audioanwendungen einschließlich Musik, Sprache und Kommunikation.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Digital signal processing",
+      "C/C++ programming",
+      "Audio codecs and formats",
+      "MATLAB or Python for prototyping",
+      "Real-time audio systems"
+    ]
+  },
+  {
+    "id": "signal_processing_engineer",
+    "title_en": "Signal Processing Engineer",
+    "title_de": "Signalverarbeitungsingenieur/in",
+    "description_en": "Designs algorithms for processing, analyzing and interpreting signals in communications, radar and medical devices.",
+    "description_de": "Entwirft Algorithmen zur Verarbeitung, Analyse und Interpretation von Signalen in Kommunikation, Radar und Medizingeräten.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Digital signal processing theory",
+      "MATLAB, Python, or C++",
+      "Filter design and FFT",
+      "Statistical signal processing",
+      "Hardware implementation (FPGA)"
+    ]
+  },
+  {
+    "id": "compiler_engineer",
+    "title_en": "Compiler Engineer",
+    "title_de": "Compiler-Ingenieur/in",
+    "description_en": "Develops compilers, interpreters and language tools that translate source code into machine code.",
+    "description_de": "Entwickelt Compiler, Interpreter und Sprachwerkzeuge, die Quellcode in Maschinencode übersetzen.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 85000,
+      "senior": 115000
+    },
+    "required_skills": [
+      "Compiler theory and construction",
+      "C/C++ and low-level programming",
+      "LLVM, GCC, or similar frameworks",
+      "Assembly and machine architecture",
+      "Optimization techniques"
+    ]
+  },
+  {
+    "id": "programming_language_designer",
+    "title_en": "Programming Language Designer",
+    "title_de": "Programmiersprachen-Designer/in",
+    "description_en": "Designs and implements new programming languages, type systems and language features.",
+    "description_de": "Entwirft und implementiert neue Programmiersprachen, Typsysteme und Sprachfeatures.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 90000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "Type theory and formal methods",
+      "Compiler and interpreter design",
+      "Functional programming concepts",
+      "Language semantics",
+      "Research and academic writing"
+    ]
+  },
+  {
+    "id": "database_developer",
+    "title_en": "Database Developer",
+    "title_de": "Datenbankentwickler/in",
+    "description_en": "Designs, develops and optimizes database schemas, stored procedures and data access layers.",
+    "description_de": "Entwirft, entwickelt und optimiert Datenbank-Schemata, gespeicherte Prozeduren und Datenzugriffsschichten.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "SQL and database design",
+      "Stored procedures and functions",
+      "Database optimization",
+      "ETL development",
+      "NoSQL databases"
+    ]
+  },
+  {
+    "id": "search_engineer",
+    "title_en": "Search Engineer",
+    "title_de": "Suchingenieur/in",
+    "description_en": "Builds and optimizes search systems and information retrieval solutions for large-scale applications.",
+    "description_de": "Erstellt und optimiert Suchsysteme und Information-Retrieval-Lösungen für große Anwendungen.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Search engines (Elasticsearch, Solr)",
+      "Information retrieval theory",
+      "NLP and text processing",
+      "Ranking algorithms",
+      "Distributed systems"
+    ]
+  },
+  {
+    "id": "simulation_engineer",
+    "title_en": "Simulation Engineer",
+    "title_de": "Simulationsingenieur/in",
+    "description_en": "Develops computer simulations for physics, engineering, training and scientific research.",
+    "description_de": "Entwickelt Computersimulationen für Physik, Ingenieurwesen, Training und wissenschaftliche Forschung.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Numerical methods and simulation",
+      "C++, Python, or MATLAB",
+      "Physics and mathematics",
+      "Visualization and rendering",
+      "High-performance computing"
+    ]
+  },
+  {
+    "id": "hpc_engineer",
+    "title_en": "HPC Engineer / Scientific Computing",
+    "title_de": "HPC-Ingenieur/in / Scientific Computing",
+    "description_en": "Develops and optimizes software for high-performance computing clusters and supercomputers.",
+    "description_de": "Entwickelt und optimiert Software für Hochleistungsrechner-Cluster und Supercomputer.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Parallel programming (MPI, OpenMP)",
+      "C/C++ and Fortran",
+      "Linux and cluster administration",
+      "Performance profiling and optimization",
+      "Numerical algorithms"
+    ]
+  },
+  {
+    "id": "firmware_engineer",
+    "title_en": "Firmware Engineer",
+    "title_de": "Firmware-Ingenieur/in",
+    "description_en": "Develops low-level software that controls hardware devices, bridging hardware and software.",
+    "description_de": "Entwickelt Low-Level-Software zur Steuerung von Hardware-Geräten und verbindet Hardware mit Software.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "C and Assembly programming",
+      "Microcontroller architectures",
+      "RTOS and bare-metal programming",
+      "Hardware debugging tools",
+      "Communication protocols"
+    ]
+  },
+  {
+    "id": "fpga_engineer",
+    "title_en": "FPGA Engineer",
+    "title_de": "FPGA-Ingenieur/in",
+    "description_en": "Designs and implements digital circuits on FPGAs using hardware description languages.",
+    "description_de": "Entwirft und implementiert digitale Schaltungen auf FPGAs mit Hardware-Beschreibungssprachen.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "VHDL or Verilog",
+      "Digital circuit design",
+      "FPGA development tools (Xilinx, Intel)",
+      "Timing analysis",
+      "Signal processing on hardware"
+    ]
+  },
+  {
+    "id": "hardware_engineer",
+    "title_en": "Hardware Engineer",
+    "title_de": "Hardware-Ingenieur/in",
+    "description_en": "Designs and develops electronic hardware including circuit boards, processors and computer systems.",
+    "description_de": "Entwirft und entwickelt elektronische Hardware einschließlich Leiterplatten, Prozessoren und Computersysteme.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Circuit design and PCB layout",
+      "Digital and analog electronics",
+      "CAD tools (Altium, KiCad)",
+      "Testing and debugging hardware",
+      "Embedded systems integration"
+    ]
+  },
+  {
+    "id": "gis_developer",
+    "title_en": "GIS Developer",
+    "title_de": "GIS-Entwickler/in",
+    "description_en": "Develops geographic information systems and spatial data applications for mapping and location services.",
+    "description_de": "Entwickelt geografische Informationssysteme und räumliche Datenanwendungen für Kartierung und Standortdienste.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 62000,
+      "senior": 82000
+    },
+    "required_skills": [
+      "GIS software (ArcGIS, QGIS)",
+      "Spatial databases (PostGIS)",
+      "Web mapping (Leaflet, Mapbox)",
+      "Python or JavaScript",
+      "Geospatial data formats"
+    ]
+  },
+  {
+    "id": "cad_cam_developer",
+    "title_en": "CAD/CAM Software Developer",
+    "title_de": "CAD/CAM-Softwareentwickler/in",
+    "description_en": "Develops computer-aided design and manufacturing software for engineering and industrial applications.",
+    "description_de": "Entwickelt computergestützte Design- und Fertigungssoftware für Engineering und industrielle Anwendungen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "3D geometry and modeling",
+      "C++ programming",
+      "CAD/CAM systems",
+      "Computational geometry",
+      "Manufacturing processes"
+    ]
+  },
+  {
+    "id": "technical_support_engineer",
+    "title_en": "Technical Support Engineer",
+    "title_de": "Technical Support Engineer",
+    "description_en": "Provides advanced technical support for complex software products, troubleshooting and resolving issues.",
+    "description_de": "Bietet fortgeschrittenen technischen Support für komplexe Softwareprodukte, Fehlerbehebung und Problemlösung.",
+    "average_salary": {
+      "junior": 42000,
+      "mid": 55000,
+      "senior": 72000
+    },
+    "required_skills": [
+      "Technical troubleshooting",
+      "Customer communication",
+      "Operating systems and networking",
+      "Documentation and knowledge base",
+      "Ticket management systems"
+    ]
+  },
+  {
+    "id": "release_engineer",
+    "title_en": "Release Engineer / Build Engineer",
+    "title_de": "Release-Engineer / Build-Engineer",
+    "description_en": "Manages software build systems, release pipelines and deployment automation.",
+    "description_de": "Verwaltet Software-Build-Systeme, Release-Pipelines und Deployment-Automatisierung.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "Build systems (Maven, Gradle, Bazel)",
+      "CI/CD pipelines",
+      "Version control and branching",
+      "Scripting (Python, Bash)",
+      "Container and artifact management"
+    ]
+  },
+  {
+    "id": "infrastructure_engineer",
+    "title_en": "Infrastructure Engineer",
+    "title_de": "Infrastruktur-Ingenieur/in",
+    "description_en": "Designs, builds and maintains IT infrastructure including servers, networks and cloud resources.",
+    "description_de": "Entwirft, erstellt und wartet IT-Infrastruktur einschließlich Server, Netzwerke und Cloud-Ressourcen.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Linux and Windows administration",
+      "Networking and virtualization",
+      "Infrastructure as Code",
+      "Cloud platforms",
+      "Monitoring and automation"
+    ]
+  },
+  {
+    "id": "performance_engineer",
+    "title_en": "Performance Engineer",
+    "title_de": "Performance-Engineer",
+    "description_en": "Optimizes software and system performance through profiling, testing and tuning.",
+    "description_de": "Optimiert Software- und Systemleistung durch Profiling, Testing und Tuning.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Performance profiling tools",
+      "Load testing (JMeter, Gatling)",
+      "System metrics and monitoring",
+      "Database optimization",
+      "Code optimization techniques"
+    ]
+  },
+  {
+    "id": "chaos_engineer",
+    "title_en": "Chaos Engineer",
+    "title_de": "Chaos-Engineer",
+    "description_en": "Tests system resilience by intentionally introducing failures and analyzing system behavior.",
+    "description_de": "Testet Systemresilienz durch absichtliches Einführen von Fehlern und Analysieren des Systemverhaltens.",
+    "average_salary": {
+      "junior": 55000,
+      "mid": 78000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Chaos engineering tools (Chaos Monkey, Gremlin)",
+      "Distributed systems",
+      "Site reliability engineering",
+      "Incident response",
+      "System observability"
+    ]
+  },
+  {
+    "id": "forensics_analyst",
+    "title_en": "Digital Forensics Analyst",
+    "title_de": "Digitale Forensik Analyst/in",
+    "description_en": "Investigates digital evidence for security incidents, crimes and legal cases.",
+    "description_de": "Untersucht digitale Beweise für Sicherheitsvorfälle, Verbrechen und Rechtsfälle.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 88000
+    },
+    "required_skills": [
+      "Digital forensics tools (EnCase, FTK)",
+      "File systems and data recovery",
+      "Network forensics",
+      "Chain of custody procedures",
+      "Report writing for legal cases"
+    ]
+  },
+  {
+    "id": "malware_analyst",
+    "title_en": "Malware Analyst",
+    "title_de": "Malware-Analyst/in",
+    "description_en": "Analyzes malicious software to understand its behavior, origin and how to defend against it.",
+    "description_de": "Analysiert bösartige Software, um ihr Verhalten, ihre Herkunft und Abwehrmaßnahmen zu verstehen.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Reverse engineering",
+      "Assembly and debugging",
+      "Malware analysis tools (IDA, Ghidra)",
+      "Operating system internals",
+      "Threat intelligence"
+    ]
+  },
+  {
+    "id": "threat_intelligence_analyst",
+    "title_en": "Threat Intelligence Analyst",
+    "title_de": "Threat Intelligence Analyst/in",
+    "description_en": "Researches and analyzes cyber threats to provide actionable intelligence for security teams.",
+    "description_de": "Erforscht und analysiert Cyberbedrohungen, um umsetzbare Informationen für Sicherheitsteams bereitzustellen.",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "Threat research and analysis",
+      "OSINT techniques",
+      "Threat modeling (MITRE ATT&CK)",
+      "Report writing",
+      "Security tools and platforms"
+    ]
+  },
+  {
+    "id": "compliance_engineer",
+    "title_en": "Compliance Engineer / GRC Specialist",
+    "title_de": "Compliance-Engineer / GRC-Spezialist/in",
+    "description_en": "Ensures IT systems meet regulatory and compliance requirements (GDPR, SOC2, ISO 27001).",
+    "description_de": "Stellt sicher, dass IT-Systeme regulatorische und Compliance-Anforderungen erfüllen (DSGVO, SOC2, ISO 27001).",
+    "average_salary": {
+      "junior": 50000,
+      "mid": 70000,
+      "senior": 92000
+    },
+    "required_skills": [
+      "Compliance frameworks (ISO 27001, SOC2, GDPR)",
+      "Risk assessment",
+      "Audit preparation",
+      "Policy documentation",
+      "Security controls"
+    ]
+  },
+  {
+    "id": "privacy_engineer",
+    "title_en": "Privacy Engineer",
+    "title_de": "Privacy-Engineer",
+    "description_en": "Designs and implements privacy-preserving technologies and ensures data protection compliance.",
+    "description_de": "Entwirft und implementiert datenschutzfreundliche Technologien und gewährleistet Datenschutz-Compliance.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Data privacy regulations (GDPR, CCPA)",
+      "Privacy by design principles",
+      "Data anonymization techniques",
+      "Privacy impact assessments",
+      "Security engineering"
+    ]
+  },
+  {
+    "id": "crypto_engineer",
+    "title_en": "Cryptography Engineer",
+    "title_de": "Kryptographie-Ingenieur/in",
+    "description_en": "Implements cryptographic systems and protocols to secure data and communications.",
+    "description_de": "Implementiert kryptographische Systeme und Protokolle zur Sicherung von Daten und Kommunikation.",
+    "average_salary": {
+      "junior": 58000,
+      "mid": 80000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "Cryptographic algorithms and protocols",
+      "Mathematics (number theory, algebra)",
+      "Secure implementation practices",
+      "Key management systems",
+      "Security analysis and testing"
+    ]
+  },
+  {
+    "id": "technical_program_manager",
+    "title_en": "Technical Program Manager",
+    "title_de": "Technical Program Manager/in",
+    "description_en": "Manages complex technical programs and cross-functional initiatives with strong technical understanding.",
+    "description_de": "Verwaltet komplexe technische Programme und bereichsübergreifende Initiativen mit starkem technischem Verständnis.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 90000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "Program and project management",
+      "Technical architecture understanding",
+      "Cross-team coordination",
+      "Risk management",
+      "Stakeholder communication"
+    ]
+  },
+  {
+    "id": "data_product_manager",
+    "title_en": "Data Product Manager",
+    "title_de": "Data Product Manager/in",
+    "description_en": "Manages data products and platforms, translating data capabilities into business value.",
+    "description_de": "Verwaltet Datenprodukte und -plattformen und übersetzt Datenfähigkeiten in Geschäftswert.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 82000,
+      "senior": 105000
+    },
+    "required_skills": [
+      "Data strategy and governance",
+      "Product management fundamentals",
+      "SQL and data analysis",
+      "Data privacy and compliance",
+      "Stakeholder management"
+    ]
+  },
+  {
+    "id": "ai_safety_researcher",
+    "title_en": "AI Safety Researcher",
+    "title_de": "KI-Sicherheitsforscher/in",
+    "description_en": "Researches methods to ensure AI systems are safe, aligned with human values and behave as intended.",
+    "description_de": "Erforscht Methoden, um sicherzustellen, dass KI-Systeme sicher sind, menschlichen Werten entsprechen und sich wie beabsichtigt verhalten.",
+    "average_salary": {
+      "junior": 70000,
+      "mid": 95000,
+      "senior": 130000
+    },
+    "required_skills": [
+      "Machine learning and deep learning",
+      "AI alignment research",
+      "Formal methods and verification",
+      "Research and academic writing",
+      "Mathematics and statistics"
+    ]
+  },
+  {
+    "id": "reinforcement_learning_engineer",
+    "title_en": "Reinforcement Learning Engineer",
+    "title_de": "Reinforcement-Learning-Ingenieur/in",
+    "description_en": "Develops RL systems that learn through interaction with environments for robotics, games and optimization.",
+    "description_de": "Entwickelt RL-Systeme, die durch Interaktion mit Umgebungen für Robotik, Spiele und Optimierung lernen.",
+    "average_salary": {
+      "junior": 58000,
+      "mid": 82000,
+      "senior": 110000
+    },
+    "required_skills": [
+      "Reinforcement learning algorithms",
+      "Deep learning frameworks",
+      "Simulation environments",
+      "Mathematics (optimization, probability)",
+      "Python programming"
+    ]
+  },
+  {
+    "id": "ai_infrastructure_engineer",
+    "title_en": "AI Infrastructure Engineer",
+    "title_de": "KI-Infrastruktur-Ingenieur/in",
+    "description_en": "Builds and maintains infrastructure for training and serving AI/ML models at scale.",
+    "description_de": "Erstellt und wartet Infrastruktur für Training und Bereitstellung von KI/ML-Modellen in großem Maßstab.",
+    "average_salary": {
+      "junior": 60000,
+      "mid": 85000,
+      "senior": 115000
+    },
+    "required_skills": [
+      "GPU clusters and distributed training",
+      "Kubernetes and container orchestration",
+      "ML frameworks (PyTorch, TensorFlow)",
+      "Model serving infrastructure",
+      "Performance optimization"
+    ]
+  },
+  {
+    "id": "applied_scientist",
+    "title_en": "Applied Scientist",
+    "title_de": "Applied Scientist",
+    "description_en": "Applies machine learning and research methods to solve real-world business problems.",
+    "description_de": "Wendet Machine Learning und Forschungsmethoden an, um reale Geschäftsprobleme zu lösen.",
+    "average_salary": {
+      "junior": 65000,
+      "mid": 90000,
+      "senior": 120000
+    },
+    "required_skills": [
+      "Machine learning and statistics",
+      "Research methodology",
+      "Python and ML frameworks",
+      "Experiment design",
+      "Technical communication"
+    ]
+  },
+  {
+    "id": "legaltech_developer",
+    "title_en": "LegalTech Developer",
+    "title_de": "LegalTech-Entwickler/in",
+    "description_en": "Develops software solutions for legal services including document automation, contract analysis and e-discovery.",
+    "description_de": "Entwickelt Softwarelösungen für Rechtsdienstleistungen einschließlich Dokumentenautomatisierung, Vertragsanalyse und E-Discovery.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Software development",
+      "NLP and document processing",
+      "Legal domain knowledge",
+      "Database design",
+      "Security and compliance"
+    ]
+  },
+  {
+    "id": "edtech_developer",
+    "title_en": "EdTech Developer",
+    "title_de": "EdTech-Entwickler/in",
+    "description_en": "Develops educational technology solutions including learning management systems and interactive learning tools.",
+    "description_de": "Entwickelt Bildungstechnologie-Lösungen einschließlich Lernmanagementsystemen und interaktiver Lernwerkzeuge.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 62000,
+      "senior": 82000
+    },
+    "required_skills": [
+      "Web and mobile development",
+      "Learning management systems",
+      "User experience design",
+      "Gamification techniques",
+      "Accessibility standards"
+    ]
+  },
+  {
+    "id": "govtech_developer",
+    "title_en": "GovTech Developer",
+    "title_de": "GovTech-Entwickler/in",
+    "description_en": "Develops digital government services and civic technology solutions for public sector modernization.",
+    "description_de": "Entwickelt digitale Regierungsdienste und Civic-Technology-Lösungen für die Modernisierung des öffentlichen Sektors.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "Web development",
+      "Security and compliance",
+      "Accessibility (WCAG)",
+      "Government standards",
+      "Integration with legacy systems"
+    ]
+  },
+  {
+    "id": "cleantech_developer",
+    "title_en": "CleanTech / GreenTech Developer",
+    "title_de": "CleanTech / GreenTech-Entwickler/in",
+    "description_en": "Develops software for sustainable energy, environmental monitoring and green technology solutions.",
+    "description_de": "Entwickelt Software für nachhaltige Energie, Umweltüberwachung und umweltfreundliche Technologielösungen.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 68000,
+      "senior": 90000
+    },
+    "required_skills": [
+      "Software development",
+      "IoT and sensor systems",
+      "Data analysis and visualization",
+      "Energy systems knowledge",
+      "Environmental domain expertise"
+    ]
+  },
+  {
+    "id": "accessibility_engineer",
+    "title_en": "Accessibility Engineer",
+    "title_de": "Accessibility-Engineer",
+    "description_en": "Ensures digital products are accessible to people with disabilities following WCAG and other standards.",
+    "description_de": "Stellt sicher, dass digitale Produkte gemäß WCAG und anderen Standards für Menschen mit Behinderungen zugänglich sind.",
+    "average_salary": {
+      "junior": 48000,
+      "mid": 65000,
+      "senior": 85000
+    },
+    "required_skills": [
+      "WCAG and accessibility standards",
+      "Assistive technology testing",
+      "Frontend development",
+      "User research with disabled users",
+      "Accessibility auditing"
+    ]
+  },
+  {
+    "id": "localization_engineer",
+    "title_en": "Localization Engineer",
+    "title_de": "Lokalisierungsingenieur/in",
+    "description_en": "Develops systems and processes for adapting software to different languages and cultural regions.",
+    "description_de": "Entwickelt Systeme und Prozesse zur Anpassung von Software an verschiedene Sprachen und kulturelle Regionen.",
+    "average_salary": {
+      "junior": 45000,
+      "mid": 60000,
+      "senior": 78000
+    },
+    "required_skills": [
+      "Internationalization (i18n)",
+      "Localization tools and workflows",
+      "Programming (Python, JavaScript)",
+      "Unicode and character encoding",
+      "Cultural awareness"
+    ]
+  },
+  {
+    "id": "growth_engineer",
+    "title_en": "Growth Engineer",
+    "title_de": "Growth-Engineer",
+    "description_en": "Uses engineering and data to drive user acquisition, engagement and retention through experimentation.",
+    "description_de": "Nutzt Engineering und Daten, um Benutzerakquise, Engagement und Retention durch Experimente zu steigern.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 75000,
+      "senior": 100000
+    },
+    "required_skills": [
+      "Full stack development",
+      "A/B testing and experimentation",
+      "Data analysis and metrics",
+      "Marketing technology",
+      "Product analytics"
+    ]
+  },
+  {
+    "id": "developer_experience_engineer",
+    "title_en": "Developer Experience Engineer",
+    "title_de": "Developer-Experience-Engineer",
+    "description_en": "Improves developer productivity through better tools, documentation and internal platform development.",
+    "description_de": "Verbessert die Entwicklerproduktivität durch bessere Werkzeuge, Dokumentation und interne Plattformentwicklung.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Developer tooling and SDKs",
+      "Technical documentation",
+      "CI/CD and automation",
+      "Developer workflows",
+      "Community engagement"
+    ]
+  },
+  {
+    "id": "observability_engineer",
+    "title_en": "Observability Engineer",
+    "title_de": "Observability-Engineer",
+    "description_en": "Designs and implements observability solutions including logging, metrics, tracing and alerting.",
+    "description_de": "Entwirft und implementiert Observability-Lösungen einschließlich Logging, Metriken, Tracing und Alerting.",
+    "average_salary": {
+      "junior": 52000,
+      "mid": 72000,
+      "senior": 95000
+    },
+    "required_skills": [
+      "Monitoring tools (Prometheus, Grafana, Datadog)",
+      "Distributed tracing (Jaeger, Zipkin)",
+      "Log aggregation (ELK, Splunk)",
+      "SLOs and alerting",
+      "Distributed systems"
+    ]
+  }
+]

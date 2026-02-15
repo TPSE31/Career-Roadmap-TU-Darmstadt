@@ -1,0 +1,2619 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+390 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+Wahlbereich Studienbegleitende Leistungen  
+ 
+Seminare 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+391 
+ 
+Modulbeschreibung 
+Modulname 
+Seminar Telekooperation 
+Modul Nr. 
+20-00-0130 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0130-se 
+Seminar Telekooperation 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Das Seminar Telekooperation setzt sich mit der strukturierten Arbeit an wissenschaftlichen 
+Veröffentlichungen auseinander. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem Besuch des Seminars Telekooperation 
+● sind Studierende mit dem Forschungsgebiet ihres Seminarthemas vertraut  
+● können sich Studierende kritische mit wissenschaftlicher Literatur auseinandersetzen 
+● eine solchen Auseinandersetzung und zugehöriger Schlussfolgerung in schriftlicher und 
+mündlicher Form dokumentieren und vortragen 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Allgemeine Informatik --Kenntnisse aus dem Grundstudium  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0130-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+392 
+ 
+ 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0130-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+W. Strunk, E. B. White. The Elements of Style, Pearson, ISBN 0-321-24861-9 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+393 
+ 
+Modulbeschreibung 
+Modulname 
+Aktuelle Themen der Entwicklung und Anwendung moderner Robotersysteme 
+Modul Nr. 
+20-00-0148 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0148-se 
+Aktuelle Themen der Entwicklung 
+und Anwendung moderner 
+Robotersysteme 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- selbständige Einarbeitung in eine konkrete Aufgabenstellung aus der Entwicklung und 
+Anwendung moderner Robotersysteme unter Anleitung 
+- Einarbeitung in den relevanten Stand der Forschung und Technik 
+- Erarbeitung eines Lösungsvorschlags und dessen Präsentation und Diskussion in einem 
+Vortrag und einem Abschlussbericht 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Durch erfolgreiche Teilnahme erwerben Studierende vertiefte Kenntnisse in ausgewählten 
+Bereichen, Teilsystemen und Methoden moderner Robotersysteme und trainieren 
+Präsentations- und Dokumentationsfähigkeiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: grundlegende Fachkenntnisse und methodische Fähigkeiten in der Robotik, wie 
+diese durch die Lehrveranstaltung “Grundlagen der Robotik” vermittelt werden  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0148-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+394 
+ 
+ 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0148-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Aktuelle Literaturhinweise werden in der Veranstaltung gegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+395 
+ 
+Modulbeschreibung 
+Modulname 
+3D Animation & Visualisierung 
+Modul Nr. 
+20-00-0216 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0216-se 
+3D Animation & Visualisierung 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Im Mittelpunkt dieses Seminars stehen aktuelle Arbeiten aus den Themenbereichen 
+physikalisch basierte Simulation, Animation, Echtzeitrendering und Visualisierung. 
+● eigenständiges Einarbeiten in ein Thema anhand von bereitgestellten wissenschaftlichen 
+Arbeiten (i.d.R. englischsprachig) 
+● Interpretation und Einordnen der Ergebnisse der Literaturarbeit 
+● Erstellen einer textuellen Zusammenfassung und eines Vortrags über die Thematik 
+● Präsentation vor einem Publikum mit heterogenem Vorwissen + Fachdiskussion 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden erhalten in diesem Seminar Fach- und Methodenkompetenz durch die 
+Erarbeitung eines wissenschaftlichen Themas anhand vorgegebener und selbst 
+recherchierter Fachliteratur. Sie können die wesentlichen Aspekte der untersuchten Arbeiten 
+erkennen und diese kompakt aufbereiten, sowohl in textueller als auch in Vortragsform für 
+ein Publikum mit heterogenem Vorwissensstand. Nach dem Vortrag können die 
+Vortragenden aktiv eine Fachdiskussion zu dem von ihnen präsentierten Thema bestreiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: GDV I, (GDV II)  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0216-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+396 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0216-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Ausgewählte Artikel von ACM SIGGRAPH, EUROGRPAHICS, IEEE und ähnlichen 
+Konferenzen. Alle Artikel sind in englischer Sprache. 
+  
+Selected articles from ACM SIGGRAPH, EUROGRPAHICS, IEEE and similar Conferences. All 
+articles are written in English.  
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+397 
+ 
+Modulbeschreibung 
+Modulname 
+Visual Analytics: Interaktive Visualisierung sehr großer Datenmengen 
+Modul Nr. 
+20-00-0268 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0268-se 
+Visual Analytics: Interaktive 
+Visualisierung sehr großer 
+Datenmengen 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Dieses Seminar richtet sich an Informatiker, die sich für den Bereich der 
+Informationsvisualisierung interessieren, insbesondere den Teilbereich, der sich mit der 
+Visualisierung extrem großer Datenmengen beschäftigt. Die Studenten werden in diesem 
+Seminar eigene Themen im Bereich Visual Analytics erarbeiten, wissenschaftlich aufarbeiten 
+und präsentieren. Zudem wird im Seminar von jedem Teilnehmer ein Aufsatz zum selben 
+Thema ausgearbeitet werden. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch der Veranstaltung haben die Studierenden die Fach- und 
+Methodenkompetenz zur Erarbeitung eines wissenschaftlichen Themas anhand 
+vorgegebener und selbst recherchierter Fachliteratur. Die Studierenden können Themen 
+analysieren, präsentieren und fachlich intensiv diskutieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Interesse sich mit einer graphisch-analytischen Fragestellung bzw. Anwendung 
+aus der aktuellen Fachliteratur zu befassen. Vorkenntnisse in Graphischer 
+Datenverarbeitung, Informationssysteme oder Informationsvisualisierung  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0268-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+398 
+ 
+ 
+ 
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0268-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+399 
+ 
+Modulbeschreibung 
+Modulname 
+Serious Games Seminar 
+Modul Nr. 
+20-00-0328 
+Leistungspun
+kte 
+ 4 CP 
+Arbeitsaufwand 
+120 h 
+Selbststudium 
+90 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0328-se 
+Serious Games Seminar 
+4 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+In dem Seminar wird der aktuelle Stand der Forschung bezüglich des Einsatzes von Serious 
+Games (beispielsweise für Bildung, Gesundheit und Sport) analysiert und diskutiert.  
+Die Themen haben jeweils Bezug zur aktuell laufenden Forschung des Fachgebiets, teilweise 
+in Kooperation mit Partnern aus der Games Industrie und/oder Serious Games Anwendern. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an dem Seminar können sich die Studierenden eigenständig 
+in ein Thema aus dem Bereich „Serious Games“ einarbeiten. Sie sind mit Techniken der 
+Literaturrecherche im Bereich von wissenschaftlichen Veröffentlichungen und von 
+Industriequellen vertraut. Die dort genannten Techniken bzw. Ergebnisse können von ihnen 
+zusammengefasst, bewertet und untereinander verglichen werden. Außerdem können sie 
+die von ihnen erzielten Ergebnisse einem Publikum unter Anwendung von verschiedenen 
+Präsentationstechniken vorstellen sowie eine dazugehörige Fachdiskussion aktiv bestreiten. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0328-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+400 
+ 
+ 
+ 
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0328-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Keine 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+401 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Software Engineering - Projektseminar 
+Modul Nr. 
+20-00-0359 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0359-se Software Engineering - Projekt 
+Seminar 
+3 
+Seminar 
+2 
+2 
+Lerninhalt  
+ 
+ 
+ Angebotsmesse der Auftraggeber  
+ 
+ Projektauswahl  
+ 
+ Anforderungsanalyse beim externen Auftraggeber  
+ 
+ Präsentation des Pflichtenheftes insbesondere der  
+Projektorganisation und des iterativen Entwicklungsplans  
+ 
+ Analyse der Werkzeuge und der Designkonzepte  
+ 
+ Präsentation der Architektur und des Designs risikobehafteter  
+Funktionen  
+ 
+ Design und Implementierung der Iterationen  
+ 
+ Präsentation der Implementierung und der Qualitätssicherung  
+ 
+ Präsentation des abgeschlossenen Projekts der nächsten  
+Studentengeneration 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+ 
+ Erfahrung mit selbständiger Durchführung von Softwareprojekten mittleren Umfangs  
+ 
+ Fähigkeit die verschiedenen Rollen innerhalb eines Softwareprojekts wahrzunehmen   
+ 
+ Fähigkeit die Methoden und Werkzeuge zu bewerten und einzusetzen   
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+402 
+ 
+ 
+ Einschätzung der eigenen Kompetenz und Leistungsfähigkeit in realitätsnahen 
+Situationen   
+ 
+ Training der Soft Skills, insbesondere Teamfähigkeit   
+ 
+ Kommunikation mit Kunden  
+ 
+ Präsentationsfähigkeit  
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ 
+Der vorherige oder parallele Besuch weiterführender Veranstaltungen aus dem Bereich 
+Software Engineering 
+ 
+ Empfehlenswert ist Praxiserfahrung  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0359-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0359-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+403 
+ 
+Modulbeschreibung 
+Modulname 
+Algorithmische Modellierung zur Erstellung von Fahrplänen 
+Modul Nr. 
+20-00-0391 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+i. d. R. jedes Jedes 
+2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0391-se 
+Algorithmische Modellierung zur 
+Erstellung von Fahrplänen 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Modellierung periodischer Fahrpläne insbesondere im Einsenbahnverkehr 
+- Berücksichtigung von Infrastrukturbedingungen bei der Fahrplanerstellung 
+- Stabilität von Fahrplänen 
+- Fahrplanauskunftssysteme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende erwerben in dieser Veranstaltung umfassende Fähigkeiten in algorithmischer 
+Modellierung im Zusammenhang mit Problemstellungen aus dem Bereich Bahnverkehr 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+Algorithmen und Datenstrukturen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0391-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+404 
+ 
+ 
+ 
+ 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0391-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+wird in der Veranstaltung angegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+405 
+ 
+Modulbeschreibung 
+Modulname 
+Aktuelle Trends im Medical Computing 
+Modul Nr. 
+20-00-0468 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0468-se 
+Aktuelle Trends im Medical 
+Computing 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Selbstständiges Studium aktueller Conference und Journal Papers aus dem Bereich 
+Medical Imaging zu einem ausgewählten Thema im Bereich grundlegender Methoden. 
+- Kritische Auseinandersetzung mit dem behandelten Thema 
+- Eigene weiterführende Literaturrecherchen 
+- Erstellen eines Vortrags (schriftliche Ausarbeitung und Folienpräsentation) über die 
+behandelte Thematik 
+- Präsentation des Vortrags vor Publikum mit heterogenem Vorwissen 
+- Fachliche Diskussion über die behandelte Thematik nach dem Vortrag 
+- Medizinische Anwendungsfelder sind u.a. Onkologie, Orthopädie, navigierte Chirurgie 
+Behandelte Methoden umfassen u.a.: Segmentierung, Registrierung, Visualisierung, 
+Simulation, Navigation und Tracking. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden sich 
+eigenständig in ein Thema anhand von wissenschaftlichen Veröffentlichungen einarbeiten. 
+Sie lernen die wesentlichen Aspekte der untersuchten Arbeiten zu erkennen und auf 
+verständliche Weise einem heterogenen Publikum vorzutragen. Dabei wenden sie 
+verschiedene Präsentationstechniken an. Nach dem Vortrag können die Studierenden aktiv 
+eine Fachdiskussion zu dem präsentierten Thema leiten und bestreiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Bachelor ab 4. Semester, Master ab 1. Semester.  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0468-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+406 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0468-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Wird zu Beginn der Veranstaltung bekanntgegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+407 
+ 
+Modulbeschreibung 
+Modulname 
+Skalenraum- und PDE-Methoden in der Bildanalyse und -verarbeitung 
+Modul Nr. 
+20-00-0469 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0469-se 
+Skalenraum- und PDE-Methoden 
+in der Bildanalyse und -
+verarbeitung 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Bildanalyse und -verarbeitung beschäftigen sich mit der Untersuchung von Bildern und der 
+Anwendung bestimmer Aufgaben auf Bilder, wie Verbesserung, Rauschunterdrückung, 
+Schärfung und Segmentierung. In diesem Kurs werden häufig verwendete mathematische 
+Methoden vorgestellt und diskutiert. Der Schwerpunkt liegt dabei auf der axiomatischen 
+Modellwahl, deren mathematischen Eigenschaften und dem praktischen Nutzen. 
+Stichwörter: 
+● Filterung (Kantenerkennung, Verbesserung, Wiener, Fourier, ...) 
+● Bilder & Beobachtungen: Skalenraum, Regularisierung, Distributionen 
+● Objekte: Differenzstruktur, Invarianten, Feature-Erkennung 
+● Tiefenstruktur: Katastrophen und Multi-Skalen-Hierarchie 
+● Variationsmethoden und Partielle Differentialmethoden: Perona-Malik, anisotrope 
+Diffusion, Total Variation, Mumford-Shah, Chan-Vese, geometrische partielle 
+Differentialgleichungen, Level-Sets. 
+● Kurvenevolution: Normalenbewegung, mittlere Krümmungsbewegung, euklidische 
+Verkürzungsbewegung. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch der Veranstaltung beschreiben Studierende die Grundkonzepte 
+sowie grundlegenden mathematische Modelle und Methoden der Bildanalyse und -
+verarbeitung. Sie erklären wichtige Verfahren zu Skalenraum- sowie zu PDE-Ansätzen und 
+können damit repräsentative Fachbeiträge beschreiben, beurteilen, und transferieren. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Da Bildanalyse und -verarbeitung eine Mischung aus verschiedenen Disziplinen, 
+wie Physik, Mathematik, Vision, Informatik und Engineering, ist, ist dieser Kurs gezielt auf 
+ein breites Publikum zugeschnitten. Daher werden nur Grundkenntnisse in Analysis 
+angenommen. Weitere notwendige mathematische Werkzeuge werden in den Sitzungen 
+skizziert. 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+408 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0469-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0469-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Main: 
+● B. M. ter Haar Romeny, Front-End Vision and Multi-scale Image Analysis, Dordrecht, 
+Kluwer Academic Publishers, 2003. 
+ 
+Recommended: 
+● T. Lindeberg: Scale-Space Theory in Computer Vision, Dordrecht, Kluwer Academic 
+Publishers, 1994. 
+● J. Weickert: Anisotropic Diffusion in Image Processing, Teubner-Verlag, Stuttgart, 
+Germany, 1998. 
+● G. Aubert & P. Kornprobst: Mathematical problems in image processing: Partial 
+Differential Equations and the Calculus of Variations (second edition), Springer, Applied 
+Mathematical Sciences, Vol 147, 2006. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+409 
+ 
+Modulbeschreibung 
+Modulname 
+Algorithmen zum Graphendesign 
+Modul Nr. 
+20-00-0518 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+i. d. R. jedes Jedes 
+2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0518-se 
+Algorithmen zum Graphendesign 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Algorithmen zur Einbettung von Graphen in die Ebene 
+- Mathematische Formalisierung ästhetischer Zeichenkriterien 
+- VLSI Design 
+ - Algorithmen und NP-Vollständigkeitsresultate bezügl. Einbettungen von  Graphen in die 
+Ebene mit Nebenbedingungen 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende erfolgreich diese Veranstaltung besucht haben, 
+- können sie Diagrammdarstellungsprobleme als algorithmische Fragestellungen 
+modellieren 
+- können sie ästhetischer Fragestellungen als Probleme algorithmischer Natur modellieren 
+- verstehen sie algorithmische Fragestellungen im VLSI-Schaltkreisentwurf 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Vorlesung über Algorithmen  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0518-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+410 
+ 
+ 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0518-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+wird in der Veranstaltung bekannt gegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+411 
+ 
+Modulbeschreibung 
+Modulname 
+Semantik Visualisierung 
+Modul Nr. 
+20-00-0542 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und English 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0542-se 
+Semantik Visualisierung 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Eigenständige wissenschaftliche Ausarbeitung eines in der Forschung aktuellen Themas aus 
+dem Bereich Semantik Visualisierung 
+•Eigene Literaturrecherchen, angeleitet von Betreuer 
+•Interpretation und Einordnen der Ergebnisse der Literaturarbeit, zusammen mit Betreuer 
+•Erstellen einer schriftlichen Ausarbeitung zu dem gewählten Thema (Deutsch oder 
+Englisch), angeleitet vom Betreuer 
+•Erstellen eines Vortrages zu der ausgearbeiteten Thematik, angeleitet von Betreuer 
+•Halten des Vortrages vor einem Fachpublikum 
+Feedback an die Vortragenden zu den Vorträgen (u.a. betreffend Rhetorik, 
+Präsentationstechniken) und zur Fachdiskussion 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden sich 
+eigenständig in ein Thema anhand von wissenschaftlichen Veröffentlichungen einarbeiten 
+und dieses wissenschaftlich beschreiben. Sie lernen diverse Techniken und Ressourcen der 
+Literaturrecherche kennen und können diese auch für weitere Arbeiten einsetzen. Des 
+Weiteren werden die Studierenden mit praktischen und aktuellen Themen aus der 
+angewandten Forschung konfrontiert und lernen dabei interessante Themengebiete kennen. 
+Die schriftliche Ausarbeitung ermöglicht die wissenschaftliche Wiedergabe in Form von 
+Schrift, während die Präsentation vor einem Fachpublikum die mündliche Wiedergabe 
+fördert. Somit lernen die Studierenden ein Thema zu recherchieren, schriftlich 
+auszuarbeiten und zu präsentieren. 
+Nach dem Vortrag können die Vortragenden aktiv eine Fachdiskussion zu dem von ihnen 
+präsentierten Thema bestreiten. 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+412 
+ 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Besuch der Vorlesung Visual Computing oder einer vergleichbaren 
+Veranstaltung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0542-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0542-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Wird jeweils passend zu den aktuellen Themen bekanntgegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+413 
+ 
+Modulbeschreibung 
+Modulname 
+Forschungsseminar zu Netzen, Sicherheit, Mobilität und Drahtloser Kommunikation 
+Modul Nr. 
+20-00-0549 
+Leistungspun
+kte 
+ 4 CP 
+Arbeitsaufwand 
+120 h 
+Selbststudium 
+75 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0549-se 
+Forschungsseminar zu Netzen, 
+Sicherheit, Mobilität und 
+Drahtloser Kommunikation 
+4 
+Seminar 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Das Forschungsseminar zu Netzen, Sicherheit, Mobilität und Drahtloser Kommunikation 
+erarbeitet aktuelle Fragstellungen, die als hoch-relevant für die zukünftige Entwicklung der 
+genannten Themenfelder eingeschätzt werden. Es umfasst das Studium, die kritische 
+Analyse und Diskussion, das Zusammenfassen und die Präsentation ausgewählter 
+erstklassiger Forschungsbeiträge. Ein Einblick in wissenschaftliche Arbeitsweise wird 
+vermittelt. Ein Kurzreferat und ein abschließendes Referat sowie eine schriftliche 
+Ausarbeitung werden erstellt. 
+Die Themen des Forschungsseminars speisen sich aus den aktuellen Forschungsthemen der 
+Arbeitsgruppe SEEMOO. 
+ 
+Lernziele: 
+- Eigenständiges Einarbeiten in ein Thema auf dem Gebiet Kommunikationsnetze, 
+Sicherheit, Mobilität und Drahtloser Kommunikation (i.d.R. englischsprachig) 
+- Eigene darüber hinausgehende Literaturrecherchen 
+- Interpretation und Einordnen der Ergebnisse der Literaturarbeit 
+- Erstellen eines einführenden und eines vertiefenden Vortrags über die Thematik 
+einschließlich Folienpräsentationen 
+- Halten der beiden Vorträge vor einem Publikum mit heterogenem Vorwissen 
+- Fachdiskussion nach jedem Vortrag 
+- Feedback an die Vortragenden zu den Vorträgen (u.a. betreffend Rhetorik, 
+Präsentationstechniken) und zur Fachdiskussion 
+- Kennen des wissenschaftlichen Arbeitsprozesses und Publikationsprozesses 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung besitzen die Studierenden die Fähigkeit 
+selbstständig wissenschaftlich neue Themen zu erschließen. Sie haben ein tiefgreifendes 
+Verständnis ausgewählter Basismechanismen, Methoden und Anwendungen in dem 
+bearbeiteten Themenfeld erworben. Arbeitstechniken wie ausführliche Literaturrecherche, 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+414 
+ 
+ 
+ 
+ 
+kritische Diskussion und Analyse wissenschaftlicher Artikel und die Presentation der 
+erzielten Arbeitsergebnisse werden von den Studierenden beherrscht. Die Studierenden 
+können ihre Arbeit vor einem kritischen Fachpublikum verteidigen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreiche Teilnahme an einer integrierten Veranstaltung des Fachgebiets 
+SEEMOO  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0549-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0549-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science  
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Themenspezifisch ausgewählte, aktuelle wissenschaftliche Veröffentlichungen 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+415 
+ 
+Modulbeschreibung 
+Modulname 
+Seminar zu Netzen, Sicherheit, Mobilität und Drahtloser Kommunikation 
+Modul Nr. 
+20-00-0582 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0582-se 
+Seminar zu Netzen, Sicherheit, 
+Mobilität und Drahtloser 
+Kommunikation 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Das Seminar zu Netzen, Sicherheit, Mobilität und Drahtloser Kommunikation erarbeitet 
+aktuelle Fragestellungen auf den genannten Gebieten. Unter Anleitung der Dozenten 
+umfasst es das Studium, die kritische Analyse und Diskussion, das Zusammenfassen und die 
+Präsentation ausgewählter Forschungsbeiträge. Ein Kurzreferat und ein abschließendes 
+Referat sowie eine schriftliche Ausarbeitung werden erstellt. 
+Die Themen des Seminars speisen sich aus den aktuellen Forschungsthemen der 
+Arbeitsgruppe SEEMOO. 
+Lernziele: 
+- Eigenständiges Einarbeiten in ein Thema auf dem Gebiet Kommunikationsnetze, 
+Sicherheit, Mobilität und Drahtloser Kommunikation (i.d.R. englischsprachig) 
+- Darüber hinausgehende Literaturrecherchen, angeleitet von Betreuer 
+- Interpretation und Einordnen der Ergebnisse der Literaturarbeit, angeleitet von Betreuer 
+- Erstellen eines einführenden und eines vertiefenden Vortrags über die Thematik 
+einschließlich Folienpräsentationen, angeleitet von Betreuer 
+- Halten der beiden Vorträge vor einem Publikum mit heterogenem Vorwissen 
+- Fachdiskussion nach jedem Vortrag 
+- Feedback an die Vortragenden zu den Vorträgen (u.a. betreffend Rhetorik, 
+Präsentationstechniken) und zur Fachdiskussion 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung besitzen die Studierenden die Fähigkeit 
+unter Anleitung wissenschaftlich zu arbeiten. Sie kennen die grundlegenden Techniken der 
+wissenschaftlichen Literaturarbeit und können diese für ein definiertes Thema anwenden. 
+Sie haben ein mitteltiefes Verständnis ausgewählter Basismechanismen, Methoden und 
+Anwendungen in dem bearbeiteten Themenfeld. Die Studierenden können dieses erworbene 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+416 
+ 
+ 
+ 
+ 
+Wissen einem heterogenen Publikum verständlich präsentieren und die technischen Details 
+des bearbeiteten Themas erläutern. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Erfolgreiche Teilnahme an einer Integrierten Veranstaltung des Fachgebiets 
+SEEMOO  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0582-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0582-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science  
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Themenspezifisch ausgewählte, aktuelle wissenschaftliche Veröffentlichungen 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+417 
+ 
+Modulbeschreibung 
+Modulname 
+Text Analytics 
+Modul Nr. 
+20-00-0596 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0596-se 
+Text Analytics 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Seminarreihe beschäftigt sich mit aktuellen Themen in der automatischen 
+Sprachverarbeitung. Es werden grundlegende Methoden und Technologien zur Analyse 
+geschriebener, natürlicher Sprache vorgestellt, wobei der Schwerpunkt des Seminars in 
+jedem Semester neu gesetzt wird. 
+  
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können sie 
+● aktuelle Forschungsfragen zum Seminarthema benennen und erläutern, 
+● wissenschaftliche Veröffentlichungen verstehen, kritisch beurteilen und untereinander 
+diskutieren, 
+● ein Forschungsthema eigenständig aufarbeiten und 
+● dieses der Gruppe vorstellen und auf Rückfragen und Diskussionsbeiträge eingehen. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0596-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+418 
+ 
+ 
+ 
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0596-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Wird in der Veranstaltung bekanntgegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+419 
+ 
+Modulbeschreibung 
+Modulname 
+Fortgeschrittene Themen in der Computergraphik 
+Modul Nr. 
+20-00-0604 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0604-se 
+Fortgeschrittene Themen in der 
+Computergraphik 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+• Grundlagen der wissenschaftlichen Vortragstechnik und Begutachtung 
+• Eigenständiges Einarbeiten in aktuelle Publikationen in Computergraphik 
+(englischsprachig) 
+• Eigene darüber hinausgehende Recherche zur Hintergrund-Literatur, angeleitet von 
+Betreuer 
+• Erstellen eines zweiteiligen Vortrags (Problemstellung und Lösungsansatz) über eine 
+Publikationen einschließlich Folienpräsentation, angeleitet durch Betreuer 
+• Erstellen eines (simulierten) wissenschaftlichen Gutachtens über eine zweite Publikation, 
+angeleitet durch Betreuer 
+• Halten des Vortrags vor einem Publikum mit heterogenem Vorwissen 
+• Führung der Fachdiskussion nach beiden Vortragsteilen 
+• Aktive Teilnahme an den Fachdiskussionen, sowie Feedback an die Vortragenden 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden sich 
+eigenständig in aktuelle Themen der Computergraphik anhand von wissenschaftlichen 
+Veröffentlichungen einarbeiten. Sie können die wesentlichen Beiträge der untersuchten 
+Publikationen erkennen und diese kompakt einem Publikum mit heterogenem 
+Vorwissensstand präsentieren, unter Berücksichtigung von Prinzipien des guten 
+wissenschaftlichen Vortrags. Nach dem Vortrag können die Vortragenden aktiv eine 
+Fachdiskussion zu dem von ihnen präsentierten Thema bestreiten. Weiterhin sind sie in der 
+Lage ein wissenschaftliches Gutachten über eine aktuelle Publikation anzufertigen, welches 
+den üblichen Standards des wissenschaftlichen Begutachtungsprozesses genügt. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Teilnehmer sollten Grundkenntnisse in Computergraphik besitzen (z.B. durch 
+Besuch von Graphische Datenverarbeitung I).  
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+420 
+ 
+ 
+ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0604-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0604-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+aktuelle Publikationen, überwiegend des vergangenen Jahres 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+421 
+ 
+Modulbeschreibung 
+Modulname 
+Seminar Smart City 
+Modul Nr. 
+20-00-0619 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0619-se 
+Seminar Smart City 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die rasche Urbanisierung stellt Städt zunehmend vor komplexe Heruasforderungen, die 
+sowohl sozio-ökonomischer, umweltpolitischer, infrastruktureller und organisierender Natur 
+sind.Im Seminar lernen Studenten verschiedene Ansätze kennen mit diesen 
+Herausforderungen umzugehen, u.a. Verkehrsfluss vorhersage, Analyse von Umwelt Daten, 
+Katastrophenschutz. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden erlernen grundsätzliche wissenschaftliche Arbeitsweisen im Umgang mit 
+bestehender Literatur zu Smart City Forschung. Weiterhin erhalten die Studierenden einen 
+guten Überblick über das Themenfeld Smart City. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0619-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+422 
+ 
+ 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0619-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+verschieden 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+423 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Seminar - Softwaresicherheit für mobile Endgeräte 
+Modul Nr. 
+20-00-0641 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0641-se Seminar - Softwaresicherheit 
+für mobile Endgeräte 
+3 
+Seminar 
+2 
+2 
+Lerninhalt  
+Das Ziel dieses Seminars ist eine Verbindung zwischen zwei aktuellen Themen herzustellen: Das 
+erste Thema betrifft Sicherheit-Lösungen und bekannte Schwachstellen auf modernen mobilen 
+Endgeräten. Das zweite Thema ist die Programm-Analyse für Low-Level-Sprachen, z.B. Java 
+oder Android Dalvik Bytecode. Neuere Forschungsartikel aus diesen beiden Bereichen werden 
+im Seminar präsentiert. Ein Teil des Seminars wird in Form einer Diskussion stattfinden, wie 
+Techniken aus dem Bereich Programm-Analyse helfen können, die Sicherheit auf mobilen 
+Geräten zu verbessern. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Kenntnisse von Methoden und aktuellen Forschungsfragestellungen bzgl. Software-Sicherheit 
+für mobile Endgeräte; Verbesserung der Fähigkeiten zum Lesen und Verstehen 
+wissenschaftlicher Artikel; Fähigkeit wissenschaftliche Ergebnisse als solche zu erkennen und 
+inhaltlich zu bewerten; Fähigkeit über wissenschaftliche Arbeiten und Ergebnisse schriftlich zu 
+berichten; Verbesserung der Fähigkeit zum Präsentieren und Diskutieren wissenschaftlicher 
+Projekte und Ergebnisse 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Programmierkenntnisse in Java. Informatik- und Mathematikkenntnisse entsprechend den 
+ersten 4 Semestern des Bachelorstudiums Informatik, insbesondere die Fähigkeit, mit formalen 
+Sprachen und Kalkülen umzugehen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0641-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+424 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0641-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+425 
+ 
+Modulbeschreibung 
+Modulname 
+Fortgeschrittene Themen in Computer Vision und Maschinellem Lernen 
+Modul Nr. 
+20-00-0645 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0645-se 
+Fortgeschrittene Themen in 
+Computer Vision und 
+Maschinellem Lernen 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+● Grundlagen der wissenschaftlichen Vortragstechnik und Begutachtung 
+● Eigenständiges Einarbeiten in aktuelle Publikationen in Computer Vision oder 
+Maschinellem Lernen (englischsprachig) 
+● Eigene darüber hinausgehende Recherche zur Hintergrund-Literatur, angeleitet von 
+Betreuer 
+● Erstellen eines zweiteiligen Vortrags (Problemstellung und Lösungsansatz) über eine 
+Publikationen einschließlich Folienpräsentation, angeleitet durch Betreuer 
+● Erstellen eines (simulierten) wissenschaftlichen Gutachtens über eine zweite Publikation, 
+angeleitet durch Betreuer 
+● Halten des Vortrags vor einem Publikum mit heterogenem Vorwissen 
+● Führung der Fachdiskussion nach beiden Vortragsteilen 
+● Aktive Teilnahme an den Fachdiskussionen, sowie Feedback an die Vortragenden 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden sich 
+eigenständig in aktuelle Themen der Computer Vision und/oder des Maschinellen Lernens 
+anhand von wissenschaftlichen Veröffentlichungen einarbeiten. Sie können die wesentlichen 
+Beiträge der untersuchten Publikationen erkennen und diese kompakt einem Publikum mit 
+heterogenem Vorwissensstand präsentieren, unter Berücksichtigung von Prinzipien des 
+guten wissenschaftlichen Vortrags. Nach dem Vortrag können die Vortragenden aktiv eine 
+Fachdiskussion zu dem von ihnen präsentierten Thema bestreiten. Weiterhin sind sie in der 
+Lage ein wissenschaftliches Gutachten über eine aktuelle Publikation anzufertigen, welches 
+den üblichen Standards des wissenschaftlichen Begutachtungsprozesses genügt. 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+426 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Teilnehmer sollten Grundkenntnisse in Computer Vision, sowie idealerweise 
+maschinellem Lernen besitzen (z.B. durch Besuch von „Computer Vision I“ und 
+„Statistisches Maschinelles Lernen“). 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0645-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0645-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Aktuelle Publikationen, überwiegend des vergangenen Jahres 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+427 
+ 
+Modulbeschreibung 
+Modulname 
+Mobile Security 
+Modul Nr. 
+20-00-0652 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0652-se 
+Mobile Security 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+In diesem Seminar werden verschiedene Sicherheitsaspekte von mobilen Endgeräten (mit 
+Fokus auf Smartphones) analysiert und diskutiert. Die Studenten werden eine Anzahl 
+aktueller wissenschaftlicher Publikationen zu einem bestimmten Thema in Form einer 
+Seminararbeit zusammenfassen, vergleichen und bewerten. Zusätzlich wird jeder 
+Teilnehmer am Ende des Semsters seine Seminararbeit vorstellen. 
+Mögliche Themen sind unter anderem: 
+● Sicherheitsmodelle von aktuellen mobilen Betriebssystemen (z.B. Android, iOS, Windows 
+Phone, MeeGo, Symbian, RIM) 
+● Sicherheitsanalyse und Vergleich von aktuellen App Store Modellen 
+● Mobile Endgeräte im Unternehmenseinsatz 
+● Sicherheitserweiterungen für Android 
+● Kernel Sicherheit 
+● Applikationssicherheit (z.B. mobile Malware und Laufzeitangriffe) 
+● Datenschutz-relevante Aspekte von mobilen Endgeräten 
+● Sicherheit von mobilen Netzwerken 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Dieses Seminar behandelt verschieden Themen aus dem Bereich mobiler Sicherheit mit 
+Fokus auf Smartphones. Durch die erfolgreiche Teilnahme erhalten Studierende detaillierte 
+Kenntnisse über Sicherheit und Datenschutz in mobilen Betriebssystemen, Geräten, 
+Infrastrukturen und Anwendungen. Außerdem lernen sie sich in aktuelle wissenschaftliche 
+Themengebiete einzuarbeiten und ihre Ergebnisse sowohl schriftlich als auch mündlich zu 
+präsentieren. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+428 
+ 
+ 
+ 
+ 
+Empfohlen: Grundlagen der Informatik  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0652-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0652-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Wird in der Veranstaltung bekannt gegeben 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+429 
+ 
+Modulbeschreibung 
+Modulname 
+Computergestützte Planung und Navigation in der Medizin 
+Modul Nr. 
+20-00-0677 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0677-se 
+Computergestützte Planung und 
+Navigation in der Medizin 
+3 
+Seminar 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+- Selbstständiges Studium aktueller Konferenz- und Journal-Papers aus dem Bereich Medical 
+Imaging zu einem ausgewählten Thema im Bereich der Planung und chirurgischen 
+Navigation. 
+- Kritische Auseinandersetzung mit dem behandelten Thema 
+- Eigene weiterführende Literaturrecherchen 
+- Erstellen eines Vortrags (schriftliche Ausarbeitung und Folienpräsentation) über die 
+behandelte Thematik 
+- Präsentation des Vortrags vor Publikum mit heterogenem Vorwissen 
+- Fachliche Diskussion über die behandelte Thematik nach dem Vortrag 
+Behandelte Methoden, die in Zusammenhang mit der Operationsplanung und navigierten 
+Chirurgie stehen sind u.a.: Segmentierung, Registrierung, Visualisierung, Simulation, 
+Navigation und Tracking. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung können die Studierenden sich 
+eigenständig in ein Thema anhand von wissenschaftlichen Veröffentlichungen einarbeiten. 
+Sie lernen die wesentlichen Aspekte der untersuchten Arbeiten zu erkennen und auf 
+verständliche Weise einem heterogenen Publikum vorzutragen. Dabei wenden sie 
+verschiedene Präsentationstechniken an. Nach dem Vortrag können die Studierenden aktiv 
+eine Fachdiskussion zu dem präsentierten Thema leiten und bestreiten. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Bachelor ab 4. Semester, Master ab 1. Semester.  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-0677-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+430 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-0677-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Wird zu Beginn der Veranstaltung bekanntgegeben. 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+431 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Symbolische Ausführung 
+Modul Nr. 
+20-00-0702 
+Leistungspun
+kte 
+3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0702-se Symbolische Ausführung 
+3 
+Seminar 
+2 
+2 
+Lerninhalt  
+Symbolische Ausführung von Programmen ist eine fundamentale Analysetechnik, die u.a. die 
+Basis von Testgenerierung, Compileroptimierung, Verifikation oder Visualisierung darstellt. In 
+den letzten Jahren wurden darin bedeutende Fortschritte erzielt. Im Seminar werden die 
+wichtigsten klassischen und neuen Arbeiten zur symbolischen Ausführung vorgestellt. 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Besuch der Veranstaltung verstehen die Teilnehmenden, was die Möglichkeiten und 
+Grenzen dieser fundamentalen Programmanalysetechnik sind. 
+4 
+Voraussetzung für die Teilnahme  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0702-se] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Kolloquium (optional: einschließlich Präsentation), Hausarbeit 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0702-se] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+432 
+ 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+10 Kommentar 
+ 
+ 
+ 

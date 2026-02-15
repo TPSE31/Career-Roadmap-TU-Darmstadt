@@ -111,11 +111,12 @@ class Module(models.Model):
     Linked to examination regulations and can have prerequisites.
     """
     CATEGORY_CHOICES = [
-        ('mandatory', 'Mandatory'),
-        ('elective', 'Elective'),
-        ('specialization', 'Specialization'),
-        ('interdisciplinary', 'Interdisciplinary'),
-        ('thesis', 'Thesis'),
+        ('Pflichtbereich', 'Pflichtbereich'),
+        ('Wahlpflichtbereich', 'Wahlpflichtbereich'),
+        ('Informatik-Wahlbereich', 'Informatik-Wahlbereich'),
+        ('Studienbegleitende Leistungen', 'Studienbegleitende Leistungen'),
+        ('Studium Generale', 'Studium Generale'),
+        ('Abschlussbereich', 'Abschlussbereich'),
     ]
 
     examination_regulation = models.ForeignKey(
@@ -130,7 +131,12 @@ class Module(models.Model):
     )
     name = models.CharField(
         max_length=200,
-        help_text="Module name"
+        help_text="Module name (German)"
+    )
+    name_en = models.CharField(
+        max_length=200,
+        blank=True,
+        help_text="Module name (English)"
     )
     credits = models.IntegerField(
         validators=[MinValueValidator(1)],
@@ -139,7 +145,7 @@ class Module(models.Model):
     category = models.CharField(
         max_length=50,
         choices=CATEGORY_CHOICES,
-        default='mandatory',
+        default='Wahlpflichtbereich',
         help_text="Module category/group"
     )
     group_name = models.CharField(
@@ -149,7 +155,47 @@ class Module(models.Model):
     )
     description = models.TextField(
         blank=True,
-        help_text="Module description and learning objectives"
+        help_text="Module description (short)"
+    )
+    learning_content = models.TextField(
+        blank=True,
+        help_text="Detailed learning content and topics covered"
+    )
+    learning_objectives = models.TextField(
+        blank=True,
+        help_text="Learning objectives and outcomes"
+    )
+    prerequisites_text = models.TextField(
+        blank=True,
+        help_text="Prerequisites as text description"
+    )
+    exam_form = models.TextField(
+        blank=True,
+        help_text="Examination form and requirements"
+    )
+    workload_hours = models.IntegerField(
+        null=True,
+        blank=True,
+        help_text="Total workload in hours"
+    )
+    self_study_hours = models.IntegerField(
+        null=True,
+        blank=True,
+        help_text="Self-study hours"
+    )
+    duration_semesters = models.IntegerField(
+        default=1,
+        help_text="Duration in semesters"
+    )
+    language = models.CharField(
+        max_length=50,
+        default='Deutsch',
+        help_text="Teaching language"
+    )
+    offering_frequency = models.CharField(
+        max_length=100,
+        blank=True,
+        help_text="How often the module is offered (e.g., 'Jedes Semester')"
     )
     prerequisites = models.ManyToManyField(
         'self',
@@ -174,6 +220,13 @@ class Module(models.Model):
 
     def __str__(self):
         return f"{self.module_code} - {self.name} ({self.credits} CP)"
+
+    def get_career_relevance(self):
+        """Get career relevance scores for this module."""
+        return {
+            rel.career_path.career_id: rel.relevance_score
+            for rel in self.career_relevances.all()
+        }
 
 
 class MilestoneDefinition(models.Model):
@@ -497,6 +550,74 @@ class SupportService(models.Model):
         return f"{self.name} ({self.category})"
 
 
+class CareerOffer(models.Model):
+    """
+    PM-approved career resources from Infomappe (yellow-highlighted only).
+    Filtered by student's career field selection.
+    """
+    CATEGORY_CHOICES = [
+        ('berufseinstieg', 'Berufseinstieg / Career Entry'),
+        ('studienerfolg', 'Studienerfolg / Study Success'),
+        ('integration', 'Integration, Sprache und Unterstützung'),
+    ]
+
+    # Core identification
+    title_de = models.CharField(max_length=300, help_text="German title")
+    title_en = models.CharField(max_length=300, help_text="English title")
+    provider = models.CharField(max_length=200, help_text="e.g., 'TU Darmstadt: Dezernat Internationales'")
+    category = models.CharField(max_length=50, choices=CATEGORY_CHOICES)
+
+    # Bilingual descriptions
+    description_de = models.TextField(help_text="German description from PDF")
+    description_en = models.TextField(help_text="English description from PDF")
+
+    # Why this offer is relevant to selected career field
+    relevance_reason_de = models.TextField(help_text="Why relevant (German)")
+    relevance_reason_en = models.TextField(help_text="Why relevant (English)")
+
+    # Contact & Links
+    links = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="List of URLs: ['https://...', 'https://...']"
+    )
+    contact_emails = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="List of emails: ['email@example.com']"
+    )
+
+    # Career field mapping (array of goal_types from CareerGoal.GOAL_TYPE_CHOICES)
+    career_fields = models.JSONField(
+        default=list,
+        help_text="Array of applicable career fields: ['industry', 'research', ...]"
+    )
+
+    # Metadata
+    source = models.CharField(
+        max_length=100,
+        default='PM-approved (yellow-highlighted)',
+        help_text="Source tracking"
+    )
+    priority = models.IntegerField(default=0, help_text="Display order (higher = first)")
+    is_active = models.BooleanField(default=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'career_offers'
+        verbose_name = 'Career Offer'
+        verbose_name_plural = 'Career Offers'
+        ordering = ['-priority', 'category', 'title_de']
+        indexes = [
+            models.Index(fields=['category', 'is_active']),
+        ]
+
+    def __str__(self):
+        return f"{self.title_de} ({self.provider})"
+
+
 class Notification(models.Model):
     """
     In-app alerts and reminders for users.
@@ -588,3 +709,154 @@ class Notification(models.Model):
         if not self.read_at:
             self.read_at = timezone.now()
             self.save(update_fields=['read_at'])
+
+
+class CareerPath(models.Model):
+    """
+    Represents a career path/job role that students can pursue.
+    Contains information about the career and required skills.
+    """
+    career_id = models.CharField(
+        max_length=100,
+        unique=True,
+        help_text="Unique identifier for the career (e.g., 'software_engineer')"
+    )
+    title_en = models.CharField(
+        max_length=200,
+        help_text="English title of the career"
+    )
+    title_de = models.CharField(
+        max_length=200,
+        help_text="German title of the career"
+    )
+    description_en = models.TextField(
+        blank=True,
+        help_text="English description of the career"
+    )
+    description_de = models.TextField(
+        blank=True,
+        help_text="German description of the career"
+    )
+    salary_junior = models.IntegerField(
+        null=True,
+        blank=True,
+        help_text="Average junior salary in EUR"
+    )
+    salary_mid = models.IntegerField(
+        null=True,
+        blank=True,
+        help_text="Average mid-level salary in EUR"
+    )
+    salary_senior = models.IntegerField(
+        null=True,
+        blank=True,
+        help_text="Average senior salary in EUR"
+    )
+    required_skills = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="List of required skills for this career"
+    )
+    icon = models.CharField(
+        max_length=100,
+        blank=True,
+        help_text="Icon name or emoji for the career"
+    )
+    is_active = models.BooleanField(
+        default=True,
+        help_text="Whether this career path is currently displayed"
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'career_paths'
+        verbose_name = 'Career Path'
+        verbose_name_plural = 'Career Paths'
+        ordering = ['title_en']
+
+    def __str__(self):
+        return f"{self.title_en} ({self.career_id})"
+
+
+class ModuleCareerRelevance(models.Model):
+    """
+    Maps modules to career paths with relevance scores.
+    Used for generating personalized course recommendations.
+    """
+    module = models.ForeignKey(
+        Module,
+        on_delete=models.CASCADE,
+        related_name='career_relevances',
+        help_text="The module"
+    )
+    career_path = models.ForeignKey(
+        CareerPath,
+        on_delete=models.CASCADE,
+        related_name='module_relevances',
+        help_text="The career path"
+    )
+    relevance_score = models.IntegerField(
+        validators=[MinValueValidator(0)],
+        help_text="Relevance score from 0-100 (higher = more relevant)"
+    )
+    is_core = models.BooleanField(
+        default=False,
+        help_text="Whether this is a core/essential module for the career"
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'module_career_relevance'
+        verbose_name = 'Module Career Relevance'
+        verbose_name_plural = 'Module Career Relevances'
+        unique_together = ('module', 'career_path')
+        ordering = ['-relevance_score']
+        indexes = [
+            models.Index(fields=['career_path', 'relevance_score']),
+            models.Index(fields=['module', 'relevance_score']),
+        ]
+
+    def __str__(self):
+        return f"{self.module.module_code} -> {self.career_path.career_id}: {self.relevance_score}%"
+
+
+class UserCareerInterest(models.Model):
+    """
+    Tracks user's interest in specific career paths.
+    Used for personalized recommendations.
+    """
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='career_interests',
+        help_text="The user"
+    )
+    career_path = models.ForeignKey(
+        CareerPath,
+        on_delete=models.CASCADE,
+        related_name='interested_users',
+        help_text="The career path of interest"
+    )
+    interest_level = models.IntegerField(
+        default=50,
+        validators=[MinValueValidator(0)],
+        help_text="Interest level from 0-100"
+    )
+    is_primary = models.BooleanField(
+        default=False,
+        help_text="Whether this is the user's primary career interest"
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'user_career_interests'
+        verbose_name = 'User Career Interest'
+        verbose_name_plural = 'User Career Interests'
+        unique_together = ('user', 'career_path')
+        ordering = ['-interest_level', '-is_primary']
+
+    def __str__(self):
+        return f"{self.user.username} -> {self.career_path.career_id}"

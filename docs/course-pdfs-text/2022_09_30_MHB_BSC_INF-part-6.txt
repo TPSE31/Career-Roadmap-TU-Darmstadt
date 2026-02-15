@@ -1,0 +1,1439 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+142 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modulhandbuch  
+B. Sc. Informatik 
+ 
+Wahlbereich Komplexe vernetzte Systeme 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+143 
+ 
+Modulbeschreibung 
+Modulname 
+TK1: Verteilte Systeme und Algorithmen 
+Modul Nr. 
+20-00-0065 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0065-iv 
+TK1: Verteilte Systeme und 
+Algorithmen 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Lernziele: 
+  
+● Umfassendes Überblickswissen über die grundlegenden Probleme und Ansätze 
+● Tiefgehendes Methodenwissen zu klassischen verteilten Algorithmen und 
+Programmierparadigmen 
+● Anwendbare exemplarische Kenntnis aktueller Entwicklungen und Standards 
+ 
+Stoffplan: 
+  
+● Einführung 
+● Auffrischung und Ergänzung von Kapitel 1 der Kanonik Net-Centric Computing 
+● Überblick über die Vorlesung 
+● Verteilte Algorithmen 
+  
+○ Elementaralgorithmen (z.B. globaler Zustand) 
+○ Basisalgorithmen (z.B. Ausschluss, Konsens, Kooperation) 
+○ Formalisierung (Eigenschaften und deren Nachweis) 
+  
+● Verteiltes Programmieren 
+  
+○ Push-Paradigmen (z.B. IPC, RPC, DOC) 
+○ aktuelle Ansätze (z.B. Pull-Paradigmen, Objektmobilität) 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die Grundlagen der 
+verteilten Programmierung und verteilter Algorithmen. Sie verstehen die grundlegenden 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+144 
+ 
+Probleme verteilter Systeme und die klassischen verteilen Algorithmen und 
+Programmierparadigmen. Sie können klassische und aktuelle Standards verteilter 
+Programmierung praktisch anwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  „Computernetze und verteilte Systeme“ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0065-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0065-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M.Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden.  
+ 
+9 
+Literatur 
+Literaturempfehlungen werden kontinuierlich aktualisiert, Beispiele für verwendete 
+Literatur könnten sein: 
+● George Coulouris, Jean Dollimore, Tim Kindberg: Distributed Systems. Concepts and 
+Design (Gebundene Ausgabe) 832 Seiten, Addison Wesley; Auflage: 4th (14. Juni 2005), 
+ISBN: 0321263545 
+● M. Boger: Java in verteilten Systemen, 1999, dpunkt-Verlag, Heidelberg, ISBN: 
+3932588320 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+145 
+ 
+ 
+ 
+ 
+● G. Tel: Introduction to Distributed Algorithms, 2nd Ed 2001, Cambridge University Press, 
+ISBN: 0521794838 
+● A. Tanenbaum, M.v.Steen, Verteilte Systeme: Grundlagen und Paradigmen, Pearson 
+Studium 2003, ISBN: 3827370574 
+● A. Tanenbaum: Computernetzwerke. 4te Auflage. Pearson Studium 2003, ISBN-10: 
+3827370469 
+● J. Kurose, K. Ross: Computer Networking, 1. Ed. 2000, Adison-Wesley. ISBN: 0201477114 
+● L. Peterson, B. Davie, Computernetze, 1. Aufl. 2000, dpunkt Heidelberg, ISBN: 
+393258869X 
+● Hammerschall, U.: Verteilte Systeme und Anwendungen. Pearson, München 2005, ISBN: 
+3827370965 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+146 
+ 
+Modulbeschreibung 
+Modulname 
+TK3: Ubiquitous / Mobile Computing 
+Modul Nr. 
+20-00-0120 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0120-iv 
+TK3: Ubiquitous / Mobile 
+Computing 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+●  Kenntnis technischer Grundlagen der Mobilkommunikation 
+● Kenntnis wichtiger Herausforderungen, Thesen und Modelle des Ubiquitous Computing 
+● Methodenwissen über aktuelle Ansätze des Ubiquitous Computing 
+ 
+Stoffplan: 
+  
+● Einführung in Ubiquitous Computing 
+  
+○ Definitionen und Bedeutung 
+○ Herausforderungen und Klassifikation 
+○ Wichtiges zur historischen Entwicklung (Mark Weiser u.a.) 
+○ Von Terminologie zu Taxonomie 
+○ Referenzarchitekture 
+  
+● Mobilkommunikation als ‘Enabling Technology’ 
+  
+○ Einordnung und physikalische Grundlagen 
+○ Elementare Mehrfachzugriffs- und Modulationsverfahren 
+○ Zellulare Weitverkehrsnetze: von GSM bis LTE 
+○ Drahtlose lokale Netze: wLAN, Bluetooth und ZigBee 
+  
+● Internet-of-Things: RFID und Smart Items 
+  
+○ Grundlagen von RFID-Systemen 
+○ EPC und Smart Items 
+○ NFC: Nahfeld-Kommunikation 
+  
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+147 
+ 
+● Service Discovery und Cloudlets 
+  
+○ Grundlagen der Skalierbarkeit im Ubiquitous Computing 
+○ Service Discovery: Grundlagen 
+○ Service Discovery: konkurrierende Ansätze 
+○ Cloudlets: Forschungsansätze für Ubiquitous Cloud Computing 
+  
+● Context- und Location Aware Computing 
+  
+○ Grundlagen der Adaptivität in Ubiquitous Computing 
+○ Kontext-Modelle und Ansätze für Context-Aware Computing 
+○ Technische Grundlagen der Ortsbestimmung und Location Awareness 
+  
+● Mensch-Maschine-Interaktion für Ubiquitous Computing 
+  
+○ Einführung: Ease-of-Use und Post-Desktop-Interaktion 
+○ Interaction Design und Mulitmodale Interaktion 
+○ Grundlagen von Multitouch-Systemen 
+○ Pen-and-Paper-Interaktion und Tangible Interaction 
+○ UI Design: Evaluationstechniken 
+○ Systematisches UI Engineering 
+  
+● Privatsphäre und Vertrauen im Ubiquitous Computing 
+  
+○ Einführung in Privacy und rechtliche Grundlagen 
+○ Zum Wesen personenbezogener Daten 
+○ Privacy-Enhancing Technologies (PETs) und Anonyme Kommunikation 
+○ Einführung in Vertrauen und Reputation 
+○ Vertrauensmodelle und Computational Trust 
+○ Trust-Management-Systeme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende kennen nach erfolgreichem Besuch der Veranstaltung die technische Grundlage 
+mobiler Kommunikation. Sie verstehen die grundlegenden Herausforderungen von 
+Ubiquitous Computing. Sie kennen aktuelle Ansätze um diese Herausforderungen zu lösen. 
+Sie sind außerdem in der Lage ihre Kenntnisse auf aktuelle Probleme anzuwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  „Computernetze und verteilte Systeme“ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0120-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+148 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0120-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Literaturempfehlungen werden kontinuierlich aktualisiert, Beispiele für verwendete 
+Literatur könnten sein: 
+ 
+A Primärliteratur: 
+Handbook of Research: Ubiquitous Computing Technology for Real Time Enterprises edited 
+by Prof. Dr. Max Mühlhäuser, Dr. Iryna Gurevych, 2008, Information Science Reference, 
+ISBN-10: 1599048329 
+ 
+B Sekundärliteratur:  
+1. F. Adelstein, S. Gupta et al.: Fundamentals of Mobile & Pervasive Computing McGraw 
+Hill 2004, 
+2. Stefan Poslad: Ubiquitous Computing, Wiley 2009, ISBN 978-0-470-03560-3 
+3. Kapitel Mobilkommunikation: M. Sauter: Grundkurs Mobile Kommunikationssysteme: 
+UMTS, HSDPA und LTE, GSM, GPRS und Wireless LAN; Vieweg-Teubner Studium 2010 
+4. J. Krumm (Ed.): Ubiquitous Computing Fundamentals, CRC Press 2010 
+D. Cook, S. Das (Ed.): Smart Environments, Wiley 2005  
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+149 
+ 
+Modulbeschreibung 
+Modulname 
+Ubiquitous Computing in Geschäftsprozessen 
+Modul Nr. 
+20-00-0121 
+Leistungspun
+kte 
+ 3 CP 
+Arbeitsaufwand 
+90 h 
+Selbststudium 
+60 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0121-vl 
+Ubiquitous Computing in 
+Geschäftsprozessen 
+3 
+integrierte 
+Veranstaltung 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+●  Nutzungsmöglichkeiten aktueller Ubiquitous Computing Technologien in 
+Geschäftsprozessen und im Bereich von Smart Cities 
+● Ermittlung des ökonomischen Potentials verschiedener Ubiquitous Computing 
+Technologien im Kontext verschiedener Geschäftsprozesse und im Bereich von Smart Cities 
+● Verständnis der grundlegenden Technologien und Darstellung der mit diesen 
+verbundenen Vorteile, Herausforderungen und Anwendungsfälle 
+● Spezifische Technologien wie RFID, Smart Items (z.B. Smart Shelf) etc. und ihre 
+Integration in Prozesse 
+● Darstellung der Integration zwischen physischer und virtueller Welt, wie sie z.B. in 
+aktuellen Enterprise Software Systemen realisiert wird 
+● Sammeln praktischer Erfahrungen im Umgang mit Ubiquitous Computing Technologien 
+im Kontext verschiedener Anwendungsfälle, z.B. mittels Live-Demonstrationen 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach der Teilnahme an dieser Lehrveranstaltungen haben sich Studierende Kenntnissen 
+über Auswirkungen des ubiquitären Computing auf Geschäftsprozesse und Smart Cities in 
+Verbindung mit grundlegenden Konzepten angeeignet 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0121-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+150 
+ 
+ 
+ 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+•  [20-00-0121-vl] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+● Mühlhäuser, M.; Gurevych, I. (Eds.): Ubiquitous Computing Technology for Real Time 
+Enterprises Information Science Reference, Dezember, 2007 
+● Finkenzeller, K: RFID-Handbuch. Grundlagen und praktische Anwendungen von 
+Transpondern, kontaktlosen Chipkarten und NFC. Hanser Fachbuch; Auflage: 5., aktual. u. 
+erw. Aufl. (1. Oktober 2008) 
+● Fleisch, E.; Mattern, F. (Hrsg.): Das Internet der Dinge: Ubiquitous Computing und RFID 
+in der Praxis, Springer, Berlin, Heidelberg, New York 2005 
+● Österle, H.; Fleisch, E.; Alt, R.: Business Networking – Shaping Collaboration between 
+Enterprises, Springer 
+● Callaway, E.H.: Wireless Sensor Networks: Architectures and Protocols, Auerbach 
+Publications 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+151 
+ 
+Modulbeschreibung 
+Modulname 
+Mobile Netze 
+Modul Nr. 
+20-00-0748 
+Leistungspun
+kte 
+ 6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0748-iv 
+Mobile Netze 
+6 
+integrierte 
+Veranstaltung 
+4 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Mobilkommunikation und drahtlose Kommunikationstechniken haben sich in den letzten 
+Jahren rapide weiterentwickelt. Die integrierte Veranstaltung erläutert Charakteristiken und 
+Grundprinzipien mobiler Netze, und praktische Lösungsansätze werden vorgestellt. Der 
+Fokus der Veranstaltung liegt hierbei auf der Vermittlungsschicht (Netzwerkschicht). 
+Zusätzlich zum Stand der Technik werden in der Veranstaltung aktuelle Forschungsfragen 
+diskutiert und Methoden und Werkzeuge zur systematischen Behandlung dieser Fragen 
+erläutert. Die Inhalte werden in Übungseinheiten vertieft. 
+Lerninhalte: 
+- Einleitung: Drahtlose und mobile Kommunikation: Anwendungen, Geschichte, 
+Marktchancen 
+- Überblick über drahtlose Kommunikation: Drahtlose Übertragung, Frequenzen und 
+Frequenzregulierung, Signale, Antennen, Signalausbreitung, Multiplex, Modulation, 
+Spreizband-Technik, Zellulare Systeme 
+- Medienzugriff: SDMA, FDMA, CDMA, TDMA (Feste Zuordnung, Aloha, CSMA, DAMA, 
+PRMA, MACA, Kollisionsvermeidung, Polling) 
+- Drahtlose Lokale Netze (Wireless LAN): IEEE 802.11 Standard inklusive 
+Bitübertragungsschicht, Sicherungsschicht und Zugriffverfahren, Dienstgüte, 
+Energieverwaltung 
+- Drahtlose Stadtnetze, drahtlose Mesh Netze, IEEE 802.16 Standard inklusive Betriebsmodi, 
+Medienzugriff, Dienstgüte, Ablaufkoordination 
+- Mobilität auf der Netzwerkschicht: Konzepte zur Mobilitätsunterstützung, Mobile IP 
+- Ad hoc Netze: Terminologie, Grundlagen und Applikationen, Charakteristika von Ad hoc 
+Kommunikation, Ad hoc Routing Paradigmen und Protokolle 
+- Leistungsbewertung von mobilen Netzen: Einführung in die Leistungsbewertung, 
+systematischer Ansatz/häufige Fehler und wie man sie vermeiden kann, experimentelles 
+Design und Analyse 
+- Mobilität auf der Transportschicht: Varianten von TCP (Indirect TCP, Snoop TCP, Mobile 
+TCP, Wireless TCP) 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+152 
+ 
+- Mobilität auf der Anwendungsschicht: Anwendungen für mobile Netze und drahtlose 
+Sensornetze 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung haben Studierende ein umfassendes 
+Wissen der Funktionsweise mobiler Kommunikationsnetze. Sie können die wichtigsten 
+Grundlagen drahtloser Kommunikationstechniken erläutern. Die Studierenden können 
+weiterhin Medienzugriffsverfahren kategorisieren und die Funktionsweise dieser Verfahren 
+im Detail erklären. Insbesondere weisen sie ein tiefgehendes Verständnis von Verfahren auf 
+Vermittlungsschicht und Transportschicht auf, mit Schwerpunktsetzung auf Ad hoc und 
+Mesh Netze. Die Studierenden erlangen Wissen über die Zusammenhänge zwischen 
+unterschiedlichen Protokollschichten und können ihr erworbenes Wissen auf die 
+methodische Analyse von realen Kommunikationssystemen anwenden. Sie sind somit in der 
+Lage, die Charakteristiken und Grundprinzipien des Problemraumes drahtloser und mobiler 
+Kommunikation detailliert zu erläutern und weisen auf diesem Feld ein fundiertes Wissen in 
+Praxis und Theorie auf. Die Übungsteile der integrierten Veranstaltung vertiefen das 
+theoretische Wissen durch Literatur-, Rechen- und praktische Implementierungs-
+/Anwendungsübungen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen der Kommunikationsnetze  
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0748-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0748-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+153 
+ 
+ 
+ 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc. IT Sicherheit  
+ 
+Kann in anderen Studiengängen verwendet werden.  
+9 
+Literatur 
+Ausgewählte Buchkapitel und ausgewählte wissenschaftliche Veröffentlichungen 
+ 
+10 
+Kommentar 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+154 
+ 
+Modulbeschreibung 
+Modulname 
+Drahtlose Netze zur Krisenbewältigung: Grundlagen, Entwurf und Aufbau von Null 
+Modul Nr. 
+20-00-0780 
+Leistungspun
+kte 
+ 5 CP 
+Arbeitsaufwand 
+150 h 
+Selbststudium 
+105 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs 
+Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-
+0780-iv 
+Drahtlose Netze zur 
+Krisenbewältigung: Grundlagen, 
+Entwurf und Aufbau von Null 
+5 
+integrierte 
+Veranstaltung 
+3 
+ 
+ 
+ 
+ 
+ 
+2 
+Lerninhalt  
+Die Kommunikationsfähigkeit der Bevölkerung untereinander ist für die Bewältigung von 
+Krisen von höchster Bedeutung. In dieser Veranstaltung wird der Aufbau von drahtlosen 
+Kommunikationsnetzen von Null behandelt, d.h. unter der Annahme, dass keinerlei 
+Kommunikationsinfrastruktur mehr vorhanden ist. Die Veranstaltung vermittelt theoretische 
+Grundlagen aus den Bereichen der Nachrichtentechnik und des Amateurfunks und vertieft 
+diese um die nötigen Kenntnisse, um Netze für den Krisenfall zu entwerfen und praktisch zu 
+realisieren. Die vorgestellten Verfahren umfassen dabei Reichweiten von lokaler 
+Kommunikation bis hin zur Kommunikation um den ganzen Globus, ohne auf bestehende 
+Infrastruktur angewiesen zu sein. 
+Theoretische Übungen sowie das Durchführen von Messungen, der Aufbau von Schaltungen 
+und die Vorführung von Funkverfahren in unserer Laborumgebung vertiefen die 
+Veranstaltung. 
+Lerninhalte: 
+- Signale, Wellenausbreitung, Antennen und elektrotechnische Grundlagen 
+- Verfahren zur Modulation und Demodulation analoger und digitaler Signale (OFDM, 
+ATV/SSTV, Packet Radio, SSB, ...) 
+- Systemaspekte für Kommunikation im Krisenfall 
+- Entwurf und praktischer Aufbau von drahtlosen Kommunikationssystemen für den 
+Krisenfall von Null 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung besitzen die Studierenden theoretisches 
+und praktisches Wissen auf dem Gebiet der drahtlosen, infrastrukturlosen Kommunikation 
+im Krisenfall. Sie verstehen die physikalischen und elektrotechnischen Grundlagen der 
+drahtlosen Kommunikation und kennen theoretische wie praktische Funkverfahren im 
+Detail. Sie sind in der Lage ein Praktisches Kommunikationsystem von Null aufzubauen und 
+zu betreiben. Die Studierenden erwerben Kompetenzen im Bereich Amateurfunk und 
+Software-Defined Radios. 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+155 
+ 
+ 
+ 
+ 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0780-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-0780-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+In dieser Veranstaltung findet eine Anrechnung von vorlesungsbegleitenden Leistungen 
+statt, die lt. §25(2) der 6. Novelle der Allgemeinen Prüfungsbestimmungen der TU 
+Darmstadt und den vom Fachbereich Informatik am 14.07.2022 beschlossenen 
+Anrechnungsregeln zu einer Notenverbesserung um bis zu 1.0 führen kann. 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. IT Sicherheit 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Ausgewählte Buchkapitel und ausgewählte wissenschaftliche Veröffentlichungen 
+ 
+10 
+Kommentar 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+156 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Fortgeschrittenes Multithreading in C++ 
+Modul Nr. 
+20-00-0977 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-0977-iv Fortgeschrittenes 
+Multithreading in C++ 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+C++ bietet eine der modernsten Threadschnittstellen, die heute verfügbar sind. Am Beispiel 
+C++ führt dieser Kurs in die fortgeschrittene parallele Programmierung für gemeinsamen 
+Speicher mit Threads ein. 
+ 
+Aufbauend auf den Inhalten der Vorlesung Multithreading in C++ werden die folgenden 
+Themen behandelt: 
+• C++ Speichermodell und atomare Operationen 
+• Entwurf lockfreier nebenläufiger Datenstrukturen 
+• Forstgeschrittenes Thread-Management (z.B. Thread Pools) 
+  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, haben Sie erweiterte Kompetenz in der 
+Entwicklung paralleler Programme und sind in der Lage 
+- Systematisch korrekte und effiziente parallele Programme zu entwickeln 
+- Parallele Datenstrukturen zu entwerfen und umzusetzen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+• Kenntnisse in C/C++ 
+• Basiskenntnisse der Programmierung von Threads in C++ (lockbasierte Synchronisation und 
+lockbasierte nebenläufige Datenstrukturen) 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-0977-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+157 
+ 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-0977-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+158 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Skalierbare Datenmanagement-Systeme 
+Modul Nr. 
+20-00-1017 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1017-iv Skalierbares Datenmanagement 6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Diese Vorlesungen ist eine Einführung in die Basiskonzepte und die wesentlichen Paradigmen 
+für skalierbare Datenmanagement-Systeme. Der Fokus der Vorlesung ist auf die system-
+orientieren Aspekten und Interna solcher Systeme gerichtet, um große Datenmengen zu 
+speichern, zu ändern, und zu analysieren. 
+ 
+Themen der Vorlesung sind: 
+ 
+Database Architectures 
+Parallel and Distributed Databases 
+Data Warehousing 
+MapReduce and Hadoop 
+Spark and its Ecosystem 
+Optional: NoSQL Databases, Stream Processing, Graph Databases, Scalable Machine Learning 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem Kurs haben die Studierenden einen Überblick über die wichtigsten Konzepte, 
+Algorithmen und System-Aspekte für skalierbare Datenmanagement-Systeme erworben. Das 
+Hauptziel ist es, dass die Studierenden das Wissen besitzen, solche Systeme zu designen und zu 
+entwickeln, inklusive praktischer Übungen auf Basis von bestehenden Systemen wie Spark. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Programmierkenntnisse in C++ and Java 
+Der vorherige Besuch von Informationsmanagement oder einer vergleichbaren Veranstaltung 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1017-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+159 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1017-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+160 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Advanced Data Management Systems 
+Modul Nr. 
+20-00-1039 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Koordinatoren/Koordinatorinnen Wahlbereich 
+Complex Networked Systems 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1039-iv Advanced Data Management 
+Systems 
+6 
+Integrierte 
+Veranstaltung 
+4 
+2 
+Lerninhalt  
+Dies ist eine fortgeschrittene Veranstaltung aus dem Bereich der Architektur und 
+Implementierung moderner Datenbanksysteme mit dem speziellen Fokus auf System-
+orientieren Aspekten und Interna solcher Systeme. Mögliche Themengebiete die in der 
+Vorlesung behandelt werden sind: moderne Hardwaretechnologien für das Datenbanksysteme, 
+Optimierungen für Hauptspeicherdatenbanken, Parallelisierungsstrategien und Approximative 
+Anfrageausführung usw. 
+ 
+Es wird erwartet, dass für jede Vorlesung aktuelle Veröffentlichungen (SIGMOD, VLDB, etc.) 
+vorher gelesen werden. Die Hauptideen ausgewählter Veröffentlichungen werden in 
+Programmierprojekten umgesetzt.  
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss der Veranstaltung haben Studierende ein vertieftes Verständnis 
+von aktuellen Techniken für das Design von modernen Datenbanksystemen. Die Studierenden 
+können Vor- und Nachteile dieser Techniken mit dem Fokus auf möglichen Verbesserungen 
+diskutieren. Sie können einzelne Techniken implementieren und experimentelle Evaluierungen 
+dieser Techniken zum Vergleich von Designalternativen durchführen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Solide Programmierkenntnisse in C and C++ 
+Der vorherige Besuch von „Skalierbare Datenmanagement-Systeme“ und 
+„Informationsmanagement“ oder vergleichbaren Veranstaltungen 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1039-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+161 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Klausur (Dauer 60 oder 90 oder 120 Minuten), Mündliche Prüfung (Dauer 15 oder 30 
+Minuten), Hausübungen (optional: einschließlich Testaten) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1039-iv] (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+162 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Kommunikationsnetze I 
+Modul Nr. 
+18-sm-
+1010 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr.-Ing. Ralf Steinmetz 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+18-sm-1010-
+ue 
+Kommunikationsnetze I 
+0 
+Übung 
+1 
+18-sm-1010-
+vl 
+Kommunikationsnetze I 
+0 
+Vorlesung 
+3 
+2 
+Lerninhalt 
+In diesem Modul werden die Technologien, die die Grundlage heutiger 
+Kommunkationsnetze bilden, vorgestellt und analysiert. Die Vorlesung deckt 
+Grundlagenwissen über Kommunikationsnetze ab, mit Schwerpunkt einerseits auf 
+übergreifenden Prinzipien (beispielsweise Schichtenarchitekturen, Protokolle, 
+Dienstmodelle) und andererseits auf den Protokollen des Internet. Die 
+Anwendungsschicht, Transportschicht, Netzwerkschicht und Sicherungsschicht werden 
+detailliert betrachtet und Bezüge zur Bitübertragungsschicht werden hergestellt. 
+ 
+Die Betrachtung der Anwendungsschicht konzentriert sich auf exemplarisch ausgewählte 
+Protokolle wie sie bei E-Mail und beim World Wide Web existieren; diese dienen der 
+Veranschaulichung grundlegender Zusammenhänge und Entwurfsentscheidungen. Auf 
+der Transportschicht werden UDP und TCP mit ihren Dienstmodellen und den 
+dahinterstehenden Protokollmechanismen sowie grundlegende Fragen zu Flusskontrolle, 
+Zuverlässigkeit und Überlastkontrolle betrachtet. Zur Netzwerkschicht liegt der 
+Schwerpunkt auf den grundsätzlichen Fragen der Wegewahl und der Adressierung in IP. 
+Auf der Sicherungsschicht werden Fragen der Flusskontrolle, der Rahmenbildung und des 
+Medienzugriffs beleuchtet. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Abschluss des Moduls kennen die Studierenden die grundlegenden 
+Konstruktionsprinzipien moderner Kommunikationsnetze, insbesondere des Internets. Sie 
+können Entwurfsentscheidungen in Protokollen nachvollziehen und erläutern und 
+erkennen Zusammenhänge und Wechselwirkungen zwischen Protokollmechanismen auf 
+derselben Schicht sowie über die Grenzen von Schichten hinweg. Sie können die 
+Anforderungen von Kommunikationsnetzen und kommunizierenden Anwendungen 
+herleiten, sowie die Eignung von Netzwerktechnologien und Protokollvarianten für 
+gegebene Zwecke und Ziele beurteilen und sie geeignet auswählen. 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+163 
+ 
+4 
+Voraussetzung für die Teilnahme 
+ 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, Klausur, Dauer 120 Min, Standard) 
+ 
+Es wird zu Beginn des Semesters angekündigt, ob es vorlesungsbegleitende 
+Hausaufgaben gibt, die eine Notenverbesserung ermöglichen. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, Klausur, Gewichtung: 100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+Wi-CS, Wi-ETiT, BSc CS, BSc ETiT, BSc iST 
+9 
+Literatur 
+Ausgewählte Kapitel aus folgenden Büchern: 
+ 
+Andrew S. Tanenbaum: Computer Networks, 5th Edition, Prentice Hall, 2010 
+ 
+Andrew S. Tanenbaum: Computernetzwerke, 5. Auflage, Pearson Studium, 2012 
+ 
+Larry L. Peterson, Bruce S. Davie: Computer Networks: A Systems Approach, 6th 
+Edition, Morgan Kaufmann Publishers, 2021 
+ 
+Larry L. Peterson, Bruce S. Davie: Computernetze: Eine systemorientierte 
+Einführung, 4. Auflage, Dpunkt Verlag, 2007 
+ 
+James F. Kurose, Keith W. Ross: Computer Networking: A Top-Down Approach 
+Featuring the Internet, 8th Edition, Pearson, 2021 
+ 
+James F. Kurose, Keith W. Ross: Computernetzwerke: Der Top-Down-Ansatz, 6. 
+Auflage, Pearson Studium 2014 
+ 
+R. Srikant, Jean Walrand, Shyam Parekh: Communication Networks: A Concise 
+Introduction, 2nd Edition, Morgan &amp; Claypool, 2017 
+ 
+Olivier Bonaventure: Computer Networking: Principles, Protocols and Practice, 
+open ebook, https://www.computer-networking.info 
+10 Kommentar 
+ 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+164 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Software Defined Networking 
+Modul Nr. 
+18-sm-
+2280 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Prof. Dr.-Ing. Ralf Steinmetz 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+18-sm-2280-
+ue 
+Software Defined 
+Networking 
+0 
+Übung 
+2 
+18-sm-2280-
+vl 
+Software Defined 
+Networking 
+0 
+Vorlesung 
+2 
+2 
+Lerninhalt 
+Der Kurs behandelt Themen aus dem Bereich Software Defined Networking: 
+ 
+SDN Data Plane 
+ 
+SDN Control Plane 
+ 
+SDN Application Plane 
+ 
+Network Function Virtualization 
+ 
+Network Virtualization and Slicing 
+ 
+QoS and QoE in Software Defined Networks 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende haben nach Abschluss des Moduls vertiefende Einblicke in Software Defined 
+Networking, sowie grundlegender Technologien und Anwendungen, erhalten. 
+4 
+Voraussetzung für die Teilnahme 
+Grundlegende Kurse der ersten 4 Semester werden benötigt. Die Vorlesungen in 
+Kommunikationsnetze I und II werden empfohlen. 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Dauer 90 Min, 
+Standard) 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+165 
+ 
+Die Prüfung erfolgt durch eine Klausur (Dauer: 90 Min.). Falls absehbar ist, dass sich 
+weniger als 15 Studierende anmelden, erfolgt die Prüfung mündlich (Dauer: 20 Min.). 
+Die Art der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Fachprüfung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+MSc ETiT, BSc&#47;MSc iST, MSc Wi-ETiT, CS, Wi-CS 
+9 
+Literatur 
+Lehrbücher gemäß Ankündigung. 
+Folienskript der Vorlesung und Artikelkopien nach Bedarf. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 

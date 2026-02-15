@@ -362,4 +362,3 @@ You've completed your tasks when:
 
 Good luck with the project!
 
-*Setup completed by Claude for Yigit's Career Roadmap Project*

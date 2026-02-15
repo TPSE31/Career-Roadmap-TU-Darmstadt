@@ -1,0 +1,3519 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+331 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Fortgeschrittene Themen in Eingebetteten Systemen und ihren Anwendungen 
+Modul Nr. 
+20-00-1001 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1001-pp Fortgeschrittene Themen in 
+Eingebetteten Systemen und 
+ihren Anwendungen 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Der Kurs bearbeitet aktuelle Forschungs- und Entwicklungsthemen 
+aus dem Bereich von Rechnersystemen und Programmierwerkzeugen, auch speziell 
+im Umfeld von eingebetteten und anwendungsspezifischen Architekturen. Die 
+Themen bestimmen sich aus den spezifischen Arbeitsgebieten der Mitarbeiter und 
+vermitteln technische und einleitende wissenschaftliche Kompetenzen, zum 
+Beispiel aus einem oder mehreren der folgenden Gebiete: 
+ 
+- Rechnerarchitekturen auf Prozessor- und Systemebene 
+- Entwurf digitaler Schaltungen und Hardware-Systeme 
+- Einsatz von Field-Programmable Gate Arrays 
+- Hardware/Software-Entwurfs- und Programmierwerkzeuge 
+- Betriebssysteme und hardware-nahe Programmierung 
+- Hardware/Software-Co-Design 
+- Anwendungsspezifische Architekturen und Techniken 
+- Entwurf und/oder Programmierung von Rechenbeschleunigern 
+- Debugging und Analyseverfahren für Hardware/Software-Systeme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Der/die Studierende sollen Erfahrungen mit der Einarbeitung in ein neues Themenfeld und der 
+praktischen Bearbeitung einer komplexeren Aufgabe aus diesem sammeln. Zu diesen 
+Erfahrungen können Literaturrecherchen, das Einarbeiten in bestehende Code-Basen aus dem 
+Hardware/Software-Bereich, sowie ganz praktische Implementierung von Hardware und/oder 
+Software gehören. Beim Abschlussvortrag sind auch geeignete Präsentationstechniken 
+anzuwenden. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Das Interesse, zu den Lehrinhalten anspruchsvolle Lösungen zu entwickeln. Dabei sind jeweils 
+themenspezifische Kenntnisse, u.a. zum Hardware-Entwurf, dem Compilerbau und der 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+332 
+ 
+parallelen Programmierung erforderlich. Diese Kenntnisse können beispielsweise durch den 
+Besuch der entsprechenden Lehrveranstaltungen erworben werden. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1001-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1001-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+333 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Parallele Programmiertechnologie 
+Modul Nr. 
+20-00-1008 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1008-pr Parallele 
+Programmiertechnologie 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Die Praktikumsteilnehmer*innen entwickeln Technologien zur parallelen Programmierung aus 
+den folgenden Themenbereichen und/oder wenden diese an: 
+• Erschließung möglicher Parallelität 
+• Leistungsanalyse und –modellierung 
+• Korrektheitsanalyse 
+• Profiling 
+• Skalierbare Algorithmen 
+• Ressourcenmanagement und Scheduling 
+• Anwendungen (z.B. Deep Learning) 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+• Kennenlernen und praktische Entwicklung und/oder Anwendung paralleler 
+Programmiertechnologien 
+• Einüben softwaretechnischer Methoden 
+• Teamarbeit in Softwareprojekten 
+• Präsentation von Projektergebnissen in Berichten und Vorträgen 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Kenntnisse paralleler Programmierung und Systeme 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1008-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+334 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1008-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+335 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Compiler Tooling 
+Modul Nr. 
+20-00-1013 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1013-pr Compiler Tooling 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Moderne Compiler zielen primär darauf ab, effizienten Code für eine bestimmte Plattform zu 
+generieren und hierfür nutzen sie fortgeschrittene Analysis- und Transformationswerkzeuge. 
+Eine solche Infrastruktur ist aber auch nützlich für Quellcodetransformation, z.B. für 
+Werkzeuge, die Codes annotieren, instrumentieren, oder in eine kanonische Form bringen. Die 
+Entwicklung solcher Werkzeuge ist für die C++ Sprache aufgrund ihrer Komplexität eine 
+Herausforderung. Eine offene Compiler Infrastruktur, die in einer Vielzahl von Forschungs- und 
+Produktionscompilern genutzt wird, ist die LLVM Infrastruktur (www.llvm.org). Ein 
+vielgenutztes Front-End für C, C++ und objective C ist Clang, welches mächtige Mechanismen 
+für die Extraktion von Information aus dem abstrakten Syntaxbaum zur Verfügung stellt, und so 
+Modifikationen des Quellcodes wie auch die Generierung der Zwischenrepräsentation von 
+LLVM ermöglicht. 
+ 
+Die Studierenden arbeiten mit verschiedenen Komponenten und Techniken des Clang/LLVM 
+Frameworks und implementieren praktische Übungen für Quelltransformationen. Die 
+Clang/LLVM Techniken beinhalten insbesondere die Handhabung und Matching Techniken auf 
+dem abstrakten Syntaxbaum von Clang. Beispiele von Quelltransformationen werden 
+verschiedene Facetten von Code-Erweiterung under -Refactoring beinhalten, z.B. für die 
+Instrumentierung paralleler Codes, für die Übermittlung von Information zwischen der 
+statischen Analyse und der Laufzeitumgebung von (parallelen) Codes, oder für Code 
+Refactoring um bestimmte Coding Standards einzuhalten. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach dem Besuch dieses Kurses kennen die Studierenden grundlegende und fortgeschrittene 
+Konzepte der syntaktischen und semantischen Code Analyse und Quelltext-Transformation, 
+basierend auf der Clang/LLVM Technologie. Insbesondere können sie auf spezielle Aufgaben 
+zugeschnittene statische Analyse- und Code- Transformations Werkzeuge entwerfen und 
+implementieren, das geeignete Abstraktionsniveau für die zu lösende Aufgabe reflektieren und 
+entscheiden, und weitere Nutzungsszzenarien für Compiler Technologie erstellen. 
+ 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+336 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Der vorherige Besuch von „Einführung in Compilerbau“ und „Parallele Programmierung“ oder 
+vergleichbarer Veranstaltungen, Kentnisse von C++ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1013-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1013-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+337 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+ 
+Gründung eines IT-Start-Up 
+Modul Nr. 
+20-00-1016 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1016-pr 
+ 
+Gründung eines IT-Start-Up 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Kennenlernen von Methoden zur Entwicklung und Umsetzung innovativer Geschäftsmodelle. 
+Erlernen von Werkzeugen für die einzelnen Prozessschritte. Dabei werden Beispiele aus der 
+Praxis vorgestellt und besprochen. 
+ 
+Einüben der vorgestellten Methoden an einem selbstgewählten Beispiel. Präsentation der 
+Ergebnisse nach jedem Teilschritt im Rahmen der Erarbeitung des Geschäftsmodells. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Besuch dieser Veranstaltung haben die Studierenden die Grundlagen für 
+die Erstellung eines Businessplans kennengelernt. Sie sind in der Lage die relevanten 
+Fragestellungen bei der Erstellung von Businessplänen für innovative Geschäftsmodelle zu 
+identifizieren und zu bearbeiten. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+ 
+Der vorherige Besuche von „Software Engineering“ und „Teamprojekt Softwareentwicklung“ 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1016-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+338 
+ 
+ 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-1016-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+Literaturhinweise werden in der Veranstaltung gegeben 
+ 
+10 Kommentar 
+ 
+ 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+339 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Cybersecurity Lab 
+Modul Nr. 
+20-00-1018 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1018-pr 
+ 
+Cybersecurity Lab 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+In diesem Praktikum werden wir grundlegende als auch weiterführende Aspekte von 
+Netzwerksicherheit erlernen. Wir werden die grundlegenden Protokolle, wie BGP und DNS, 
+Infrastruktur Modelle, wie z.B. Router, Switches und Firewalls besprechen und wir werden 
+ebenso die Anwendung von Sicherheit besprechen. Wir werden Attacks und Defences 
+besprechen als auch demonstrieren. Jede/r Studierende/r wird ein spezifisches Thema, welches 
+während des Semesters unter Anleitung zu bearbeiten ist, erhalten. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Am Ende des Kurses werden die Studierenden gute Kenntnisse in Netzwerksicherheit, und 
+speziell auf den Gebieten der durch sie bearbeitenden Projekte, erlangen.  
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen:  
+ 
+Die Studierenden sollten einen Background in Netzwerk- und Operating Systems haben. 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1018-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+ 
+7 
+Benotung 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+340 
+ 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-1018-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+341 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum Friedens-, Sicherheits- und Kriseninformatik 
+Modul Nr. 
+20-00-1020 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1020-pr Praktikum Friedens-, 
+Sicherheits- und 
+Kriseninformatik 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Das Praktikum beinhaltet Entwicklungsthemen aus der aktuellen Forschung des Fachgebiets 
+„Wissenschaft und Technik für Frieden und Sicherheit“ (PEASEC). Neben einem generellen 
+Überblick über aktuelle Themen wird ein tiefgehender Einblick in ein spezielles 
+Entwicklungsgebiet vermittelt. Die Themen bestimmen sich aus den spezifischen 
+Arbeitsgebieten der Mitarbeiter und vermitteln technische und einleitende wissenschaftliche 
+Kompetenzen. Die Bearbeitung erfolgt in kleinen Gruppen. 
+Themen für das aktuelle Semester finden Sie unter www.peasec.de/lehre 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Fähigkeit eine praktische Aufgabe ggf. im Team erfolgreich nach Vorgabe zu bearbeiten und 
+deren Ergebnisse angemessen zu präsentieren. Beispiele sind: 
+• Anforderungserhebung und (empirische) Vorstudien 
+• Konzeption und Implementierung innovativer Anwendungen 
+• Evaluation und Weiterentwicklung bestehender Anwendungen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Grundlagen der Informatik/“Funktionale und objektorientierte Programmierkonzepte“ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1020-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+342 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1020-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Reuter, C. (2018) Sicherheitskritische Mensch-Computer-Interaktion: Interaktive Technologien 
+und Soziale Medien im Krisen- und Sicherheitsmanagement, 660 S., Wiesbaden: Springer 
+Vieweg – im Druck 
+Altmann, J., Bernhardt, U., Nixdorff, K., Ruhmann, I., & Wöhrle, D. (2016). Naturwissenschaft - 
+Rüstung - Frieden - Basiswissen für die Friedensforschung (Vol. 49), Wiesbaden: Springer 
+Vieweg. 
+Weitere Literatur wird in der Veranstaltung je nach gewähltem Thema genannt. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+343 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum Friedens- und Kriseninformatik  
+Modul Nr. 
+20-00-1027 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1027-
+pp 
+Projektpraktikum Friedens- 
+und Kriseninformatik 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Das Projektpraktikum beinhaltet Entwicklungsthemen aus der aktuellen Forschung des 
+Fachgebiets „Wissenschaft und Technik für Frieden und Sicherheit“ (PEASEC). Neben ei-nem 
+generellen Überblick über aktuelle Themen wird ein tiefgehender Einblick in ein spezi-elles 
+Entwicklungsgebiet vermittelt. Die Themen bestimmen sich aus den spezifischen Ar-
+beitsgebieten der Mitarbeiter und vermitteln technische und einleitende wissenschaftliche 
+Kompetenzen. Die Bearbeitung erfolgt in kleinen Gruppen. Projektmanagement und die 
+Selbstorganisation im Team ist explizit Teil der Aufgabenstellung. 
+Themen für das aktuelle Semester finden Sie unter www.peasec.de/lehre 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Fähigkeit eine praktische Aufgabe ggf. im Team erfolgreich nach Vorgabe zu bearbeiten 
+und deren Ergebnisse angemessen zu präsentieren. Beispiele sind: 
+• Anforderungserhebung und (empirische) Vorstudien 
+• Konzeption und Implementierung innovativer Anwendungen 
+• Evaluation und Weiterentwicklung bestehender Anwendungen 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1027-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+344 
+ 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1027-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+Reuter, C. (2018) Sicherheitskritische Mensch-Computer-Interaktion: Interaktive Technolo-
+gien und Soziale Medien im Krisen- und Sicherheitsmanagement, 660 S., Wiesbaden: Sprin-
+ger Vieweg 
+Altmann, J., Bernhardt, U., Nixdorff, K., Ruhmann, I., & Wöhrle, D. (2016). Naturwissen-
+schaft - Rüstung - Frieden - Basiswissen für die Friedensforschung (Vol. 49), Wiesbaden: 
+Springer Vieweg. 
+Weitere Literatur wird in der Veranstaltung je nach gewähltem Thema genannt. 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+345 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum Algorithmik 
+Modul Nr. 
+20-00-1029 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1029-
+pp 
+Projektpraktikum Algorithmik 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Das Projektpraktikum behandelt die angewandte Softwareentwicklung 
+in den Themenbereichen der Arbeitsgruppe Algorithmik. Ziel ist das eigenständige Bearbeiten 
+eines Entwicklungsprojektes im Team. 
+Lerninhalte: 
+- Eigenständiges Bearbeiten eines Entwicklungsprojektes, 
+- Projektplanung und Projektmanagement, 
+- Recherche von Lösungsalternativen und Abwägung von Vor-/Nachteilen der Alternativen, 
+- Konzipieren einer Softwarearchitektur, 
+- prototypische Umsetzung auf der ausgewählten Zielplattform, 
+- Evaluation des Gesamtsystems in Bezug auf verschiedene Gütemaße, 
+- Dokumentation der erstellten Lösung. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an der Veranstaltung besitzen die Studierenden die Fähigkeit, 
+komplexe Problemstellungen im Themenbereich softwaretechnisch zu lösen. 
+Die Studierenden können hierzu eigenständig ein Projekt definieren, verwalten und 
+durchführen. Die Studierenden haben Kenntnisse im Entwurf/der Umsetzung 
+von Algorithmen und Anwendungen erlangt. Sie sind in 
+der Lage, die gewählten Algorithmen und ihre Anwendung zu implementieren, zu testen und 
+deren Funktionsfähigkeit und Leistungsfähigkeit zu evaluieren, die 
+Projektplanung und -verwaltung sowie die erstellten Softwareartefakte verständlich zu 
+dokumentieren. 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1029-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+346 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1029-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+347 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Automatische Textzusammenfassung 
+Modul Nr. 
+20-00-1037 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1037-pr Automatische 
+Textzusammenfassung 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Die automatische Generierung von Zusammenfassungen aus einer Sammlung an Texten 
+unterschiedlicher Art zu einem Thema ist ein aktuelles Forschungsgebiet, das beispielsweise an 
+der TU-Darmstadt am Graduiertenkolleg Aiphes intensiv erforscht wird. 
+Dabei kommen unterschiedliche Methoden zum Einsatz, die sowohl im maschinellen Lernen als 
+auch in der natürlichen Sprachverarbeitung verankert sind. 
+In diesem Praktikum erhalten die Studierenden die Möglichkeit, sich in Kleingruppen mit diesen 
+Methoden vertraut zu machen, Erweiterungen und neue Methoden zu entwickeln und diese an 
+einem realen Datensatz anzuwenden. Ein besonderer Schwerpunkt soll dabei auch auf die 
+Evaluation der generierten Zusammenfassungen gelegt werden. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Studierenden 
+- kennen verschiedene Methoden zur automatischen Zusammenfassung von Texten, ihre 
+Funktionsweisen und ihre Eigenschaften 
+- können Methoden zur automatischen Zusammenfassung auf Texttypen verschiedener Art 
+anwenden 
+- können die Qualität einer generierten Zusammenfassung anhand verschiedener Kriterien 
+beurteilen 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+Absolvierung einer Vorlesung in Maschinelles Lernen, Data Mining, oder natürliche 
+Sprachverarbeitung. Praktische Erfahrung mit Data Mining oder NLP Werkzeugen sind hilfreich, 
+können aber auch selbständig erarbeitet werden. Gute bis sehr gute Englischkenntnisse. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1037-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+348 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1037-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+349 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Data Management - Praktikum 
+Modul Nr. 
+20-00-1041 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1041-pr Data Management - Praktikum 6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Die Teilnehmenden lösen in kleinen Projektgruppen ein gegebenes Problem. Bei den 
+Problemen handelt es sich um Programmierprojekte, die sich auf Fragestellungen aus 
+aktuellen Forschungsthemen des Data Management Lab beziehen. 
+ 
+Mögliche Themenbereiche sind: 
+- Skalierbare Datenbanksysteme und moderne Hardware 
+- Cloud Datenbanken und Blockchains 
+- Interaktive Daten- und Textexploration 
+- Natural Language Interfaces für Datenbanken 
+- Skalierbare Systeme für Maschinelles Lernen 
+ 
+In dieser Veranstaltung setzen Studierende ein ausgewähltes Projekt um. Im Vergleich zum 
+Praktikum haben die Probleme des Projektpraktikums einen erweiterten Umfang. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Beendigung der Veranstaltung haben Studierende folgende Lernziele erreicht: 
+- Vertieftes Verständnis von aktuellen Techniken für moderne Datenmanagement-Systeme 
+- Anwendung und Implementierung der Techniken in individuellen Projekten 
+- Evaluierung von möglichen Designalternativen mit Hilfe von Benchmarks bzw. realen 
+Workloads 
+4 
+Voraussetzung für die Teilnahme  
+Abhängig vom ausgewählten Thema sind unterschiedliche Voraussetzungen empfohlen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1041-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist 
+eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+350 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1041-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+351 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Data Management - Projektpraktikum 
+Modul Nr. 
+20-00-1042 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1042-pp Data Management - 
+Projektpraktikum 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Die Teilnehmenden lösen in kleinen Projektgruppen ein gegebenes Problem. Bei den Problemen 
+handelt es sich um Programmierprojekte, die sich auf Fragestellungen aus aktuellen 
+Forschungsthemen des Data Management Lab beziehen. 
+ 
+Mögliche Themenbereiche sind: 
+- Skalierbare Datenbanksysteme und moderne Hardware 
+- Cloud Datenbanken und Blockchains 
+- Interaktive Daten- und Textexploration 
+- Natural Language Interfaces für Datenbanken 
+- Skalierbare Systeme für Maschinelles Lernen 
+ 
+In dieser Veranstaltung setzen Studierende ein ausgewähltes Projekt um. Im Vergleich zum 
+Praktikum haben die Probleme des Projektpraktikums einen erweiterten Umfang. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Beendigung der Veranstaltung haben Studierende folgende Lernziele erreicht: 
+- Vertieftes Verständnis von aktuellen Techniken für moderne Datenmanagement-Systeme 
+- Anwendung und Implementierung der Techniken in individuellen Projekten 
+- Evaluierung von möglichen Designalternativen mit Hilfe von Benchmarks bzw. realen 
+Workloads 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlene Voraussetzungen hängen vom ausgewählten Thema ab. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1042-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+352 
+ 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-1042-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+353 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Anwendung von Reinforcement Learning Methoden 
+Modul Nr. 
+20-00-1048 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1048-pp Anwendung von Reinforcement 
+Learning Methoden 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+In diesem Projekt lernen Studierende das experimentelle Arbeiten in einem interdisziplinären 
+Team, und bekommen so Einblicke in das wissenschaftliche Arbeiten im Reinforcement 
+Learning. Im Projekt entwickeln Kleingruppen unter Anleitung ein gemeinsames Experiment im 
+Reinforcement Learning basierend auf speziellen Plattformen (Cartpole, Furuta-Pendel, etc), 
+werten dieses aus und schreiben einen Forschungsbericht/Paper. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+ 
+Praktische Einführung in das wissenschaftliche Arbeiten, Durchführung eines Experimentes von 
+der Forschungsidee bis hin zur Veröffentlichung. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Gleichzeitige order vorhergehende Belegung der Vorlesung "Reinforcement 
+Learning: Von Grundlagen zu den Tiefen Ansätzen" oder "Lernende Roboter" oder 
+vergleichbarer Veranstaltungen. 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1048-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+354 
+ 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+ [20-00-1048-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+355 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum Softwareentwicklung zum Schutz der Privatsphäre 
+Modul Nr. 
+20-00-1053 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1053-pp Projektpraktikum 
+Softwareentwicklung zum 
+Schutz der Privatsphäre 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+In dieser Veranstaltung entwickeln die Studierenden systematisch eine beispielhafte 
+Anwendung, ein Werkzeug, oder einen Demonstrator zum Schutz der Privatsphäre. Dies 
+beinhaltet die Spezifikation der Anforderungen und des Designs, sowie eine Implementierung 
+mit Tests, Evaluierung und Dokumentation. 
+ 
+Wir bieten zwei Varianten dieser Veranstaltung an: PRIVDEV-M (Praktikum, 6 CP, 4 SWS) und 
+PRIVDEV-L (Projektpraktikum, 9 CP, 6 SWS) mit komplexeren Themen und detaillierteren 
+Anforderungen an das Projektmanagement. Bitte stellen Sie sicher, dass Sie sich für die richtige 
+Variante anmelden. 
+ 
+Eine Liste möglicher Themen mit Bezug zu aktuellen Forschungsthemen des Fachgebiets 
+ENCRYPTO, eine detaillierte Beschreibung des Prozesses und weitere Informationen finden Sie 
+unter https://encrypto.de/PRIVDEV. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+- Tieferes Verständnis warum Privatheit benötigt wird und wie sie sichergestellt werden kann 
+- Mehr Erfahrung in Softwareentwicklung und Projektmanagement 
+- Planung und Verfolgung eines Prozesses zur Entwicklung einer Privatsphäre-schützenden 
+Anwendung oder Werkzeug: Anforderungen, Design, Implementierung, Test, Evaluierung und 
+Dokumentation. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Grundwissen in angewandter Kryptographie, z.B. durch erfolgreiches Bestehen der 
+Veranstaltung "Einführung in die Kryptographie" und idealerweise auch "Kryptographische 
+Protokolle (CRYPROT)" und/oder "Secure Computation". 
+- Sehr gute Programmierkenntnisse und zumindest Grundkenntnisse in der in der jeweiligen 
+Themenbeschreibung angegebenen Programmiersprache sind erforderlich. 
+- Eventuelle weitere Anforderungen sind in der jeweiligen Themenbeschreibung angegeben. 
+ 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+356 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1053-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1053-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+357 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum Softwareentwicklung zum Schutz der Privatsphäre 
+Modul Nr. 
+20-00-1054 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1054-pr Praktikum 
+Softwareentwicklung zum 
+Schutz der Privatsphäre 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+In dieser Veranstaltung entwickeln die Studierenden systematisch eine beispielhafte 
+Anwendung, ein Werkzeug, oder einen Demonstrator zum Schutz der Privatsphäre. Dies 
+beinhaltet die Spezifikation der Anforderungen und des Designs, sowie eine Implementierung 
+mit Tests, Evaluierung und Dokumentation. 
+ 
+Wir bieten zwei Varianten dieser Veranstaltung an: PRIVDEV-M (Praktikum, 6 CP, 4 SWS) und 
+PRIVDEV-L (Projektpraktikum, 9 CP, 6 SWS) mit komplexeren Themen und detaillierteren 
+Anforderungen an das Projektmanagement. Bitte stellen Sie sicher, dass Sie sich für die richtige 
+Variante anmelden. 
+ 
+Eine Liste möglicher Themen mit Bezug zu aktuellen Forschungsthemen des Fachgebiets 
+ENCRYPTO, eine detaillierte Beschreibung des Prozesses und weitere Informationen finden Sie 
+unter https://encrypto.de/PRIVDEV. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+- Tieferes Verständnis warum Privatheit benötigt wird und wie sie sichergestellt werden kann 
+- Mehr Erfahrung in Softwareentwicklung und Projektmanagement 
+- Planung und Verfolgung eines Prozesses zur Entwicklung einer Privatsphäre-schützenden 
+Anwendung oder Werkzeug: Anforderungen, Design, Implementierung, Test, Evaluierung und 
+Dokumentation. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Grundwissen in angewandter Kryptographie, z.B. durch erfolgreiches Bestehen der 
+Veranstaltung "Einführung in die Kryptographie" und idealerweise auch "Kryptographische 
+Protokolle (CRYPROT)" und/oder "Secure Computation". 
+- Sehr gute Programmierkenntnisse und zumindest Grundkenntnisse in der in der jeweiligen 
+Themenbeschreibung angegebenen Programmiersprache sind erforderlich. 
+- Eventuelle weitere Anforderungen sind in der jeweiligen Themenbeschreibung angegeben. 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+358 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1054-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1054-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+359 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum Security Engineering 
+Modul Nr. 
+20-00-1056 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1056-pr 
+ 
+Praktikum Security Engineering 6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Im Rahmen dieses Praktikums sollen Implementierungen zu Forschungszwecken mit den 
+Schwerpunkten Kryptographie und Privatheit vorgenommen worden. Die angebotenen Praktika 
+stammen aus den folgenden Bereichen: 
+ 
+- IT-Sicherheit im autonomen Fahrzeug 
+- Bahnsicherheit 
+- Hardwaresicherheit (IoT) 
+- Seitenkanalangriffe 
+- Attestierung 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Ziel dieses Praktikums ist die Ausweitung von Programmierkentnissen sowie die Partizipation in 
+Forschungsprojekten. Zusätzlich werden die Teilnehmer*innen Wissen in den genannten 
+Bereichen erlangen und erfahren den jeweils aktuellen Forschungsstand. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1056-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+ 
+7 
+Benotung 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+360 
+ 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-1056-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+361 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+IoT- und Funkprotokolle in eingebetteten Systemen 
+ 
+Modul Nr. 
+20-00-1064 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1064-pr IoT- und Funkprotokolle in 
+eingebetteten Systemen 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Im Rahmen des Praktikums lernen die Studierenden IoT- und Funkprotokolle kennen und 
+führen eigenständig ein Projekt mit eingebetteter Hardware durch. Darüber hinaus werden 
+auch Aspekte der IT-Sicherheit mitberücksichtigt. 
+Der Fokus liegt auf Bluetooth LE, Bluetooth Mesh, LoRaWAN sowie die Kommunikation über 
+OOB Kanäle. Abhängig vom gewählten Projekt-Thema werden Hardware (Mikrocontroller, 
+FPGAs, RF-Transceiver, Software Defined Radio uvm.) sowie Laborumgebung 
+(Logikanalysatoren, RF Analysatoren, Oszilloskope uvm.) zur Verfügung gestellt. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Am Ende der Veranstaltung sind die Studierenden in der Lage, mit komplexen Spezifikationen 
+von Funkprotokollen umzugehen und in die Praxis zu transferieren. Weiterhin wird der 
+praktische Umgang mit eingebetteten Systemen und Laborequipment vermittelt. 
+ 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen sind Vorkenntnisse in Computernetzwerken und in Eingebetteten Systemen. 
+Kenntnis der Programmiersprache C und Grundkenntnisse der Elektrotechnik sind hilfreich, 
+ebenso Kenntnisse aus einschlägigen Vorlesungen des Bereichs. 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+ [20-00-1064-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+362 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung: 
+  
+ 
+ [20-00-1064-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+363 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum Verantwortung und Sicherheit in der Informatik 
+Modul Nr. 
+20-00-1072 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1072-pr Praktikum Verantwortung und 
+Sicherheit in der Informatik 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Das Praktikum beinhaltet Entwicklungsthemen aus der aktuellen Forschung des Fachgebiets 
+„Wissenschaft und Technik für Frieden und Sicherheit“ (PEASEC). Neben einem generellen 
+Überblick über aktuelle Themen wird ein tiefgehender Einblick in ein spezielles 
+Entwicklungsgebiet vermittelt. Die Themen bestimmen sich aus den spezifischen 
+Arbeitsgebieten der Mitarbeiter_innen und vermitteln technische und einleitende wissen-
+schaftliche Kompetenzen. Die Bearbeitung erfolgt in kleinen Gruppen. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Fähigkeit eine praktische Aufgabe ggf. im Team erfolgreich nach Vorgabe zu bearbeiten und 
+deren Er-gebnisse angemessen zu präsentieren. Beispiele sind: 
+- Lösen einer Fragestellung im Bereich von Verantwortung und Sicherheit in der Informatik 
+- Anforderungserhebung und (empirische) Vorstudien 
+- Recherche von Lösungsalternativen und Abwägung von Vor-/Nachteilen der Alternativen 
+- Entwurf, prototypische Implementierung oder Weiterentwicklung innovativer Anwendungen 
+- Evaluation bestehender Anwendungen in Bezug auf verschiedene Gütemaße 
+- Dokumentation der erstellten Lösung 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen in mindestens einem der Bereiche: Informatik, IT-Sicherheit, Mensch-
+Computer-Interaktion oder Friedens- und Konfliktforschung; Kenntnisse in der 
+Softwareentwicklung und Programmierung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1072-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+364 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1072-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+365 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum Interaktive resiliente Informationstechnik 
+Modul Nr. 
+20-00-1073 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1073-pp Projektpraktikum Interaktive 
+resiliente Informationstechnik 
+9 
+Projekt 
+6 
+2 
+Lerninhalt  
+Das Projektpraktikum beinhaltet Entwicklungsthemen aus der aktuellen Forschung des 
+Fachgebiets „Wissen-schaft und Technik für Frieden und Sicherheit“ (PEASEC). Neben einem 
+generellen Überblick über aktuelle Themen wird ein tiefgehender Einblick in ein spezielles 
+Entwicklungsgebiet vermittelt. Die Themen bestimmen sich aus den spezifischen 
+Arbeitsgebieten der Mitarbeiter_innen und vermitteln technische und einleitende 
+wissenschaftliche Kompetenzen. Die Bearbeitung erfolgt in kleinen Gruppen. 
+Projektmanagement und die Selbstorganisation im Team ist explizit Teil der Aufgabenstellung. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Die Fähigkeit eine praktische Aufgabe ggf. im Team erfolgreich nach Vorgabe zu bearbeiten und 
+deren Er-gebnisse angemessen zu präsentieren. Beispiele sind: 
+- Lösen einer Fragestellung im Bereich der interaktiven resilienten Informationstechnik 
+- Anforderungserhebung und (empirische) Vorstudien 
+- Recherche von Lösungsalternativen und Abwägung von Vor-/Nachteilen der Alternativen 
+- Entwurf, prototypische Implementierung oder Weiterentwicklung innovativer Anwendungen 
+- Evaluation bestehender Anwendungen in Bezug auf verschiedene Gütemaße 
+- Dokumentation der erstellten Lösung 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: Grundlagen in mindestens einem der Bereiche: Informatik, IT-Sicherheit, Mensch-
+Computer-Interaktion oder Friedens- und Konfliktforschung; Kenntnisse in der 
+Softwareentwicklung und Programmierung 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1073-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+366 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1073-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+367 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Bug Hunting Praktikum 
+Modul Nr. 
+20-00-1083 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1083-pr Bug Hunting Praktikum 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+In diesem Praktikum beschäftigen sich die Studierenden mit dem automatischen oder 
+manuellen Aufdecken von Schwachstellen und Verwundbarkeiten in realen Open Source 
+Softwareprojekten. Die Studierenden lernen gängige Methoden zur Identifizierung von 
+Angriffsflächen, Erstellung eines Angreifermodells und das Finden und Dokumentieren von 
+Schwachstellen. Diese Schritte werden eigenständig in einem praktischen Teil von den 
+Studierenden umgesetzt.  
+ 
+Folgende Themen und Tätigkeiten sind Teil des Praktikums:  
+- Einarbeitung in Open Source Softwareprojekte aus Sicht eines Penetration Testers  
+- Einarbeitung in gängige Tools zur Identifizierung von Angriffsflächen oder möglichen 
+Schwachstellen  
+- Praktisches Anwenden der gelernten Methoden zur Schwachstellenidentifikation  
+- Dokumentation der Schwachstellen und Identifikation von Gegenmaßnahmen  
+- Präsentation der Ergebnisse  
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Ein theoretischer Teil vermittelt den Studierende Methoden zur Schwachstellenidentifikation 
+und Bedrohungsmodellierung von Softwareprojekten. In einem praktischen Teil sammeln die 
+Studenten selbstständig Erfahrungen im Identifizieren von Schwachstellen. Die Studierenden 
+sind nach erfolgreichem Absolvieren des Praktikums in der Lage, selbstständig und strukturiert 
+Sicherheitslücken in Softwareprojekten zu finden und zu dokumentieren. Die Studierenden 
+können nach dem Praktikum die Schwere und die Folgen von Sicherheitslücken einschätzen, 
+sowie Gegenmaßnahmen benennen. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen: 
+- Gute Teamfähigkeit  
+- Interesse an Schwachstellenidentifikation, Programmanalyse und Exploitation  
+- Gute Programmierkenntnisse  
+- Linux Kenntnisse  
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+368 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1083-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1083-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+369 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum Seitenkanalanalyse 
+Modul Nr. 
+20-00-1090 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1090-pr 
+ 
+Praktikum Seitenkanalanalyse 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt  
+Seitenkanäle sind Kommunikationskanäle, die auf Ausführungsmerkmalen basieren, die nicht 
+zur Kommunikation vorgesehen waren. Die zugrundeliegenden Ausführungsmerkmale können 
+beispielsweise die Ausführungszeit, der Stromverbrauch und elektromagnetische Abstrahlung 
+sein. Seitenkanäle sind seit vielen Jahren als ernste Bedrohung für kryptographische 
+Implementierungen bekannt. Technologischer Fortschritt bringt üblicherweise neue 
+Möglichkeiten für Seitenkanalangriffe mit sich. Beispielsweise hat das Internet of Things die 
+Anzahl der möglichen Zielgeräte erhöht und die Bedrohung durch Seitenkanäle damit noch 
+relevanter gemacht. 
+ 
+Das Praktikum deckt die Schritte ab, die zur Ausführung von Seitenkanalangriffen gegen 
+kryptographische Implementierungen, zur Extraktion von geheimen Informationen, sowie zur 
+Verminderung solcher Schwachstellen benötigt werden. Beispielthemen sind: 
+- Auswahl von Zielimplementierungen für Seitenkanalangriffe 
+- Manipulation von Strom-, Zeit-, oder EM-Messkurven 
+- Implementierung von Modellen für 
+Seitenkanalschwachstellen 
+- Differential Side-Channel Analysis 
+- Seitenkanalgegenmaßnahmen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreicher Teilnahme an diesem Praktikum, werden die Studierenden: 
+- das Ausmaß der Gefahr durch Seitenkanalschwachstellen einschätzen können, 
+- verstehen wie Seitenkanalangriffe funktionieren, 
+- fähig sein, Seitenkanalangriffe gegen kryptographische Implementierungen auszuführen, um 
+geheime Informationen zu extrahieren und 
+- wissen, wie Seitenkanalangriffe abgewehrt werden können. 
+4 
+Voraussetzung für die Teilnahme  
+Empfohlen werden Informatikkenntnisse entsprechend der ersten vier Semester des 
+Bachelorstudiengangs Informatik, insbesondere Programmierkenntnisse. 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+370 
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1090-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich ist eine 
+oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%) 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1090-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+371 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+BOOTS: Build your own tech startup 
+Modul Nr. 
+20-00-
+1104 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1104-
+pr 
+BOOTS: Build your own tech 
+startup 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt 
+Die Studierenden erhalten in der Veranstaltung einen umfassenden Überblick über die 
+verschiedenen Aspekte von Unternehmensgründungen (Entrepreneurship). Im Rahmen 
+der Blockveranstaltung wird ein praktisches Forum geboten, um Geschäftsmodelle im 
+High-Tech Bereich zu fördern. Es wird eine Unternehmensgründung von der anfänglichen 
+Idee bis zur Gründung eines realisierbaren Unternehmens durchgespielt. 
+ 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Abschluss des Praktikums sind Studierende in der Lage 
+-  unternehmerischen Kompetenzen anzuwenden 
+- einen strukturierten Geschäftsplan zu entwickeln 
+- einen Demonstrators für ein High-Tech Produkt aufzubauen 
+- ihre Idee (Pitch) zu präsentieren 
+ 
+4 
+Voraussetzung für die Teilnahme 
+Programmierkenntnisse sind empfohlen.  
+ 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ 
+[20-00-1104-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+ 
+7 
+Benotung 
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+372 
+ 
+Bausteinbegleitende Prüfung:  
+ 
+ 
+[20-00-1104-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+ 
+9 
+Literatur 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+373 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Expertenpraktikum im Robot Learning 
+Modul Nr. 
+20-00-
+1108 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1108-
+pp 
+Expertenpraktikum im Robot 
+Learning 
+9 
+Projekt 
+6 
+2 
+Lerninhalt 
+In diesem Projekt perfektionieren Studierende das experimentelle Arbeiten in einem 
+interdisziplinären Team, und entwickeln sich zu Experten im wissenschaftliche Arbeiten 
+im Robot Learning. Im Projekt entwickeln in einer Kleingruppen unter Anleitung ein 
+gemeinsames Experiment im Robot Learning basierend auf speziellen Robotik-
+Plattformen, werten dieses aus und schreiben einen Forschungsbericht/Paper, welches 
+die Qualität einer Einreichung bei einer internationalen wissenschaftlichen Konferenz 
+oder Zeitschrift erreicht. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nachdem Studierende die Veranstaltung besucht haben, können sie die praktischen 
+Fertigkeiten eines Experten im wissenschaftlichen Arbeiten im Roboter Lernen anwenden. 
+Sie sind in der Lage, Experimente von der Forschungsidee bis hin zur Veröffentlichung zu 
+analysieren und synthetisieren 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen wird die erfolgreiche Durchführung von 
+Lernende Roboter: Integriertes Projekt - Teil 1 und 
+Lernende Roboter: Integriertes Projekt - Teil 2 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-1108-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+ 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+
+============================================================
+PAGE 44
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+374 
+ 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-1108-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+ 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+M. Sc. Autonome Systeme und Robotik 
+M. Sc.  Artificial Intelligence and Machine Learning 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 45
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+375 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Blockchain Projektpraktikum 
+Modul Nr. 
+20-00-
+1119 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1119-
+pp 
+Blockchain Projektpraktikum 9 
+Projekt 
+6 
+2 
+Lerninhalt 
+Diese Veranstaltung richtet sich an Studierende, die die Vorlesung Cryptocurrencies 
+besucht oder sich anderweitig mit Blockchain-Technologien beschäftigt haben und einige 
+Aspekte dieses Themenkomplexes eingehender verstehen und untersuchen wollen. Sie 
+bietet eine Plattform, um neuartige Anwendungen basierend auf Blockchain Technologie 
+auf ihre Umsetzbarkeit und Sinnhaftigkeit zu überprüfen. 
+ 
+Nach einer Einführung zu den Themen Blockchain Konzepte, Projektmanagement und 
+Blockchain Development, sollen komplexe kryptographische Systeme und Bausteine aus 
+dem Bereich Kryptowährung und Blockchain in Teamarbeit verstanden und in einem 
+dezentralen System implementiert werden. Dabei wird die eigenständige Konzeption 
+eines Projektes gefordert, das im Verlauf der Veranstaltung von den Studierenden geplant 
+und umgesetzt werden soll. 
+ 
+Die Studierenden erhalten in diesem Praktikum erste Erfahrungen mit der Umsetzung 
+eines komplexeren Entwicklungsprojektes. 
+Im Rahmen des Projektpraktikums erarbeiten die Studierenden weiter fortgeschrittene 
+Konzepte im Bereich Blockchain und Blockchain Entwicklung, wie beispielsweise 
+Performance- und Sicherheitsaspekte, präsentieren diese in der Gruppe und integrieren 
+sie in ihre Anwendung. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende verstehen nach erfolgreichem Besuch der Veranstaltung die technischen und 
+praktischen Implikationen von verteilten kryptographischen Systemen. Dazu gehören 
+zum Beispiel erste Erfahrungen in den folgenden Bereichen: 
+• Entwicklung von Smart Contracts und verteilten Applikationen 
+• Kommunikation von Systemen durch dezentrale Peer-to-Peer Netze 
+• Entwicklung von Software unter Nutzung kryptographischer Bausteine 
+• Sicherheit und Anonymität von Nutzern von kryptographischen Währungen 
+• Mögliche Angriffe auf Smart Contracts und Cryptocurrencies 
+
+============================================================
+PAGE 46
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+376 
+ 
+4 
+Voraussetzung für die Teilnahme 
+Empfohlen: Dieser Kurs richtet sich an Studierende mit Interesse und Grundkenntnissen 
+im Bereich Blockchain. Weiterhin sollten gute Programmierkenntnisse, Begeisterung für 
+innovative Ideen und Interesse am strukturierten Bearbeiten komplexer 
+Entwicklungsprojekte vorhanden sein. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+[20-00-1119-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+[20-00-1119-pp] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 47
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+377 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Forschungsmethodik in der Kryptographie 
+Modul Nr. 
+20-00-
+1126 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1126-
+pr 
+Forschungsmethodik in der 
+Kryptographie 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt 
+Die moderne Kryptographie bietet eine Vielzahl von innovativen Werkzeugen und 
+Techniken, die zur Lösung komplexer Sicherheitsprobleme eingesetzt werden können. 
+Ziel der Veranstaltung ist das Erlernen der wissenschaftlichen Methodik der modernen 
+Kryptographie. Dazu soll in einer kleinen Gruppe zusammen mit den Lehrenden eine 
+wissenschaftliche Arbeit in der Kryptographie verfasst werden. Es soll der gesamte 
+Prozess von der initialen Forschungsidee bis zur Einreichung einer Publikation 
+durchlaufen werden. Unter anderem werden Techniken zur Literaturrecherche, 
+Diskussion über Forschungsfragen und das Verfassen von wissenschaftlichen Arbeiten 
+behandelt. Voraussetzung für den Kurs ist die Vorlesung „Einführung in die 
+Kryptographie“. Der Besuch weiterer Spezialveranstaltungen im Bereich Kryptographie 
+und IT Sicherheit ist von Vorteil. Insbesondere sollten Teilnehmer mit den 
+Grundtechniken der modernen Kryptographie vertraut sein (kryptographische Bausteine, 
+Sicherheitsdefinitionen, Reduktionsbeweise). 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Lernergebnis: 
+- Verfassen von wissenschaftlichen Arbeiten in der Kryptographie 
+- Erlernen von fortgeschrittenen Techniken der modernen Kryptographie 
+- Durchführen von Literaturrecherche in der Kryptographie 
+4 
+Voraussetzung für die Teilnahme 
+Die Vorlesung „Einführung in die Kryptographie“ wird empfohlen. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1126-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+
+============================================================
+PAGE 48
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+378 
+ 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1126-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 49
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+379 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Leistungsanalyse und Modellierung von Softwaresystemen 
+Modul Nr. 
+20-00-
+1130 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes Semester 
+Sprache 
+Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1130-
+pr 
+Leistungsanalyse und 
+Modellierung von 
+Softwaresystemen 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt 
+Ziel dieses Praktikums ist: 
+1) Erfahrungen im Design von Experimenten zu sammeln, die die Leistung komplexer 
+Softwaresysteme messen, 
+2) Ergebnisse verarbeiten und analysieren 
+3) Modelle erstellen, die das Verhalten des Systems beschreiben. 
+ 
+Die experimentellen Ergebnisse und die Modelle werden verwendet, um die 
+Komponenten des Systems zu bestimmen, die den Engpass für die Leistung darstellen. 
+ 
+Die im Praktikum erworbenen Fähigkeiten sollen für eine Vielzahl von Karrierewegen 
+relevant sein: Studierende, die später in Systeme-Bereich promovieren, Data Scientists, 
+die mit großen verteilten Pipelines arbeiten werden, Software Engineers und DevOps, die 
+an der Verbesserung der Leistung von IT-Systemen arbeiten. 
+ 
+Um die oben genannten Ziele zu erreichen, werden wir einerseits über die relevante 
+Theorie sprechen (z.B., Statistical methods, Little's Law, Queuing Theory) und 
+andererseits eine Datenverarbeitungsanwendung implementieren. Anschließend wird die 
+Anwendung einem Benchmarking unterzogen und detailliert modelliert. 
+ 
+Das Praktikum schließt mit kurzen Projektpräsentationen ab, in denen die Studierenden 
+zeigen, dass sie das Verhalten ihrer Implementierung verstanden haben und anhand der 
+experimentellen Daten und der von ihnen erstellten Modelle Ideen zur Beseitigung von 
+Bottlenecks liefern können 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach Besuch der Veranstaltung können Studierende: 
+* Zwischen verschiedenen Experimenttypen wählen, um leistungsbezogene Fragen zu 
+einem Softwaresystem zu beantworten 
+* Detaillierte Modelle eines Softwaresystems erstellen 
+* Bottleneck-Analysen durchführen 
+
+============================================================
+PAGE 50
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+380 
+ 
+* die Ergebnisse der Experimente zusammenfassen und präsentieren 
+4 
+Voraussetzung für die Teilnahme 
+Die Studierenden sollten Einführungskurse in Computerarchitektur, Betriebssysteme und 
+Java-Programmierung besucht haben. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1130-pr] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1130-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B. Sc. Informatik 
+M. Sc. Informatik 
+M. Sc. Computer Science 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 51
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+381 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektpraktikum - Systematische Analyse und Entwicklung von innovativen Systeme 
+Modul Nr. 
+20-00-
+1137 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+180 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1137-
+pp 
+Projektpraktikum - 
+Systematische Analyse und 
+Entwicklung von innovativen 
+Systeme 
+9 
+Projekt 
+6 
+2 
+Lerninhalt 
+Diese Veranstaltung behandelt aktuelle Themen aus der Forschung und Entwicklung mit 
+Schwerpunkt auf Sicherheit. 
+ 
+Analysieren und Entwickeln von Sicherheitslösungen sind komplexe Aufgaben, die 
+Kenntnisse aus unterschiedlichen Gebieten der Informatik voraussetzen. Das Ziel dieser 
+Veranstaltung ist es Kompetenzen aus unterschiedlichen Bereichen im Rahmen eines 
+Projekts aus dem Sicherheitsbereich zu vereinen. 
+ 
+Im Rahmen dieser Veranstaltung, werden Aufgaben aus einem sehr breiten Spektrum 
+(von Algorithmik, Raumfahrt, und maschinellem Lernen bis hin zur Softwareanalyse, 
+Hardwareentwicklung und Reverse Engineering) präsentiert. 
+Die endgültigen Aufgaben werden individuell und entsprechend der 
+Interessen/Kompetenzen der Teilnehmer festgelegt. 
+ 
+Abhängig von dem Umfang und dem Niveau der Aufgabe, wird diese Veranstaltung als 
+Praktikum (InoSys-Lab mit 6CP) oder als Projektpraktikum (InoSys-Projekt mit 9CP) zu 
+absolvieren sein. Diese Art wird individuell und aufgabenspezifisch festgelegt. Bei der 
+Wahl zwischen beiden Arten, und sofern wie die Natur der Aufgabe es erlaubt, 
+bekommen die Studierenden die Möglichkeit sich intellektuell in der Gestaltung der 
+Aufgabe beteiligen. 
+ 
+Bemerkung: 
+- Abhängig vom Thema, werden die Teilnehmer die Gelegenheit/Unterstützung in/beim 
+Erwerben neuer Kompetenzen erhalten. 
+- Gruppenarbeit wird zwar bevorzugt und stark empfohlen jedoch ist eine 
+Einzelteilnahme auch möglich. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Absolvieren dieser Veranstaltung haben die Studierenden 
+praxis/forschungsnahe Erfahrungen in Analysieren und Entwicklung von komplexen 
+Projekten gesammelt. Sie werden in der Lage sein diese Erfahrungen zu reproduzieren 
+
+============================================================
+PAGE 52
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+382 
+ 
+und Projekte von vergleichbarer Komplexität eigenständig zum Erfolg führen. 
+4 
+Voraussetzung für die Teilnahme 
+Die empfohlenen Anforderungen sind aufgabenabhängig und werden bei der 
+Einführungsveranstaltung bekannt gegeben. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1137-pp] (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1137-pp] (Studienleistung, mündliche / schriftliche Prüfung, 
+Gewichtung: 100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 53
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+383 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Praktikum - Systematische Analyse und Entwicklung von innovativen Systeme 
+Modul Nr. 
+20-00-
+1138 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+120 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch und Englisch 
+Modulverantwortliche Person 
+Studiendekan/Studiendekanin 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+20-00-1138-
+pr 
+Praktikum - Systematische 
+Analyse und Entwicklung 
+von innovativen Systeme 
+6 
+Praktikum 
+4 
+2 
+Lerninhalt 
+Diese Veranstaltung behandelt aktuelle Themen aus der Forschung und Entwicklung mit 
+Schwerpunkt auf Sicherheit. 
+ 
+Analysieren und Entwickeln von Sicherheitslösungen sind komplexe Aufgaben, die 
+Kenntnisse aus unterschiedlichen Gebieten der Informatik voraussetzen. Das Ziel dieser 
+Veranstaltung ist es Kompetenzen aus unterschiedlichen Bereichen im Rahmen eines 
+Projekts aus dem Sicherheitsbereich zu vereinen. 
+ 
+Im Rahmen dieser Veranstaltung, werden Aufgaben aus einem sehr breiten Spektrum 
+(von Algorithmik, Raumfahrt, und maschinellem Lernen bis hin zur Softwareanalyse, 
+Hardwareentwicklung und Reverse Engineering) präsentiert. 
+Die endgültigen Aufgaben werden individuell und entsprechend der 
+Interessen/Kompetenzen der Teilnehmer festgelegt. 
+ 
+Abhängig von dem Umfang und dem Niveau der Aufgabe, wird diese Veranstaltung als 
+Praktikum (InoSys-Lab mit 6CP) oder als Projektpraktikum (InoSys-Projekt mit 9CP) zu 
+absolvieren sein. Diese Art wird individuell und aufgabenspezifisch festgelegt. Bei der 
+Wahl zwischen beiden Arten, und sofern wie die Natur der Aufgabe es erlaubt, 
+bekommen die Studierenden die Möglichkeit sich intellektuell in der Gestaltung der 
+Aufgabe beteiligen. 
+ 
+Bemerkung: 
+- Abhängig vom Thema, werden die Teilnehmer die Gelegenheit/Unterstützung in/beim 
+Erwerben neuer Kompetenzen erhalten. 
+- Gruppenarbeit wird zwar bevorzugt und stark empfohlen jedoch ist eine 
+Einzelteilnahme auch möglich. 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Nach erfolgreichem Absolvieren dieser Veranstaltung haben die Studierenden 
+praxis/forschungsnahe Erfahrungen in Analysieren und Entwicklung von komplexen 
+Projekten gesammelt. Sie werden in der Lage sein diese Erfahrungen zu reproduzieren 
+
+============================================================
+PAGE 54
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+384 
+ 
+und Projekte von vergleichbarer Komplexität eigenständig zum Erfolg führen. 
+4 
+Voraussetzung für die Teilnahme 
+Die empfohlenen Anforderungen sind aufgabenabhängig und werden bei der 
+Einführungsveranstaltung bekannt gegeben. 
+5 
+Prüfungsform 
+Bausteinbegleitende Prüfung: 
+ 
+ [20-00-1138-pr] (Studienleistung, mündliche / schriftliche Prüfung Standard) 
+Die Form der Prüfung wird zu Beginn der Lehrveranstaltung bekannt gegeben. Möglich 
+ist eine oder eine Kombination von maximal zwei der nachfolgend aufgeführten Formen. 
+Bericht (optional: einschließlich der Abgabe von Quellcode), Kolloquium (optional: 
+einschließlich Präsentation) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+Bestehen der Prüfung (100%). 
+7 
+Benotung 
+Bausteinbegleitende Prüfung:  
+ 
+ [20-00-1138-pr] (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+B.Sc. Informatik 
+M.Sc. Informatik 
+ 
+Kann in anderen Studiengängen verwendet werden. 
+9 
+Literatur 
+ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 55
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+385 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektseminar Softwaresysteme 
+Modul Nr. 
+18-su-
+1060 
+Leistungspun
+kte 
+9 CP 
+Arbeitsaufwand 
+270 h 
+Selbststudium 
+210 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. rer. nat. Andreas Schürr 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+18-su-1060-
+pj 
+Projektseminar 
+Softwaresysteme 
+0 
+Projektseminar 4 
+2 
+Lerninhalt 
+Der Kurs bearbeitet aktuelle Entwicklungsthemen aus dem Bereich der modellbasierten 
+bzw. objekt-orientierten Softwareentwicklung. Neben einem generellen Überblick wird 
+ein tiefgehender Einblick in ein spezielles Entwicklungsgebiet vermittelt. Die Themen 
+bestimmen sich aus den spezifischen Arbeitsgebieten der Mitarbeiter und vermitteln 
+technische und einleitende wissenschaftliche Kompetenzen in einem oder mehreren der 
+folgenden Gebiete: 
+ 
+Modellierung und Modellsynchronisierung 
+ 
+Modelltransformation 
+ 
+Objekt-orientierte Refaktorisierung 
+ 
+Programmvariabilität (Software Product Lines) 
+Zusätzliche Informationen und Themenbeschreibung für das aktuelle Semester: 
+www.es.tu-darmstadt.de/lehre/aktuelle-veranstaltungen/ps-softwaresysteme 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende sollen praktische Erfahrung in der (Weiter-)Entwicklung eines komplexeren 
+Softwaresystems sammeln. Dabei lernen sie in Teamarbeit eine umfangreiche Aufgabe zu 
+bewältigen. Darüber hinaus wird geübt, in der Gruppe vorhandenes theoretisches Wissen 
+(aus anderen Lehrveranstaltungen wie insbesondere Software-Engineering – Einführung) 
+gezielt zur Lösung der praktischen Aufgabe einzusetzen. 
+Studierende, die an diesem Projektseminar erfolgreich teilgenommen haben, sind in der 
+Lage zu einer vorgegebenen Problemstellung ein Softwareprojekt eigenständig zu 
+organisieren und auszuführen. Sie erwerben folgende Fähigkeiten im Detail: 
+ 
+Realistische Zeitplanung und Resourceneinteilung (Projektmanagement) 
+
+============================================================
+PAGE 56
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+386 
+ 
+ 
+Umfangreicherer Einsatz von Werkzeugen zur Versions-, Konfiguration- und 
+Änderungsverwaltung 
+ 
+Einsatz von „CASE-Tools“ für die modellbasierte Entwicklung 
+ 
+Planung und Durchführung von Qualtitätssicherungsmaßnahmen 
+4 
+Voraussetzung für die Teilnahme 
+Grundlegende Softwaretechnik-Kenntnisse sowie vertiefte Kenntnisse objektorientierter 
+Programmiersprachen 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Standard) 
+Bericht und/oder Präsentation. Die Art der Prüfung wird zu Beginn der Lehrveranstaltung 
+bekannt gegeben. 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Studienleistung, mündliche / schriftliche Prüfung, Gewichtung: 
+100%, Standard) 
+8 
+Verwendbarkeit des Moduls 
+BSc ETiT, MSc ETiT, BSc iST 
+9 
+Literatur 
+www.es.tu-darmstadt.de/lehre/aktuelle-veranstaltungen/ps-softwaresysteme/ 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 57
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+387 
+ 
+Modulbeschreibung 
+ 
+Modulname 
+Projektseminar Autonomes Fahren I 
+Modul Nr. 
+18-su-
+2070 
+Leistungspun
+kte 
+6 CP 
+Arbeitsaufwand 
+180 h 
+Selbststudium 
+135 h 
+Moduldauer 
+1 Semester 
+Angebotsturnus 
+Jedes 2. 
+Semester 
+Sprache 
+Deutsch 
+Modulverantwortliche Person 
+Prof. Dr. rer. nat. Andreas Schürr 
+1 
+Kurse des Moduls 
+Kurs Nr. 
+ Kursname 
+Arbeitsaufwand 
+(CP) 
+Lehrform 
+SWS 
+18-su-2070-
+pj 
+Projektseminar Autonomes 
+Fahren I 
+0 
+Projektseminar 3 
+2 
+Lerninhalt 
+ 
+ 
+Praktische Programmiererfahrung mit C++ bei der Entwicklung eingebetteter 
+Systemsoftware aus dem Bereich des autonomen Fahrens anhand eines 
+Modellautos 
+ 
+Anwenden von Regelungs- und Steuerungsmethoden aus dem Bereich des 
+autonomen Fahrens 
+ 
+Einsatz von Software-Engineering-Techniken (Design, Dokumentation, Test, …) 
+eines nicht trivialen eingebetteten Software-Systems mit harten Echtzeit-
+Anforderungen und beschränkten Ressourcen (Speicher, …) 
+ 
+Nutzung eines vorgegebenen Software-Rahmenwerks und Anwendung von 
+weiteren Bibliotheken inklusive eines modular aufgebauten (Echtzeit-
+)Betriebssystems 
+ 
+Einsatz von Source-Code-Management-Systemen, Zeiterfassungswerkzeugen und 
+sonstigen Projektmanagement-Tools 
+ 
+Präsentation von Projektergebnissen im Rahmen von Vorträgen 
+ 
+3 
+Qualifikationsziele / Lernergebnisse 
+Studierende sammeln im Rahmen dieses Moduls praktische Erfahrung in der Software-
+Entwicklung für eingebettete Systeme aus dem Bereich des autonomen Fahrens anhand 
+eines Modellautos. Dabei lernen sie in Teamarbeit eine umfangreiche Aufgabe zu 
+bewältigen. Zur Lösung dieser Aufgabe wird geübt, dass in der Gruppe vorhandene 
+theoretische Wissen (aus anderen Lehrveranstaltungen wie Echtzeitsysteme, Software-
+Engineering - Einführung, C++ Praktikum, Digitale Regelungssysteme) gezielt zur 
+Lösung der praktischen Aufgabe einzusetzen. 
+ 
+
+============================================================
+PAGE 58
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+388 
+ 
+Studierende, die an diesem Modul erfolgreich teilgenommen haben, sind in der Lage, zu 
+einer vorgegebenen Problemstellung ein größeres Softwareprojekt in einem 
+interdisziplinären Team eigenständig zu organisieren und auszuführen. Die Teilnehmer 
+erwerben folgende Fähigkeiten im Detail: 
+ 
+Eigenständiges Einarbeiten in ein vorgegebenes Rahmenwerk und vorgefertigten 
+Bibliotheken 
+ 
+Umsetzung von theoretischem Wissen in ein Softwaresystem 
+ 
+Umfangreicher Einsatz von Werkzeugen zur Versions-, Konfiguration- und 
+Änderungsverwaltung 
+ 
+Realistische Zeitplanung und Ressourceneinteilung (Projektmanagement) 
+ 
+Entwicklung von Hardware-/Software-Systemen mit C++ unter Berücksichtigung 
+wichtiger Einschränkungen eingebetteter Systeme 
+ 
+Planung und Durchführung umfangreicherer Qualitätssicherungsmaßnahmen 
+ 
+Zusammenarbeit und Kommunikation in und zwischen mehreren Teams 
+4 
+Voraussetzung für die Teilnahme 
+ 
+ 
+ETiT, WI-ETiT (DT), iST, Informatik: Grundlegende Softwaretechnik-Kenntnisse 
+sowie vertiefte Kenntnisse objektorientierter Programmiersprachen (insbesondere: 
+C++) 
+Zusätzlich erwünscht: 
+ 
+Grundlagen der Entwicklung von Echtzeitsystemen oder der Bildverarbeitung 
+ 
+ETiT, WI-ETiT (AUT), MEC: Grundlagen der Regelungstechnik, Reglerentwurf im 
+Zustandsraum, ggf. Grundlagen der digitalen Regelung 
+5 
+Prüfungsform 
+Modulabschlussprüfung: 
+ 
+ Modulprüfung (Studienleistung, mündliche Prüfung, Dauer 30 Min, Standard) 
+6 
+Voraussetzung für die Vergabe von Leistungspunkten 
+ 
+7 
+Benotung 
+Modulabschlussprüfung:  
+ 
+ Modulprüfung (Studienleistung, mündliche Prüfung, Gewichtung: 100%, 
+Standard) 
+8 
+Verwendbarkeit des Moduls 
+
+============================================================
+PAGE 59
+============================================================
+
+ 
+Modulhandbuch B. Sc. Informatik 
+ 
+389 
+ 
+MSc ETiT, BSc iST 
+9 
+Literatur 
+https://www.es.tu-darmstadt.de/lehre/aktuelle-veranstaltungen/ps-af-i/ und Moodle 
+ 
+10 Kommentar 
+ 
+ 
+ 
+ 
+ 

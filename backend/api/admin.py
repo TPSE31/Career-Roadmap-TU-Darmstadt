@@ -3,7 +3,8 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from .models import (
     User, ExaminationRegulation, Module, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
-    SupportService, Notification
+    SupportService, Notification, CareerOffer, CareerPath, ModuleCareerRelevance,
+    UserCareerInterest
 )
 
 
@@ -96,6 +97,15 @@ class SupportServiceAdmin(admin.ModelAdmin):
     ordering = ['category', 'name']
 
 
+@admin.register(CareerOffer)
+class CareerOfferAdmin(admin.ModelAdmin):
+    """Admin configuration for CareerOffer model."""
+    list_display = ['title_de', 'provider', 'category', 'is_active', 'priority']
+    list_filter = ['category', 'is_active']
+    search_fields = ['title_de', 'title_en', 'provider', 'description_de', 'description_en']
+    ordering = ['-priority', 'category', 'title_de']
+
+
 @admin.register(Notification)
 class NotificationAdmin(admin.ModelAdmin):
     """Admin configuration for Notification model."""
@@ -113,3 +123,31 @@ class NotificationAdmin(admin.ModelAdmin):
         count = queryset.filter(read_at__isnull=True).update(read_at=timezone.now())
         self.message_user(request, f'{count} notification(s) marked as read.')
     mark_as_read.short_description = 'Mark selected notifications as read'
+
+
+@admin.register(CareerPath)
+class CareerPathAdmin(admin.ModelAdmin):
+    """Admin configuration for CareerPath model."""
+    list_display = ['career_id', 'title_en', 'title_de', 'salary_junior', 'salary_senior', 'is_active']
+    list_filter = ['is_active']
+    search_fields = ['career_id', 'title_en', 'title_de', 'description_en']
+    ordering = ['title_en']
+
+
+@admin.register(ModuleCareerRelevance)
+class ModuleCareerRelevanceAdmin(admin.ModelAdmin):
+    """Admin configuration for ModuleCareerRelevance model."""
+    list_display = ['module', 'career_path', 'relevance_score', 'is_core']
+    list_filter = ['career_path', 'is_core', 'relevance_score']
+    search_fields = ['module__module_code', 'module__name', 'career_path__career_id']
+    ordering = ['-relevance_score']
+    raw_id_fields = ['module', 'career_path']
+
+
+@admin.register(UserCareerInterest)
+class UserCareerInterestAdmin(admin.ModelAdmin):
+    """Admin configuration for UserCareerInterest model."""
+    list_display = ['user', 'career_path', 'interest_level', 'is_primary', 'created_at']
+    list_filter = ['career_path', 'is_primary']
+    search_fields = ['user__username', 'career_path__career_id']
+    ordering = ['-is_primary', '-interest_level']
