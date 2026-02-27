@@ -822,6 +822,46 @@ class ModuleCareerRelevance(models.Model):
         return f"{self.module.module_code} -> {self.career_path.career_id}: {self.relevance_score}%"
 
 
+class MasterProgram(models.Model):
+    """
+    TU Darmstadt Department of Computer Science Master's programs.
+    Displayed on the Karrierewege page to inform students about
+    further academic advancement options.
+    """
+    LANGUAGE_CHOICES = [
+        ('German', 'German'),
+        ('English', 'English'),
+    ]
+
+    name = models.CharField(max_length=200, help_text="Official program name")
+    language_of_instruction = models.CharField(
+        max_length=20,
+        choices=LANGUAGE_CHOICES,
+        help_text="Primary language of instruction"
+    )
+    specializations = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="List of specialization tracks available in this program"
+    )
+    url = models.URLField(help_text="Official TU Darmstadt program page URL")
+    description_en = models.TextField(blank=True, help_text="Short description (English)")
+    description_de = models.TextField(blank=True, help_text="Short description (German)")
+    order_index = models.IntegerField(default=0, help_text="Display order (lower = first)")
+    is_active = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'master_programs'
+        verbose_name = 'Master Program'
+        verbose_name_plural = 'Master Programs'
+        ordering = ['order_index', 'name']
+
+    def __str__(self):
+        return f"{self.name} ({self.language_of_instruction})"
+
+
 class UserCareerInterest(models.Model):
     """
     Tracks user's interest in specific career paths.

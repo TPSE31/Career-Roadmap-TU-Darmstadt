@@ -4,7 +4,7 @@ from .models import (
     User, ExaminationRegulation, Module, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
     SupportService, Notification, CareerOffer, CareerPath, ModuleCareerRelevance,
-    UserCareerInterest
+    UserCareerInterest, MasterProgram
 )
 
 
@@ -151,3 +151,12 @@ class UserCareerInterestAdmin(admin.ModelAdmin):
     list_filter = ['career_path', 'is_primary']
     search_fields = ['user__username', 'career_path__career_id']
     ordering = ['-is_primary', '-interest_level']
+
+
+@admin.register(MasterProgram)
+class MasterProgramAdmin(admin.ModelAdmin):
+    """Admin configuration for MasterProgram model."""
+    list_display = ['name', 'language_of_instruction', 'order_index', 'is_active']
+    list_filter = ['language_of_instruction', 'is_active']
+    search_fields = ['name', 'description_en', 'description_de']
+    ordering = ['order_index', 'name']

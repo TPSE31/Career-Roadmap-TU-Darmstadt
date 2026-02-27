@@ -10,6 +10,7 @@ const CareerPathsPage = ({ language = 'de' }) => {
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRoadmapNode, setSelectedRoadmapNode] = useState(null);
+  const [masterPrograms, setMasterPrograms] = useState(null);
 
   const t = {
     de: {
@@ -47,6 +48,15 @@ const CareerPathsPage = ({ language = 'de' }) => {
       totalCredits: 'Gesamt CP',
       modules: 'Module',
       match: '\u00dcbereinstimmung',
+      masterTitle: 'Karriere voranbringen mit einem Masterstudium am Fachbereich Informatik der TU Darmstadt',
+      masterBody: 'Ein Masterabschluss verbessert Ihre beruflichen Qualifikationen, st\u00e4rkt Ihr Fachwissen und steigert Ihr Einkommenspotenzial. Ob Sie F\u00fchrungspositionen, akademische Exzellenz oder spezialisierte Industrierollen anstreben \u2013 die Masterstudieng\u00e4nge der TU Darmstadt vermitteln Ihnen die F\u00e4higkeiten und Qualifikationen, die Sie ben\u00f6tigen, um auf dem globalen Arbeitsmarkt erfolgreich zu sein. Erkunden Sie Ihre M\u00f6glichkeiten und gestalten Sie Ihre berufliche Zukunft.',
+      masterProgramsHeading: 'Masterstudieng\u00e4nge (Master of Science) an der TU Darmstadt',
+      doubleDegreeHeading: 'Doppelabschluss-Programme',
+      doubleDegreeLink: 'Website des International Relations & Mobility Office',
+      languageLabel: 'Sprache',
+      specializationsLabel: 'Schwerpunkte',
+      learnMore: 'Mehr erfahren',
+      loadingMaster: 'Lade Masterstudieng\u00e4nge...',
     },
     en: {
       title: 'Explore Career Paths',
@@ -83,11 +93,20 @@ const CareerPathsPage = ({ language = 'de' }) => {
       totalCredits: 'Total CP',
       modules: 'Modules',
       match: 'match',
+      masterTitle: "Advance Your Career with a Master's Program at the Department of Computer Science at TU Darmstadt",
+      masterBody: "A master's degree enhances your professional qualifications, strengthens your expertise, and increases your earning potential. Whether you aim for leadership positions, academic excellence, or specialized industry roles, the master's programs of TU Darmstadt provide the skills and credentials to help you succeed in a competitive global market. Explore your options and shape your professional future.",
+      masterProgramsHeading: "Master's Programs (Master of Science) at TU Darmstadt",
+      doubleDegreeHeading: 'Double Degree Programs',
+      doubleDegreeLink: 'website of the International Relations & Mobility Office',
+      languageLabel: 'Language',
+      specializationsLabel: 'Specializations',
+      learnMore: 'Learn more',
+      loadingMaster: 'Loading master programs...',
     }
   }[language];
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => { loadCareers(); }, []);
+  useEffect(() => { loadCareers(); loadMasterPrograms(); }, []);
 
   const loadCareers = async () => {
     setLoading(true);
@@ -100,6 +119,15 @@ const CareerPathsPage = ({ language = 'de' }) => {
       console.error(err);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadMasterPrograms = async () => {
+    try {
+      const data = await careerService.getMasterPrograms();
+      setMasterPrograms(data);
+    } catch (err) {
+      console.error('Failed to load master programs:', err);
     }
   };
 
@@ -632,6 +660,84 @@ const CareerPathsPage = ({ language = 'de' }) => {
         <p style={styles.subtitle}>{t.subtitle}</p>
       </div>
 
+      {/* ── TU Darmstadt Master's Programs Section ── */}
+      <div style={{ ...styles.masterSection, marginTop: '0', marginBottom: '40px' }}>
+        {/* Header Banner */}
+        <div style={styles.masterBanner}>
+          <div style={styles.masterBannerInner}>
+            <span style={{ fontSize: '36px', display: 'block', marginBottom: '12px' }}>🎓</span>
+            <h2 style={styles.masterBannerTitle}>{t.masterTitle}</h2>
+            <p style={styles.masterBannerBody}>{t.masterBody}</p>
+          </div>
+        </div>
+
+        {/* Programs List */}
+        <div style={styles.masterBody}>
+          <h3 style={styles.masterSubheading}>{t.masterProgramsHeading}</h3>
+
+          {!masterPrograms ? (
+            <div style={{ textAlign: 'center', padding: '20px', color: '#666' }}>
+              <div style={styles.spinnerSmall}></div>
+              <p style={{ marginTop: '8px' }}>{t.loadingMaster}</p>
+            </div>
+          ) : (
+            <ul style={styles.masterList}>
+              {masterPrograms.programs.map((prog) => (
+                <li key={prog.id} style={styles.masterListItem}>
+                  <div style={styles.masterListItemInner}>
+                    <div style={styles.masterListLeft}>
+                      <a
+                        href={prog.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={styles.masterProgramLink}
+                      >
+                        {prog.name}
+                      </a>
+                      <span style={{
+                        ...styles.masterLangBadge,
+                        backgroundColor: prog.language_of_instruction === 'English' ? '#ddf4ff' : '#fff3cd',
+                        color: prog.language_of_instruction === 'English' ? '#0077cc' : '#856404',
+                        border: `1px solid ${prog.language_of_instruction === 'English' ? '#b6e3ff' : '#ffc107'}`,
+                      }}>
+                        {prog.language_of_instruction === 'English' ? 'English' : 'Deutsch'}
+                      </span>
+                    </div>
+                    {prog.specializations && prog.specializations.length > 0 && (
+                      <div style={styles.masterSpecializations}>
+                        <span style={styles.masterSpecLabel}>{t.specializationsLabel}: </span>
+                        {prog.specializations.join(' \u2022 ')}
+                      </div>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {/* Double Degree Programs */}
+          {masterPrograms && (
+            <div style={styles.doubleDegreeBox}>
+              <h4 style={styles.doubleDegreeTitle}>{t.doubleDegreeHeading}</h4>
+              <p style={styles.doubleDegreeText}>
+                {language === 'de'
+                  ? masterPrograms.double_degree.description_de
+                  : masterPrograms.double_degree.description_en}{' '}
+                <a
+                  href={masterPrograms.double_degree.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={styles.masterInlineLink}
+                >
+                  {t.doubleDegreeLink}
+                </a>
+                .
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+
       {error && (
         <div style={styles.errorBanner}>
           {error}
@@ -755,6 +861,27 @@ const styles = {
   roadmapSubtitle: { fontSize: '14px', color: '#666', marginBottom: '0' },
   loadingModulesContainer: { display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '40px', color: '#666' },
   emptyModules: { textAlign: 'center', padding: '40px', color: '#666' },
+
+  // Master Programs Section
+  masterSection: { marginTop: '50px', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0,78,138,0.12)', border: '1px solid #d0e4f5' },
+  masterBanner: { background: 'linear-gradient(135deg, #004E8A 0%, #0077cc 60%, #00aaff 100%)', padding: '40px 36px' },
+  masterBannerInner: { maxWidth: '860px', margin: '0 auto', textAlign: 'center', color: 'white' },
+  masterBannerTitle: { fontSize: '22px', fontWeight: 'bold', color: 'white', marginBottom: '16px', lineHeight: '1.4' },
+  masterBannerBody: { fontSize: '15px', color: 'rgba(255,255,255,0.92)', lineHeight: '1.7', margin: '0' },
+  masterBody: { backgroundColor: 'white', padding: '30px 36px' },
+  masterSubheading: { fontSize: '17px', fontWeight: '700', color: '#004E8A', marginBottom: '18px', paddingBottom: '10px', borderBottom: '2px solid #e8f0fb' },
+  masterList: { listStyle: 'none', margin: '0 0 28px 0', padding: '0', display: 'flex', flexDirection: 'column', gap: '12px' },
+  masterListItem: { padding: '14px 18px', backgroundColor: '#f7faff', borderRadius: '10px', border: '1px solid #dce8f8', transition: 'background 0.2s' },
+  masterListItemInner: { display: 'flex', flexDirection: 'column', gap: '6px' },
+  masterListLeft: { display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' },
+  masterProgramLink: { fontSize: '15px', fontWeight: '600', color: '#004E8A', textDecoration: 'none', borderBottom: '2px solid transparent', transition: 'border-color 0.2s' },
+  masterLangBadge: { fontSize: '11px', fontWeight: '600', padding: '2px 9px', borderRadius: '12px', whiteSpace: 'nowrap' },
+  masterSpecializations: { fontSize: '13px', color: '#555', paddingLeft: '2px' },
+  masterSpecLabel: { fontWeight: '600', color: '#444' },
+  doubleDegreeBox: { backgroundColor: '#f0f7ff', borderRadius: '10px', padding: '20px 22px', border: '1px solid #c2daf5' },
+  doubleDegreeTitle: { fontSize: '15px', fontWeight: '700', color: '#004E8A', marginBottom: '8px' },
+  doubleDegreeText: { fontSize: '14px', color: '#444', lineHeight: '1.7', margin: '0' },
+  masterInlineLink: { color: '#0077cc', fontWeight: '600', textDecoration: 'underline' },
 };
 
 // Add CSS animations

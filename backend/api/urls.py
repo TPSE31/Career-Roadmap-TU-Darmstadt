@@ -38,6 +38,9 @@ urlpatterns = [
     # Support contact endpoint
     path('support/contact/', views.SupportContactView.as_view(), name='support-contact'),
 
+    # Master programs endpoint
+    path('master-programs/', views.MasterProgramView.as_view(), name='master-programs'),
+
     # Include router URLs
     path('', include(router.urls)),
 ]

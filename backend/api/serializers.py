@@ -3,7 +3,7 @@ from .models import (
     User, Module, ExaminationRegulation, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
     SupportService, Notification, CareerPath, ModuleCareerRelevance,
-    UserCareerInterest, CareerOffer
+    UserCareerInterest, CareerOffer, MasterProgram
 )
 
 
@@ -332,3 +332,18 @@ class CareerOfferSerializer(serializers.ModelSerializer):
     class Meta:
         model = CareerOffer
         fields = '__all__'
+
+
+# ============================================
+# MASTER PROGRAM SERIALIZERS
+# ============================================
+
+class MasterProgramSerializer(serializers.ModelSerializer):
+    """Serializer for TU Darmstadt Master's programs."""
+    class Meta:
+        model = MasterProgram
+        fields = [
+            'id', 'name', 'language_of_instruction', 'specializations',
+            'url', 'description_en', 'description_de', 'order_index'
+        ]
+        read_only_fields = ['id']

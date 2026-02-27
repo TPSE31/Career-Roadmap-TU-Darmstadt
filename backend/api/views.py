@@ -11,7 +11,7 @@ from .models import (
     Module, ExaminationRegulation, MilestoneDefinition,
     MilestoneProgress, UserModuleCompletion, CareerGoal,
     SupportService, Notification, CareerPath, ModuleCareerRelevance,
-    UserCareerInterest, CareerOffer
+    UserCareerInterest, CareerOffer, MasterProgram
 )
 from .serializers import (
     ModuleSerializer, ModuleDetailSerializer, UserModuleCompletionSerializer,
@@ -20,7 +20,7 @@ from .serializers import (
     NotificationSerializer, SupportServiceSerializer,
     CareerPathSerializer, CareerPathDetailSerializer,
     UserCareerInterestSerializer, ModuleWithRelevanceSerializer,
-    CareerOfferSerializer
+    CareerOfferSerializer, MasterProgramSerializer
 )
 
 
@@ -533,3 +533,40 @@ class SupportContactView(APIView):
         return Response({
             'message': 'Contact form submitted successfully. We will get back to you soon.'
         }, status=status.HTTP_200_OK)
+
+
+# ============================================
+# MASTER PROGRAM VIEWS
+# ============================================
+
+class MasterProgramView(APIView):
+    """
+    GET /master-programs/
+    Returns TU Darmstadt Department of Computer Science Master's programs
+    and double degree program information.
+    Public endpoint — no authentication required.
+    """
+    permission_classes = [AllowAny]
+
+    def get(self, request):
+        programs = MasterProgram.objects.filter(is_active=True)
+        serializer = MasterProgramSerializer(programs, many=True)
+        return Response({
+            'programs': serializer.data,
+            'double_degree': {
+                'url': 'https://www.tu-darmstadt.de/studieren/studierende_tu/auslandsaufenthalte/doppelabschlussprogramme_outbound/index.en.jsp',
+                'description_en': (
+                    'The department offers double degree programs in cooperation with various partner universities. '
+                    'General information about double degree programs, details on the current programs, '
+                    'and information on the application process can be found on the website of the '
+                    'International Relations & Mobility Office.'
+                ),
+                'description_de': (
+                    'Der Fachbereich bietet Doppelabschluss-Programme in Zusammenarbeit mit verschiedenen '
+                    'Partneruniversitäten an. Allgemeine Informationen zu Doppelabschluss-Programmen, '
+                    'Details zu den aktuellen Programmen und Informationen zum Bewerbungsprozess finden '
+                    'Sie auf der Website des International Relations & Mobility Office.'
+                ),
+            },
+            'section_url': 'https://www.informatik.tu-darmstadt.de/studium_fb20/im_studium/studiengaenge_liste/index.de.jsp',
+        })

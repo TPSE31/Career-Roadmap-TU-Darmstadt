@@ -124,6 +124,19 @@ export const careerService = {
       console.error('Error fetching recommendations:', error);
       throw error;
     }
+  },
+
+  /**
+   * Get TU Darmstadt CS Department Master's programs and double degree info
+   */
+  getMasterPrograms: async () => {
+    try {
+      const response = await api.get('/master-programs/');
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching master programs:', error);
+      throw error;
+    }
   }
 };
 
