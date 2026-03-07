@@ -7,7 +7,8 @@ const careerOfferService = {
    */
   async getCareerOffers() {
     const response = await api.get('/career-offers/');
-    return response.data;
+    const data = response.data;
+    return Array.isArray(data) ? data : (data.results || []);
   },
 
   /**

@@ -12,7 +12,9 @@ export const careerService = {
   getCareerPaths: async () => {
     try {
       const response = await api.get('/careers/');
-      return response.data;
+      const data = response.data;
+      // Handle both array and paginated {results: [...]} responses
+      return Array.isArray(data) ? data : (data.results || []);
     } catch (error) {
       console.warn('API unavailable, using local career data');
       // Return local data formatted to match API response

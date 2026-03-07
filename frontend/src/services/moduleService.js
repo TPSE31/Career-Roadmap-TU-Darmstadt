@@ -20,7 +20,8 @@ export const getAllModules = async () => {
 
   try {
     const response = await api.get('/modules/');
-    return response.data.map(transformModuleFromAPI);
+    const data = Array.isArray(response.data) ? response.data : (response.data.results || []);
+    return data.map(transformModuleFromAPI);
   } catch (error) {
     console.warn('API unavailable, using local module data');
     // Return local modules directly - they already have the right format
