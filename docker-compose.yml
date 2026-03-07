@@ -32,11 +32,6 @@ services:
       - "traefik.http.routers.tpse31-fec-admin.entrypoints=websecure"
       - "traefik.http.routers.tpse31-fec-admin.tls=true"
       - "traefik.http.routers.tpse31-fec-admin.service=tpse31-fec-backend"
-      # /static -> backend
-      - "traefik.http.routers.tpse31-fec-static.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/static`)"
-      - "traefik.http.routers.tpse31-fec-static.entrypoints=websecure"
-      - "traefik.http.routers.tpse31-fec-static.tls=true"
-      - "traefik.http.routers.tpse31-fec-static.service=tpse31-fec-backend"
     restart: unless-stopped
 
   frontend:
