@@ -15,19 +15,22 @@ services:
       - tpse31-internal
     labels:
       - "traefik.enable=true"
-      # Backend routes
+      # Backend routes - higher priority (100) so they match before the frontend catch-all
       - "traefik.http.routers.tpse31-fec-api.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/api`)"
       - "traefik.http.routers.tpse31-fec-api.entrypoints=websecure"
+      - "traefik.http.routers.tpse31-fec-api.priority=100"
       - "traefik.http.services.tpse31-fec-api.loadbalancer.server.port=8000"
       - "traefik.http.routers.tpse31-fec-api.tls=true"
 
       - "traefik.http.routers.tpse31-fec-admin.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/admin`)"
       - "traefik.http.routers.tpse31-fec-admin.entrypoints=websecure"
+      - "traefik.http.routers.tpse31-fec-admin.priority=100"
       - "traefik.http.services.tpse31-fec-admin.loadbalancer.server.port=8000"
       - "traefik.http.routers.tpse31-fec-admin.tls=true"
 
       - "traefik.http.routers.tpse31-fec-static.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/static`)"
       - "traefik.http.routers.tpse31-fec-static.entrypoints=websecure"
+      - "traefik.http.routers.tpse31-fec-static.priority=100"
       - "traefik.http.services.tpse31-fec-static.loadbalancer.server.port=8000"
       - "traefik.http.routers.tpse31-fec-static.tls=true"
     restart: unless-stopped
@@ -54,9 +57,10 @@ services:
       - internal-web
     labels:
       - "traefik.enable=true"
-      # Everything else goes to React
+      # Everything else goes to React - lower priority (1) as catch-all
       - "traefik.http.routers.tpse31-fec.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`)"
       - "traefik.http.routers.tpse31-fec.entrypoints=websecure"
+      - "traefik.http.routers.tpse31-fec.priority=1"
       - "traefik.http.services.tpse31-fec.loadbalancer.server.port=3000"
       - "traefik.http.routers.tpse31-fec.tls=true"
     restart: unless-stopped
