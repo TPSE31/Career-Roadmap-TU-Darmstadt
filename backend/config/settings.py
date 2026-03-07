@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gwr=3=kssvc^#529o(!$b72+$($g)79_0dzp3ttcx2i#q+d3+*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fec-roadmap.precis.tu-darmstadt.de', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -58,6 +58,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "http://fec-roadmap.precis.tu-darmstadt.de",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
