@@ -60,11 +60,14 @@ services:
       - internal-web
     labels:
       - "traefik.enable=true"
-      # Everything else goes to React - lower priority (1) as catch-all
+      - "traefik.docker.network=internal-web"
+      # Single service for the frontend container
+      - "traefik.http.services.tpse31-fec-frontend.loadbalancer.server.port=3000"
+      # Everything else goes to React - lower priority (10) as catch-all
       - "traefik.http.routers.tpse31-fec.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`)"
       - "traefik.http.routers.tpse31-fec.entrypoints=websecure"
-      - "traefik.http.routers.tpse31-fec.priority=1"
-      - "traefik.http.services.tpse31-fec.loadbalancer.server.port=3000"
+      - "traefik.http.routers.tpse31-fec.priority=10"
+      - "traefik.http.routers.tpse31-fec.service=tpse31-fec-frontend"
       - "traefik.http.routers.tpse31-fec.tls=true"
     restart: unless-stopped
 
