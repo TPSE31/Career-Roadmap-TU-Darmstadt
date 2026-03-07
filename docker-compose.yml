@@ -36,12 +36,14 @@ services:
     image: node:20-alpine
     working_dir: /app
     volumes:
-      - ./frontend:/app
+      - ./frontend:/app:delegated
+      - frontend_node_modules:/app/node_modules
     command: >
       sh -c "
       npm install &&
       npm run build &&
-      npm serve -s build -l 3000
+      npm install -g serve &&
+      serve -s build -l 3000
       "
     environment:
       - HOST=0.0.0.0
@@ -65,3 +67,5 @@ networks:
     name: internal-web
   tpse31-internal:
     driver: bridge
+volumes:
+  frontend_node_modules:
