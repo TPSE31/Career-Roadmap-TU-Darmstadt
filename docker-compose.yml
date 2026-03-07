@@ -1,0 +1,71 @@
+services:
+  backend:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    command: >
+      sh -c "
+      pip install -r requirements.txt &&
+      python manage.py migrate &&
+      python manage.py runserver 0.0.0.0:8000
+      "
+    networks:
+      - internal-web
+      - tpse31-internal
+    labels:
+      - "traefik.enable=true"
+      # Backend routes
+      - "traefik.http.routers.tpse31-fec-api.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.tpse31-fec-api.entrypoints=websecure"
+      - "traefik.http.services.tpse31-fec-api.loadbalancer.server.port=8000"
+      - "traefik.http.routers.tpse31-fec-api.tls=true"
+
+      - "traefik.http.routers.tpse31-fec-admin.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/admin`)"
+      - "traefik.http.routers.tpse31-fec-admin.entrypoints=websecure"
+      - "traefik.http.services.tpse31-fec-admin.loadbalancer.server.port=8000"
+      - "traefik.http.routers.tpse31-fec-admin.tls=true"
+
+      - "traefik.http.routers.tpse31-fec-static.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`) && PathPrefix(`/static`)"
+      - "traefik.http.routers.tpse31-fec-static.entrypoints=websecure"
+      - "traefik.http.services.tpse31-fec-static.loadbalancer.server.port=8000"
+      - "traefik.http.routers.tpse31-fec-static.tls=true"
+    restart: unless-stopped
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./frontend:/app:delegated
+      - frontend_node_modules:/app/node_modules
+    command: >
+      sh -c "
+      npm install &&
+      npm run build &&
+      npm install -g serve &&
+      serve -s build -l 3000
+      "
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+      # CRA sometimes blocks non-localhost hosts; this avoids that in many setups
+      - DANGEROUSLY_DISABLE_HOST_CHECK=true
+    networks:
+      - internal-web
+    labels:
+      - "traefik.enable=true"
+      # Everything else goes to React
+      - "traefik.http.routers.tpse31-fec.rule=Host(`fec-roadmap.precis.tu-darmstadt.de`)"
+      - "traefik.http.routers.tpse31-fec.entrypoints=websecure"
+      - "traefik.http.services.tpse31-fec.loadbalancer.server.port=3000"
+      - "traefik.http.routers.tpse31-fec.tls=true"
+    restart: unless-stopped
+
+networks:
+  internal-web:
+    external: true
+    name: internal-web
+  tpse31-internal:
+    driver: bridge
+volumes:
+  frontend_node_modules:
